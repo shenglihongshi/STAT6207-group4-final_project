@@ -1,0 +1,64 @@
+{
+  "pairs": [
+    {
+      "pair_id": "P01",
+      "jd_id": "JD_P01",
+      "cv_id": "HIRED_P01",
+      "role_title": "Regional Finance Controller"
+    },
+    {
+      "pair_id": "P02",
+      "jd_id": "JD_P02",
+      "cv_id": "HIRED_P02",
+      "role_title": "Sales Manager in Indonesia"
+    },
+    {
+      "pair_id": "P03",
+      "jd_id": "JD_P03",
+      "cv_id": "HIRED_P03",
+      "role_title": "GTM Marketing Manager - Lead"
+    },
+    {
+      "pair_id": "P04",
+      "jd_id": "JD_P04",
+      "cv_id": "HIRED_P04",
+      "role_title": "Data Engineer"
+    },
+    {
+      "pair_id": "P05",
+      "jd_id": "JD_P05",
+      "cv_id": "HIRED_P05",
+      "role_title": "Product Manager - WMS & Warehouse Integrations"
+    },
+    {
+      "pair_id": "P06",
+      "jd_id": "JD_P06",
+      "cv_id": "HIRED_P06",
+      "role_title": "Deployment Strategist"
+    },
+    {
+      "pair_id": "P07",
+      "jd_id": "JD_P07",
+      "cv_id": "HIRED_P07",
+      "role_title": "Marketing Manager (HK & SG)"
+    },
+    {
+      "pair_id": "P08",
+      "jd_id": "JD_P08",
+      "cv_id": "HIRED_P08",
+      "role_title": "Field Service Engineer (FSE)"
+    },
+    {
+      "pair_id": "P09",
+      "jd_id": "JD_P09",
+      "cv_id": "HIRED_P09",
+      "role_title": "Tech Lead"
+    },
+    {
+      "pair_id": "P10",
+      "jd_id": "JD_P10",
+      "cv_id": "HIRED_P10",
+      "role_title": "Regional Lead Designer UI - UX"
+    }
+  ]
+}

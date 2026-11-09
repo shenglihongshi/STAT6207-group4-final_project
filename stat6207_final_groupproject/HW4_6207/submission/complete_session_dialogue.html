@@ -1,0 +1,2074 @@
+<!DOCTYPE html><html><head><meta charset='utf-8'><title>Complete Session Dialogue</title><style>
+    body{font-family:"Microsoft YaHei","Segoe UI",Arial,sans-serif;color:#1b2a3a;line-height:1.55;font-size:10pt;margin:0;background:#f3f6f9}
+    .wrap{max-width:1000px;margin:0 auto;padding:24px}
+    h1{font-size:24pt;color:#0C2340}
+    .meta{background:#fff;border-left:4px solid #0E7C86;padding:12px 16px;margin:14px 0;font-size:9pt;color:#3f5064}
+    .msg{background:#fff;border-radius:6px;padding:10px 14px;margin:10px 0;box-shadow:0 1px 4px rgba(0,0,0,.06)}
+    .user{border-left:4px solid #0E7C86}.assistant{border-left:4px solid #9DB4C0}.note{border-left:4px solid #C96A2B}
+    .role{font-size:8pt;font-weight:700;color:#5B6B7F;letter-spacing:.5px;margin-bottom:6px}
+    pre{white-space:pre-wrap;word-break:break-word;background:#f4f7fa;padding:8px;border-radius:4px;font-size:8pt;max-height:420px;overflow:auto}
+    .msg table{border-collapse:collapse;width:100%;margin:6px 0;font-size:8.5pt}
+    .msg th{background:#e9eff4;text-align:left;padding:3px 5px;border:1px solid #dce4ec}
+    .msg td{padding:3px 5px;border:1px solid #dce4ec;vertical-align:top}
+    .msg h1,.msg h2,.msg h3{font-size:12pt;margin:8px 0 4px;border:0;padding:0}
+    .msg code{background:#f1f5f8;padding:0 2px;border-radius:2px}
+    details{margin:6px 0}
+    summary{cursor:pointer;color:#0E7C86;font-weight:600}
+    
+    @page{size:A4;margin:16mm}
+    .wrap{max-width:none;padding:0}
+    .msg{page-break-inside:auto;box-shadow:none;border:1px solid #DCE4EC}
+    </style></head><body><div class='wrap'><h1>完整会话记录 / Complete Session Dialogue</h1><div class='meta'>Session: ses_e5ada32afffd7ucLkj9QlbZEe0 · STAT6207期末作业项目<br>完整对话原文，不是摘要。工具调用日志见完整版 Markdown/HTML。<br>Verbatim dialogue, not a summary. Tool logs are in the full Markdown/HTML version.</div><section class='msg user'><div class='role'>用户 / User · 1</div><p>如题，我们老师要求我们完成一项期末小组作业，目前需要提交一份单页的pdf计划书。你能否先读取一下里面的内容，告诉我要如何实施计划以完成项目？</p>
+</section><section class='msg assistant'><div class='role'>助手 / Assistant · 16</div><p>我已读完 <code>AI_CV_Matching_Project_Plan.pdf</code>（以及中文对照版），并把随附的 <code>Manatal Examples – JD &amp; CV (anonymised).xlsx</code>、100 份 CV 和 10 份 JD 也盘点了一遍。先说结论：</p>
+<blockquote>
+<p>这个项目的核心在于：用约 50 组可信的人工标注，证明一个<strong>简单、可解释的匹配器</strong>能稳定把合适的人排进 Top-5，并且给出的理由站得住脚；做出“很准的模型”并不是核心目标。单页计划书要让人一眼看到四件事：<strong>数据怎么来、标签怎么打、基线怎么评、风险怎么控。</strong></p>
+</blockquote>
+<hr />
+<h2>一、任务要求（从 PDF 提炼）</h2>
+<p><strong>输入</strong>：一份 JD<br />
+<strong>输出</strong>：排好序的 Top-5 CV，每份附一句简短理由<br />
+<strong>验收</strong>：有经验的 Second Talent 招聘顾问会认可这份短名单</p>
+<p>三项交付物：</p>
+<ol>
+<li><strong>准备数据</strong>：匿名化技术岗 JD/CV + 约 50 组招聘顾问认可的 good-match 配对</li>
+<li><strong>写匹配指南</strong>：从 JD/CV 分别抽什么、每个因素占多大权重</li>
+<li><strong>搭基线</strong>：一个简单 matcher + 一套测试，说明它多大程度能选对人</li>
+</ol>
+<p>范围边界：技术岗优先；不做上线 HRIS 功能、不碰未脱敏数据、不买/爬 LinkedIn、不做销售岗。</p>
+<hr />
+<h2>二、现有数据盘点（这直接决定计划怎么写）</h2>
+<table>
+<thead>
+<tr>
+  <th>数据</th>
+  <th>实际情况</th>
+  <th>对计划的影响</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>JD 表</td>
+  <td>50 份，其中 Engineering 16 + Data &amp; AI 7 = <strong>23 份技术岗</strong></td>
+  <td>离目标 100–200 份差 <strong>77–177 份</strong></td>
+</tr>
+<tr>
+  <td>CV 表</td>
+  <td>100 份，其中 Engineering 30 + Data &amp; AI 16 = <strong>46 份技术岗</strong></td>
+  <td>技术 CV 够做 pilot，但不够覆盖大量 JD</td>
+</tr>
+<tr>
+  <td>匹配标签</td>
+  <td><strong>完全没有</strong></td>
+  <td>50 组 good-match 必须自己标</td>
+</tr>
+<tr>
+  <td>JD PDF</td>
+  <td><code>JD + Hired CV examples</code> 里只有 <strong>10 份 JD</strong>（P01–P10）</td>
+  <td>而且多为财务、销售、市场、产品、设计等非技术岗</td>
+</tr>
+<tr>
+  <td>Hired CV</td>
+  <td>该文件夹里<strong>没有 CV</strong>，只有 JD</td>
+  <td>不能直接拿来当 50 组正样本，需要向老师/Eric 确认</td>
+</tr>
+<tr>
+  <td>CV 字段</td>
+  <td>职位、公司、技能、工作经历、教育都有，PDF 格式统一</td>
+  <td>抽取难度低，适合做结构化 baseline</td>
+</tr>
+<tr>
+  <td>缺失字段</td>
+  <td>很多 CV 没有期望薪资、notice period、语言、地点</td>
+  <td>评分时这些应记为 <strong>unknown（中性）</strong>，不能当 0 分</td>
+</tr>
+</tbody>
+</table>
+<p><strong>最重要的发现</strong>：现有数据只能支撑一个 <strong>23 个技术 JD 的 pilot</strong>，而 brief 写的是 100–200 个 JD。单页计划书里必须明确写“数据补充计划”或“本期 scope 缩小到现有 23 个 JD + 扩展方案”，不要假装差距不存在。</p>
+<hr />
+<h2>三、实施路线：6 个工作包</h2>
+<h3>WP0 项目启动与口径确认（第 1 周初）</h3>
+<ul>
+<li>和老师/Eric 确认四件事：<ul>
+<li>“good match” 的 operational 定义：是“值得进 shortlist”，还是“完美匹配”？</li>
+<li>本期是用现有 23 个技术 JD，还是要从 Manatal 补到 100+？</li>
+<li>是否允许调用 Claude API？数据脱敏到什么程度？</li>
+<li>最终验收指标（Top-5 hit rate？招聘顾问盲评一致率？）</li>
+</ul>
+</li>
+<li>先锁定 <strong>2–3 个技术岗位族</strong>，例如 AI/ML、Backend、Full-stack，不要一上来铺 8 个族。</li>
+<li>产出：1 页 scope + 成功指标。</li>
+</ul>
+<h3>WP1 数据工程与隐私（第 1 周）</h3>
+<ul>
+<li>建 <code>jd_id</code> / <code>cv_id</code> 主表，把 xlsx 和 PDF 统一解析成 JSONL。</li>
+<li>清洗：去重、统一地点（KL / Kuala Lumpur）、统一职位名、建技能词典（Python、Go、React、Kubernetes…）、计算相关年限。</li>
+<li>脱敏复核：姓名、邮箱、电话、地址、照片、LinkedIn URL；只把脱敏副本送外部 API；人工抽查 20 份；<strong>Eric 批准后才外传</strong>。</li>
+<li>产出：<code>jds.jsonl</code>、<code>cvs.jsonl</code>、<code>data_dictionary.md</code>、masking checklist。</li>
+</ul>
+<h3>WP2 写匹配指南（第 1–2 周）</h3>
+<p>定义两套 schema：</p>
+<p><strong>JD 抽取字段</strong>：must-have skills、nice-to-have、min years、seniority、location/remote、salary budget、languages、notice period、education、domain。</p>
+<p><strong>CV 抽取字段</strong>：skills + 证据、每项技能年限、总相关年限、seniority、location、expected salary、notice、languages、education、tenure/gaps。</p>
+<p>权重直接映射 brief 的四档：</p>
+<table>
+<thead>
+<tr>
+  <th>档位</th>
+  <th>因素</th>
+  <th>建议分值</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Highest</td>
+  <td>硬技能重合（must/nice）、相关年限</td>
+  <td>35 + 20 = <strong>55</strong></td>
+</tr>
+<tr>
+  <td>High</td>
+  <td>资历层级、期望薪资 vs 预算</td>
+  <td>15 + 10 = <strong>25</strong></td>
+</tr>
+<tr>
+  <td>Medium</td>
+  <td>行业/领域、稳定性、学历/证书</td>
+  <td>10 + 5 + 5 = <strong>20</strong></td>
+</tr>
+<tr>
+  <td>Filters</td>
+  <td>地点/时区/远程、notice、语言</td>
+  <td><strong>pass/fail 门槛</strong></td>
+</tr>
+</tbody>
+</table>
+<p>标注用 0–3 分 rubric：</p>
+<ul>
+<li><strong>3</strong> = 强烈推荐面试</li>
+<li><strong>2</strong> = 可以进 shortlist</li>
+<li><strong>1</strong> = 边缘，可看可不看</li>
+<li><strong>0</strong> = 不合适</li>
+</ul>
+<p>产出：2–3 页 matching guide + 一页标注手册（含正例/负例示例）。</p>
+<h3>WP3 标注约 50 组配对（第 2 周）</h3>
+<ul>
+<li>采样方式很重要：<strong>12–15 个技术 JD × 4–5 份 CV = 50–75 对</strong>。</li>
+<li>每个 JD 至少包含：1 个强正例、1 个边缘例、2 个明显负例（hard negatives：技能差一点、seniority 过高/过低、地点或薪资不符、非技术背景）。</li>
+<li><strong>不要随机抽 CV</strong>，否则几乎全是负例，模型学不到边界。</li>
+<li>前 20 对由两人独立标注，算 Cohen's kappa；分歧讨论后定稿。</li>
+<li>每条标签必须写理由，并引用 CV 里的证据（技能、年限、公司、项目）。</li>
+<li>产出：<code>gold_pairs.csv</code>（<code>jd_id, cv_id, label, reason, annotator</code>）。</li>
+</ul>
+<h3>WP4 搭基线模型（第 2–3 周）</h3>
+<p>按“先跑通、再增强”的顺序：</p>
+<ul>
+<li><strong>v0</strong>：硬过滤 + 关键词重合，先跑通流程。</li>
+<li><strong>v1（主基线）</strong>：技能词典 + BM25/TF-IDF + 加权评分。</li>
+<li><strong>v2</strong>：embedding 语义相似度（sentence-transformers 或多语言 embedding），hybrid 分数。</li>
+<li><strong>v3（可选）</strong>：Logistic Regression / LightGBM 学习排序。<strong>50 组样本太少，只能做 ablation，不能当主模型。</strong></li>
+</ul>
+<p>评分公式建议：</p>
+<pre><code class="language-text">score = 0.35 * 技能重合
+      + 0.20 * 相关年限
+      + 0.15 * 资历层级
+      + 0.10 * 薪资匹配
+      + 0.10 * 行业/领域
+      + 0.05 * 稳定性
+      + 0.05 * 学历/证书
+</code></pre>
+<p>缺失字段记 <strong>0.5（中性）</strong>，不要记 0，否则会系统性惩罚匿名化简历。</p>
+<p>理由生成：<strong>模板优先</strong>，例如“匹配 5/6 项必备技能；6 年 Python；缺 Kubernetes；地点匹配”。LLM 只负责润色，禁止无证据陈述。</p>
+<p>产出：<code>match.py</code>，接口 <code>rank(jd_id) -&gt; top5 + reasons</code>。</p>
+<h3>WP5 评估（第 3 周）</h3>
+<ul>
+<li>主指标：<strong>Top-5 hit rate</strong>（Top-5 里是否至少有一个 good match）、<strong>nDCG@5</strong>。</li>
+<li>次指标：Precision@5、MRR、filter precision。</li>
+<li>切分：<strong>按 JD 做 leave-one-JD-out 或 5-fold group split</strong>，不要随机按 pair 切，否则同一 JD 会泄漏。</li>
+<li>对照：random、keyword-only、embedding-only。</li>
+<li>人工评估：3 位 reviewer 盲评 5 个 JD 的 Top-5，1–5 分，报告一致率。</li>
+<li>抽取质量：人工核对 20 份文档，报告 skill F1、years MAE、seniority accuracy。</li>
+<li>建议目标（和老师确认后再写死）：<ul>
+<li>Top-5 hit rate ≥ 70%</li>
+<li>nDCG@5 ≥ 0.75</li>
+<li>比 keyword baseline 相对提升 ≥ 15%</li>
+<li>抽取 F1 ≥ 0.85</li>
+<li>招聘顾问盲评一致率 ≥ 80%</li>
+</ul>
+</li>
+<li>产出：evaluation report + error taxonomy（解析错误、漏 must-have、seniority 错、地点/薪资错、理由幻觉）。</li>
+</ul>
+<h3>WP6 交付与答辩（第 4 周）</h3>
+<ul>
+<li>代码 repo + README + demo notebook。</li>
+<li>5–8 页报告。</li>
+<li>10 分钟 demo：现场选 1 个 JD，展示 Top-5 和理由。</li>
+<li>单页 plan PDF。</li>
+<li>备用方案：如果 JD 数量不够，展示“23 个 JD pilot + 扩展到 100+ 的具体计划”。</li>
+</ul>
+<hr />
+<h2>四、四周排期与分工</h2>
+<table>
+<thead>
+<tr>
+  <th>周</th>
+  <th>主要任务</th>
+  <th>里程碑</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Week 1</td>
+  <td>kickoff、数据索引、脱敏复核、schema、guide v1、标 10 对</td>
+  <td>数据可用 + guide 定稿</td>
+</tr>
+<tr>
+  <td>Week 2</td>
+  <td>标完 50 对 + kappa、v0/v1、评估脚本</td>
+  <td>主基线可跑</td>
+</tr>
+<tr>
+  <td>Week 3</td>
+  <td>v2、完整评估、error analysis、理由生成、盲评</td>
+  <td>指标和错误分析出来</td>
+</tr>
+<tr>
+  <td>Week 4</td>
+  <td>报告、demo、单页 PDF、buffer</td>
+  <td>全部交付</td>
+</tr>
+</tbody>
+</table>
+<p>4–5 人分工建议：</p>
+<ul>
+<li><strong>A 数据/隐私</strong>：解析、清洗、脱敏、数据字典</li>
+<li><strong>B 标注/指南</strong>：matching guide、标注手册、标签 QA</li>
+<li><strong>C 建模</strong>：v0/v1/v2、评分与理由</li>
+<li><strong>D 评估</strong>：指标、切分、盲评、错误分析</li>
+<li><strong>E 项目/写作</strong>：排期、单页计划书、报告、demo（可由 A–D 兼任）</li>
+</ul>
+<hr />
+<h2>五、单页 PDF 计划书建议结构</h2>
+<p>一页 A4，建议 3 栏或上下结构，正文控制在 <strong>800–1000 中文字</strong>（英文约 500–600 词），字号 9–10pt，配一张 5 步流程图：</p>
+<ol>
+<li><strong>标题 + 团队/日期/客户</strong></li>
+<li><strong>问题与目标</strong>（2–3 行）：招聘顾问人工筛简历慢；目标 JD → Top-5 + 理由</li>
+<li><strong>范围与数据</strong>（3 行）：50 JD / 100 CV，其中 23 个技术 JD；50 组标签；明确 out of scope</li>
+<li><strong>方法</strong>（核心区域）：5 步流程图 + 权重表（Highest/High/Medium/Filters）</li>
+<li><strong>评估与成功标准</strong>：Top-5 hit rate、nDCG@5、抽取 F1、盲评一致率</li>
+<li><strong>4 周时间线</strong>：用 4 个横条或里程碑</li>
+<li><strong>风险与应对</strong>：隐私、标签少、JD 数量不足、字段缺失</li>
+<li><strong>交付物</strong>：数据包、guide、baseline repo、评估报告、demo</li>
+</ol>
+<p>单页计划书不要写成“技术方案书”，老师更想看到：<strong>目标可衡量、数据有来源、标签有方法、风险有预案、四周能做完</strong>。</p>
+<hr />
+<h2>六、最容易被问倒的点</h2>
+<ol>
+<li><strong>23 个技术 JD vs 目标 100–200</strong>：必须写明补充计划或缩小 scope，不能回避。</li>
+<li><strong>50 组样本太少，不能训练复杂模型</strong>：定位为“评估集 + 规则/embedding 基线”，ML 只做 ablation。</li>
+<li><strong>标签主观</strong>：双人标注 + rubric + 分歧仲裁，报告 kappa。</li>
+<li><strong>匿名 CV 缺薪资/notice</strong>：unknown 按中性处理，不惩罚。</li>
+<li><strong>LLM 抽取幻觉</strong>：固定 schema + 证据 span + 20 份人工核对。</li>
+<li><strong>数据泄漏</strong>：按 JD 切分，不按 pair 随机切。</li>
+<li><strong>隐私合规</strong>：脱敏副本 + 人工复核 + Eric 批准，才允许离开 Second Talent。</li>
+<li><strong>“招聘顾问会认可”太虚</strong>：把它变成可测指标（Top-5 hit rate + 盲评一致率）。</li>
+</ol>
+<hr />
+<p>如果你愿意，我可以直接帮你做下一步，三选一：</p>
+<ol>
+<li><strong>起草这份单页 PDF 计划书</strong>（中英文版，按上面的结构排版）</li>
+<li><strong>写数据索引/解析脚本</strong>（把 xlsx + 100 份 CV PDF 变成 <code>jds.jsonl</code> / <code>cvs.jsonl</code>）</li>
+<li><strong>起草 matching guide + 标注表模板</strong>（含权重、0–3 rubric、正负例）</li>
+</ol>
+<p>你希望先做哪一个？</p>
+</section><section class='msg user'><div class='role'>用户 / User · 17</div><p>你要不先写一份计划书？先不需要对数据进行处理，先把计划书pdf写出来</p>
+</section><section class='msg assistant'><div class='role'>助手 / Assistant · 19</div><p>好的。我先把单页计划书做成 PDF（中文版，带少量英文术语），不处理原始数据。做之前我会先把版式排成严格 A4 单页，再渲染检查是否溢出。</p>
+</section><section class='msg assistant'><div class='role'>助手 / Assistant · 85</div><p>计划书已经写好，并且按 <strong>A4 单页</strong>排版、渲染检查过：中文版和英文版都确认是 <strong>1 页</strong>。</p>
+<p><strong>文件位置：</strong></p>
+<ul>
+<li>中文版：<code>AI_CV_Matching_OnePage_Plan_CN.pdf</code></li>
+<li>英文版：<code>AI_CV_Matching_OnePage_Plan_EN.pdf</code></li>
+<li>可编辑源文件：<code>plan_source/one_page_plan_cn.html</code>、<code>plan_source/one_page_plan_en.html</code></li>
+<li>重新导出说明：<code>plan_source/README.md</code></li>
+</ul>
+<p>中文版已在预览窗口打开。计划书包含 7 个部分：</p>
+<ol>
+<li><strong>问题与目标</strong>：从 JD 到 Top-5 + 逐条理由，并给出可量化指标</li>
+<li><strong>方法与权重</strong>：5 步流程 + Highest / High / Medium / Filters 四档权重</li>
+<li><strong>评估方案</strong>：50 组正例 + 50 组 hard negatives、0–3 rubric、双人标注与 kappa、按 JD 切分</li>
+<li><strong>数据与范围</strong>：如实写出 23 个技术 JD 与 100–200 目标的缺口，并给出 pilot + 补充方案</li>
+<li><strong>四周排期</strong>：W1 数据与指南 → W2 标注与基线 → W3 增强与评估 → W4 交付</li>
+<li><strong>风险与应对</strong>：JD 不足、样本少、字段缺失、标签主观、隐私合规</li>
+<li><strong>交付物</strong>：数据包、Matching Guide、Python repo、评估报告、答辩 demo</li>
+</ol>
+<p>有两点建议你提交前确认：</p>
+<ul>
+<li>PDF 里的 <strong>Top-5 ≥70%、nDCG@5 ≥0.75、盲评一致率 ≥80%</strong> 是我按合理基线设的“建议目标值”，最好和老师或 Eric 确认后再定稿。</li>
+<li>页脚留了 <strong>“小组 / 成员”</strong> 空位。把组名和成员名单发我，我可以直接填好并重新导出；也可以按需改配色、加学校 logo，或改成中英对照版。</li>
+</ul>
+</section><section class='msg user'><div class='role'>用户 / User · 86</div><p>稍等一下，你注意到工作目录下的这个文件了吗？在写计划书的时候是否将其考虑了进去
+Attached file: <code>D:\softs_usual\opencode_windows\stat6207_final_groupproject\Manatal Examples – JD &amp; CV (anonymised).xlsx</code></p>
+</section><section class='msg assistant'><div class='role'>助手 / Assistant · 122</div><p>注意到了，而且计划书里的数据口径就是从这里来的。不过你提醒得对——我一开始漏看了这份材料配套 PDF 的后半部分，已经修正并重新导出了。</p>
+<h2>1. xlsx 里我用了什么</h2>
+<p><code>Manatal Examples – JD &amp; CV (anonymised).xlsx</code> 我在写计划书前已经读过：</p>
+<ul>
+<li><code>JD Examples</code>：<strong>50 份 JD</strong>，其中 Engineering 16 + Data &amp; AI 7 = <strong>23 份技术岗</strong></li>
+<li><code>CV Examples</code>：<strong>100 份 CV</strong>，其中 Engineering 30 + Data &amp; AI 16 = <strong>46 份技术岗</strong></li>
+<li>没有任何 match label</li>
+<li>CV 表已有 <code>Current title / Company / Skills / Work history / Education</code> 等结构化字段</li>
+</ul>
+<p>这些数字都进了计划书的 KPI、数据表和 scope 部分，数据表里也直接写了这个文件名。</p>
+<h2>2. 我之前漏掉、现在已修正的一点</h2>
+<p><code>JD + Hired CV examples</code> 里的 10 份 PDF，我最初只读了第 1 页，看到是 JD，就在计划书里写成了“仅含 JD”。实际上每份 PDF 后面都有：</p>
+<blockquote>
+<p><code>CV OF THE HIRED CANDIDATE</code></p>
+</blockquote>
+<p>也就是说，这 10 份 PDF 是 <strong>10 组 JD + hired CV 的招聘顾问认可正例</strong>，不是 0 组标签。这个对计划影响很大，已经改到两个版本里：</p>
+<ul>
+<li>数据表新增：<strong>10 份 PDF = 10 组 JD + hired CV 正例</strong></li>
+<li>匹配标签：<strong>已有 10 组正例 → 目标 50 正例 + 50 负例</strong></li>
+<li>Gold set：<strong>10 组 hired 正例（校准）+ 40 组技术岗正例 + 50 组 hard negatives ≈ 100 对</strong></li>
+<li>W1：复核 10 组 hired 正例，校准 rubric</li>
+<li>W2：补标 40 组技术正例 + 50 组负例</li>
+</ul>
+<h2>3. 已重新导出并检查</h2>
+<ul>
+<li><code>AI_CV_Matching_OnePage_Plan_CN.pdf</code>（1 页，已更新）</li>
+<li><code>AI_CV_Matching_OnePage_Plan_EN.pdf</code>（1 页，已更新）</li>
+<li>源文件：<code>plan_source/one_page_plan_cn.html</code>、<code>plan_source/one_page_plan_en.html</code></li>
+<li>说明：<code>plan_source/README.md</code></li>
+</ul>
+<h2>4. 有一个口径需要你定</h2>
+<p>现在计划书按 <strong>“10 组 hired 正例（校准）+ 40 组技术正例”= 50 组正例</strong> 来写。另一种更严格的做法是：</p>
+<ul>
+<li>10 组 hired 只做校准，不计入技术岗指标</li>
+<li>另外标 <strong>50 组纯技术岗正例</strong> + 50 组负例（总量约 110 对）</li>
+</ul>
+<p>如果老师更看重“技术岗 50 组正例”的纯度，我可以改成后一种；如果希望四周内稳妥完成，现在这版更现实。你倾向哪一种？</p>
+</section><section class='msg user'><div class='role'>用户 / User · 123</div><p>准确说我检查了一下发现，Anonymised-CVs-100文件夹里是100个匿名的CV（纯简历，且为原始文件形式）；
+而Manatal Examples – JD &amp; CV (anonymised)这个excel起始表格里则是记录了50个JD工作描述和100个CV（概括整理的标签形式，且这100个cv就是对应Anonymised-CVs-100文件夹里的每个实体cv），但没有任何匹配标签；
+JD + Hired CV examples文件夹则是一个“优秀匹配范例”文件夹，也就是工作描述 与 被雇佣者CV 完美匹配的实例记录</p>
+</section><section class='msg assistant'><div class='role'>助手 / Assistant · 158</div><p>明白了，这个区分很关键。最新版计划书已经按你说的三层数据结构重写，并且两个 PDF 都重新导出、确认仍是 <strong>A4 单页</strong>。</p>
+<h2>现在计划书里怎么用这三部分数据</h2>
+<p><strong>1. <code>Anonymised-CVs-100</code> = 100 份原始 CV PDF</strong></p>
+<p>作为原始证据来源：抽取技能、年限、项目经历时以 PDF 为准，理由也要能引用 PDF 里的证据。</p>
+<p><strong>2. <code>Manatal Examples – JD &amp; CV (anonymised).xlsx</code> = 50 JD + 100 条结构化 CV 摘要</strong></p>
+<ul>
+<li>这 100 条摘要与 100 份 PDF 按 <code>Ref</code>（CV-001…CV-100）一一对应</li>
+<li>表里没有匹配标签</li>
+<li>计划书把它当作 <strong>structured index / silver label</strong>：用摘要做初始字段和索引，再用 LLM 在 PDF 上补证据、补缺失字段，并与摘要交叉核对，而不是把 xlsx 和 PDF 当成两套独立数据</li>
+</ul>
+<p><strong>3. <code>JD + Hired CV examples</code> = 10 组“完美匹配”范例</strong></p>
+<ul>
+<li>每份 PDF = 1 份 JD + 1 份 hired CV</li>
+<li>计划书把这 10 组作为 <strong>known-good 测试集</strong>：给定 hired JD，看系统能不能把实际被雇佣的 CV 排进 Top-1 / Top-5</li>
+<li>它们不参与调参，避免“自己考自己”</li>
+</ul>
+<h2>计划书具体改了什么</h2>
+<ul>
+<li>数据表：<ul>
+<li>起始表：<strong>50 JD / 100 CV 摘要（技术 23 / 46）</strong></li>
+<li>Hired 范例：<strong>10 组 JD + hired CV 完美匹配</strong></li>
+<li>匹配标签：<strong>10 组 known-good → 目标 50 正例 + 50 负例</strong></li>
+<li>数据文件：<strong>Manatal…xlsx + 100 份 CV PDF</strong></li>
+</ul>
+</li>
+<li>评估：<ul>
+<li><strong>10 组 known-good</strong> 做 Top-1 / Top-5 检索测试</li>
+<li>另标 <strong>50 组技术岗正例 + 50 组 hard negatives</strong>，用于 Top-5 hit rate、nDCG@5 等主指标</li>
+</ul>
+</li>
+<li>排期：<ul>
+<li>W1：按 <code>Ref</code> 对齐 100 份 PDF，复核 10 组 hired</li>
+<li>W2：标 50 技术正例 + 50 负例 + kappa</li>
+</ul>
+</li>
+</ul>
+<h2>文件</h2>
+<ul>
+<li><code>AI_CV_Matching_OnePage_Plan_CN.pdf</code>（已更新，预览窗口打开的就是这版）</li>
+<li><code>AI_CV_Matching_OnePage_Plan_EN.pdf</code></li>
+<li>源文件：<code>plan_source/one_page_plan_cn.html</code>、<code>plan_source/one_page_plan_en.html</code></li>
+<li>数据口径说明：<code>plan_source/README.md</code></li>
+</ul>
+<p>一个方法上的提醒：10 组 known-good 样本量很小，适合做 <strong>sanity check / 回归测试</strong>，不适合单独支撑统计结论；主评估仍然是 50+50 的 gold set。测试时把 10 份 hired CV 加入候选池、单独报告结果，不混进标注集。</p>
+<p>如果时间紧，50 正例 + 50 负例的工作量偏大，可以降到 40+40，但指标置信度会低一些。你希望保持现在的 50+50，还是改成更稳妥的 40+40？</p>
+</section><section class='msg user'><div class='role'>用户 / User · 159</div><p>我认为，这10组已知的优秀配对，实际上只是一个例子，虽然有一定参考作用但主要还是应当依靠原始数据集（起始表格与100分匿名CV），以及设计好合适的打分规则来产出“优质配对组”</p>
+</section><section class='msg user'><div class='role'>用户 / User · 193</div><p>你好了没有？为什么这么慢</p>
+</section><section class='msg assistant'><div class='role'>助手 / Assistant · 195</div><p>抱歉久等。主要卡在两件事：按你的意见重写了数据逻辑，以及旧的中文 PDF 被预览窗口占用、无法覆盖，所以新版另存了文件名。</p>
+<p><strong>新版文件：</strong></p>
+<ul>
+<li>中文最终版：<code>AI_CV_Matching_OnePage_Plan_CN_final.pdf</code></li>
+<li>英文版：<code>AI_CV_Matching_OnePage_Plan_EN.pdf</code></li>
+<li>旧的 <code>AI_CV_Matching_OnePage_Plan_CN.pdf</code> 是过期版本，关闭预览后可删掉</li>
+</ul>
+<p><strong>这版按你的意见改成了：</strong></p>
+<ul>
+<li><strong>10 组 hired 只作参考案例</strong>，只用来校准 rubric，不计入标签、不作为主评估</li>
+<li><strong>主数据是 50 JD + 100 CV（xlsx 摘要与 PDF 按 Ref 对应）</strong></li>
+<li><strong>先用打分规则生成候选配对</strong>，再由招聘顾问按 rubric 独立确认 <strong>50 组技术正例 + 50 组负例</strong></li>
+<li>评估按 JD 留出，避免“规则自己生成、自己考自己”的自证问题</li>
+<li>风险栏新增：<strong>规则自证 / 标签主观 → 独立确认 + 按 JD 留出 + 双人标注 + kappa</strong></li>
+</ul>
+<p>两份都是 A4 单页。中英文源文件在 <code>plan_source/</code>，组名和成员还留着空位，把名字发我可以直接填好。</p>
+</section><section class='msg note'><div class='role'>系统 / System · 196</div><p>Today's date is now: Sat Nov 07 2026</p>
+</section><section class='msg user'><div class='role'>用户 / User · 197</div><p>现在先不管，我现在有了一个新的任务。虽然是基于本数据集但是任务相对来说比较独立，所以我希望你将所有“工作期间所产生的文件”保存到目录：D:\softs_usual\opencode_windows\stat6207_final_groupproject\HW4_6207下（你可以将原始数据集复制一份到这个文件夹里，然后在这个新的目录开始工作），在这个新的目录进行工作</p>
+<p>以下是作业的具体要求：
+1使用本地大语言模型（LLM）从简历（CV）和职位描述（JD）中提取关键词
+2合并/聚类相似的关键词
+3构建自编码器（AE）模型对简历和职位描述进行编码
+4针对基准数据（Ground Truth）中的每个职位描述，检索出排名前 10 的简历
+5评估检索的召回率（Recall）
+6进行错误分析以寻求改进方案
+7将实验结果整理成pdf中英双语的报告文件
+我认为关于步骤1，本地大语言模型你可以下载qwen系列的然后调用，或者试着看一下lm studio内是否具有类似的本地LLM文件；此外，关于”从CV和JD中提取关键词“，我认为这里的CV，指的是D:\softs_usual\opencode_windows\stat6207_final_groupproject\Anonymised-CVs-100\Anonymised CVs 文件夹下的简历合集；而JD则是指Manatal Examples – JD &amp; CV (anonymised) 表格里的各种职位描述。作为示例的JD   Hired CV examples文件夹可以先不管</p>
+<p>在开始工作之前，你先告诉我你要如何开展工作？</p>
+</section><section class='msg assistant'><div class='role'>助手 / Assistant · 198</div><p>我先做一次只读环境检查（不创建文件），确认本地 LLM、GPU 和依赖情况，然后给你一份可执行的方案；其中有一个关键点需要你确认：<strong>Ground Truth 从哪里来</strong>。</p>
+</section><section class='msg assistant'><div class='role'>助手 / Assistant · 200</div><p>可以，这个任务我能做。我先检查了环境，下面是我的完整开展方案。<strong>我先不创建/复制任何文件</strong>，等你确认几个关键点后再在 <code>HW4_6207</code> 开工。</p>
+<h2>0. 环境检查结果</h2>
+<ul>
+<li>GPU：RTX 5080 Laptop，16GB 显存</li>
+<li>LM Studio 已安装，已有 3 个本地模型：<ul>
+<li><code>qwen2.5-coder-14b-instruct</code>（14B，Qwen2）</li>
+<li><code>deepseek/deepseek-r1-0528-qwen3-8b</code>（8B，Qwen3）</li>
+<li><code>text-embedding-nomic-embed-text-v1.5</code>（embedding）</li>
+</ul>
+</li>
+<li>LM Studio 显示 Server ON，但 <code>localhost:1234</code> 暂时拒绝连接；我会先重载模型/重启 server 再批量跑</li>
+<li>Python 已有 <code>torch</code>（CPU 版）、<code>sklearn</code>、<code>pandas</code>、<code>pymupdf</code>、<code>openpyxl</code>、<code>reportlab</code>；缺 <code>sentence-transformers</code>、<code>faiss</code></li>
+<li>AE 数据量很小（约 150 份文档），CPU 足够；LLM 走 LM Studio 的 GPU，不依赖 CUDA 版 PyTorch</li>
+<li><code>HW4_6207</code> 目录已存在但目前是空的</li>
+</ul>
+<h2>1. 最关键的前提：Ground Truth 从哪里来</h2>
+<p>这是开始前必须确认的。现有数据里：</p>
+<ul>
+<li><code>Anonymised-CVs-100</code>：100 份 CV PDF，<strong>没有 JD 匹配标签</strong></li>
+<li><code>Manatal Examples...xlsx</code>：50 份 JD + 100 条 CV 摘要，<strong>没有匹配标签</strong></li>
+<li><code>JD + Hired CV examples</code>：10 组 JD + hired CV，是唯一带“完美匹配”标签的数据</li>
+</ul>
+<p>我核对过：这 10 份 hired CV 基本不在那 100 份 CV 里（例如 P01 的 Cardia、P04 的 BP 都没有出现在 xlsx 的 100 条记录中）。所以：</p>
+<blockquote>
+<p>如果 Ground Truth 用这 10 组，候选池必须是 <strong>100 份 CV + 10 份 hired CV = 110 份</strong>；否则正确 CV 根本不在池子里，Recall 必然是 0。</p>
+</blockquote>
+<p>我的建议是：</p>
+<ul>
+<li><strong>把这 10 组只用于评估</strong>，不参与关键词提取、不参与 AE 训练</li>
+<li>每组 JD 对应 1 份相关 CV，计算 <strong>Recall@10 / Recall@5 / MRR</strong></li>
+<li>你说的“先不管这个文件夹”，如果是指“不作为输入数据”，那和这个方案兼容；如果你希望连评估也不用它，就需要你另外提供一份 Ground Truth 标签文件，否则 Recall 无法计算</li>
+</ul>
+<p><strong>这一点需要你确认。</strong></p>
+<h2>2. 工作目录设计</h2>
+<p>所有产出都放在：</p>
+<pre><code class="language-text">HW4_6207/
+├─ data/
+│  ├─ raw/                 # 复制进来的 100 份 CV PDF + xlsx
+│  ├─ processed/           # cv_text.jsonl, jd_text.jsonl
+│  └─ ground_truth/        # 10 组 GT 的 jd_id/cv_id（如确认使用）
+├─ src/
+│  ├─ parse_data.py
+│  ├─ extract_keywords.py
+│  ├─ cluster_keywords.py
+│  ├─ train_ae.py
+│  ├─ retrieve.py
+│  ├─ evaluate.py
+│  └─ error_analysis.py
+├─ outputs/
+│  ├─ keywords/            # cv_keywords.jsonl, jd_keywords.jsonl
+│  ├─ clusters/            # keyword_clusters.json, vocab.json
+│  ├─ models/              # ae_model.pt, scaler.pkl
+│  ├─ retrieval/           # rankings.csv
+│  └─ metrics/             # metrics.json, per_query.csv
+├─ report/
+│  ├─ report_cn_en.html
+│  ├─ figures/
+│  └─ HW4_Report_CN_EN.pdf
+├─ README.md
+└─ requirements.txt
+</code></pre>
+<h2>3. 技术路线（对应作业 1–7）</h2>
+<h3>Step 1：本地 LLM 关键词提取</h3>
+<ul>
+<li>数据：<ul>
+<li>CV：<code>Anonymised-CVs-100\Anonymised CVs</code> 下 100 份 PDF</li>
+<li>JD：xlsx 的 <code>JD Examples</code> 表，<code>Job description</code> 列，共 50 份</li>
+<li>不把 <code>JD + Hired CV examples</code> 作为提取输入</li>
+</ul>
+</li>
+<li>调用方式：LM Studio 的 OpenAI-compatible API，本地模型，temperature=0</li>
+<li>先在同一批 5 份文档上对比：<ul>
+<li><code>qwen2.5-coder-14b-instruct</code></li>
+<li><code>deepseek-r1-0528-qwen3-8b</code></li>
+</ul>
+</li>
+<li>选 JSON 合规率、关键词质量更好的做主力；都不理想再下载 <code>Qwen2.5-7B-Instruct</code></li>
+<li>输出 schema：<ul>
+<li>JD：<code>must_have_skills</code>、<code>nice_to_have_skills</code>、<code>tools</code>、<code>domains</code>、<code>seniority</code>、<code>min_years</code>、<code>languages</code>、<code>location</code>、<code>certifications</code></li>
+<li>CV：<code>skills</code>、<code>tools</code>、<code>domains</code>、<code>roles</code>、<code>years</code>、<code>seniority</code>、<code>education</code>、<code>certifications</code>、<code>languages</code>、<code>location</code></li>
+<li>每个关键词带 <code>term</code>、<code>category</code>、<code>importance</code>（1–3）、<code>evidence</code></li>
+</ul>
+</li>
+<li>所有结果缓存为 JSONL，按文档 hash 去重，失败自动重试</li>
+<li>质量检查：人工抽查 10 份；JSON 合法率；CV 关键词与 xlsx <code>Skills</code> 列交叉核对</li>
+</ul>
+<h3>Step 2：合并/聚类相似关键词</h3>
+<ul>
+<li>归一化：小写、去标点、单复数、缩写（JS→JavaScript、ML→Machine Learning 等）</li>
+<li>用本地 <code>nomic-embed-text</code> 对关键词做 embedding</li>
+<li>用 cosine + 层次聚类/社区发现合并同义词</li>
+<li>每个 cluster 选一个 canonical term（最高频或 LLM 决定）</li>
+<li>输出：<ul>
+<li><code>keyword_clusters.json</code></li>
+<li><code>vocab.json</code></li>
+<li>文档–关键词矩阵（TF-IDF 或 binary）</li>
+</ul>
+</li>
+<li>人工检查 top 50 clusters，避免把“Java”和“JavaScript”这类错误合并</li>
+</ul>
+<h3>Step 3：构建 Autoencoder（AE）</h3>
+<ul>
+<li>输入：文档–关键词矩阵（约 150 份文档 × 词表维度）</li>
+<li>结构：<code>V → 512 → 128 → bottleneck 32/64 → 128 → 512 → V</code></li>
+<li>GELU + Dropout + BatchNorm；可选 denoising（随机 mask 15% 关键词）</li>
+<li>损失：MSE / BCE；AdamW；early stopping</li>
+<li>输出：<ul>
+<li><code>ae_model.pt</code></li>
+<li>所有 CV/JD 的 32/64 维向量 <code>doc_vectors.npz</code></li>
+</ul>
+</li>
+<li>对比基线：<ul>
+<li>原始 TF-IDF cosine</li>
+<li>BM25（如可用）</li>
+<li>关键词重叠率</li>
+<li>Nomic embedding cosine</li>
+</ul>
+</li>
+<li>AE 只做无监督编码，不使用 Ground Truth 标签</li>
+</ul>
+<h3>Step 4：Top-10 检索</h3>
+<ul>
+<li>对 Ground Truth 中每个 JD：<ul>
+<li>用 AE 编码 JD</li>
+<li>与候选池所有 CV 向量算 cosine similarity</li>
+<li>返回 Top-10</li>
+</ul>
+</li>
+<li>候选池：<ul>
+<li>如果 GT 用 10 组 hired：100 + 10 = 110 份 CV</li>
+<li>如果 GT 是另外的标签文件：按你提供的范围</li>
+</ul>
+</li>
+<li>保存每个 JD 的 Top-10 排名、分数、关键词重叠解释</li>
+</ul>
+<h3>Step 5：Recall 评估</h3>
+<ul>
+<li>主指标：<strong>Recall@10</strong></li>
+<li>辅助：Recall@5、MRR@10、nDCG@10</li>
+<li>如果每个 JD 只有 1 份相关 CV，Recall@10 就是“命中率”；报告：<ul>
+<li>总体均值</li>
+<li>每个 query 的结果</li>
+<li>Wilson 95% 置信区间（样本只有 10 个 query 时很重要）</li>
+</ul>
+</li>
+<li>同时对比 AE / TF-IDF / BM25 / Nomic embedding / 关键词重叠</li>
+</ul>
+<h3>Step 6：错误分析</h3>
+<p>对每个未命中的 query 分类：</p>
+<ol>
+<li>关键词抽取错误/漏抽</li>
+<li>同义词合并错误</li>
+<li>must-have 权重不够</li>
+<li>seniority / location / language 不匹配</li>
+<li>AE bottleneck 丢失信息</li>
+<li>Ground Truth 本身有歧义</li>
+</ol>
+<p>再做消融：</p>
+<ul>
+<li>有/无关键词聚类</li>
+<li>bottleneck 16/32/64/128</li>
+<li>有/无 denoising</li>
+<li>LLM 关键词 vs 原始文本 TF-IDF</li>
+<li>AE vs 各 baseline</li>
+</ul>
+<p>最后给出 3–5 条可执行的改进建议。</p>
+<h3>Step 7：中英双语 PDF 报告</h3>
+<p>建议 <strong>一份 PDF，中英双语对照/分节</strong>，包含：</p>
+<ul>
+<li>Abstract / 摘要</li>
+<li>Data / 数据</li>
+<li>Method / 方法（LLM 抽取、聚类、AE、检索）</li>
+<li>Experiments / 实验设置</li>
+<li>Results / 结果（Recall 表、baseline 对比、消融）</li>
+<li>Error Analysis / 错误分析</li>
+<li>Limitations / 局限</li>
+<li>Appendix / 附录（prompt、关键词示例、Top-10 案例）</li>
+</ul>
+<p>图表：</p>
+<ul>
+<li>Recall@10 对比柱状图</li>
+<li>每个 query 的命中/未命中表</li>
+<li>AE 训练 loss 曲线</li>
+<li>关键词 cluster 示例</li>
+<li>典型失败案例</li>
+</ul>
+<h2>4. 需要你确认的 3 件事</h2>
+<ol>
+<li><strong>Ground Truth</strong>：是否用 <code>JD + Hired CV examples</code> 的 10 组作为评估集？如果是，候选池是否用 100 + 10 = 110 份 CV？如果你有另一份 GT 文件，请告诉我路径。</li>
+<li><strong>本地 LLM</strong>：先用现有的 <code>qwen2.5-coder-14b-instruct</code> 和 <code>deepseek-r1-0528-qwen3-8b</code> 做小样本对比，再决定主力模型，可以吗？如果都不行，我再下载 <code>Qwen2.5-7B-Instruct</code>。</li>
+<li><strong>报告形式</strong>：一份 PDF 内中英双语分节（推荐），还是中英各一份 PDF？</li>
+</ol>
+<p>你确认这三点后，我就开始在 <code>HW4_6207</code> 里复制数据、修通 LM Studio、按上面的流程执行。</p>
+</section><section class='msg user'><div class='role'>用户 / User · 201</div><p>回答：
+1：ground truth可以说就是JD + Hired CV examples里的标准答案，因此我认为需要纳入训练集。如果只用于评估而不用于训练，模型根本不知道如何从零开始学习正确匹配。
+2：请再读一遍JD + Hired CV examples里的每个pdf，他的结构是”职位具体描述“+”一位经人工判断而符合条件的候选人“
+3：我发现有一个误区：excel表其实在当前任务下是不需要考虑的。因为我们现在要做的就是【使用”非标签化的自然语言化的“ 简历（Anonymised CVs）和职位描述(在JD + Hired CV examples文件夹里，每一份pdf都有一个职位描述和对应的1位候选人，这个职位描述是自然语言的)】
+因为这项作业的根本性质就是，使用AI技术，在”职位需求和候选人简历都是非统一格式，非标签化的自然语言内容的情况下，将职位需求和候选人简历用模型编码成可以比对的关键词，然后再比对两者的相似程度（也就是候选人简历的关键词，同职位需求的关键词 的符合程度）“</p>
+</section><section class='msg assistant'><div class='role'>助手 / Assistant · 202</div><p>明白，这版口径我完全对齐了：</p>
+<ul>
+<li><strong>不使用 Excel</strong>（50 JD / 100 条 CV 摘要都不参与）</li>
+<li><strong><code>JD + Hired CV examples</code> 是核心数据</strong>：每份 PDF 前半是自然语言 JD，后半是 <code>CV OF THE HIRED CANDIDATE</code>，即 1 组“JD + 人工认定合格候选人”</li>
+<li><strong><code>Anonymised-CVs-100</code> 是候选池和负例来源</strong>：100 份纯自然语言 CV</li>
+<li>10 份 hired CV 不在那 100 份里，所以<strong>候选池 = 100 + 10 = 110 份 CV</strong></li>
+<li>GT <strong>参与训练</strong>；但为了避免“训练集=测试集”导致 Recall 虚高，主评估用 <strong>leave-one-pair-out</strong>，另报 in-sample 上界</li>
+</ul>
+<h2>一、训练与评估口径（这是关键）</h2>
+<p>你说得对：如果 10 组 GT 只用于评估，模型没有监督信号。所以我会这样做：</p>
+<ol>
+<li><strong>无监督预训练 AE</strong>：用 110 份 CV + 10 份 JD 的关键词向量做重构训练，让 AE 学会文档表示</li>
+<li><strong>监督匹配微调</strong>：在 AE bottleneck 后加一个 retrieval head，用 10 组 GT 做 <strong>contrastive / listwise loss</strong>——每个 JD 的 positive 是它的 hired CV，其余 109 份 CV 作为 negatives</li>
+<li><strong>主评估：leave-one-pair-out（10 折）</strong><ul>
+<li>每折留出 1 组 GT（JD + hired CV）</li>
+<li>用其余 9 组 + 100 份匿名 CV 训练</li>
+<li>用留出的 JD 在 110 份 CV 中检索 Top-10</li>
+<li>10 折平均，得到可信的 Recall</li>
+<li>这样每一组 GT 都进入过训练（9 次），同时评估是 held-out</li>
+</ul>
+</li>
+<li><strong>辅助：in-sample 上界</strong><ul>
+<li>用全部 10 组训练，再在同一批 10 组上评估</li>
+<li>报告时明确标注“seen pairs / upper bound”，不作为主指标</li>
+</ul>
+</li>
+</ol>
+<p>这样既满足“GT 纳入训练”，又不会用同一批数据自评自夸。</p>
+<h2>二、数据与候选池</h2>
+<table>
+<thead>
+<tr>
+  <th>数据</th>
+  <th>用途</th>
+  <th>数量</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td><code>Anonymised-CVs-100</code></td>
+  <td>候选 CV、AE 无监督训练、负例</td>
+  <td>100</td>
+</tr>
+<tr>
+  <td><code>JD + Hired CV examples</code> 前半</td>
+  <td>10 个 query JD</td>
+  <td>10</td>
+</tr>
+<tr>
+  <td><code>JD + Hired CV examples</code> 后半</td>
+  <td>10 个 positive hired CV</td>
+  <td>10</td>
+</tr>
+<tr>
+  <td>候选池合计</td>
+  <td>检索范围</td>
+  <td><strong>110 CV</strong></td>
+</tr>
+</tbody>
+</table>
+<p>解析规则：在每份 PDF 中按 <code>CV OF THE HIRED CANDIDATE</code> 切分；前半为 JD，后半为 CV；去掉页眉页脚和 <code>Hired for:</code> 等元信息。</p>
+<h2>三、技术路线</h2>
+<h3>Step 1：本地 LLM 关键词提取</h3>
+<ul>
+<li>LM Studio 本地模型：先对比 <code>qwen2.5-coder-14b-instruct</code> 与 <code>deepseek-r1-0528-qwen3-8b</code></li>
+<li>输入：10 份 JD + 110 份 CV 的自然语言文本</li>
+<li>输出 JSON：<code>skills / tools / domains / seniority / years / languages / location / certifications</code></li>
+<li>每个关键词带 <code>term</code>、<code>category</code>、<code>importance</code>、<code>evidence</code></li>
+<li>temperature=0；缓存 JSONL；失败重试；人工抽查 10 份</li>
+</ul>
+<h3>Step 2：合并/聚类关键词</h3>
+<ul>
+<li>归一化 + 缩写/同义词映射</li>
+<li>用本地 <code>nomic-embed-text</code> 对关键词做 embedding</li>
+<li>cosine + 层次聚类，合并相似词</li>
+<li>每个 cluster 选 canonical term</li>
+<li>输出词表、cluster 映射、文档–关键词矩阵</li>
+<li>人工检查 top 50 clusters，防止 Java/JavaScript 这类误合并</li>
+</ul>
+<h3>Step 3：AE 编码</h3>
+<ul>
+<li>输入：110 CV + 10 JD 的关键词矩阵（TF-IDF 或 binary）</li>
+<li>结构：<code>V → 512 → 128 → 32/64 → 128 → 512 → V</code></li>
+<li>GELU + Dropout + BatchNorm；可选 denoising（mask 15%）</li>
+<li>损失：重构损失 + 监督 retrieval loss（GT pairs）</li>
+<li>输出：所有文档的 32/64 维向量</li>
+<li>基线：TF-IDF cosine、BM25、Nomic embedding cosine、关键词重叠</li>
+</ul>
+<h3>Step 4：Top-10 检索</h3>
+<ul>
+<li>每个 GT JD 编码后，与 110 份 CV 向量算 cosine</li>
+<li>返回 Top-10</li>
+<li>保存排名、分数、命中的关键词证据</li>
+</ul>
+<h3>Step 5：Recall 评估</h3>
+<ul>
+<li>主指标：<strong>Recall@10</strong>（每个 JD 只有 1 份相关 CV，所以等于 hit rate）</li>
+<li>辅助：Recall@5、MRR@10、平均排名</li>
+<li>报告 10 折均值 + 每个 query 结果 + Wilson 95% CI</li>
+<li>随机基线约 <code>10/110 ≈ 9.1%</code>，报告时作为参照</li>
+<li>同时对比 AE / AE+监督 / TF-IDF / BM25 / Nomic</li>
+</ul>
+<h3>Step 6：错误分析</h3>
+<p>每个未命中 query 分类：</p>
+<ol>
+<li>LLM 关键词漏抽/错抽</li>
+<li>同义词聚类错误</li>
+<li>must-have 权重不足</li>
+<li>seniority / location / language 不匹配</li>
+<li>AE bottleneck 丢信息</li>
+<li>GT 本身存在歧义</li>
+</ol>
+<p>再做消融：</p>
+<ul>
+<li>有/无监督 loss</li>
+<li>有/无关键词聚类</li>
+<li>bottleneck 16/32/64/128</li>
+<li>有/无 denoising</li>
+<li>LLM 关键词 vs 原始文本</li>
+</ul>
+<h3>Step 7：中英双语 PDF 报告</h3>
+<ul>
+<li>一份 PDF，中英双语分节</li>
+<li>结构：摘要、数据、方法、实验、结果、错误分析、局限、附录</li>
+<li>图表：Recall@10 对比、每 query 命中表、AE loss 曲线、关键词 cluster 示例、失败案例</li>
+<li>附录：LLM prompt、Top-10 检索示例</li>
+</ul>
+<h2>四、目录</h2>
+<pre><code class="language-text">HW4_6207/
+├─ data/raw/              # 100 CV PDF + 10 JD+CV PDF（复制进来）
+├─ data/processed/        # cv_text.jsonl, jd_text.jsonl, hired_cv.jsonl
+├─ src/                   # parse / extract / cluster / train_ae / retrieve / evaluate / report
+├─ outputs/keywords/      # LLM 抽取结果
+├─ outputs/clusters/      # 词表与 cluster
+├─ outputs/models/        # AE 权重、向量
+├─ outputs/retrieval/     # rankings.csv
+├─ outputs/metrics/       # metrics.json, per_query.csv
+├─ report/                # HTML + figures + 最终 PDF
+└─ README.md
+</code></pre>
+<h2>五、我准备先做的 Phase 0</h2>
+<ol>
+<li>在 <code>HW4_6207</code> 建目录，复制 100 份 CV 和 10 份 JD+CV PDF</li>
+<li>解析 10 份 PDF，验证 <code>JOB DESCRIPTION</code> / <code>CV OF THE HIRED CANDIDATE</code> 切分正确</li>
+<li>修通 LM Studio API，加载 <code>qwen2.5-coder-14b-instruct</code></li>
+<li>用 5 份文档对比 Qwen2.5-Coder-14B 和 DeepSeek-R1-Qwen3-8B 的 JSON 合规率与关键词质量</li>
+<li>跑通一条最小链路：1 个 JD → 关键词 → AE → Top-10，确认数据流无误</li>
+</ol>
+<p>如果这个口径没问题，我就按上面开始执行。</p>
+</section><section class='msg user'><div class='role'>用户 / User · 203</div><p>稍等，我刚刚看了一下excel表。以及我们老师在给出该数据集的时候说明的内容”Starting sheet: &quot;Manatal Examples – JD &amp; CV (anonymised)&quot; has 50 JDs and 100 CVs, with no match labels yet.“</p>
+<p>我意识到了，这个意思应该指的是，这个excel表就是”作为人才招聘集团的公司方，将原始的非关键词化的-职位描述JD和人员简历CV，整理成关键词化的标签后的结果。并且JD和CV之间尚无匹配关系“</p>
+</section><section class='msg assistant'><div class='role'>助手 / Assistant · 204</div><p>对，这个理解更准确：</p>
+<blockquote>
+<p><strong>Excel 是人工把原始 JD/CV 整理成结构化标签后的“参考版本”，不是 JD–CV 匹配标签。</strong>
+它和 10 组 hired 的区别是：Excel 有技能/岗位等标签，但没有“谁匹配谁”；hired 有匹配关系，但没有结构化标签。</p>
+</blockquote>
+<p>所以 Excel 不应该被丢掉，但也不应该被当成 Ground Truth。它最适合用在三个地方：</p>
+<h2>1. 验证 LLM 关键词抽取质量（silver reference）</h2>
+<p>这是 Excel 最有价值的用途：</p>
+<ul>
+<li><strong>100 份 CV</strong>：Excel 的 <code>Skills</code>、<code>Current title</code>、<code>Role family</code>、<code>Education</code> 是人类整理好的标签；把 LLM 从 100 份 PDF 抽出的关键词与它对比，计算：<ul>
+<li>关键词 Precision / Recall / F1（精确 + 模糊/同义词匹配）</li>
+<li>Jaccard 相似度</li>
+<li>技能覆盖率</li>
+</ul>
+</li>
+<li><strong>50 份 JD</strong>：Excel 的 <code>Position</code>、<code>Role family</code>、<code>Country</code>、<code>Salary</code>、<code>Remote</code> 等字段，可以和 LLM 从 JD 文本抽出的 role/location/salary/seniority 对比。</li>
+</ul>
+<p>这能给 Step 1 一个<strong>量化质量指标</strong>，而不是只靠人工感觉。它只用于验证，不参与 Recall。</p>
+<h2>2. 扩充无监督语料</h2>
+<ul>
+<li>50 份 JD 的 <code>Job description</code> 是自然语言文本，可以作为<strong>额外的未标注 JD</strong>，用于：<ul>
+<li>AE 预训练</li>
+<li>关键词聚类/词表构建</li>
+</ul>
+</li>
+<li>但<strong>不能把 Excel 的标签直接作为 AE 输入</strong>，否则就绕过了“自然语言 → LLM 抽取关键词”这个作业核心。</li>
+<li>50 份 JD 与 10 份 GT JD 可能部分重叠；按标题/文本去重，重叠的从无监督语料中剔除，避免 leave-one-pair-out 泄漏。</li>
+</ul>
+<h2>3. 错误分析分层</h2>
+<p>用 Excel 的 <code>Role family</code>、<code>Country</code>、<code>Salary</code> 等字段解释：</p>
+<ul>
+<li>哪些岗位族更容易检索错？</li>
+<li>哪些地区/薪资段的 CV 更难匹配？</li>
+<li>是技能抽取问题，还是领域/资历问题？</li>
+</ul>
+<h2>修正后的数据口径</h2>
+<table>
+<thead>
+<tr>
+  <th>数据</th>
+  <th>角色</th>
+  <th>是否参与训练/评估</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>10 份 JD + hired CV PDF</td>
+  <td>10 组匹配 GT</td>
+  <td><strong>监督训练 + leave-one-pair-out 评估</strong></td>
+</tr>
+<tr>
+  <td>100 份匿名 CV PDF</td>
+  <td>原始自然语言 CV</td>
+  <td><strong>AE 无监督训练 + 候选池</strong></td>
+</tr>
+<tr>
+  <td>10 份 hired CV</td>
+  <td>正例</td>
+  <td><strong>候选池 + 监督训练</strong></td>
+</tr>
+<tr>
+  <td>Excel 50 JD / 100 CV 标签</td>
+  <td>人工标签参考</td>
+  <td><strong>只做抽取验证、分层分析、可选无监督 JD 语料</strong></td>
+</tr>
+</tbody>
+</table>
+<p>候选池仍然是 <strong>100 + 10 = 110 份 CV</strong>；Recall 只对 10 组 GT 计算。</p>
+<h2>训练/评估仍然是</h2>
+<ol>
+<li>AE 在无标签语料上做重构预训练（100 CV + 10 hired CV + 10 GT JD + 可选 50 Excel JD，去重）</li>
+<li>用 10 组 GT 做 supervised contrastive / listwise 微调</li>
+<li><strong>主评估：leave-one-pair-out 10 折</strong>（每折 9 组训练、1 组留出）</li>
+<li><strong>辅助：in-sample 上界</strong>（全部 10 组训练 + 同批评估，明确标注）</li>
+<li>指标：Recall@10、Recall@5、MRR、平均排名</li>
+<li>Excel 标签只用于：<ul>
+<li>LLM 抽取的 P/R/F1</li>
+<li>错误分析分层</li>
+<li>不参与 Recall 计算</li>
+</ul>
+</li>
+</ol>
+<p>这样 Excel 既没有被浪费，也不会污染匹配 Ground Truth；核心链路仍然是：</p>
+<blockquote>
+<p>原始自然语言 CV/JD → 本地 LLM 关键词 → 合并/聚类 → AE 编码 → Top-10 检索 → Recall + 错误分析</p>
+</blockquote>
+<p>如果这个口径你认可，我就按这个开始 Phase 0：复制数据、解析 10 份 PDF、跑通 LM Studio、做小样本抽取对比。</p>
+</section><section class='msg user'><div class='role'>用户 / User · 205</div><p>我有个问题，如何评估检索的召回率？我看了一下这个任务就是要有”根据JD的关键词和CV的关键词，检索符合JD的CV从而实现匹配“</p>
+</section><section class='msg note'><div class='role'>系统 / System · 206</div><p>The previous response was interrupted. Continue from where you left off without repeating completed content.</p>
+</section><section class='msg assistant'><div class='role'>助手 / Assistant · 207</div><p>接着上面 LOPO 的部分说：</p>
+<p>如果同一批 10 组既参与训练又参与测试，Recall 一定会虚高，因为模型已经见过“这个 JD 对应这份 CV”。所以主评估不能用这种口径，而要用 <strong>leave-one-pair-out</strong>：</p>
+<ul>
+<li>一共 10 折</li>
+<li>每折留出 1 组 GT（JD + hired CV）</li>
+<li>用其余 9 组 + 100 份匿名 CV 训练</li>
+<li>用留出的 JD 在 110 份 CV 里检索 Top-10</li>
+<li>看 hired CV 是否在 Top-10</li>
+<li>10 折平均，得到主 Recall</li>
+</ul>
+<p>这样每一组 GT 都进入过训练（9 次），但评估时用的是没见过的 JD–CV 对，指标才可信。另报一个“全部 10 组训练 + 同批评估”的 in-sample 上界，并明确标注。</p>
+<h2>具体怎么算</h2>
+<p>对每个 GT JD：</p>
+<pre><code class="language-text">R(q) = { 该 JD 的 hired CV }        # 只有 1 个已知相关 CV
+Top10(q) = 检索返回的前 10 份 CV
+Recall@10(q) = |Top10(q) ∩ R(q)| / |R(q)|
+             = 1 如果 hired CV 在 Top-10，否则 0
+</code></pre>
+<p>因为每个 JD 只有 1 个相关 CV，所以：</p>
+<pre><code class="language-text">Recall@10 = HitRate@10
+</code></pre>
+<p>10 个 JD 平均：</p>
+<pre><code class="language-text">Recall@10 = 命中数 / 10
+</code></pre>
+<p>举例：</p>
+<table>
+<thead>
+<tr>
+  <th>JD</th>
+  <th style="text-align:right">hired CV 排名</th>
+  <th style="text-align:right">Recall@10</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>P01</td>
+  <td style="text-align:right">3</td>
+  <td style="text-align:right">1</td>
+</tr>
+<tr>
+  <td>P02</td>
+  <td style="text-align:right">14</td>
+  <td style="text-align:right">0</td>
+</tr>
+<tr>
+  <td>P03</td>
+  <td style="text-align:right">1</td>
+  <td style="text-align:right">1</td>
+</tr>
+<tr>
+  <td>…</td>
+  <td style="text-align:right">…</td>
+  <td style="text-align:right">…</td>
+</tr>
+<tr>
+  <td>平均</td>
+  <td style="text-align:right"></td>
+  <td style="text-align:right"><strong>0.8</strong></td>
+</tr>
+</tbody>
+</table>
+<p>候选池是 110 份 CV，随机检索的 Recall@10 大约是 <code>10/110 ≈ 9.1%</code>，报告里可以作为下限参照。</p>
+<p>除了 Recall@10，还建议报：</p>
+<ul>
+<li><strong>Recall@5</strong>：更严格</li>
+<li><strong>MRR@10</strong>：<code>mean(1 / rank)</code>，命中越靠前越高</li>
+<li><strong>平均排名</strong>：没进 Top-10 的按 11 或 110 计</li>
+<li>每个 query 的命中/未命中表</li>
+</ul>
+<p>Precision@10 在这里意义不大：每个 JD 只有 1 个已知正例，即使排第 1，P@10 也只有 0.1。除非后面做人工扩充标签，否则不建议把 Precision 当主指标。</p>
+<h2>一个需要注意的问题：未标注的“好 CV”</h2>
+<p>100 份匿名 CV 里可能还有别的 CV 也符合这个 JD，只是没有标签。如果系统把“另一个好 CV”排进 Top-10，而 hired CV 没进，按严格口径会算 miss，但人工看可能是合理的。</p>
+<p>所以报告里要写清楚：</p>
+<blockquote>
+<p>这里的 Recall 是 <strong>conservative lower bound</strong>：只把“实际被雇佣的 CV”当作唯一已知相关项；未标注的潜在好匹配不计入。</p>
+</blockquote>
+<p>如果你想把“符合 JD 的 CV”定义得更宽，可以加一个 <strong>pooled manual evaluation</strong>：</p>
+<ol>
+<li>对每个 JD，收集 AE、TF-IDF、BM25、Nomic 四种方法的 Top-10</li>
+<li>去重，得到每个 JD 约 20–30 份候选</li>
+<li>人工判断每份 CV 是否“符合 JD”</li>
+<li>用人工判断后的相关集合计算 Recall@10</li>
+</ol>
+<p>这是信息检索里常用的 pooling 方法，能处理“一个 JD 有多个好 CV”的情况，但需要额外人工标注。10 个 JD × 20–30 份，大约 200–300 次判断，工作量可控。</p>
+<h2>建议的最终评估口径</h2>
+<ul>
+<li><strong>主指标</strong>：10 折 leave-one-pair-out 的 <strong>Recall@10</strong></li>
+<li><strong>辅助</strong>：Recall@5、MRR@10、平均排名</li>
+<li><strong>上界</strong>：全部 10 组训练 + 同批评估的 in-sample Recall</li>
+<li><strong>可选</strong>：pooled 人工判断后的 Recall@10</li>
+<li><strong>基线</strong>：TF-IDF、BM25、Nomic embedding、关键词重叠</li>
+<li><strong>对照</strong>：AE 重构 only vs AE + supervised contrastive</li>
+</ul>
+<p>这样既回答了“关键词检索准不准”，也不会因为只有 10 组标签而把 Recall 算得虚高。</p>
+</section><section class='msg user'><div class='role'>用户 / User · 208</div><p>我决定进行如下安排
+一：对Manatal Examples – JD &amp; CV (anonymised)，我认为应当完全不管。这是因为提取关键词的这一步操作，应当由本地模型LLM来提取（目前的任务已经提到过使用本地LLM，在这种情况下LLM本身是不需要训练的）。因此，只需要告诉LLM该工作背景（也就是分别提取两者的关键词），要求LLM输出对应的关键词合集，也就是JD每个职位描述的关键词分别是谁（JD来源于JD + Hired CV examples里的10个标准JD）、以及CV每份简历的关键词（包括100份匿名CV以及JD + Hired CV examples里的10份标准CV）分别是什么，
+二：合并/聚类相似的关键词，以及构建自编码器模型对CV和JD进行编码，可以由非本地LLM模型的程序来操作
+三：检索，同上，可以不需要LLM来操作。
+其他部分同上</p>
+</section><section class='msg assistant'><div class='role'>助手 / Assistant · 209</div><p>明白，最终口径确定：</p>
+<ul>
+<li><strong>Excel 完全不用</strong></li>
+<li>本地 LLM 只做<strong>关键词抽取</strong>，不训练</li>
+<li>抽取对象：<ul>
+<li><strong>10 份标准 JD</strong>（来自 <code>JD + Hired CV examples</code> 前半）</li>
+<li><strong>110 份 CV</strong>（100 份匿名 CV + 10 份标准 hired CV）</li>
+</ul>
+</li>
+<li>关键词合并/聚类、AE 编码、检索、Recall 评估全部用非 LLM 程序完成</li>
+<li>10 组 GT 仍参与训练，主评估用 leave-one-pair-out</li>
+</ul>
+<p>我现在开始在 <code>HW4_6207</code> 执行 Phase 0：建目录、复制数据、解析 10 份 JD+CV PDF、检查 LM Studio。</p>
+</section><section class='msg assistant'><div class='role'>助手 / Assistant · 372</div><p>已完成，所有工作文件都在 <code>HW4_6207/</code> 下。</p>
+<h2>最终数据与模型</h2>
+<ul>
+<li><strong>10 份标准 JD</strong> + <strong>10 份 hired CV</strong>：来自 <code>JD + Hired CV examples</code>，每份 PDF 前半是 JD，后半是 <code>CV OF THE HIRED CANDIDATE</code></li>
+<li><strong>100 份匿名 CV</strong>：来自 <code>Anonymised-CVs-100</code></li>
+<li>候选池：<strong>110 份 CV</strong></li>
+<li>Excel 完全未使用</li>
+<li>关键词抽取：本地 LM Studio，<strong>Qwen2.5-Coder-14B-Instruct</strong></li>
+<li>120 份文档，平均 <strong>24.5 个关键词/份</strong>（范围 12–46）</li>
+<li>关键词聚类：Nomic embedding + 层次聚类，<strong>1,552 个 canonical terms</strong>（来自 1,938 个归一化变体）</li>
+<li>AE：<code>V → 512 → 256 → 32 → 256 → 512 → V</code>，32 维 bottleneck</li>
+<li>主评估：<strong>leave-one-pair-out（10 折）</strong></li>
+</ul>
+<h2>主要结果</h2>
+<table>
+<thead>
+<tr>
+  <th>方法</th>
+  <th style="text-align:right">Recall@10</th>
+  <th style="text-align:right">Recall@5</th>
+  <th style="text-align:right">MRR@10</th>
+  <th style="text-align:right">平均排名</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>TF-IDF cosine</td>
+  <td style="text-align:right">0.800</td>
+  <td style="text-align:right">0.600</td>
+  <td style="text-align:right">0.440</td>
+  <td style="text-align:right">10.6</td>
+</tr>
+<tr>
+  <td>Keyword overlap</td>
+  <td style="text-align:right">0.700</td>
+  <td style="text-align:right">0.500</td>
+  <td style="text-align:right">0.472</td>
+  <td style="text-align:right">12.0</td>
+</tr>
+<tr>
+  <td>BM25</td>
+  <td style="text-align:right">0.800</td>
+  <td style="text-align:right">0.700</td>
+  <td style="text-align:right">0.471</td>
+  <td style="text-align:right">10.0</td>
+</tr>
+<tr>
+  <td>AE + supervised（in-sample）</td>
+  <td style="text-align:right">1.000</td>
+  <td style="text-align:right">1.000</td>
+  <td style="text-align:right">1.000</td>
+  <td style="text-align:right">1.0</td>
+</tr>
+<tr>
+  <td><strong>AE + supervised（LOPO，主指标）</strong></td>
+  <td style="text-align:right"><strong>0.800</strong></td>
+  <td style="text-align:right">0.400</td>
+  <td style="text-align:right">0.320</td>
+  <td style="text-align:right">9.3</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Bottleneck 消融（LOPO Recall@10）</strong>：16 → 0.200，32 → 0.800，64 → 0.600。</p>
+<h2>错误分析要点</h2>
+<ul>
+<li><strong>LOPO 8/10 命中</strong>；P04 排 13、P06 排 36。</li>
+<li>P04 是“差一点”：positive CV 缺 <code>Azure Synapse</code>、<code>PySpark</code>、<code>Azure Data Engineer Associate</code> 等 JD 关键词。</li>
+<li>P06 是口径问题：JD 是 Deployment Strategist（项目/客户/交付），hired CV 是 Data Science 背景，关键词几乎零重合。</li>
+<li>其他命中但排名靠后：P02 第 9、P07 第 9、P09 第 10；AE 能把正确 CV 拉进 Top-10，但 top-1 常被领域不相关的 CV 占据。</li>
+<li>同义词未完全合并仍是主要误差源：<code>flavour/flavor</code>、<code>key account management/client relationship management</code>、<code>B2B sales/international sales</code>。</li>
+<li><strong>in-sample 1.00 vs LOPO 0.80</strong>：说明 10 组 GT 很容易被记住；报告以 LOPO 为准。</li>
+</ul>
+<h2>关键文件</h2>
+<ul>
+<li>中英双语报告：<code>HW4_6207/report/HW4_6207_Report_CN_EN.pdf</code>（7 页，已打开预览）</li>
+<li>报告 HTML：<code>HW4_6207/report/report_cn_en.html</code></li>
+<li>指标：<code>HW4_6207/outputs/metrics/metrics.json</code></li>
+<li>每 query 结果：<code>HW4_6207/outputs/retrieval/per_query.csv</code></li>
+<li>错误分析：<code>HW4_6207/outputs/metrics/error_analysis.md</code></li>
+<li>关键词：<code>HW4_6207/outputs/keywords/all_keywords.jsonl</code></li>
+<li>聚类/词表：<code>HW4_6207/outputs/clusters/</code></li>
+<li>AE 模型与向量：<code>HW4_6207/outputs/models/</code></li>
+<li>复现说明：<code>HW4_6207/README.md</code></li>
+</ul>
+<p>运行 <code>python src/train_eval.py --mode all --epochs 100 --bottleneck 32</code> 可复现实验；随机种子固定为 42。</p>
+<p>如果老师要求，我还可以继续加一版 <strong>AE + BM25 hybrid</strong> 实验，或者把报告改成学校模板/加组名。</p>
+</section><section class='msg user'><div class='role'>用户 / User · 373</div><p>我有一个问题：你现在是已经完成任务了吧？但是我想知道，这个任务该如何”启动“</p>
+<p>我的意思是，就像许多exe启动程序一样，这个”进行匹配CV与JD“主程序也是有一个”从头开始启动，执行整个步骤“的启动方式吧？我想了解一下到底是怎么运作的</p>
+</section><section class='msg assistant'><div class='role'>助手 / Assistant · 382</div><p>可以这样理解：<strong>它不是一个编译好的 <code>.exe</code>，而是一条 Python 流水线 + 两个 <code>.bat</code> 启动器</strong>。启动器负责“从头跑”，<code>run_pipeline.py</code> 负责按顺序调用各个步骤。</p>
+<h2>两种启动方式</h2>
+<h3>1. 快速启动（用已有结果，几秒钟）</h3>
+<p>双击：</p>
+<pre><code class="language-text">HW4_6207\start.bat
+</code></pre>
+<p>或者命令行：</p>
+<pre><code class="language-powershell">cd D:\softs_usual\opencode_windows\stat6207_final_groupproject\HW4_6207
+python run_pipeline.py
+</code></pre>
+<p>它做的是：</p>
+<pre><code class="language-text">检查已有文件
+  → 重新做错误分析
+  → 重新生成中英双语 PDF 报告
+</code></pre>
+<p>不会重新调用 LLM，也不会重新训练 AE；适合演示、改报告文字、重新出 PDF。</p>
+<h3>2. 从头完整启动（从原始 PDF 开始，20–40 分钟）</h3>
+<p>双击：</p>
+<pre><code class="language-text">HW4_6207\start_full.bat
+</code></pre>
+<p>或者：</p>
+<pre><code class="language-powershell">cd D:\softs_usual\opencode_windows\stat6207_final_groupproject\HW4_6207
+python run_pipeline.py --full
+</code></pre>
+<p><code>start_full.bat</code> 会先：</p>
+<ol>
+<li><code>lms server start</code></li>
+<li>加载 <code>qwen2.5-coder-14b-instruct</code></li>
+<li>加载 <code>nomic-embed</code></li>
+<li>执行 <code>python run_pipeline.py --full</code></li>
+</ol>
+<p>完整流程如下：</p>
+<pre><code class="language-text">start_full.bat
+  │
+  ├─ 1. parse_data.py
+  │     10 份 JD+CV PDF → JD/CV 文本
+  │     100 份匿名 CV PDF → 文本
+  │     输出 data/processed/*.jsonl
+  │
+  ├─ 2. extract_keywords.py
+  │     调用本地 Qwen2.5-Coder-14B
+  │     对 120 份文档逐份抽取关键词
+  │     输出 outputs/keywords/all_keywords.jsonl
+  │
+  ├─ 3. cluster_keywords.py
+  │     关键词归一化 + Nomic embedding + 层次聚类
+  │     输出 outputs/clusters/vocab.json / doc_term_tfidf.npy
+  │
+  ├─ 4. train_eval.py --mode all
+  │     TF-IDF / BM25 / 关键词重叠基线
+  │     AE 训练 + supervised listwise loss
+  │     leave-one-pair-out 10 折评估
+  │     输出 outputs/metrics/metrics.json / per_query.csv
+  │
+  ├─ 5. error_analysis.py
+  │     找出 miss、排名、缺失关键词
+  │     输出 outputs/metrics/error_analysis.md
+  │
+  └─ 6. make_report.py
+        HTML → Edge 打印 → PDF
+        输出 report/HW4_6207_Report_CN_EN.pdf
+</code></pre>
+<h2>匹配本身是怎么运作的</h2>
+<p>真正的“匹配”在第 4 步：</p>
+<pre><code class="language-text">JD 文本
+  → LLM 抽关键词
+  → 映射到 canonical keyword 词表
+  → TF-IDF 向量
+  → AE encoder
+  → 32 维向量
+        ↕ cosine similarity
+CV 文本
+  → LLM 抽关键词
+  → 映射到同一词表
+  → TF-IDF 向量
+  → AE encoder
+  → 32 维向量
+  → 排序取 Top-10
+</code></pre>
+<p>评估时对 10 个 GT JD 各检索一次，看实际 hired CV 是否在 Top-10：</p>
+<pre><code class="language-text">Recall@10 = 命中数 / 10
+</code></pre>
+<p>主评估用 <strong>leave-one-pair-out</strong>：每次留 1 组 JD–CV 不参与训练，用其余 9 组 + 100 份匿名 CV 训练，再检索留出的 JD。这样 10 组 GT 都进入过训练，但评估不是同一批自评。</p>
+<h2>当前结果</h2>
+<ul>
+<li>LOPO Recall@10：<strong>0.800</strong></li>
+<li>in-sample 上界：<strong>1.000</strong></li>
+<li>TF-IDF / BM25：<strong>0.800</strong></li>
+<li>AE 的 MRR@10：0.320，低于 TF-IDF 的 0.440</li>
+<li>Bottleneck 16/32/64：<strong>0.200 / 0.800 / 0.600</strong></li>
+</ul>
+<h2>一个重要说明</h2>
+<p>目前的“主程序”是<strong>批量实验流水线</strong>：它针对 10 个 Ground Truth JD 跑完整评估并生成报告。</p>
+<p>如果你想要的是“输入一份<strong>新的 JD</strong>，马上输出 Top-10 CV”的交互式匹配器，那还需要再加一个 <code>match_one.py</code>：加载已训练好的 AE 和 CV 向量，对新 JD 抽关键词、编码、排序。这个我可以下一步补上。</p>
+<p>当前关键文件：</p>
+<ul>
+<li>启动器：<code>HW4_6207/start.bat</code>、<code>HW4_6207/start_full.bat</code></li>
+<li>主程序：<code>HW4_6207/run_pipeline.py</code></li>
+<li>报告：<code>HW4_6207/report/HW4_6207_Report_CN_EN.pdf</code></li>
+<li>指标：<code>HW4_6207/outputs/metrics/metrics.json</code></li>
+<li>说明：<code>HW4_6207/README.md</code></li>
+</ul>
+</section><section class='msg user'><div class='role'>用户 / User · 383</div><p>所以，所谓的完整启动，就是full.bat吧，会进行从头到尾的“加载LLM”+合并关键词+构建自编码器模型+排名检索+评估召回率？</p>
+<p>而且我注意到作业里有一条“针对基准数据（Ground Truth）中的每个职位描述，检索出排名前 10 的简历”，应该指的就是“JD + Hired CV examples里的每个JD，都要为之检索出最相近的排名前十的CV”是吗？你检查一下你的实验有没有做到这样</p>
+</section><section class='msg assistant'><div class='role'>助手 / Assistant · 391</div><p>是的，你的理解基本正确，但有两个关键点需要区分：</p>
+<h2>1. <code>start_full.bat</code> 确实是“从头到尾”完整启动</h2>
+<p>它执行的是：</p>
+<pre><code class="language-text">start_full.bat
+  → 启动 LM Studio server
+  → 加载 qwen2.5-coder-14b-instruct
+  → 加载 nomic-embed
+  → python run_pipeline.py --full
+       → 解析 10 份 JD+CV PDF 和 100 份匿名 CV PDF
+       → 本地 LLM 抽取 120 份文档的关键词
+       → 关键词归一化 + 聚类
+       → 构建 AE 并训练
+       → 对每个 GT JD 检索 Top-10 CV
+       → 计算 Recall@10 / Recall@5 / MRR
+       → 错误分析
+       → 生成中英双语 PDF 报告
+</code></pre>
+<p>注意：<strong>LLM 只是被加载和调用，不训练 LLM；训练的是 AE</strong>。<br />
+<code>start.bat</code> 是快速模式，不重新调用 LLM、不重新训练，只复用已有结果并重新生成报告。</p>
+<h2>2. “每个 JD 检索 Top-10”确实做到了</h2>
+<p>我检查了 <code>outputs/retrieval/per_query.csv</code>，LOPO 结果正好是 <strong>10 个 JD × 每个 10 份 CV</strong>，每行 10 个 CV ID 且无重复。</p>
+<table>
+<thead>
+<tr>
+  <th>JD</th>
+  <th style="text-align:right">hired CV 排名</th>
+  <th>是否进 Top-10</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>P01</td>
+  <td style="text-align:right">2</td>
+  <td>✓</td>
+</tr>
+<tr>
+  <td>P02</td>
+  <td style="text-align:right">9</td>
+  <td>✓</td>
+</tr>
+<tr>
+  <td>P03</td>
+  <td style="text-align:right">1</td>
+  <td>✓</td>
+</tr>
+<tr>
+  <td>P04</td>
+  <td style="text-align:right">13</td>
+  <td>✗</td>
+</tr>
+<tr>
+  <td>P05</td>
+  <td style="text-align:right">8</td>
+  <td>✓</td>
+</tr>
+<tr>
+  <td>P06</td>
+  <td style="text-align:right">36</td>
+  <td>✗</td>
+</tr>
+<tr>
+  <td>P07</td>
+  <td style="text-align:right">9</td>
+  <td>✓</td>
+</tr>
+<tr>
+  <td>P08</td>
+  <td style="text-align:right">4</td>
+  <td>✓</td>
+</tr>
+<tr>
+  <td>P09</td>
+  <td style="text-align:right">10</td>
+  <td>✓</td>
+</tr>
+<tr>
+  <td>P10</td>
+  <td style="text-align:right">1</td>
+  <td>✓</td>
+</tr>
+</tbody>
+</table>
+<p>所以：</p>
+<pre><code class="language-text">Recall@10 = 8 / 10 = 0.800
+</code></pre>
+<ul>
+<li><strong>P04、P06 不是没有检索 Top-10</strong>，而是它们的 hired CV 排在 13 和 36，没进前 10。</li>
+<li>其他 8 个 JD 的 hired CV 都进了 Top-10。</li>
+<li>候选池是 <strong>110 份 CV</strong>（100 匿名 + 10 hired），每个 JD 都在这 110 份里排序取前 10。</li>
+</ul>
+<h2>3. 报告里已经补上完整明细</h2>
+<p>原来的报告表格只显示了每个 JD 的 Top-1，容易让人以为只做了一层排序。我已新增 <strong>附录 C</strong>，列出每个 JD 实际返回的完整 Top-10：</p>
+<p><code>HW4_6207/report/HW4_6207_Report_CN_EN.pdf</code></p>
+<p>现在报告是 8 页，附录 C 的表格就是：</p>
+<pre><code class="language-text">Pair | JD | Hired CV rank | Top-10 CVs (1 → 10)
+</code></pre>
+<p>例如 P01：</p>
+<pre><code class="language-text">1. CV-082
+2. HIRED_P01 ✓
+3. CV-044
+...
+10. CV-015
+</code></pre>
+<p>P04 和 P06 的表格里没有 ✓，因为它们对应的 hired CV 排名 &gt; 10；但 Top-10 列表本身是完整返回的。</p>
+<h2>4. 结论</h2>
+<ul>
+<li><code>start_full.bat</code>：完整从零启动，包含加载 LLM、关键词抽取、聚类、AE 训练、Top-10 检索、Recall 评估、报告生成。</li>
+<li>实验确实对 <code>JD + Hired CV examples</code> 中 <strong>全部 10 个 JD</strong> 都做了 Top-10 检索。</li>
+<li>主评估是 leave-one-pair-out；每个 JD 的 known positive 只有 1 份 hired CV，所以 Recall@10 就是“hired CV 是否进 Top-10”的命中率。</li>
+<li>当前结果：<strong>8/10 命中，Recall@10 = 0.800</strong>。</li>
+</ul>
+</section><section class='msg user'><div class='role'>用户 / User · 392</div><p>我还有个问题：JD-P01是什么？实际上每一个“JD”都有一个正式的名称吧，你直接丢给我JD-P01我完全不知道是啥，写进报告里也显得突兀。你应当给予正确的名称</p>
+</section><section class='msg assistant'><div class='role'>助手 / Assistant · 394</div><p>你说得对，<code>JD_P01</code> 只是内部 ID，不应该单独出现在报告里。我会把报告里的所有 JD 都改成正式职位名称，并重新生成。</p>
+</section><section class='msg assistant'><div class='role'>助手 / Assistant · 423</div><p>你说得对，<code>JD_P01</code> 只是我内部用的文档 ID，不是正式职位名称。报告里直接写它会很突兀。现在已经全部改成正式职位名，并重新生成了报告。</p>
+<h2>10 个 JD 的正式名称</h2>
+<table>
+<thead>
+<tr>
+  <th>内部 ID</th>
+  <th>正式职位名称</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>P01</td>
+  <td>Regional Finance Controller</td>
+</tr>
+<tr>
+  <td>P02</td>
+  <td>Sales Manager in Indonesia</td>
+</tr>
+<tr>
+  <td>P03</td>
+  <td>GTM Marketing Manager / Lead</td>
+</tr>
+<tr>
+  <td>P04</td>
+  <td>Data Engineer</td>
+</tr>
+<tr>
+  <td>P05</td>
+  <td>Product Manager — WMS &amp; Warehouse Integrations</td>
+</tr>
+<tr>
+  <td>P06</td>
+  <td>Deployment Strategist</td>
+</tr>
+<tr>
+  <td>P07</td>
+  <td>Marketing Manager (HK &amp; SG)</td>
+</tr>
+<tr>
+  <td>P08</td>
+  <td>Field Service Engineer (FSE)</td>
+</tr>
+<tr>
+  <td>P09</td>
+  <td>Tech Lead</td>
+</tr>
+<tr>
+  <td>P10</td>
+  <td>Regional Lead Designer UI/UX</td>
+</tr>
+</tbody>
+</table>
+<h2>报告已改的地方</h2>
+<ul>
+<li>结果表：从 <code>JD_P01</code> 改成 <strong>P01 + Regional Finance Controller</strong></li>
+<li>错误分析表：改成 <strong>P04 + Data Engineer</strong>、<strong>P06 + Deployment Strategist</strong></li>
+<li>附录 C 的完整 Top-10 表：每个 JD 都显示正式职位名</li>
+<li><code>outputs/retrieval/per_query.csv</code> 新增 <code>role_title</code> 列</li>
+<li><code>outputs/metrics/error_analysis.md</code> 的标题也改成正式名称</li>
+<li>报告正文里的 P02/P07/P08/P09 也都补上了职位名</li>
+</ul>
+<p>现在报告里已经搜不到 <code>JD_P01</code> 这类内部 ID，只保留 <code>P01</code> 作为序号，正式名称紧随其后。</p>
+<h2>顺便再确认你问的 Top-10</h2>
+<p>确实是对 <code>JD + Hired CV examples</code> 里的<strong>每一个 JD</strong> 都检索了 Top-10，共 10 个 JD × 10 份 CV：</p>
+<table>
+<thead>
+<tr>
+  <th>JD</th>
+  <th>正式名称</th>
+  <th style="text-align:right">hired CV 排名</th>
+  <th>是否进 Top-10</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>P01</td>
+  <td>Regional Finance Controller</td>
+  <td style="text-align:right">2</td>
+  <td>✓</td>
+</tr>
+<tr>
+  <td>P02</td>
+  <td>Sales Manager in Indonesia</td>
+  <td style="text-align:right">9</td>
+  <td>✓</td>
+</tr>
+<tr>
+  <td>P03</td>
+  <td>GTM Marketing Manager / Lead</td>
+  <td style="text-align:right">1</td>
+  <td>✓</td>
+</tr>
+<tr>
+  <td>P04</td>
+  <td>Data Engineer</td>
+  <td style="text-align:right">13</td>
+  <td>✗</td>
+</tr>
+<tr>
+  <td>P05</td>
+  <td>Product Manager — WMS &amp; Warehouse Integrations</td>
+  <td style="text-align:right">8</td>
+  <td>✓</td>
+</tr>
+<tr>
+  <td>P06</td>
+  <td>Deployment Strategist</td>
+  <td style="text-align:right">36</td>
+  <td>✗</td>
+</tr>
+<tr>
+  <td>P07</td>
+  <td>Marketing Manager (HK &amp; SG)</td>
+  <td style="text-align:right">9</td>
+  <td>✓</td>
+</tr>
+<tr>
+  <td>P08</td>
+  <td>Field Service Engineer (FSE)</td>
+  <td style="text-align:right">4</td>
+  <td>✓</td>
+</tr>
+<tr>
+  <td>P09</td>
+  <td>Tech Lead</td>
+  <td style="text-align:right">10</td>
+  <td>✓</td>
+</tr>
+<tr>
+  <td>P10</td>
+  <td>Regional Lead Designer UI/UX</td>
+  <td style="text-align:right">1</td>
+  <td>✓</td>
+</tr>
+</tbody>
+</table>
+<p><code>P04</code> 和 <code>P06</code> 不是没有返回 Top-10，而是它们的 hired CV 排名 13 和 36，没进前 10，所以算 miss。<br />
+最终 <strong>Recall@10 = 8/10 = 0.800</strong>。</p>
+<p>更新后的报告：</p>
+<p><code>HW4_6207/report/HW4_6207_Report_CN_EN.pdf</code></p>
+<p>现在 8 页，附录 C 可以看到每个 JD 实际返回的完整 Top-10 列表。如果你希望连 <code>P01</code> 这个序号也去掉、只保留职位名称，我也可以再改一版。</p>
+</section><section class='msg user'><div class='role'>用户 / User · 424</div><p>关于报告的生成方式：我认为应当中文英文各一份也就是共两份报告，而不是中英文混搭为同一份报告
+此外，我好奇你是如何生成报告的？光凭本地模型是不可能做到的吧</p>
+</section><section class='msg assistant'><div class='role'>助手 / Assistant · 425</div><p>明白，两个要求：</p>
+<ol>
+<li><strong>报告拆成中文、英文各一份</strong>，不再中英混排。</li>
+<li>我会说明报告到底是怎么生成的——<strong>不是本地模型写报告</strong>，本地模型只负责关键词抽取。</li>
+</ol>
+<p>我先把报告生成器改成双份输出，再解释技术链路。</p>
+</section><section class='msg assistant'><div class='role'>助手 / Assistant · 444</div><p>已经改成<strong>中文、英文各一份</strong>，不再中英混排。两份都是 7 页：</p>
+<ul>
+<li>中文报告：<code>HW4_6207/report/HW4_6207_Report_CN.pdf</code></li>
+<li>英文报告：<code>HW4_6207/report/HW4_6207_Report_EN.pdf</code></li>
+</ul>
+<p>旧的合并版 <code>HW4_6207_Report_CN_EN.pdf</code> 已删除。<code>start.bat</code> 和 <code>start_full.bat</code> 现在都会同时生成这两份。</p>
+<h2>报告到底是怎么生成的</h2>
+<p>你的直觉是对的：<strong>光靠本地 LLM 不可能生成这种带表格、图表、排版的 PDF</strong>。本地 LLM 在这个项目里只做一件事：<strong>从 JD/CV 文本中抽取关键词</strong>。</p>
+<p>报告的生成链路是：</p>
+<pre><code class="language-text">本地 LLM（Qwen2.5-Coder-14B）
+  → 关键词 JSONL
+  → Python 聚类 / AE / 检索 / 评估
+  → metrics.json + per_query.csv + error_analysis.json + keyword_clusters.json
+  → Python 报告模板（中文一份、英文一份）
+  → matplotlib 生成图表
+  → HTML + CSS
+  → Microsoft Edge headless --print-to-pdf
+  → 中文 PDF / 英文 PDF
+</code></pre>
+<p>具体来说：</p>
+<ol>
+<li><p><strong>本地 LLM 不写报告</strong></p>
+<ul>
+<li>只负责 <code>extract_keywords.py</code> 里的关键词抽取。</li>
+<li>报告正文不是模型生成的，而是 <code>src/make_report.py</code> 里预先写好的中文/英文模板。</li>
+</ul>
+</li>
+<li><p><strong>数据由程序计算</strong></p>
+<ul>
+<li>Recall、MRR、平均排名来自 <code>outputs/metrics/metrics.json</code>。</li>
+<li>每个 JD 的 Top-10 来自 <code>outputs/retrieval/per_query.csv</code>。</li>
+<li>错误分析来自 <code>outputs/metrics/error_analysis.json</code>。</li>
+<li>关键词聚类来自 <code>outputs/clusters/keyword_clusters.json</code>。</li>
+</ul>
+</li>
+<li><p><strong>图表由 matplotlib 生成</strong></p>
+<ul>
+<li>中文报告用中文字体（Microsoft YaHei）生成中文图表。</li>
+<li>英文报告单独生成英文图表。</li>
+</ul>
+</li>
+<li><p><strong>PDF 由浏览器打印</strong></p>
+<ul>
+<li>报告先写成 HTML/CSS。</li>
+<li>再用 <strong>Microsoft Edge headless</strong> 的 <code>--print-to-pdf</code> 转成 A4 PDF。</li>
+<li>这也是为什么排版、表格、分页、图注能做得比较整齐，而不是模型直接“写”出来的。</li>
+</ul>
+</li>
+</ol>
+<p>所以整条链路是：</p>
+<blockquote>
+<p>本地 LLM 负责“读懂文本、抽关键词”；Python 负责“计算、画图、填模板”；Edge 负责“排版成 PDF”。</p>
+</blockquote>
+<h2>中文版和英文版的区别</h2>
+<ul>
+<li>中文版正文全部中文，只保留 <code>LLM</code>、<code>Recall@10</code>、<code>AE</code> 这类技术术语，以及官方英文职位名。</li>
+<li>英文版全部英文。</li>
+<li>两份报告的表格、图、指标、Top-10 明细完全一致，只是语言不同。</li>
+<li>每个 JD 都显示正式职位名，例如：<ul>
+<li>P04 → Data Engineer</li>
+<li>P06 → Deployment Strategist</li>
+<li>P10 → Regional Lead Designer UI/UX</li>
+</ul>
+</li>
+</ul>
+<h2>启动方式</h2>
+<ul>
+<li><p>快速生成两份报告（复用已有结果）：</p>
+<pre><code class="language-text">HW4_6207\start.bat
+</code></pre>
+</li>
+<li><p>从头完整运行（加载 LLM、抽关键词、聚类、训练 AE、检索、评估、生成两份报告）：</p>
+<pre><code class="language-text">HW4_6207\start_full.bat
+</code></pre>
+</li>
+<li><p>直接命令行：</p>
+<pre><code class="language-powershell">python run_pipeline.py
+python run_pipeline.py --full
+</code></pre>
+</li>
+</ul>
+<p><code>run_pipeline.py</code> 最后的输出会分别指向：</p>
+<pre><code class="language-text">report (zh): HW4_6207\report\HW4_6207_Report_CN.pdf
+report (en): HW4_6207\report\HW4_6207_Report_EN.pdf
+</code></pre>
+</section><section class='msg user'><div class='role'>用户 / User · 445</div><p>我想知道一下，也就是生成报告不需要连接像你这样的大模型？因为你已经编排好了格式，所以后续生成报告只是在已有内容上修改数据内容吗？</p>
+</section><section class='msg assistant'><div class='role'>助手 / Assistant · 446</div><p>对，<strong>生成报告阶段完全不需要连接任何大模型</strong>，也不需要调用我。整个报告生成是本地、确定性、离线的。</p>
+<p>但准确说，不是“所有内容都自动改数据”，而是分两类：</p>
+<h2>1. 动态部分：每次从结果文件读取</h2>
+<p>这些会随实验数据自动更新：</p>
+<ul>
+<li>指标表：Recall@10、Recall@5、MRR、平均排名、95% CI</li>
+<li>每个 JD 的 Top-10 表</li>
+<li>错误分析表</li>
+<li>Bottleneck 消融表</li>
+<li>三张图（Recall 柱状图、LOPO 排名图、关键词聚类图）</li>
+<li>“主要结果”框里的数字</li>
+</ul>
+<p>数据来源：</p>
+<pre><code class="language-text">outputs/metrics/metrics.json
+outputs/retrieval/per_query.csv
+outputs/metrics/error_analysis.json
+outputs/clusters/keyword_clusters.json
+</code></pre>
+<h2>2. 静态部分：文字分析已经写好</h2>
+<p>报告里的分析段落、改进建议、局限说明，是提前写在 <code>src/make_report.py</code> 里的中文/英文模板，例如：</p>
+<ul>
+<li>“AE 与基线打平 Recall，但 MRR 更低”</li>
+<li>“P04 是 near miss，P06 关键词几乎零重合”</li>
+<li>“建议加入 must-have 加权和 hybrid 检索”</li>
+</ul>
+<p>这些<strong>不会</strong>在每次运行时由模型重新生成。</p>
+<p>其中有些句子里的数字目前是写死的，比如“0.80”“0.32”“P04 rank 13”。如果以后换数据或模型，表格和图会自动变，但这些叙述句可能仍然是旧数字，需要同步改模板，否则会出现“表里是 0.9、文字还写 0.8”的不一致。</p>
+<h2>报告生成的真实链路</h2>
+<pre><code class="language-text">metrics.json / per_query.csv / error_analysis.json / keyword_clusters.json
+        ↓
+make_report.py 里的中文模板 + 英文模板
+        ↓
+matplotlib 画图（中文图 / 英文图）
+        ↓
+HTML + CSS
+        ↓
+Microsoft Edge headless --print-to-pdf
+        ↓
+HW4_6207_Report_CN.pdf
+HW4_6207_Report_EN.pdf
+</code></pre>
+<p>全程只用到：</p>
+<ul>
+<li>Python</li>
+<li>matplotlib</li>
+<li>HTML/CSS</li>
+<li>本地 Edge 浏览器</li>
+</ul>
+<p>不需要 LM Studio，不需要 Qwen，不需要云端 API，也不需要我。</p>
+<h2>和 <code>start.bat</code> / <code>start_full.bat</code> 的关系</h2>
+<ul>
+<li><code>start.bat</code> 快速模式：<strong>完全不调用 LLM</strong>，只做错误分析 + 重新生成两份 PDF。</li>
+<li><code>start_full.bat</code> 完整模式：本地 Qwen 只负责<strong>关键词抽取</strong>；后面的聚类、AE、检索、报告仍然由 Python 完成。</li>
+</ul>
+<p>所以你说的“格式已经编排好，后续只是填数据”大体正确，但更准确的说法是：</p>
+<blockquote>
+<p><strong>表格、图、关键指标是自动填数据；分析文字是固定模板，部分数字需要人工同步。</strong></p>
+</blockquote>
+<p>如果你希望，我可以再改一版，把分析段落也做成<strong>完全参数化</strong>的：所有数字都从 <code>metrics.json</code> 读取，根据命中/未命中自动选择句子，这样换数据后报告文字也不会和数字脱节。</p>
+</section><section class='msg user'><div class='role'>用户 / User · 447</div><p>不必了。总之我只需要知道，我点击start_full.bat就能进行完整模式吧。</p>
+<p>还有一个问题：D:\softs_usual\opencode_windows\stat6207_final_groupproject\HW4_6207\data\raw是不是原始数据文件夹？</p>
+<p>咋说呢，我现在的思路转变了，变为“写成一个可用软件“，具体来说就是让老师或者我自己拿到后就能马上用。
+所以，我是否可以理解为，raw文件夹下的cvs100，是原始的CV文件夹（本地LLM将从这里读取与CV有关的信息并提取关键词）；而jd_cv_pairs，是原始的JD文件夹（本地LLM将从这里读取与JD有关的信息并提取关键词）？
+只要使用者分别往两个文件夹，丢入任意的CV和JD，然后跑一遍主程序，就能产出一份”检索列表“？现在能实现这样的效果吗？如果不能，你打算如何改进优化</p>
+</section><section class='msg assistant'><div class='role'>助手 / Assistant · 448</div><p>先回答你的两个判断：</p>
+<h2>1. 点击 <code>start_full.bat</code> 能跑完整模式吗？</h2>
+<p><strong>能，但它跑的是“当前 benchmark 数据”的完整流程，不是通用匹配软件。</strong></p>
+<p><code>start_full.bat</code> 会：</p>
+<pre><code class="language-text">启动 LM Studio
+→ 加载 Qwen + Nomic
+→ 解析 data/raw 下的 PDF
+→ LLM 抽关键词
+→ 关键词聚类
+→ 训练 AE
+→ 对 10 个 GT JD 检索 Top-10
+→ 计算 Recall
+→ 生成中文/英文报告
+</code></pre>
+<p>如果换一台机器，前提是：Python 依赖、LM Studio、两个本地模型、Edge 都已安装。它不是打包好的 <code>.exe</code>。</p>
+<h2>2. <code>data/raw</code> 是原始数据文件夹吗？</h2>
+<p>是。但两个子文件夹的性质不同：</p>
+<pre><code class="language-text">data/raw/
+├─ cvs_100/          # 100 份纯 CV PDF
+└─ jd_cv_pairs/      # 10 份“JD + hired CV”合体 PDF
+</code></pre>
+<ul>
+<li><strong><code>cvs_100</code></strong>：纯简历 PDF。LLM 从这里读取 CV 内容并抽关键词。</li>
+<li><strong><code>jd_cv_pairs</code></strong>：<strong>不是纯 JD 文件夹</strong>。每份 PDF 前半是 JD，后半是 <code>CV OF THE HIRED CANDIDATE</code>。<code>parse_data.py</code> 会在 <code>CV OF THE HIRED CANDIDATE</code> 处切分：<ul>
+<li>前半 → JD</li>
+<li>后半 → hired CV（作为该 JD 的 known positive）</li>
+</ul>
+</li>
+</ul>
+<p>所以它同时承担了“JD 来源”和“Ground Truth 正例来源”两个角色。</p>
+<hr />
+<h2>3. 任意丢 CV/JD 进去，就能出检索列表吗？</h2>
+<p><strong>目前还不能完全做到。</strong> 现在的程序是“实验/评测流水线”，不是通用匹配工具。具体限制：</p>
+<h3>能做的</h3>
+<ul>
+<li>往 <code>cvs_100</code> 里放任意 CV PDF，<code>parse_cvs()</code> 会逐个读取，用文件名当 <code>doc_id</code>。</li>
+<li>往 <code>jd_cv_pairs</code> 里放 <strong>同样结构的“JD + hired CV”PDF</strong>，可以重新抽关键词、重新训练、重新评估。</li>
+</ul>
+<h3>不能直接做的</h3>
+<ol>
+<li><p><strong>纯 JD PDF 丢进 <code>jd_cv_pairs</code> 会报错</strong></p>
+<ul>
+<li><code>parse_data.py</code> 要求每份 PDF 里出现 <code>CV OF THE HIRED CANDIDATE</code>。</li>
+<li>如果只是普通 JD，没有这个标记，会直接 <code>ValueError: Marker not found</code>。</li>
+</ul>
+</li>
+<li><p><strong>Ground Truth 是固定文件</strong></p>
+<ul>
+<li><code>train_eval.py</code> 读 <code>data/processed/ground_truth.json</code>，里面固定是 10 组 <code>(jd_id, cv_id)</code>。</li>
+<li>如果你换成别的 JD/CV，这个文件不会自动更新，评估会失败或算错。</li>
+</ul>
+</li>
+<li><p><strong>没有“输入一份新 JD → 输出 Top-10”的查询模式</strong></p>
+<ul>
+<li>现在是对固定的 10 个 GT JD 批量评测。</li>
+<li>没有 <code>match.py --jd xxx.pdf</code> 这种单条查询入口。</li>
+</ul>
+</li>
+<li><p><strong>报告是评测报告</strong></p>
+<ul>
+<li>现在的报告包含 Recall、LOPO、错误分析。</li>
+<li>如果没有 Ground Truth，就没有 Recall 可算，报告结构也不适用。</li>
+</ul>
+</li>
+</ol>
+<hr />
+<h2>4. 要变成“可用软件”，我打算这样改</h2>
+<p>目标使用方式：</p>
+<pre><code class="language-text">HW4_6207/
+├─ data/input/
+│  ├─ cvs/           # 任意 CV PDF / TXT / DOCX
+│  └─ jds/           # 任意 JD PDF / TXT / DOCX
+├─ data/ground_truth/
+│  └─ ground_truth.csv   # 可选；没有就跳过评估
+├─ index/            # 构建好的词表、聚类、AE、CV 向量
+├─ outputs/
+│  ├─ rankings.csv   # 每个 JD 的 Top-10 CV
+│  └─ rankings.md
+├─ report/
+│  ├─ report_CN.pdf
+│  └─ report_EN.pdf
+├─ start_full.bat    # 建索引 + 全量匹配 + 报告
+└─ match_one.bat     # 拖入一份 JD，直接出 Top-10
+</code></pre>
+<p>改造分四步：</p>
+<h3>第一步：拆分“输入”和“评测”</h3>
+<ul>
+<li>新增 <code>data/input/jds/</code>：<strong>纯 JD</strong>，不再要求包含 hired CV。</li>
+<li>新增 <code>data/input/cvs/</code>：任意 CV。</li>
+<li>保留 <code>data/raw/jd_cv_pairs/</code> 作为旧 benchmark 数据，不再作为通用输入。</li>
+<li><code>parse_data.py</code> 改成：<ul>
+<li>普通 JD → 直接解析为 JD</li>
+<li>旧 benchmark PDF → 自动检测 <code>CV OF THE HIRED CANDIDATE</code> 并切分</li>
+<li>文件名 → <code>doc_id</code>，不再依赖 <code>P01</code> 命名</li>
+</ul>
+</li>
+</ul>
+<h3>第二步：把“建索引”和“查询”分开</h3>
+<p>新增：</p>
+<ul>
+<li><p><code>build_index.py</code></p>
+<ul>
+<li>解析所有 CV/JD</li>
+<li>调用本地 LLM 抽关键词</li>
+<li>聚类、建词表</li>
+<li>训练 AE</li>
+<li>保存 <code>index/</code>（词表、聚类、AE 权重、CV 向量）</li>
+</ul>
+</li>
+<li><p><code>match.py</code></p>
+<ul>
+<li>加载 <code>index/</code></li>
+<li>输入一份 JD（或整个 <code>jds/</code> 文件夹）</li>
+<li>抽关键词 → 映射到已有词表 → AE 编码 → 与所有 CV 向量算 cosine</li>
+<li>输出 Top-10：<code>rankings.csv</code>、<code>rankings.md</code></li>
+</ul>
+</li>
+</ul>
+<p>这样：</p>
+<ul>
+<li><strong>CV 集合变了</strong> → 重新跑 <code>build_index.py</code></li>
+<li><strong>只新增 JD</strong> → 不用重训 AE，直接跑 <code>match.py</code></li>
+</ul>
+<h3>第三步：Ground Truth 变成可选</h3>
+<ul>
+<li>有 <code>ground_truth.csv</code> → 计算 Recall@10、MRR，生成评测报告。</li>
+<li>没有 → 跳过评估，只生成“匹配列表报告”，不虚构 Recall。</li>
+</ul>
+<h3>第四步：启动器</h3>
+<ul>
+<li><code>start_full.bat</code>：建索引 + 全量匹配 + 可选评估 + 中英文报告</li>
+<li><code>match_one.bat</code>：把一份 JD 拖上去，直接输出 Top-10</li>
+<li><code>setup.bat</code>：检查 Python、LM Studio、模型、Edge 是否齐全</li>
+</ul>
+<hr />
+<h2>结论</h2>
+<ul>
+<li><code>start_full.bat</code> 现在是<strong>完整 benchmark 流程</strong>，可以跑通当前 10 组数据。</li>
+<li><code>data/raw/cvs_100</code> 是纯 CV 来源。</li>
+<li><code>data/raw/jd_cv_pairs</code> 是 <strong>JD + hired CV 合体</strong>，不是纯 JD 文件夹。</li>
+<li>“任意丢 CV/JD 进去就出检索列表”<strong>目前还不能</strong>，主要卡在 JD 解析格式、固定 Ground Truth、缺少单 JD 查询模式，以及报告是评测报告。</li>
+<li>改造成本不高，核心是：<strong>输入目录标准化 + 建索引/查询分离 + GT 可选 + 单 JD 匹配入口</strong>。</li>
+</ul>
+<p>如果你要，我下一步就直接按这个结构改：新增 <code>data/input/cvs</code>、<code>data/input/jds</code>、<code>build_index.py</code>、<code>match.py</code>、<code>match_one.bat</code>，并把 <code>start_full.bat</code> 改成通用流程。</p>
+</section><section class='msg user'><div class='role'>用户 / User · 449</div><p>parse_data.py 要求每份 PDF 里出现 CV OF THE HIRED CANDIDATE。
+这个是什么？我不太了解？
+总之我觉得，要知道本地LLM也是LLM，她应该存在”即使输入的文件不具有规范的格式，也能凭借LLM自身的理解自然语言能力来进行提取“。</p>
+</section><section class='msg assistant'><div class='role'>助手 / Assistant · 450</div><p><code>CV OF THE HIRED CANDIDATE</code> 不是通用格式要求，而是这 10 份 benchmark PDF 里的一个<strong>分页标题/分隔标记</strong>。</p>
+<h2>1. 它到底是什么</h2>
+<p>以 <code>P01 - Regional Finance Controller.pdf</code> 为例，PDF 内容结构是：</p>
+<pre><code class="language-text">第 1–3 页：
+P01 · JOB DESCRIPTION · Finance &amp; Legal
+Regional Finance Controller
+Kuala Lumpur, Malaysia · full time · MYR 25,000 / month
+Position Summary...
+Responsibilities...
+Experience...
+Qualifications...
+
+第 4 页开始：
+P01 · CV OF THE HIRED CANDIDATE
+Regional Finance Manager
+Cardia Bioplastics (Malaysia) Sdn Bhd · Malaysia
+Hired for: Regional Finance Controller
+Skills...
+Work experience...
+Education...
+</code></pre>
+<p>所以 <code>CV OF THE HIRED CANDIDATE</code> 的字面意思是：</p>
+<blockquote>
+<p><strong>“这个岗位最终被录用候选人的简历”</strong></p>
+</blockquote>
+<p>它是 Second Talent 在制作 benchmark 时加进去的标注，用来把同一份 PDF 分成两半：</p>
+<pre><code class="language-text">前半部分 = JD
+后半部分 = 被录用者的 CV（Ground Truth 正例）
+</code></pre>
+<p><code>parse_data.py</code> 里的核心代码就是：</p>
+<pre><code class="language-python">jd_raw, cv_raw = text.split(&quot;CV OF THE HIRED CANDIDATE&quot;, 1)
+</code></pre>
+<p>它不是在要求“所有 JD 都必须长这样”，而是在处理这 10 份<strong>JD + hired CV 合体 PDF</strong>时，找一个可靠的分割点。</p>
+<h2>2. 你说得对：限制不在 LLM，而在预处理</h2>
+<p>本地 LLM 确实能处理不规范的文本。只要把自然语言文本喂给它，它就可以抽取技能、工具、领域、资历等关键词，不要求固定标题。</p>
+<p>但当前流程有两层：</p>
+<pre><code class="language-text">PDF 文件
+  → PyMuPDF 提取文本（格式/分页/表格）
+  → parse_data.py 切分 JD / CV（当前依赖 marker）
+  → LLM 抽关键词（不依赖格式）
+  → 聚类 / AE / 检索
+</code></pre>
+<p>问题出在<strong>第二步</strong>，不是 LLM。</p>
+<ul>
+<li>如果 <code>jd_cv_pairs</code> 里是一份纯 JD PDF，没有 <code>CV OF THE HIRED CANDIDATE</code>，<code>parse_data.py</code> 会直接报错。</li>
+<li>但如果你把这份纯 JD 的文本直接给 LLM，它完全可以抽关键词。</li>
+<li>所以“LLM 能理解非规范格式”是对的；“当前代码能接收任意格式”是不对的。</li>
+</ul>
+<h2>3. 为什么当初要这个 marker</h2>
+<p>因为这 10 份 PDF 不是“一个文件一份 JD”或“一个文件一份 CV”，而是：</p>
+<pre><code class="language-text">1 个 PDF = 1 个 JD + 1 个 hired CV
+</code></pre>
+<p>要同时得到：</p>
+<ul>
+<li>JD 文本 → 作为 query</li>
+<li>hired CV 文本 → 作为 known positive / Ground Truth</li>
+</ul>
+<p>就必须知道从哪里切开。marker 是最便宜、最稳定的切法。</p>
+<p>如果是一般的软件输入，更合理的做法是<strong>一开始就分开</strong>：</p>
+<pre><code class="language-text">data/input/jds/     # 一份文件 = 一个 JD
+data/input/cvs/     # 一份文件 = 一个 CV
+</code></pre>
+<p>这样根本不需要 marker，LLM 直接对每个文件抽关键词。</p>
+<h2>4. 通用化应该怎么改</h2>
+<h3>方案 A：推荐，输入时就分开</h3>
+<pre><code class="language-text">data/input/
+├─ jds/
+│  ├─ Regional Finance Controller.pdf
+│  ├─ Data Engineer.pdf
+│  └─ ...
+└─ cvs/
+   ├─ 张三.pdf
+   ├─ 李四.pdf
+   └─ ...
+</code></pre>
+<p>流程：</p>
+<pre><code class="language-text">每个 JD 文件 → 提取文本 → LLM 抽 JD 关键词
+每个 CV 文件 → 提取文本 → LLM 抽 CV 关键词
+→ 聚类 / AE / 检索
+</code></pre>
+<p>不需要任何 <code>CV OF THE HIRED CANDIDATE</code> 标记。</p>
+<h3>方案 B：保留 benchmark 兼容</h3>
+<ul>
+<li><code>data/raw/jd_cv_pairs/</code> 继续走 marker 切分，用于复现当前 10 组实验。</li>
+<li>新增 <code>data/input/jds/</code> 和 <code>data/input/cvs/</code> 作为通用模式。</li>
+<li><code>parse_data.py</code> 自动判断：<ul>
+<li>有 marker → 按 benchmark pair 处理</li>
+<li>没有 marker → 当作纯 JD 或纯 CV 处理</li>
+</ul>
+</li>
+</ul>
+<h3>方案 C：LLM 辅助切分</h3>
+<p>如果用户就是丢进来一份“JD + CV 混在一起”的 PDF，可以让 LLM 做一次分段：</p>
+<pre><code class="language-text">请把下面的文本分成两部分：
+1. job_description
+2. candidate_cv
+返回 JSON：{&quot;jd_text&quot;: &quot;...&quot;, &quot;cv_text&quot;: &quot;...&quot;}
+</code></pre>
+<p>LLM 可以靠语义判断“Responsibilities/Requirements”是 JD，“Work experience/Education”是 CV。但这个方式有两个问题：</p>
+<ul>
+<li>多一次 LLM 调用，成本和延迟增加；</li>
+<li>对格式特别怪的文件，分段可能不稳定。</li>
+</ul>
+<p>所以生产环境更推荐方案 A：<strong>输入时就把 JD 和 CV 分文件夹</strong>。</p>
+<h2>5. 还有一个现实限制</h2>
+<p>LLM 再强，也只能读<strong>文本</strong>。如果 PDF 是扫描件/图片，没有文本层，PyMuPDF 提取不到文字，LLM 也看不到内容。这种情况需要 OCR，或者用支持视觉的模型。当前流程默认 PDF 有文本层。</p>
+<h2>结论</h2>
+<ul>
+<li><code>CV OF THE HIRED CANDIDATE</code> = benchmark PDF 里“被录用候选人简历”的分页标记。</li>
+<li>当前代码需要它，是因为这些 PDF 把 JD 和 CV 合在同一个文件里，需要切分。</li>
+<li>LLM 本身不要求这种格式；限制来自 <code>parse_data.py</code> 的预处理规则。</li>
+<li>要做成通用软件，应该把输入改成：<ul>
+<li><code>jds/</code> 一份文件一个 JD</li>
+<li><code>cvs/</code> 一份文件一个 CV</li>
+<li>不再依赖 marker</li>
+</ul>
+</li>
+<li>可选保留 benchmark 模式，兼容现有 10 组数据。</li>
+</ul>
+<p>如果你要，我下一步就把 <code>parse_data.py</code> 改成“通用输入 + benchmark 兼容”两种模式，并新增 <code>data/input/jds</code>、<code>data/input/cvs</code>。</p>
+</section><section class='msg user'><div class='role'>用户 / User · 451</div><p>我觉得进行方案A就行了，也就是具备通用化功能</p>
+</section><section class='msg assistant'><div class='role'>助手 / Assistant · 453</div><p>好，我按方案 A 做：新增通用输入目录和通用流水线，保留原来的 benchmark 模式。先改成通用版，再用小样本跑通验证。</p>
+</section><section class='msg assistant'><div class='role'>助手 / Assistant · 494</div><p>对，<code>start_full.bat</code> 是当前 benchmark 的完整模式。但如果要“任意 CV/JD 丢进去就能用”，请用新加的 <strong><code>start_general.bat</code></strong>。方案 A 已经实现并跑通验证。</p>
+<h2>先确认原始数据</h2>
+<pre><code class="language-text">data/raw/
+├─ cvs_100/          # 100 份纯 CV PDF
+└─ jd_cv_pairs/      # 10 份“JD + hired CV”合体 PDF
+</code></pre>
+<ul>
+<li><code>cvs_100</code> 是原始 CV。</li>
+<li><code>jd_cv_pairs</code> 不是纯 JD，它每份 PDF 同时包含 JD 和 <code>CV OF THE HIRED CANDIDATE</code>；这是 benchmark 的 ground truth 来源。</li>
+<li>通用模式不再使用这个结构，改用下面两个干净文件夹。</li>
+</ul>
+<h2>通用模式怎么用</h2>
+<h3>1. 放数据</h3>
+<pre><code class="language-text">HW4_6207/data/input/
+├─ jds/          # 一份文件 = 一个 JD
+│  ├─ Data Engineer.pdf
+│  └─ Product Manager.txt
+└─ cvs/          # 一份文件 = 一份 CV
+   ├─ candidate_a.pdf
+   └─ candidate_b.docx
+</code></pre>
+<p>支持 <code>.pdf</code>、<code>.txt</code>、<code>.md</code>、<code>.docx</code>。<br />
+<strong>不需要 <code>CV OF THE HIRED CANDIDATE</code></strong>，因为 JD 和 CV 已经分文件夹了。</p>
+<h3>2. 启动</h3>
+<p>双击：</p>
+<pre><code class="language-text">HW4_6207\start_general.bat
+</code></pre>
+<p>或命令行：</p>
+<pre><code class="language-powershell">cd HW4_6207
+python run_general.py
+</code></pre>
+<p>它会执行：</p>
+<pre><code class="language-text">解析 data/input/jds 和 data/input/cvs
+→ 本地 Qwen 抽关键词
+→ 关键词聚类
+→ 训练 AE
+→ 对每个 JD 检索 Top-10 CV
+→ 输出检索列表
+</code></pre>
+<h3>3. 输出</h3>
+<pre><code class="language-text">outputs/general/rankings.csv
+outputs/general/rankings.md
+</code></pre>
+<ul>
+<li><code>rankings.csv</code>：长表，包含 <code>jd_id, jd_title, rank, cv_id, cv_title, score, shared_keywords</code></li>
+<li><code>rankings.md</code>：每个 JD 一段可读的 Top-10 表格</li>
+</ul>
+<p>示例格式：</p>
+<pre><code class="language-text">## Data Engineer
+
+| Rank | CV | Score | Shared keywords |
+|---:|---|---:|---|
+| 1 | CV-001 | 0.87 | python, sql, spark |
+| 2 | CV-003 | 0.81 | python, etl |
+...
+</code></pre>
+<h3>4. 可选：计算 Recall</h3>
+<p>如果你有 Ground Truth，在：</p>
+<pre><code class="language-text">data/input/ground_truth.csv
+</code></pre>
+<p>写：</p>
+<pre><code class="language-csv">jd_id,cv_id
+JD_Data_Engineer,CV_CV-001
+</code></pre>
+<p>或者用文件名：</p>
+<pre><code class="language-csv">jd_file,cv_file
+Data Engineer.pdf,CV-001.pdf
+</code></pre>
+<p>有它才会输出：</p>
+<pre><code class="language-text">outputs/general/metrics.json
+</code></pre>
+<p>没有它也能正常出检索列表，只是不计算 Recall。</p>
+<h2>三个启动器的区别</h2>
+<table>
+<thead>
+<tr>
+  <th>启动器</th>
+  <th>输入</th>
+  <th>用途</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td><code>start.bat</code></td>
+  <td>已有 benchmark 缓存</td>
+  <td>几秒内重新生成中文/英文报告</td>
+</tr>
+<tr>
+  <td><code>start_full.bat</code></td>
+  <td><code>data/raw</code> 的 10 组 benchmark</td>
+  <td>完整复现实验：抽关键词、训练 AE、Recall、报告</td>
+</tr>
+<tr>
+  <td><code>start_general.bat</code></td>
+  <td><code>data/input/jds</code> + <code>data/input/cvs</code></td>
+  <td>通用匹配：任意 JD/CV → Top-10 列表</td>
+</tr>
+</tbody>
+</table>
+<p>所以：</p>
+<ul>
+<li>想复现作业实验 → <code>start_full.bat</code></li>
+<li>想拿自己的 CV/JD 直接用 → <code>start_general.bat</code></li>
+</ul>
+<h2>现在的限制</h2>
+<p>通用模式已经是可用的，但还有几个边界：</p>
+<ol>
+<li><p><strong>每次都会重建索引</strong></p>
+<ul>
+<li>换了 CV 集合，必须重新抽关键词、聚类、训练 AE。</li>
+<li>目前还没有“只加一份新 JD、直接查已有索引”的轻量查询模式。</li>
+</ul>
+</li>
+<li><p><strong>扫描版 PDF 不支持</strong></p>
+<ul>
+<li>目前依赖 PyMuPDF 提取文本层；纯图片 PDF 需要 OCR。</li>
+<li>文本型 PDF、TXT、DOCX 没问题。</li>
+</ul>
+</li>
+<li><p><strong>没有 Ground Truth 时只出列表，不出 Recall</strong></p>
+<ul>
+<li>这是合理的：没有标签就没有 Recall 可算。</li>
+</ul>
+</li>
+<li><p><strong>本地 LLM 依赖</strong></p>
+<ul>
+<li><code>start_general.bat</code> 仍然需要 LM Studio、Qwen 和 Nomic。</li>
+</ul>
+</li>
+</ol>
+<p>如果你希望更接近“软件”，下一步可以再加一个：</p>
+<pre><code class="language-text">match_one.bat
+</code></pre>
+<p>把一份 JD 拖上去，直接输出它的 Top-10，不用重建整个索引。这个我可以继续加。</p>
+</section><section class='msg user'><div class='role'>用户 / User · 495</div><p>总之现在应该够了。你能否在readme或者“使用手册”里，增加中英文的“使用说明”内容？让老师在得到整个项目文件后可以复现。</p>
+</section><section class='msg assistant'><div class='role'>助手 / Assistant · 505</div><p>已经加好了，放在项目根目录：</p>
+<ul>
+<li><strong><code>HW4_6207/使用手册_User_Manual.md</code></strong></li>
+<li><code>HW4_6207/README.md</code> 顶部也加了指向这份手册的链接</li>
+</ul>
+<h2>使用手册包含的内容</h2>
+<p>中英文双语，按这个顺序：</p>
+<ol>
+<li><p><strong>项目是什么</strong></p>
+<ul>
+<li>benchmark 复现模式</li>
+<li>general 通用匹配模式</li>
+</ul>
+</li>
+<li><p><strong>项目结构</strong></p>
+<ul>
+<li><code>data/raw</code>、<code>data/input</code>、<code>outputs</code>、<code>report</code> 各自是什么</li>
+</ul>
+</li>
+<li><p><strong>环境准备</strong></p>
+<ul>
+<li>Python 依赖：<code>pip install -r requirements.txt</code></li>
+<li>LM Studio 安装与两个模型加载命令</li>
+<li>API 检查：<code>http://127.0.0.1:1234/v1/models</code></li>
+<li>Edge 路径说明</li>
+</ul>
+</li>
+<li><p><strong>模式 A：复现实验</strong></p>
+<ul>
+<li>双击 <code>start_full.bat</code></li>
+<li>或 <code>python run_pipeline.py --full</code></li>
+<li>运行步骤、预计时间、输出文件</li>
+<li>预期指标表：Recall@10、MRR、Bottleneck 消融</li>
+</ul>
+</li>
+<li><p><strong>模式 B：通用匹配</strong></p>
+<ul>
+<li>把 JD 放进 <code>data/input/jds</code></li>
+<li>把 CV 放进 <code>data/input/cvs</code></li>
+<li>支持 PDF/TXT/MD/DOCX</li>
+<li>双击 <code>start_general.bat</code></li>
+<li>输出 <code>outputs/general/rankings.csv</code> 和 <code>rankings.md</code></li>
+<li>可选 <code>ground_truth.csv</code> 计算 Recall</li>
+</ul>
+</li>
+<li><p><strong>三个启动器的区别</strong></p>
+<ul>
+<li><code>start.bat</code>：快速重出报告</li>
+<li><code>start_full.bat</code>：完整 benchmark 复现</li>
+<li><code>start_general.bat</code>：任意 JD/CV 通用匹配</li>
+</ul>
+</li>
+<li><p><strong>报告生成方式</strong></p>
+<ul>
+<li>本地 LLM 只抽关键词</li>
+<li>Python + matplotlib + HTML/CSS + Edge 生成 PDF</li>
+</ul>
+</li>
+<li><p><strong>复现性</strong></p>
+<ul>
+<li>seed 42、<code>config.json</code>、缓存机制</li>
+</ul>
+</li>
+<li><p><strong>常见问题</strong></p>
+<ul>
+<li>LM Studio API 连不上</li>
+<li>模型没加载</li>
+<li>Python 包缺失</li>
+<li>Edge 找不到</li>
+<li><code>Marker not found</code></li>
+<li>扫描版 PDF 没文本</li>
+<li>运行很慢</li>
+</ul>
+</li>
+<li><p><strong>最短复现 checklist</strong></p>
+<ul>
+<li>老师拿到项目后按 1–6 步即可跑通</li>
+</ul>
+</li>
+</ol>
+<h2>老师拿到项目后的最短流程</h2>
+<pre><code class="language-text">1. 打开 HW4_6207
+2. pip install -r requirements.txt
+3. 启动 LM Studio，加载 qwen2.5-coder-14b-instruct 和 nomic-embed
+4. 双击 start_full.bat（复现实验）
+   或 start_general.bat（用自己的 JD/CV）
+5. 查看 report/HW4_6207_Report_CN.pdf 和 Report_EN.pdf
+</code></pre>
+<p>如果老师不方便看 Markdown，我也可以把这份使用手册再导出成一份中英双语的 PDF。</p>
+</section><section class='msg user'><div class='role'>用户 / User · 506</div><p>接下来，我们老师要求我们提交以下文件：报告pdf、以及完整会话记录（非概括性内容，是要完整的详细会话记录，不需要你给我概括），帮我整理一份吧</p>
+</section><section class='msg assistant'><div class='role'>助手 / Assistant · 521</div><p>我会从 OpenCode 的会话数据库里导出<strong>完整对话原文</strong>（不是摘要），并把工具调用记录作为附录保留；同时把两份报告复制到提交目录。</p>
+</section></div></body></html>

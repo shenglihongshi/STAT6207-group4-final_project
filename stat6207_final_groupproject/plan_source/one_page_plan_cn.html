@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>AI 简历匹配项目 · 单页计划书</title>
+<style>
+  :root{
+    --ink:#142033;
+    --muted:#5B6B7F;
+    --line:#DCE4EC;
+    --bg:#F4F7FA;
+    --navy:#0C2340;
+    --navy2:#123A5A;
+    --teal:#0E7C86;
+    --teal-soft:#E7F3F4;
+    --amber:#C96A2B;
+    --amber-soft:#FBF0E6;
+    --white:#FFFFFF;
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;background:#fff;}
+  body{
+    font-family:"Microsoft YaHei","PingFang SC","Noto Sans SC",sans-serif;
+    color:var(--ink);
+    -webkit-print-color-adjust:exact;
+    print-color-adjust:exact;
+  }
+  @page{size:A4;margin:0;}
+  .page{
+    width:210mm;
+    min-height:297mm;
+    background:#fff;
+    position:relative;
+  }
+
+  /* ---------- HERO ---------- */
+  .hero{
+    background:
+      radial-gradient(circle at 88% 20%, rgba(34,160,170,.28) 0%, rgba(34,160,170,0) 42%),
+      linear-gradient(118deg, #0A1C33 0%, #0C2340 48%, #123A5A 100%);
+    color:#fff;
+    padding:9.2mm 10mm 13.2mm;
+    position:relative;
+    overflow:hidden;
+  }
+  .hero:after{
+    content:"";
+    position:absolute; left:0; right:0; bottom:0; height:1.2mm;
+    background:linear-gradient(90deg,var(--teal) 0%, #2AA7A0 55%, var(--amber) 100%);
+  }
+  .hero .grid-lines{
+    position:absolute; inset:0;
+    background-image:linear-gradient(rgba(255,255,255,.045) 1px, transparent 1px),
+                     linear-gradient(90deg, rgba(255,255,255,.045) 1px, transparent 1px);
+    background-size:14mm 14mm;
+    pointer-events:none;
+  }
+  .eyebrow{
+    font-size:6.9pt;
+    letter-spacing:1.6pt;
+    color:#8FD3D8;
+    font-weight:700;
+    text-transform:uppercase;
+  }
+  h1{
+    font-size:27.5pt;
+    line-height:1.08;
+    margin:2.2mm 0 1.4mm;
+    font-weight:900;
+    letter-spacing:.4pt;
+  }
+  .sub{
+    font-size:9.6pt;
+    line-height:1.5;
+    color:rgba(255,255,255,.86);
+    font-weight:400;
+    max-width:128mm;
+  }
+  .meta{
+    position:absolute;
+    top:9.2mm; right:10mm;
+    text-align:right;
+    font-size:6.7pt;
+    line-height:1.75;
+    color:rgba(255,255,255,.72);
+  }
+  .meta b{color:#fff;font-weight:700;display:block;font-size:7.6pt;letter-spacing:.3pt;}
+  .meta .tag{
+    display:inline-block;
+    margin-top:1.8mm;
+    border:1px solid rgba(143,211,216,.55);
+    color:#B9E4E7;
+    border-radius:10mm;
+    padding:.7mm 2.4mm;
+    font-size:6.1pt;
+    letter-spacing:.4pt;
+  }
+
+  /* ---------- KPI ---------- */
+  .kpis{
+    margin:-7.8mm 10mm 0;
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:2.6mm;
+    position:relative;
+    z-index:5;
+  }
+  .kpi{
+    background:#fff;
+    border:1px solid var(--line);
+    border-top:2.4px solid var(--teal);
+    border-radius:1.4mm;
+    padding:2.3mm 2.8mm 2.1mm;
+    box-shadow:0 1.2mm 3mm rgba(9,28,51,.10);
+  }
+  .kpi b{
+    display:block;
+    font-size:16.5pt;
+    line-height:1;
+    color:var(--navy);
+    letter-spacing:-.2pt;
+  }
+  .kpi b em{font-style:normal;font-size:9pt;font-weight:700;color:var(--teal);}
+  .kpi span{
+    display:block;
+    font-size:6.6pt;
+    color:var(--muted);
+    margin-top:1.4mm;
+    line-height:1.35;
+  }
+
+  /* ---------- MAIN GRID ---------- */
+  .main{
+    display:grid;
+    grid-template-columns:1.47fr 1fr;
+    gap:5mm;
+    padding:4.4mm 10mm 0;
+  }
+  .col{min-width:0;}
+
+  section{margin-bottom:3.0mm;}
+  section:last-child{margin-bottom:0;}
+
+  .sec-head{
+    display:flex;
+    align-items:baseline;
+    gap:2.2mm;
+    border-bottom:1px solid var(--line);
+    padding-bottom:1.2mm;
+    margin-bottom:2.1mm;
+  }
+  .sec-num{
+    font-size:6.6pt;
+    font-weight:800;
+    color:var(--teal);
+    letter-spacing:.6pt;
+    white-space:nowrap;
+  }
+  .sec-title{
+    font-size:10.6pt;
+    font-weight:800;
+    color:var(--navy);
+    letter-spacing:.2pt;
+    line-height:1.2;
+  }
+  .sec-title small{
+    font-size:6.5pt;
+    color:var(--muted);
+    font-weight:500;
+    letter-spacing:.2pt;
+    margin-left:1.2mm;
+  }
+
+  p,li{
+    font-size:8.15pt;
+    line-height:1.5;
+    margin:0;
+  }
+  p+p{margin-top:1.4mm;}
+  strong{font-weight:800;color:var(--navy);}
+  .accent{color:var(--teal);font-weight:800;}
+  .nw{white-space:nowrap;}
+
+  /* ---------- GOAL BOX ---------- */
+  .goal{
+    margin-top:1.7mm;
+    background:linear-gradient(180deg,#F7FAFC 0%, #F1F6F8 100%);
+    border:1px solid var(--line);
+    border-left:2.2px solid var(--teal);
+    border-radius:1.2mm;
+    padding:2.1mm 2.8mm 2.2mm;
+  }
+  .goal .lead{
+    font-size:8.1pt;
+    line-height:1.45;
+    color:#2C3E52;
+  }
+  .chips{
+    display:flex;
+    gap:1.8mm;
+    margin-top:2mm;
+    flex-wrap:wrap;
+  }
+  .chip{
+    background:#fff;
+    border:1px solid #CFE1E4;
+    border-radius:10mm;
+    padding:.9mm 2.2mm;
+    font-size:6.7pt;
+    color:var(--teal);
+    font-weight:700;
+    line-height:1;
+    white-space:nowrap;
+  }
+  .chip b{color:var(--navy);font-size:7.1pt;}
+
+  /* ---------- PIPELINE ---------- */
+  .pipeline{
+    position:relative;
+    margin:1.3mm 0 2.0mm;
+    padding-left:1mm;
+  }
+  .pipeline:before{
+    content:"";
+    position:absolute;
+    left:3.55mm;
+    top:3.2mm;
+    bottom:3.2mm;
+    width:.45mm;
+    background:linear-gradient(180deg,var(--teal),#9ED4D7);
+    border-radius:1mm;
+  }
+  .step{
+    position:relative;
+    display:grid;
+    grid-template-columns:7.1mm 16mm 1fr;
+    align-items:start;
+    gap:2mm;
+    padding:.85mm 0;
+  }
+  .step .n{
+    position:relative;
+    z-index:2;
+    width:6.4mm;height:6.4mm;
+    border-radius:50%;
+    background:#fff;
+    border:1.2px solid var(--teal);
+    color:var(--teal);
+    font-size:6.4pt;
+    font-weight:800;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    line-height:1;
+  }
+  .step .k{
+    font-size:7.9pt;
+    font-weight:800;
+    color:var(--navy);
+    line-height:1.35;
+    padding-top:.3mm;
+  }
+  .step .d{
+    font-size:7.35pt;
+    color:#42536A;
+    line-height:1.45;
+    padding-top:.25mm;
+  }
+  .step .d b{color:var(--ink);font-weight:700;}
+
+  /* ---------- WEIGHT TABLE ---------- */
+  table.weights{
+    width:100%;
+    border-collapse:collapse;
+    margin-top:.6mm;
+    font-size:7.15pt;
+    line-height:1.35;
+  }
+  table.weights th{
+    text-align:left;
+    font-size:6.2pt;
+    letter-spacing:.5pt;
+    color:var(--muted);
+    font-weight:700;
+    padding:0 1.4mm 1mm;
+    border-bottom:1px solid var(--line);
+  }
+  table.weights td{
+    padding:1.25mm 1.4mm;
+    border-bottom:1px solid #E8EEF3;
+    vertical-align:top;
+  }
+  table.weights tr:last-child td{border-bottom:none;}
+  .tier{
+    display:inline-block;
+    font-size:5.9pt;
+    font-weight:800;
+    letter-spacing:.2pt;
+    padding:.55mm 1.5mm;
+    border-radius:.8mm;
+    white-space:nowrap;
+  }
+  .t-highest{background:#0C2340;color:#fff;}
+  .t-high{background:#0E7C86;color:#fff;}
+  .t-medium{background:#DCEBED;color:#0A5E66;}
+  .t-filter{background:#FBE7D8;color:#A95317;}
+  .w-num{font-weight:800;color:var(--navy);white-space:nowrap;}
+  .w-factors{color:#3A4B60;}
+  .note{
+    font-size:6.7pt;
+    line-height:1.45;
+    color:var(--muted);
+    margin-top:1.0mm;
+  }
+  .note b{color:var(--ink);font-weight:700;}
+
+  /* ---------- OUTPUT EXAMPLE ---------- */
+  .example{
+    margin-top:1.9mm;
+    background:#FAFBFC;
+    border:1px solid var(--line);
+    border-radius:1.2mm;
+    padding:1.8mm 2.4mm 1.9mm;
+  }
+  .example .cap{
+    font-size:6.2pt;
+    font-weight:800;
+    letter-spacing:.5pt;
+    color:var(--muted);
+    text-transform:uppercase;
+    margin-bottom:1.2mm;
+  }
+  .example .cap em{font-style:normal;color:var(--teal);}
+  .rank{
+    display:grid;
+    grid-template-columns:5mm 15mm 1fr;
+    gap:1.6mm;
+    align-items:start;
+    padding:.9mm 0;
+    border-top:1px dashed #E1E8EE;
+    font-size:6.95pt;
+    line-height:1.38;
+  }
+  .rank:first-of-type{border-top:none;}
+  .rank .r{
+    width:4.6mm;height:4.6mm;border-radius:50%;
+    background:var(--teal);color:#fff;
+    font-size:6.2pt;font-weight:800;
+    display:flex;align-items:center;justify-content:center;
+  }
+  .rank .r.r2{background:#7EA9AE;}
+  .rank .id{font-weight:800;color:var(--navy);white-space:nowrap;padding-top:.2mm;}
+  .rank .why{color:#42536A;padding-top:.2mm;}
+  .rank .why b{color:var(--ink);font-weight:700;}
+
+  /* ---------- EVAL ---------- */
+  .eval-list{
+    list-style:none;
+    padding:0;margin:0;
+  }
+  .eval-list li{
+    position:relative;
+    padding-left:3.1mm;
+    margin-bottom:1.1mm;
+    font-size:7.5pt;
+    line-height:1.45;
+    color:#3A4B60;
+  }
+  .eval-list li:before{
+    content:"";
+    position:absolute;
+    left:0;top:1.55mm;
+    width:1.45mm;height:1.45mm;
+    border-radius:50%;
+    background:var(--teal);
+  }
+  .eval-list li:last-child{margin-bottom:0;}
+  .eval-list b{color:var(--navy);font-weight:800;}
+
+  /* ---------- SIDEBAR CARDS ---------- */
+  .card{
+    background:var(--bg);
+    border:1px solid var(--line);
+    border-radius:1.4mm;
+    padding:2.3mm 2.5mm;
+  }
+  .card + .card{margin-top:2.8mm;}
+
+  .data-table{
+    width:100%;
+    border-collapse:collapse;
+    font-size:7.05pt;
+    line-height:1.32;
+  }
+  .data-table td{
+    padding:.95mm 0;
+    border-bottom:1px solid #E3EAF0;
+  }
+  .data-table tr:last-child td{border-bottom:none;}
+  .data-table td:first-child{color:var(--muted);font-size:6.6pt;white-space:nowrap;width:27%;}
+  .data-table td:last-child{color:var(--ink);font-weight:600;}
+  .data-table td:last-child b{color:var(--navy);font-weight:800;}
+
+  .gap{
+    margin-top:1.7mm;
+    background:var(--amber-soft);
+    border-left:2px solid var(--amber);
+    border-radius:.9mm;
+    padding:1.7mm 2mm;
+    font-size:6.8pt;
+    line-height:1.45;
+    color:#6B3A1C;
+  }
+  .gap b{color:#8A3F0E;font-weight:800;}
+
+  .scope{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:2.4mm;
+    margin-top:2.0mm;
+  }
+  .scope .box{
+    border-radius:1mm;
+    padding:1.6mm 1.9mm;
+    font-size:6.55pt;
+    line-height:1.45;
+  }
+  .scope .in{background:#EDF7F6;border:1px solid #CFE8E5;color:#215C5C;}
+  .scope .out{background:#FBF2F2;border:1px solid #EED9D9;color:#744343;}
+  .scope .box b{display:block;font-size:6.5pt;letter-spacing:.3pt;margin-bottom:.7mm;}
+  .scope .in b{color:#0A6B63;}
+  .scope .out b{color:#9B3D3D;}
+
+  /* ---------- TIMELINE ---------- */
+  .timeline{margin-top:.4mm;}
+  .tl{
+    display:grid;
+    grid-template-columns:9mm 1fr;
+    gap:1.9mm;
+    padding:1.15mm 0;
+    border-bottom:1px solid #E6ECF2;
+  }
+  .tl:last-child{border-bottom:none;padding-bottom:.4mm;}
+  .tl .w{
+    font-size:6.8pt;
+    font-weight:900;
+    color:#fff;
+    background:var(--navy);
+    border-radius:.8mm;
+    text-align:center;
+    line-height:1.25;
+    padding:.75mm 0;
+    height:fit-content;
+  }
+  .tl:nth-child(2) .w{background:#15506B;}
+  .tl:nth-child(3) .w{background:#0E7C86;}
+  .tl:nth-child(4) .w{background:#C96A2B;}
+  .tl .txt{font-size:7.05pt;line-height:1.38;color:#3A4B60;}
+  .tl .txt b{display:block;font-size:7.3pt;color:var(--navy);font-weight:800;margin-bottom:.35mm;}
+
+  /* ---------- RISKS ---------- */
+  .risk{
+    display:grid;
+    grid-template-columns:1.6mm 1fr;
+    gap:1.7mm;
+    padding:.9mm 0;
+    font-size:6.95pt;
+    line-height:1.4;
+    color:#3A4B60;
+  }
+  .risk .dot{
+    width:1.35mm;height:1.35mm;
+    border-radius:50%;
+    background:var(--amber);
+    margin-top:1.35mm;
+  }
+  .risk b{color:var(--navy);font-weight:800;}
+
+  /* ---------- DELIVERABLES ---------- */
+  .deliver{
+    list-style:none;
+    padding:0;margin:0;
+    counter-reset:d;
+  }
+  .deliver li{
+    position:relative;
+    padding-left:5.2mm;
+    margin-bottom:1.05mm;
+    font-size:6.95pt;
+    line-height:1.4;
+    color:#3A4B60;
+    counter-increment:d;
+  }
+  .deliver li:last-child{margin-bottom:0;}
+  .deliver li:before{
+    content:counter(d);
+    position:absolute;left:0;top:.05mm;
+    width:3.6mm;height:3.6mm;
+    border-radius:50%;
+    border:1px solid #BFD8DB;
+    color:var(--teal);
+    font-size:5.8pt;
+    font-weight:800;
+    display:flex;align-items:center;justify-content:center;
+    background:#fff;
+  }
+  .deliver b{color:var(--navy);font-weight:800;}
+
+  /* ---------- FOOTER ---------- */
+  .footer{
+    margin:2.8mm 10mm 0;
+    border-top:1px solid var(--line);
+    padding-top:1.6mm;
+    display:flex;
+    justify-content:space-between;
+    gap:4mm;
+    font-size:6.05pt;
+    line-height:1.45;
+    color:#7A8898;
+  }
+  .footer .left{max-width:142mm;}
+  .footer b{color:#42536A;font-weight:700;}
+  .footer .right{text-align:right;white-space:nowrap;color:#8B98A7;}
+</style>
+</head>
+<body>
+<div class="page">
+
+  <!-- HERO -->
+  <header class="hero">
+    <div class="grid-lines"></div>
+    <div class="eyebrow">STAT6207 · 期末小组项目 · 单页计划书</div>
+    <h1>AI 简历匹配项目</h1>
+    <div class="sub">从 JD 到 Top-5 候选人短名单：一个可解释、可评估的匹配基线<br>让资深招聘顾问愿意直接用的第一版筛选工具</div>
+    <div class="meta">
+      <b>Second Talent</b>
+      学生项目简报 · 2026.11.04<br>
+      v1.0 · 单页计划书<br>
+      <span class="tag">汇报对象：Eric Cheng · Chief of Staff</span>
+    </div>
+  </header>
+
+  <!-- KPI -->
+  <div class="kpis">
+    <div class="kpi"><b>50</b><span>组技术岗 good-match 正例<br>（50 JD × 100 CV 产出）</span></div>
+    <div class="kpi"><b>23</b><span>个现有技术 JD<br>（pilot 范围）</span></div>
+    <div class="kpi"><b>≥70<em>%</em></b><span>Top-5 命中率<br>目标值</span></div>
+    <div class="kpi"><b>4</b><span>周完成<br>从启动到交付</span></div>
+  </div>
+
+  <!-- MAIN -->
+  <main class="main">
+
+    <!-- LEFT COLUMN -->
+    <div class="col">
+
+      <section>
+        <div class="sec-head">
+          <div class="sec-num">01</div>
+          <div class="sec-title">问题与目标<small>WHY &amp; WHAT</small></div>
+        </div>
+        <p>Second Talent 约 <strong>70–80%</strong> 的岗位是技术岗，招聘顾问目前逐份人工比对简历，耗时且标准不一致。本项目为技术岗建立一条可复现的匹配基线：<strong>输入一份 JD，输出 <span class="nw">Top-5</span> 简历与逐条理由</strong>，并用招聘顾问认可的配对验证它是否真的“选对人”。</p>
+        <div class="goal">
+          <div class="lead"><strong>目标不是做上线功能，而是证明：</strong>一个简单、可解释的匹配器，能够达到资深招聘顾问的短名单标准。</div>
+          <div class="chips">
+            <span class="chip">Top-5 命中率 <b>≥ 70%</b></span>
+            <span class="chip">nDCG@5 <b>≥ 0.75</b></span>
+            <span class="chip">盲评一致率 <b>≥ 80%</b></span>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="sec-head">
+          <div class="sec-num">02</div>
+          <div class="sec-title">方法与权重<small>HOW IT WORKS</small></div>
+        </div>
+
+        <div class="pipeline">
+          <div class="step">
+            <div class="n">1</div><div class="k">读 JD</div>
+            <div class="d">把岗位要求整理成 <b>must-have / nice-to-have</b> 清单</div>
+          </div>
+          <div class="step">
+            <div class="n">2</div><div class="k">读 CV</div>
+            <div class="d">抽取同一组字段：技能、年限、资历、地点、薪资</div>
+          </div>
+          <div class="step">
+            <div class="n">3</div><div class="k">过滤</div>
+            <div class="d">地点 / 时区 / 语言 / notice period 作为硬门槛</div>
+          </div>
+          <div class="step">
+            <div class="n">4</div><div class="k">打分</div>
+            <div class="d">按权重加总；缺失字段按 <b>中性 0.5</b> 计，不惩罚匿名简历</div>
+          </div>
+          <div class="step">
+            <div class="n">5</div><div class="k">排序</div>
+            <div class="d">输出 Top-5，每个人附一句<b>可核验的证据理由</b></div>
+          </div>
+        </div>
+
+        <table class="weights">
+          <thead>
+            <tr><th style="width:17%;">权重档</th><th style="width:11%;">分值</th><th>因素</th></tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><span class="tier t-highest">Highest</span></td>
+              <td class="w-num">55</td>
+              <td class="w-factors">硬技能重合 <b>35</b> · 相关经验年限 <b>20</b></td>
+            </tr>
+            <tr>
+              <td><span class="tier t-high">High</span></td>
+              <td class="w-num">25</td>
+              <td class="w-factors">资历层级 <b>15</b> · 期望薪资 vs 预算 <b>10</b></td>
+            </tr>
+            <tr>
+              <td><span class="tier t-medium">Medium</span></td>
+              <td class="w-num">20</td>
+              <td class="w-factors">行业/领域 <b>10</b> · 稳定性 <b>5</b> · 学历/证书 <b>5</b></td>
+            </tr>
+            <tr>
+              <td><span class="tier t-filter">Filters</span></td>
+              <td class="w-num">门槛</td>
+              <td class="w-factors">地点 / 远程 · notice period · 语言 → <b>pass / fail</b></td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="note"><b>技术路线：</b>v0 关键词 → v1 BM25 + 技能词典 → v2 embedding hybrid。50 组样本不训练复杂模型，ML 只做 ablation；<b>权重与目标指标在第 1 周与招聘团队确认后冻结。</b></div>
+
+        <div class="example">
+          <div class="cap">输出示例 · <em>JD: Senior Backend Engineer</em>（示意）</div>
+          <div class="rank">
+            <div class="r">1</div><div class="id">CV-018 · 92</div>
+            <div class="why">6/6 必备技能；7 年 Go/Python；缺 Kubernetes；地点与薪资匹配</div>
+          </div>
+          <div class="rank">
+            <div class="r r2">2</div><div class="id">CV-027 · 84</div>
+            <div class="why">5/6 必备技能；5 年 Python；有微服务经验；薪资待确认</div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="sec-head">
+          <div class="sec-num">03</div>
+          <div class="sec-title">评估方案<small>HOW WE PROVE IT</small></div>
+        </div>
+        <ul class="eval-list">
+          <li><b>Gold set：</b>用打分规则从 50 JD × 100 CV 生成候选，招聘顾问按 rubric 独立确认 50 技术正例 + 50 负例；0–3 rubric（3=强烈推荐，2=可进短名单，1=边缘，0=不合适）。</li>
+          <li><b>标注可靠性：</b>前 20 对由两人独立标注，报告 Cohen's kappa；分歧仲裁后定稿，每条标签必须引用 CV 证据。</li>
+          <li><b>评估协议：</b>按 JD 做 leave-one-JD-out，避免同一岗位泄漏；对照 random、keyword、embedding 三个基线。</li>
+          <li><b>指标：</b>主指标 Top-5 hit rate、nDCG@5；辅以 P@5、MRR、抽取 F1、理由可核验率；错误按解析 / 漏 must-have / 资历 / 地点薪资 / 理由幻觉分类。</li>
+        </ul>
+      </section>
+
+    </div>
+
+    <!-- RIGHT COLUMN -->
+    <div class="col">
+
+      <section>
+        <div class="sec-head">
+          <div class="sec-num">04</div>
+          <div class="sec-title">数据与范围<small>DATA &amp; SCOPE</small></div>
+        </div>
+        <div class="card">
+          <table class="data-table">
+            <tr><td>起始表</td><td><b>50</b> JD / <b>100</b> CV 摘要（技术 <b>23</b> / <b>46</b>）</td></tr>
+            <tr><td>Hired 范例</td><td><b>10</b> 组参考案例（只校准 rubric，不计标签）</td></tr>
+            <tr><td>匹配标签</td><td>现有 <b>0</b> 组 → 目标 <b>50</b> 正例 + <b>50</b> 负例</td></tr>
+            <tr><td>数据文件</td><td>Manatal…xlsx + 100 份 CV PDF</td></tr>
+          </table>
+          <div class="gap"><b>关键缺口：</b>brief 目标 100–200 个技术 JD，起始表仅 23 个；10 组 hired 仅作参考，不替代原始数据标注。本期先做 23-JD pilot，并申请补充 30–50 个；若无法补充，在报告中明确 scope 与扩展方案，不把差距留到答辩。</div>
+          <div class="scope">
+            <div class="box in"><b>✔ 纳入</b>技术岗（AI/ML、Backend、Full-stack）· 匿名 JD/CV · 50 组标注 · Claude 抽取 + 基线</div>
+            <div class="box out"><b>✘ 不纳入</b>未脱敏数据 · 上线 HRIS · 买/爬 LinkedIn · 销售岗</div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="sec-head">
+          <div class="sec-num">05</div>
+          <div class="sec-title">四周排期<small>TIMELINE</small></div>
+        </div>
+        <div class="timeline">
+          <div class="tl">
+            <div class="w">W1</div>
+            <div class="txt"><b>数据与指南</b>建索引、按 Ref 对齐 100 份 PDF、schema、guide v1、用 10 组 hired 校准 rubric</div>
+          </div>
+          <div class="tl">
+            <div class="w">W2</div>
+            <div class="txt"><b>标注与基线</b>规则生成候选、确认 50 正例 + 50 负例 + kappa、v0/v1 与评估脚本</div>
+          </div>
+          <div class="tl">
+            <div class="w">W3</div>
+            <div class="txt"><b>增强与评估</b>embedding hybrid、全量评估、错误分析、理由生成、盲评</div>
+          </div>
+          <div class="tl">
+            <div class="w">W4</div>
+            <div class="txt"><b>交付</b>报告、demo、单页计划书、buffer 与答辩彩排</div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="sec-head">
+          <div class="sec-num">06</div>
+          <div class="sec-title">风险与应对<small>RISKS</small></div>
+        </div>
+        <div class="risk"><span class="dot"></span><div><b>技术 JD 只有 23 个</b> → pilot 先行 + 申请补充；必要时缩小 scope</div></div>
+        <div class="risk"><span class="dot"></span><div><b>100 对标注仍偏少</b> → 规则 / embedding 为主，复杂模型只做 ablation</div></div>
+        <div class="risk"><span class="dot"></span><div><b>匿名 CV 缺薪资/notice</b> → unknown 按中性 0.5 处理，不当成不合格</div></div>
+        <div class="risk"><span class="dot"></span><div><b>规则自证 / 标签主观</b> → 独立确认 + 按 JD 留出 + 双人标注 + kappa</div></div>
+        <div class="risk"><span class="dot"></span><div><b>隐私合规</b> → 只处理脱敏副本，人工复核，Eric 批准后才外传</div></div>
+      </section>
+
+      <section>
+        <div class="sec-head">
+          <div class="sec-num">07</div>
+          <div class="sec-title">交付物<small>DELIVERABLES</small></div>
+        </div>
+        <ol class="deliver">
+          <li><b>数据包：</b>jds/cvs JSONL、50 正例 + 50 负例、数据字典</li>
+          <li><b>Matching Guide（2–3 页）：</b>抽取 schema、权重、0–3 rubric</li>
+          <li><b>Python 基线 repo：</b>抽取、匹配、评估、可复现 demo</li>
+          <li><b>评估报告（5–8 页）：</b>指标、错误分析、招聘顾问盲评结果</li>
+          <li><b>答辩 demo + 单页计划书：</b>10 分钟现场演示</li>
+        </ol>
+      </section>
+
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="left"><b>数据来源：</b>Second Talent · AI CV Matching Project Student Briefing（2026-10-30）。<b>隐私规则：</b>任何数据离开 Second Talent 前必须完成脱敏、人工复核并经 Eric 批准。</div>
+    <div class="right">小组：____________<br>成员：____________________</div>
+  </footer>
+
+</div>
+</body>
+</html>

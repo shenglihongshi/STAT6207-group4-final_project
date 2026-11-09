@@ -1,0 +1,67 @@
+{
+  "tfidf_cosine": {
+    "name": "tfidf_cosine",
+    "n": 10,
+    "recall@10": 0.8,
+    "recall@5": 0.6,
+    "mrr@10": 0.44027777777777777,
+    "mean_rank": 10.6,
+    "hits@10": 8,
+    "ci95_recall@10": [
+      0.49015684672072335,
+      0.9433190520193067
+    ]
+  },
+  "keyword_overlap_cos": {
+    "name": "keyword_overlap_cos",
+    "n": 10,
+    "recall@10": 0.7,
+    "recall@5": 0.5,
+    "mrr@10": 0.4725,
+    "mean_rank": 12.0,
+    "hits@10": 7,
+    "ci95_recall@10": [
+      0.39677321997956516,
+      0.892210712513788
+    ]
+  },
+  "bm25": {
+    "name": "bm25",
+    "n": 10,
+    "recall@10": 0.8,
+    "recall@5": 0.7,
+    "mrr@10": 0.4708333333333333,
+    "mean_rank": 10.0,
+    "hits@10": 8,
+    "ci95_recall@10": [
+      0.49015684672072335,
+      0.9433190520193067
+    ]
+  },
+  "ae_supervised_in_sample": {
+    "name": "ae_supervised_in_sample",
+    "n": 10,
+    "recall@10": 1.0,
+    "recall@5": 1.0,
+    "mrr@10": 1.0,
+    "mean_rank": 1.0,
+    "hits@10": 10,
+    "ci95_recall@10": [
+      0.7224598312333834,
+      1.0
+    ]
+  },
+  "ae_supervised_lopo": {
+    "name": "ae_supervised_lopo",
+    "n": 10,
+    "recall@10": 0.8,
+    "recall@5": 0.4,
+    "mrr@10": 0.31972222222222224,
+    "mean_rank": 9.3,
+    "hits@10": 8,
+    "ci95_recall@10": [
+      0.49015684672072335,
+      0.9433190520193067
+    ]
+  }
+}

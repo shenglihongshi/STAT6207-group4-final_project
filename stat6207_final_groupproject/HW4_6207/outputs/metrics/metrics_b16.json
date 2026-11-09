@@ -1,0 +1,15 @@
+{
+  "ae_supervised_lopo": {
+    "name": "ae_supervised_lopo",
+    "n": 10,
+    "recall@10": 0.2,
+    "recall@5": 0.2,
+    "mrr@10": 0.1,
+    "mean_rank": 17.9,
+    "hits@10": 2,
+    "ci95_recall@10": [
+      0.05668094798069326,
+      0.5098431532792767
+    ]
+  }
+}

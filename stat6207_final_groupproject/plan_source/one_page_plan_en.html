@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>AI CV Matching Project · One-Page Plan</title>
+<style>
+  :root{
+    --ink:#142033;
+    --muted:#5B6B7F;
+    --line:#DCE4EC;
+    --bg:#F4F7FA;
+    --navy:#0C2340;
+    --navy2:#123A5A;
+    --teal:#0E7C86;
+    --teal-soft:#E7F3F4;
+    --amber:#C96A2B;
+    --amber-soft:#FBF0E6;
+    --white:#FFFFFF;
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;background:#fff;}
+  body{
+    font-family:"Segoe UI","Helvetica Neue",Arial,sans-serif;
+    color:var(--ink);
+    -webkit-print-color-adjust:exact;
+    print-color-adjust:exact;
+  }
+  @page{size:A4;margin:0;}
+  .page{
+    width:210mm;
+    min-height:297mm;
+    background:#fff;
+    position:relative;
+  }
+
+  /* ---------- HERO ---------- */
+  .hero{
+    background:
+      radial-gradient(circle at 88% 20%, rgba(34,160,170,.28) 0%, rgba(34,160,170,0) 42%),
+      linear-gradient(118deg, #0A1C33 0%, #0C2340 48%, #123A5A 100%);
+    color:#fff;
+    padding:8.4mm 10mm 11.0mm;
+    position:relative;
+    overflow:hidden;
+  }
+  .hero:after{
+    content:"";
+    position:absolute; left:0; right:0; bottom:0; height:1.2mm;
+    background:linear-gradient(90deg,var(--teal) 0%, #2AA7A0 55%, var(--amber) 100%);
+  }
+  .hero .grid-lines{
+    position:absolute; inset:0;
+    background-image:linear-gradient(rgba(255,255,255,.045) 1px, transparent 1px),
+                     linear-gradient(90deg, rgba(255,255,255,.045) 1px, transparent 1px);
+    background-size:14mm 14mm;
+    pointer-events:none;
+  }
+  .eyebrow{
+    font-size:6.9pt;
+    letter-spacing:1.6pt;
+    color:#8FD3D8;
+    font-weight:700;
+    text-transform:uppercase;
+  }
+  h1{
+    font-size:26.5pt;
+    line-height:1.08;
+    margin:2.2mm 0 1.4mm;
+    font-weight:900;
+    letter-spacing:.4pt;
+  }
+  .sub{
+    font-size:9.6pt;
+    line-height:1.5;
+    color:rgba(255,255,255,.86);
+    font-weight:400;
+    max-width:128mm;
+  }
+  .meta{
+    position:absolute;
+    top:8.4mm; right:10mm;
+    text-align:right;
+    font-size:6.7pt;
+    line-height:1.75;
+    color:rgba(255,255,255,.72);
+  }
+  .meta b{color:#fff;font-weight:700;display:block;font-size:7.6pt;letter-spacing:.3pt;}
+  .meta .tag{
+    display:inline-block;
+    margin-top:1.8mm;
+    border:1px solid rgba(143,211,216,.55);
+    color:#B9E4E7;
+    border-radius:10mm;
+    padding:.7mm 2.4mm;
+    font-size:6.1pt;
+    letter-spacing:.4pt;
+  }
+
+  /* ---------- KPI ---------- */
+  .kpis{
+    margin:-7.8mm 10mm 0;
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:2.6mm;
+    position:relative;
+    z-index:5;
+  }
+  .kpi{
+    background:#fff;
+    border:1px solid var(--line);
+    border-top:2.4px solid var(--teal);
+    border-radius:1.4mm;
+    padding:2.1mm 2.6mm 1.9mm;
+    box-shadow:0 1.2mm 3mm rgba(9,28,51,.10);
+  }
+  .kpi b{
+    display:block;
+    font-size:16.5pt;
+    line-height:1;
+    color:var(--navy);
+    letter-spacing:-.2pt;
+  }
+  .kpi b em{font-style:normal;font-size:9pt;font-weight:700;color:var(--teal);}
+  .kpi span{
+    display:block;
+    font-size:6.6pt;
+    color:var(--muted);
+    margin-top:1.4mm;
+    line-height:1.35;
+  }
+
+  /* ---------- MAIN GRID ---------- */
+  .main{
+    display:grid;
+    grid-template-columns:1.47fr 1fr;
+    gap:5mm;
+    padding:3.5mm 10mm 0;
+  }
+  .col{min-width:0;}
+
+  section{margin-bottom:2.7mm;}
+  section:last-child{margin-bottom:0;}
+
+  .sec-head{
+    display:flex;
+    align-items:baseline;
+    gap:2.2mm;
+    border-bottom:1px solid var(--line);
+    padding-bottom:1.2mm;
+    margin-bottom:2.1mm;
+  }
+  .sec-num{
+    font-size:6.6pt;
+    font-weight:800;
+    color:var(--teal);
+    letter-spacing:.6pt;
+    white-space:nowrap;
+  }
+  .sec-title{
+    font-size:10.6pt;
+    font-weight:800;
+    color:var(--navy);
+    letter-spacing:.2pt;
+    line-height:1.2;
+  }
+  .sec-title small{
+    font-size:6.5pt;
+    color:var(--muted);
+    font-weight:500;
+    letter-spacing:.2pt;
+    margin-left:1.2mm;
+  }
+
+  p,li{
+    font-size:8.05pt;
+    line-height:1.47;
+    margin:0;
+  }
+  p+p{margin-top:1.4mm;}
+  strong{font-weight:800;color:var(--navy);}
+  .accent{color:var(--teal);font-weight:800;}
+  .nw{white-space:nowrap;}
+
+  /* ---------- GOAL BOX ---------- */
+  .goal{
+    margin-top:1.7mm;
+    background:linear-gradient(180deg,#F7FAFC 0%, #F1F6F8 100%);
+    border:1px solid var(--line);
+    border-left:2.2px solid var(--teal);
+    border-radius:1.2mm;
+    padding:1.9mm 2.6mm 2.0mm;
+  }
+  .goal .lead{
+    font-size:8.1pt;
+    line-height:1.45;
+    color:#2C3E52;
+  }
+  .chips{
+    display:flex;
+    gap:1.8mm;
+    margin-top:2mm;
+    flex-wrap:wrap;
+  }
+  .chip{
+    background:#fff;
+    border:1px solid #CFE1E4;
+    border-radius:10mm;
+    padding:.9mm 2.2mm;
+    font-size:6.7pt;
+    color:var(--teal);
+    font-weight:700;
+    line-height:1;
+    white-space:nowrap;
+  }
+  .chip b{color:var(--navy);font-size:7.1pt;}
+
+  /* ---------- PIPELINE ---------- */
+  .pipeline{
+    position:relative;
+    margin:1.2mm 0 1.7mm;
+    padding-left:1mm;
+  }
+  .pipeline:before{
+    content:"";
+    position:absolute;
+    left:3.55mm;
+    top:3.2mm;
+    bottom:3.2mm;
+    width:.45mm;
+    background:linear-gradient(180deg,var(--teal),#9ED4D7);
+    border-radius:1mm;
+  }
+  .step{
+    position:relative;
+    display:grid;
+    grid-template-columns:7.1mm 16mm 1fr;
+    align-items:start;
+    gap:2mm;
+    padding:.75mm 0;
+  }
+  .step .n{
+    position:relative;
+    z-index:2;
+    width:6.4mm;height:6.4mm;
+    border-radius:50%;
+    background:#fff;
+    border:1.2px solid var(--teal);
+    color:var(--teal);
+    font-size:6.4pt;
+    font-weight:800;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    line-height:1;
+  }
+  .step .k{
+    font-size:7.9pt;
+    font-weight:800;
+    color:var(--navy);
+    line-height:1.35;
+    padding-top:.3mm;
+  }
+  .step .d{
+    font-size:7.35pt;
+    color:#42536A;
+    line-height:1.45;
+    padding-top:.25mm;
+  }
+  .step .d b{color:var(--ink);font-weight:700;}
+
+  /* ---------- WEIGHT TABLE ---------- */
+  table.weights{
+    width:100%;
+    border-collapse:collapse;
+    margin-top:.6mm;
+    font-size:7.15pt;
+    line-height:1.35;
+  }
+  table.weights th{
+    text-align:left;
+    font-size:6.2pt;
+    letter-spacing:.5pt;
+    color:var(--muted);
+    font-weight:700;
+    padding:0 1.4mm 1mm;
+    border-bottom:1px solid var(--line);
+  }
+  table.weights td{
+    padding:1.25mm 1.4mm;
+    border-bottom:1px solid #E8EEF3;
+    vertical-align:top;
+  }
+  table.weights tr:last-child td{border-bottom:none;}
+  .tier{
+    display:inline-block;
+    font-size:5.9pt;
+    font-weight:800;
+    letter-spacing:.2pt;
+    padding:.55mm 1.5mm;
+    border-radius:.8mm;
+    white-space:nowrap;
+  }
+  .t-highest{background:#0C2340;color:#fff;}
+  .t-high{background:#0E7C86;color:#fff;}
+  .t-medium{background:#DCEBED;color:#0A5E66;}
+  .t-filter{background:#FBE7D8;color:#A95317;}
+  .w-num{font-weight:800;color:var(--navy);white-space:nowrap;}
+  .w-factors{color:#3A4B60;}
+  .note{
+    font-size:6.7pt;
+    line-height:1.45;
+    color:var(--muted);
+    margin-top:1.0mm;
+  }
+  .note b{color:var(--ink);font-weight:700;}
+
+  /* ---------- OUTPUT EXAMPLE ---------- */
+  .example{
+    margin-top:1.6mm;
+    background:#FAFBFC;
+    border:1px solid var(--line);
+    border-radius:1.2mm;
+    padding:1.6mm 2.2mm 1.7mm;
+  }
+  .example .cap{
+    font-size:6.2pt;
+    font-weight:800;
+    letter-spacing:.5pt;
+    color:var(--muted);
+    text-transform:uppercase;
+    margin-bottom:1.2mm;
+  }
+  .example .cap em{font-style:normal;color:var(--teal);}
+  .rank{
+    display:grid;
+    grid-template-columns:5mm 15mm 1fr;
+    gap:1.6mm;
+    align-items:start;
+    padding:.9mm 0;
+    border-top:1px dashed #E1E8EE;
+    font-size:6.95pt;
+    line-height:1.38;
+  }
+  .rank:first-of-type{border-top:none;}
+  .rank .r{
+    width:4.6mm;height:4.6mm;border-radius:50%;
+    background:var(--teal);color:#fff;
+    font-size:6.2pt;font-weight:800;
+    display:flex;align-items:center;justify-content:center;
+  }
+  .rank .r.r2{background:#7EA9AE;}
+  .rank .id{font-weight:800;color:var(--navy);white-space:nowrap;padding-top:.2mm;}
+  .rank .why{color:#42536A;padding-top:.2mm;}
+  .rank .why b{color:var(--ink);font-weight:700;}
+
+  /* ---------- EVAL ---------- */
+  .eval-list{
+    list-style:none;
+    padding:0;margin:0;
+  }
+  .eval-list li{
+    position:relative;
+    padding-left:3.1mm;
+    margin-bottom:1.0mm;
+    font-size:7.4pt;
+    line-height:1.45;
+    color:#3A4B60;
+  }
+  .eval-list li:before{
+    content:"";
+    position:absolute;
+    left:0;top:1.55mm;
+    width:1.45mm;height:1.45mm;
+    border-radius:50%;
+    background:var(--teal);
+  }
+  .eval-list li:last-child{margin-bottom:0;}
+  .eval-list b{color:var(--navy);font-weight:800;}
+
+  /* ---------- SIDEBAR CARDS ---------- */
+  .card{
+    background:var(--bg);
+    border:1px solid var(--line);
+    border-radius:1.4mm;
+    padding:2.1mm 2.3mm;
+  }
+  .card + .card{margin-top:2.8mm;}
+
+  .data-table{
+    width:100%;
+    border-collapse:collapse;
+    font-size:7.05pt;
+    line-height:1.32;
+  }
+  .data-table td{
+    padding:.85mm 0;
+    border-bottom:1px solid #E3EAF0;
+  }
+  .data-table tr:last-child td{border-bottom:none;}
+  .data-table td:first-child{color:var(--muted);font-size:6.6pt;white-space:nowrap;width:27%;}
+  .data-table td:last-child{color:var(--ink);font-weight:600;}
+  .data-table td:last-child b{color:var(--navy);font-weight:800;}
+
+  .gap{
+    margin-top:1.7mm;
+    background:var(--amber-soft);
+    border-left:2px solid var(--amber);
+    border-radius:.9mm;
+    padding:1.7mm 2mm;
+    font-size:6.8pt;
+    line-height:1.45;
+    color:#6B3A1C;
+  }
+  .gap b{color:#8A3F0E;font-weight:800;}
+
+  .scope{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:2.4mm;
+    margin-top:2.0mm;
+  }
+  .scope .box{
+    border-radius:1mm;
+    padding:1.6mm 1.9mm;
+    font-size:6.55pt;
+    line-height:1.45;
+  }
+  .scope .in{background:#EDF7F6;border:1px solid #CFE8E5;color:#215C5C;}
+  .scope .out{background:#FBF2F2;border:1px solid #EED9D9;color:#744343;}
+  .scope .box b{display:block;font-size:6.5pt;letter-spacing:.3pt;margin-bottom:.7mm;}
+  .scope .in b{color:#0A6B63;}
+  .scope .out b{color:#9B3D3D;}
+
+  /* ---------- TIMELINE ---------- */
+  .timeline{margin-top:.4mm;}
+  .tl{
+    display:grid;
+    grid-template-columns:9mm 1fr;
+    gap:1.9mm;
+    padding:.95mm 0;
+    border-bottom:1px solid #E6ECF2;
+  }
+  .tl:last-child{border-bottom:none;padding-bottom:.4mm;}
+  .tl .w{
+    font-size:6.8pt;
+    font-weight:900;
+    color:#fff;
+    background:var(--navy);
+    border-radius:.8mm;
+    text-align:center;
+    line-height:1.25;
+    padding:.75mm 0;
+    height:fit-content;
+  }
+  .tl:nth-child(2) .w{background:#15506B;}
+  .tl:nth-child(3) .w{background:#0E7C86;}
+  .tl:nth-child(4) .w{background:#C96A2B;}
+  .tl .txt{font-size:7.05pt;line-height:1.38;color:#3A4B60;}
+  .tl .txt b{display:block;font-size:7.3pt;color:var(--navy);font-weight:800;margin-bottom:.35mm;}
+
+  /* ---------- RISKS ---------- */
+  .risk{
+    display:grid;
+    grid-template-columns:1.6mm 1fr;
+    gap:1.7mm;
+    padding:.7mm 0;
+    font-size:6.9pt;
+    line-height:1.4;
+    color:#3A4B60;
+  }
+  .risk .dot{
+    width:1.35mm;height:1.35mm;
+    border-radius:50%;
+    background:var(--amber);
+    margin-top:1.35mm;
+  }
+  .risk b{color:var(--navy);font-weight:800;}
+
+  /* ---------- DELIVERABLES ---------- */
+  .deliver{
+    list-style:none;
+    padding:0;margin:0;
+    counter-reset:d;
+  }
+  .deliver li{
+    position:relative;
+    padding-left:5.2mm;
+    margin-bottom:.8mm;
+    font-size:6.95pt;
+    line-height:1.4;
+    color:#3A4B60;
+    counter-increment:d;
+  }
+  .deliver li:last-child{margin-bottom:0;}
+  .deliver li:before{
+    content:counter(d);
+    position:absolute;left:0;top:.05mm;
+    width:3.6mm;height:3.6mm;
+    border-radius:50%;
+    border:1px solid #BFD8DB;
+    color:var(--teal);
+    font-size:5.8pt;
+    font-weight:800;
+    display:flex;align-items:center;justify-content:center;
+    background:#fff;
+  }
+  .deliver b{color:var(--navy);font-weight:800;}
+
+  /* ---------- FOOTER ---------- */
+  .footer{
+    margin:1.4mm 10mm 0;
+    border-top:1px solid var(--line);
+    padding-top:1.3mm;
+    display:flex;
+    justify-content:space-between;
+    gap:4mm;
+    font-size:6.05pt;
+    line-height:1.45;
+    color:#7A8898;
+  }
+  .footer .left{max-width:142mm;}
+  .footer b{color:#42536A;font-weight:700;}
+  .footer .right{text-align:right;white-space:nowrap;color:#8B98A7;}
+</style>
+</head>
+<body>
+
+<div class="page">
+
+  <!-- HERO -->
+  <header class="hero">
+    <div class="grid-lines"></div>
+    <div class="eyebrow">STAT6207 · FINAL GROUP PROJECT · ONE-PAGE PLAN</div>
+    <h1>AI CV Matching Project</h1>
+    <div class="sub">From a JD to a Top-5 shortlist: an explainable, evaluable matching baseline<br>A first-pass screening tool a senior recruiter would actually use</div>
+    <div class="meta">
+      <b>Second Talent</b>
+      Student project briefing · 04 Nov 2026<br>
+      v1.0 · One-page plan<br>
+      <span class="tag">Prepared for Eric Cheng · Chief of Staff</span>
+    </div>
+  </header>
+
+  <!-- KPI -->
+  <div class="kpis">
+    <div class="kpi"><b>50</b><span>tech good-match pairs<br>(from 50 JD × 100 CV)</span></div>
+    <div class="kpi"><b>23</b><span>existing tech JDs<br>(pilot scope)</span></div>
+    <div class="kpi"><b>≥70<em>%</em></b><span>target Top-5<br>hit rate</span></div>
+    <div class="kpi"><b>4</b><span>weeks from kick-off<br>to delivery</span></div>
+  </div>
+
+  <!-- MAIN -->
+  <main class="main">
+
+    <!-- LEFT COLUMN -->
+    <div class="col">
+
+      <section>
+        <div class="sec-head">
+          <div class="sec-num">01</div>
+          <div class="sec-title">Problem &amp; objective<small>WHY &amp; WHAT</small></div>
+        </div>
+        <p>Second Talent fills <strong>70–80%</strong> of its roles in tech. Recruiters still match CVs by hand — slow, and inconsistent across reviewers. We will build a reproducible matching baseline for tech roles: <strong>given one JD, return the <span class="nw">Top-5</span> CVs with a short, evidence-based reason for each</strong>, then test it against pairs a recruiter has approved.</p>
+        <div class="goal">
+          <div class="lead"><strong>Not a production feature.</strong> The goal is to prove that a simple, explainable matcher can meet a senior recruiter's shortlist bar.</div>
+          <div class="chips">
+            <span class="chip">Top-5 hit rate <b>≥ 70%</b></span>
+            <span class="chip">nDCG@5 <b>≥ 0.75</b></span>
+            <span class="chip">Blind-review agreement <b>≥ 80%</b></span>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="sec-head">
+          <div class="sec-num">02</div>
+          <div class="sec-title">Method &amp; weights<small>HOW IT WORKS</small></div>
+        </div>
+
+        <div class="pipeline">
+          <div class="step">
+            <div class="n">1</div><div class="k">Read JD</div>
+            <div class="d">Turn the role into a <b>must-have / nice-to-have</b> checklist</div>
+          </div>
+          <div class="step">
+            <div class="n">2</div><div class="k">Read CV</div>
+            <div class="d">Extract the same fields: skills, years, seniority, location, salary</div>
+          </div>
+          <div class="step">
+            <div class="n">3</div><div class="k">Filter</div>
+            <div class="d">Location / time zone / language / notice period as hard gates</div>
+          </div>
+          <div class="step">
+            <div class="n">4</div><div class="k">Score</div>
+            <div class="d">Weighted sum; missing fields count as <b>neutral 0.5</b>, not zero</div>
+          </div>
+          <div class="step">
+            <div class="n">5</div><div class="k">Rank</div>
+            <div class="d">Top-5, each with a <b>verifiable, evidence-based reason</b></div>
+          </div>
+        </div>
+
+        <table class="weights">
+          <thead>
+            <tr><th style="width:17%;">Tier</th><th style="width:11%;">Pts</th><th>Factors</th></tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><span class="tier t-highest">Highest</span></td>
+              <td class="w-num">55</td>
+              <td class="w-factors">Hard-skill overlap <b>35</b> · Relevant years <b>20</b></td>
+            </tr>
+            <tr>
+              <td><span class="tier t-high">High</span></td>
+              <td class="w-num">25</td>
+              <td class="w-factors">Seniority <b>15</b> · Salary vs budget <b>10</b></td>
+            </tr>
+            <tr>
+              <td><span class="tier t-medium">Medium</span></td>
+              <td class="w-num">20</td>
+              <td class="w-factors">Domain <b>10</b> · Stability <b>5</b> · Education / certs <b>5</b></td>
+            </tr>
+            <tr>
+              <td><span class="tier t-filter">Filters</span></td>
+              <td class="w-num">Gate</td>
+              <td class="w-factors">Location / remote · notice period · language → <b>pass / fail</b></td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="note"><b>Tech route:</b> v0 keywords → v1 BM25 + skill dictionary → v2 embedding hybrid. With only 50 pairs we will not train a complex model; ML is an ablation only. <b>Weights and targets freeze after Week 1 sign-off.</b></div>
+
+        <div class="example">
+          <div class="cap">Output example · <em>JD: Senior Backend Engineer</em> (illustrative)</div>
+          <div class="rank">
+            <div class="r">1</div><div class="id">CV-018 · 92</div>
+            <div class="why">6/6 must-have skills; 7 yrs Go/Python; missing Kubernetes; location &amp; salary fit</div>
+          </div>
+          <div class="rank">
+            <div class="r r2">2</div><div class="id">CV-027 · 84</div>
+            <div class="why">5/6 must-have skills; 5 yrs Python; microservices experience; salary to confirm</div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="sec-head">
+          <div class="sec-num">03</div>
+          <div class="sec-title">Evaluation<small>HOW WE PROVE IT</small></div>
+        </div>
+        <ul class="eval-list">
+          <li><b>Gold set:</b> rule-generated candidates from 50 JDs × 100 CVs, recruiter-confirmed 50 tech positives + 50 hard negatives; 0–3 rubric (3 = strong yes, 2 = shortlist, 1 = borderline, 0 = no).</li>
+          <li><b>Reliability:</b> first 20 pairs double-annotated; report Cohen's kappa; adjudicate disagreements; every label cites CV evidence.</li>
+          <li><b>Protocol:</b> leave-one-JD-out to avoid leakage; compare against random, keyword, and embedding baselines.</li>
+          <li><b>Metrics:</b> primary Top-5 hit rate and nDCG@5; secondary P@5, MRR, extraction F1, reason verifiability; error taxonomy: parsing / missed must-have / seniority / location-salary / hallucinated reason.</li>
+        </ul>
+      </section>
+
+    </div>
+
+    <!-- RIGHT COLUMN -->
+    <div class="col">
+
+      <section>
+        <div class="sec-head">
+          <div class="sec-num">04</div>
+          <div class="sec-title">Data &amp; scope<small>DATA &amp; SCOPE</small></div>
+        </div>
+        <div class="card">
+          <table class="data-table">
+            <tr><td>Starting sheet</td><td><b>50</b> JDs / <b>100</b> CV summaries (tech <b>23</b> / <b>46</b>)</td></tr>
+            <tr><td>Hired examples</td><td><b>10</b> reference cases (rubric calibration)</td></tr>
+            <tr><td>Match labels</td><td><b>0</b> now → <b>50</b> tech pos + <b>50</b> neg</td></tr>
+          </table>
+          <div class="gap"><b>Key gap:</b> the brief targets 100–200 tech JDs; the starting sheet (<i>Manatal Examples…xlsx</i>) has 23; the 10 hired examples are reference only. This term: 23-JD pilot + request 30–50 more; else state scope and scaling plan in the report.</div>
+          <div class="scope">
+            <div class="box in"><b>✔ In scope</b>Tech roles (AI/ML, Backend, Full-stack) · anonymised JD/CV · 50 labels · Claude extraction + baseline</div>
+            <div class="box out"><b>✘ Out of scope</b>Unmasked data · live HRIS feature · buying/scraping LinkedIn · sales roles</div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="sec-head">
+          <div class="sec-num">05</div>
+          <div class="sec-title">4-week timeline<small>TIMELINE</small></div>
+        </div>
+        <div class="timeline">
+          <div class="tl">
+            <div class="w">W1</div>
+            <div class="txt"><b>Data &amp; guide</b>Index, align PDFs by Ref, schema, guide v1, calibrate rubric on 10 hired</div>
+          </div>
+          <div class="tl">
+            <div class="w">W2</div>
+            <div class="txt"><b>Labels &amp; baseline</b>Rule candidates; 50 tech pos + 50 neg + kappa; v0/v1; eval harness</div>
+          </div>
+          <div class="tl">
+            <div class="w">W3</div>
+            <div class="txt"><b>Enhance &amp; evaluate</b>Embedding hybrid, full evaluation, error analysis, reasons, blind review</div>
+          </div>
+          <div class="tl">
+            <div class="w">W4</div>
+            <div class="txt"><b>Deliver</b>Report, demo, one-pager, buffer &amp; rehearsal</div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="sec-head">
+          <div class="sec-num">06</div>
+          <div class="sec-title">Risks &amp; mitigations<small>RISKS</small></div>
+        </div>
+        <div class="risk"><span class="dot"></span><div><b>Only 23 tech JDs</b> → pilot first + request more; narrow scope if needed</div></div>
+        <div class="risk"><span class="dot"></span><div><b>100 labels is still small</b> → rules / embeddings; complex models only as ablation</div></div>
+        <div class="risk"><span class="dot"></span><div><b>Anonymised CVs lack salary/notice</b> → treat unknown as neutral 0.5, not a fail</div></div>
+        <div class="risk"><span class="dot"></span><div><b>Rule self-validation / subjective labels</b> → independent confirmation + leave-one-JD-out + double annotation + kappa</div></div>
+        <div class="risk"><span class="dot"></span><div><b>Privacy</b> → masked copies only, manual audit, Eric's approval before any data leaves</div></div>
+      </section>
+
+      <section>
+        <div class="sec-head">
+          <div class="sec-num">07</div>
+          <div class="sec-title">Deliverables<small>DELIVERABLES</small></div>
+        </div>
+        <ol class="deliver">
+          <li><b>Data pack:</b> jds/cvs JSONL, 50 positives + 50 negatives, data dictionary</li>
+          <li><b>Matching guide (2–3 pp):</b> extraction schema, weights, 0–3 rubric</li>
+          <li><b>Python baseline repo:</b> extraction, matching, evaluation, reproducible demo</li>
+          <li><b>Evaluation report (5–8 pp):</b> metrics, error analysis, blind-review results</li>
+          <li><b>Defense demo + one-page plan:</b> 10-minute walkthrough</li>
+        </ol>
+      </section>
+
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="left"><b>Source:</b> Second Talent · AI CV Matching Project Student Briefing (30 Oct 2026). <b>Privacy:</b> no data leaves Second Talent until masked, manually audited, and approved by Eric.</div>
+    <div class="right">Team: ____________<br>Members: ____________________</div>
+  </footer>
+
+</div>
+
+</body>
+</html>

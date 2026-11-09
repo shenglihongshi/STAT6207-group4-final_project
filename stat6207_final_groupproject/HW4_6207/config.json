@@ -1,0 +1,24 @@
+{
+  "llm_model": "qwen2.5-coder-14b-instruct",
+  "embedding_model": "nomic-embed",
+  "lm_studio_url": "http://127.0.0.1:1234/v1",
+  "seed": 42,
+  "candidate_pool": 110,
+  "ground_truth_pairs": 10,
+  "queries": 10,
+  "top_k": 10,
+  "ae": {
+    "hidden": 512,
+    "bottleneck": 32,
+    "epochs": 100,
+    "warmup_epochs": 40,
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "denoise_rate": 0.10,
+    "retrieval_scale": 10.0
+  },
+  "clustering": {
+    "embedding_distance_threshold": 0.16,
+    "fallback_char_tfidf_threshold": 0.30
+  }
+}

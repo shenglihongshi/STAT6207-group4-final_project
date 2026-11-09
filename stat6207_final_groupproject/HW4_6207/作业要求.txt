@@ -1,0 +1,24 @@
+Apply local LLM to extract keywords from CV and JD
+
+•Merge/cluster similar keywords
+
+•Build an AE model to encode the CV and JD
+
+•For each JD in the ground truth, locate the top 10 CVs
+
+•Measure the Recall of your search
+
+•Conduct error analysis for potential improvements
+
+
+使用本地大语言模型（LLM）从简历（CV）和职位描述（JD）中提取关键词：
+
+合并/聚类相似的关键词
+
+构建自编码器（AE）模型对简历和职位描述进行编码
+
+针对基准数据（Ground Truth）中的每个职位描述，检索出排名前 10 的简历
+
+评估检索的召回率（Recall）
+
+进行错误分析以寻求改进方案
