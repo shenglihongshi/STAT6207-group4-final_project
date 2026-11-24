@@ -1,0 +1,107 @@
+{
+  "cv_ref": "P19",
+  "current_title": "Digital Product Design Manager",
+  "current_company": "GeneJunction Sdn. Bhd",
+  "country": "Malaysia",
+  "languages": null,
+  "skills": [
+    "ui/ux",
+    "design",
+    "leadership",
+    "teamwork",
+    "prototyping",
+    "figma",
+    "draw.io",
+    "miro",
+    "adobe photoshop",
+    "adobe illustrator",
+    "adobe lightroom",
+    "microsoft word",
+    "microsoft powerpoint",
+    "google workspace",
+    "slack",
+    "keynote"
+  ],
+  "work_history": [
+    {
+      "title": "Digital Product Design Manager",
+      "company": "GeneJunction Sdn. Bhd",
+      "start": "2023-01",
+      "end": "present",
+      "is_current": true,
+      "date_precision": "month",
+      "description": "Driving the creation of digital products through hands-on design work, leadership of UI/UX and developer teams, and alignment of business requirements with stakeholders and customer needs.\n• Hands-on UI/UX design from concept to prototype, delivering scalable design systems.\n• Led and mentored cross-functional teams of 2-12 (mobile and full-stack developers), ensuring outputs meet industry quality standards.\n• Worked with stakeholders on investor pitches and product demos to secure funding.\n• Delivered product training and walkthroughs with the sales team, translating technical features into user benefits."
+    },
+    {
+      "title": "Design Director",
+      "company": "Aleph Lab",
+      "start": "2022-01",
+      "end": "2023-01",
+      "is_current": false,
+      "date_precision": "month",
+      "description": "Led a team of 2-4 UI/UX designers, oversaw user research, and collaborated on project pitches for a telco group's subsidiary projects.\n• UI/UX leadership, user journey walkthroughs, digital product mapping, user requirements gathering, rapid prototyping, creative concepts and UI transitions, system and design solutions.\n• Delivered and handed over projects within tight deadlines."
+    },
+    {
+      "title": "Design Director",
+      "company": "Fourtitude.asia",
+      "start": "2012-01",
+      "end": "2022-01",
+      "is_current": false,
+      "date_precision": "month",
+      "description": "Team lead for most telco client projects, from maintenance to full revamps.\n• Led the team on ongoing projects and pitches; guided UI/UX designers, PMs and developers on client requests.\n• UI/UX and prototyping (Figma, Draw.io, Miro); compositing and moodboards (Photoshop, Illustrator, Lightroom).\n• Worked closely with clients and product owners; weekly development updates internally and externally."
+    },
+    {
+      "title": "Senior Web Designer",
+      "company": "UBERFUSION SDN. BHD",
+      "start": "2006-01",
+      "end": "2012-01",
+      "is_current": false,
+      "date_precision": "month",
+      "description": "Executed and launched a telco prepaid microsite in one month.\n• Documentation and communication (Word, PowerPoint, Google Workspace, Slack, Keynote)."
+    },
+    {
+      "title": "Junior Web Designer",
+      "company": "Arachnid Sdn. Bhd",
+      "start": "2005-01",
+      "end": "2006-01",
+      "is_current": false,
+      "date_precision": "month",
+      "description": "Managed multiple website maintenance accounts for automotive, beverage and telco brands."
+    }
+  ],
+  "education": "Bachelor's Degree, Art/Design/Multimedia — University of Wolverhampton (2005)\nAssociate's Degree — The One Academy (2004)",
+  "latest_degree": "Art/Design/Multimedia — University of Wolverhampton",
+  "highest_degree": "bachelor",
+  "domain": "software",
+  "years_experience": null,
+  "relevant_years": null,
+  "seniority": null,
+  "evidence": {
+    "cv_ref": null,
+    "current_title": "Digital Product Design Manager",
+    "current_company": "GeneJunction Sdn. Bhd",
+    "country": "Malaysia",
+    "languages": null,
+    "skills": "UI/UX, Design, Leadership, Teamwork, Prototyping, Figma, Draw.io, Miro, Adobe Photoshop, Adobe Illustrator, Adobe Lightroom, Microsoft Word, Microsoft PowerPoint, Google Workspace, Slack, Keynote",
+    "work_history": [
+      "Digital Product Design Manager · GeneJunction Sdn. Bhd\n2023-01 – Present",
+      "Design Director · Aleph Lab\n2022-01 – 2023-01",
+      "Design Director · Fourtitude.asia\n2012-01 – 2022-01",
+      "Senior Web Designer · UBERFUSION SDN. BHD\n2006-01 – 2012-01",
+      "Junior Web Designer · Arachnid Sdn. Bhd\n2005-01 – 2006-01"
+    ],
+    "education": "Bachelor's Degree, Art/Design/Multimedia — University of Wolverhampton (2005)\nAssociate's Degree — The One Academy (2004)",
+    "latest_degree": "Latest: Art/Design/Multimedia — University of Wolverhampton",
+    "highest_degree": "Bachelor's Degree, Art/Design/Multimedia — University of Wolverhampton",
+    "domain": "GeneJunction Sdn. Bhd · Malaysia\nHired for: Regional Lead, UI/UX",
+    "years_experience": null,
+    "relevant_years": null,
+    "seniority": null
+  },
+  "_meta": {
+    "source": "main\\matcher\\testset\\CV\\P19.txt",
+    "model": "qwen/qwen3.5-9b",
+    "extracted_at": "2026-11-22T15:11:16",
+    "evidence_rejected": []
+  }
+}

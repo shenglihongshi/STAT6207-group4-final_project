@@ -1,0 +1,60 @@
+{
+  "cv_ref": "CV-054",
+  "current_title": "UX/UI Design Intern",
+  "current_company": "THD Cyber Security",
+  "country": "Vietnam",
+  "languages": null,
+  "skills": [
+    "ux research",
+    "evaluation",
+    "ui design",
+    "figma",
+    "framer",
+    "canva",
+    "google analytics 4",
+    "ai support"
+  ],
+  "work_history": [
+    {
+      "title": "UX/UI Design Intern",
+      "company": "THD Cyber Security",
+      "start": "2025-10",
+      "end": "2025-12",
+      "is_current": false,
+      "date_precision": "month",
+      "description": "Redesigned parts of a B2B cybersecurity company website, refining page layouts and content hierarchy.\nInitiated and conducted a site-wide UX audit using heuristic evaluation and Google Analytics 4 data.\nCompiled findings into a report and recommended priorities based on expected impact and implementation effort."
+    },
+    {
+      "title": "Communications Contributor",
+      "company": "Youth Confessions · Ybox.vn",
+      "start": "2023-01",
+      "end": "2023-06",
+      "is_current": false,
+      "date_precision": "month",
+      "description": "Selected and edited articles to meet editorial guidelines; coordinated with authors and published content on YBOX.\nDesigned cover images and article illustrations; helped shorten content and prepare visuals for Facebook."
+    }
+  ],
+  "education": "Bachelor's Degree — University of Social Sciences and Humanities, VNU-HCM (2022–2026)",
+  "latest_degree": "Multimedia Communications — University of Social Sciences and Humanities, VNU-HCM",
+  "highest_degree": "bachelor",
+  "domain": "software",
+  "years_experience": null,
+  "relevant_years": null,
+  "seniority": null,
+  "evidence": {
+    "current_title": "UX/UI Design Intern",
+    "current_company": "THD Cyber Security",
+    "country": "Vietnam",
+    "skills": "UX Research & Evaluation, UX/UI Design, Figma, Framer, Canva, Google Analytics 4, AI support",
+    "work_history_1": "UX/UI Design Intern · THD Cyber Security\n2025-10 – 2025-12\nRedesigned parts of a B2B cybersecurity company website...",
+    "work_history_2": "Communications Contributor · Youth Confessions · Ybox.vn\n2023-01 – 2023-06\nSelected and edited articles...",
+    "education": "Bachelor's Degree — University of Social Sciences and Humanities, VNU-HCM (2022–2026)",
+    "latest_degree": "Latest: Multimedia Communications — University of Social Sciences and Humanities, VNU-HCM"
+  },
+  "_meta": {
+    "source": "dataset_from_blackboard\\CV_examples\\CV-054.txt",
+    "model": "qwen/qwen3.5-9b",
+    "extracted_at": "2026-11-22T07:45:38",
+    "evidence_rejected": []
+  }
+}

@@ -1,0 +1,31 @@
+software qa engineer
+趨勢科技股份有限公司 · Taiwan · Engineering
+Skills
+Python, API測試, Appium, Selenium, Github Actions, UI/API 跨層驗證, 失敗日誌根因分析, Git, JavaScript, SDLC,
+OOP, 軟體工程系統開發, CI/CD, pytest, Requests, Page Object Model
+Work experience
+Software QA Engineer · 趨勢科技股份有限公司
+2026-08 – Present
+獨立建置涵蓋 13 個模組、100+ 測試案例的 Web / Mobile / API 三層自動化框架 (Python + Selenium + Appium +
+POM),整合 GitHub Actions CI/CD 每日定時執行,搭配 Allure 趨勢報告追蹤 Pass Rate
+歷史變化。具備完整框架設計與落地經驗,包含測試策略規劃、架構決策與團隊規範制定(CLAUDE.md)。
+自動測試 · 遊戲橘子數位科技股份有限公司
+2025-11 – 2026-07
+從零獨立設計並建置雙平台(Web + Mobile)自動化測試框架,採 Python / pytest / Selenium / Appium 與嚴格
+POM,涵蓋登入、OAuth、會員系統、遊戲內購買等 13 模組、100+
+測試案例。導入關鍵迴歸自動化,每日手動測試由 2 小時縮短至 1 小時內;透過 CI 流水線將缺陷反饋週期由 1-2
+天縮短至 1 小時內。發現資訊洩漏(登入錯誤訊息暴露內部錯誤碼與 API 路徑,CWE-209)與帳號枚舉(CWE-204)等安
+全問題;發現併發操作導致重複扣點的缺陷,及時阻止對終端用戶的財務損失。執行前端與後端跨層驗證,找出資料持
+久化失敗、時間戳不一致與輸入邊界違規等潛在問題。以 IMAP
+自動擷取信箱驗證碼、批量建立測試帳號,解決測試資料不足。整合 GitHub Actions(自架 self-hosted
+runner)每日排程 CI/CD;串接 Allure、Email 及 Google Drive 自動產出測試報告;十餘組測試帳密以 GitHub Secrets
+集中管理、不寫死於程式碼。開發客製化三級分類(Pass / Fail / Block)區分環境異常與真實 Bug;擴展 Android 原生
+App 自動化(Appium + LambdaTest 真機雲),實現 Native/WebView Context…
+軟體工程師 · 九亭
+2023-06 – 2025-06
+負責 SaaS 平台端對端(End-to-End)手動測試,涵蓋核心業務模組的功能、迴歸與整合測試週期。使用 Postman 執行
+API 測試,針對核心工作流程驗證登入認證、HTTP
+狀態碼與回應格式。撰寫並維護完整的測試案例與測試計畫,確保每個 Sprint 迭代的發布品質。
+Education
+• 私立龍華科技大學 (2013–2017)
+Latest: 電子計算機科學學系 — 私立龍華科技大學

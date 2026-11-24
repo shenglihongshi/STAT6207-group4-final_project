@@ -1,0 +1,63 @@
+{
+  "jd_id": 26,
+  "position": "Solution Architect",
+  "role_family": "Engineering",
+  "country": "Indonesia",
+  "city": "Jakarta",
+  "remote_allowed": null,
+  "contract_type": "full_time",
+  "languages": null,
+  "salary_min_raw": 40000000.0,
+  "salary_max_raw": 50000000.0,
+  "currency": "IDR",
+  "salary_frequency": "month",
+  "must_have_skills": [
+    "aws",
+    "azure",
+    "google cloud",
+    "kubernetes"
+  ],
+  "nice_to_have_skills": [
+    "cloud certifications",
+    "devops",
+    "ai/ml",
+    "hybrid/multi-cloud",
+    "data migration",
+    "cloud modernization",
+    "devsecops"
+  ],
+  "min_years": 5,
+  "seniority": "senior",
+  "education_required": null,
+  "domain": "software",
+  "notice_expectation": null,
+  "evidence": {
+    "position": "Position: Solution Architect (ID)",
+    "role_family": "Role family: Engineering",
+    "country": "Location: Jakarta, Indonesia",
+    "city": "Jakarta, Indonesia",
+    "contract_type": "Contract: full_time",
+    "salary_min_raw": "Salary: 40000000.0-50000000.0 IDR per month",
+    "salary_max_raw": "Salary: 40000000.0-50000000.0 IDR per month",
+    "currency": "IDR",
+    "salary_frequency": "per month",
+    "must_have_skills": [
+      "• 5+ years of experience in pre-sales, cloud solution architecture, or technical consulting.",
+      "Strong expertise in cloud platforms such as AWS, Azure, or Google Cloud, including infrastructure, networking, security, Kubernetes, and containerization."
+    ],
+    "nice_to_have_skills": [
+      "Cloud certifications (AWS Solution Architect, Google Professional Cloud Architect, Azure Architect, etc.) are preferred.",
+      "Experience working with clients across Southeast Asia is an advantage.",
+      "Familiarity with software development or DevSecOps practices is a plus."
+    ],
+    "min_years": "5+ years of experience",
+    "seniority": "5+ years of experience in pre-sales, cloud solution architecture, or technical consulting.",
+    "domain": "As a Solution Architect, you will be a key driver in shaping enterprise cloud strategies and delivering end-to-end solutions that solve complex business challenges."
+  },
+  "_meta": {
+    "source": "dataset_from_blackboard\\JD_examples\\JD-26.txt",
+    "model": "qwen/qwen3.5-9b",
+    "extracted_at": "2026-11-22T07:23:50",
+    "evidence_rejected": []
+  }
+}

@@ -1,0 +1,42 @@
+Senior Software Engineer
+Nanovest · Indonesia
+Hired for: Full Stack Developer
+Skills
+React, MySQL, Docker, Ansible, CSS, PHP, Zustand, terraform, Google Cloud Platform, HTML, CI/CD, JavaScript,
+AWS, Redux, Jenkins, Express.js, TypeScript, PostgreSQL, ArgoCD, Next.JS, Redis, Kubernetes, Tailwind
+Work experience
+Senior Software Engineer · Nanovest
+2025-01 – 2026-09
+Designed and implemented a multi-source USD price oracle that aggregates rates from three independent
+providers, filters anomalous values using z-score detection, and computes a weighted price, eliminating the single
+point of failure in USD rate sourcing.
+Developed a multi-currency wallet supporting HKD and CNH balances within the app.
+Built buy and sell functionality for HKD and CNH denominated stocks, expanding the trading offering beyond
+USD-based markets.
+Developed both frontend and backend for a premium web product, owning the full end-to-end implementation.
+Developed backend services for the Web3 platform and crypto-related products serving ~40,000 users. Built
+full-stack features integrating a Next.js frontend with Java Spring Boot services, PostgreSQL and Redis.
+Senior Frontend Engineer · Nanovest
+2022-08 – 2024-12
+Established best-practice coding standards adopted across the admin panel and web application.
+Developed the admin panel, aligning frontend implementation with business requirements and high quality
+standards.
+Mentored junior and mid-level frontend engineers on code quality and best practices.
+Optimized the CI pipeline, reducing build time from 19 minutes to 9 minutes (52.63% faster).
+Frontend Engineer · PT Shopee International Indonesia
+2020-02 – 2022-07
+Developed an in-app puzzle game from scratch, building both the admin panel and end-user application.
+Maintained legacy code and contributed to an in-app quest feature (admin panel and end-user components).
+Collaborated with the national meteorological agency to develop a disaster-alert push notification as a CSR
+initiative.
+Built reusable UI components and applied unit testing with Jest and Enzyme.
+Web Developer · PT Go Online Solusi
+2018-01 – 2020-02
+Implemented new features and maintained a travel booking website using CodeIgniter 3, PHP, MySQL and jQuery.
+Maintained and enhanced an insurer's customer portal, adding SME health insurance, international travel
+insurance and voucher code functionality.
+Used Pimcore CMS and the Symfony framework to deliver content management features.
+Collaborated with cross-functional teams using JIRA and Git across multiple client deliverables.
+Education
+• Teknik Informatika — Universitas Multimedia Nusantara (2019)
+Latest: Teknik Informatika — Universitas Multimedia Nusantara

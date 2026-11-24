@@ -1,0 +1,78 @@
+{
+  "cv_ref": "P14",
+  "current_title": "Sales Manager Thailand",
+  "current_company": "ABB",
+  "country": "Thailand",
+  "languages": null,
+  "skills": [
+    "robot programming",
+    "autodesk inventor",
+    "autocad",
+    "plc programming",
+    "project management",
+    "hmi programming"
+  ],
+  "work_history": [
+    {
+      "title": "Sales Manager Thailand",
+      "company": "ABB",
+      "start": "2023-08",
+      "end": "present",
+      "is_current": true,
+      "date_precision": "month",
+      "description": null
+    },
+    {
+      "title": "Sales Engineer - Robotics",
+      "company": "ABB",
+      "start": "2023-08",
+      "end": "present",
+      "is_current": false,
+      "date_precision": "month",
+      "description": null
+    },
+    {
+      "title": "Project Engineer - Robotics",
+      "company": "ABB",
+      "start": "2018-12",
+      "end": "n/a",
+      "is_current": false,
+      "date_precision": "month",
+      "description": null
+    },
+    {
+      "title": "GT-Engineer",
+      "company": "Ford Motor Company",
+      "start": "2016-08",
+      "end": "2018-11",
+      "is_current": false,
+      "date_precision": "month",
+      "description": null
+    }
+  ],
+  "education": "Bachelor's Degree — Kasetsart University; Bachelor's degree — Kasetsart University",
+  "latest_degree": null,
+  "highest_degree": "bachelor",
+  "domain": "manufacturing",
+  "years_experience": null,
+  "relevant_years": null,
+  "seniority": null,
+  "evidence": {
+    "current_title": "Hired for: Sales Manager Thailand",
+    "current_company": "ABB · Thailand",
+    "country": "Thailand",
+    "skills": "Robot Programming, Autodesk inventor, AutoCAD, PLC Programming, Project Management, Hmi Programming",
+    "work_history_1": "Sales Engineer - Robotics · ABB\n2023-08 – Present",
+    "work_history_2": "Project Engineer - Robotics · ABB\n2018-12 – n/a",
+    "work_history_3": "GT-Engineer · Ford Motor Company\n2016-08 – 2018-11",
+    "education": "Education\n• Bachelor's Degree — Kasetsart University\nLatest: Bachelor's degree — Kasetsart University"
+  },
+  "_meta": {
+    "source": "main\\matcher\\testset\\CV\\P14.txt",
+    "model": "qwen/qwen3.5-9b",
+    "extracted_at": "2026-11-22T15:09:15",
+    "evidence_rejected": [
+      "latest_degree(无evidence)"
+    ]
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "jd_id": "P03",
+  "position": "GTM Marketing Manager / Lead",
+  "role_family": "Marketing",
+  "country": "United States",
+  "city": null,
+  "remote_allowed": null,
+  "contract_type": "full_time",
+  "languages": [
+    {
+      "lang": "English",
+      "level": "fluent"
+    }
+  ],
+  "salary_min_raw": null,
+  "salary_max_raw": null,
+  "currency": null,
+  "salary_frequency": null,
+  "must_have_skills": null,
+  "nice_to_have_skills": [
+    "cross-border e-commerce",
+    "logistics technology",
+    "supply chain saas",
+    "b2b marketing"
+  ],
+  "min_years": null,
+  "seniority": "lead",
+  "education_required": null,
+  "domain": "ecommerce",
+  "notice_expectation": null,
+  "evidence": {
+    "position": "GTM Marketing Manager / Lead",
+    "role_family": "Marketing Strategy & GTM Planning; Online Performance Marketing; Brand & Content Operations",
+    "country": "work independently and deeply understands the US market",
+    "contract_type": "full time",
+    "languages": "Create English marketing content",
+    "must_have_skills": "Google Ads, Facebook/Meta Ads, LinkedIn Ads, Ahrefs / SEMrush, HubSpot, SEO content strategy, CRO, social media content operations (LinkedIn, Twitter/X, YouTube), EDM marketing, AI tools (Claude, Perplexity, ChatGPT)",
+    "nice_to_have_skills": "Background in cross-border e-commerce, logistics technology, or supply chain SaaS industries; Work or study experience in the US",
+    "seniority": "GTM Marketing Manager / Lead"
+  },
+  "_meta": {
+    "source": "main\\matcher\\testset\\JD\\P03.txt",
+    "model": "qwen/qwen3.5-9b",
+    "extracted_at": "2026-11-22T15:00:36",
+    "evidence_rejected": [
+      "salary_frequency(无evidence)",
+      "must_have_skills"
+    ]
+  }
+}

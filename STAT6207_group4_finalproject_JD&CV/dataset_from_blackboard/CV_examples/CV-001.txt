@@ -1,0 +1,28 @@
+Backend Developer
+Sea - Shopee · Engineering
+Skills
+Python, Golang, PHP, MySQL, Postgres, Docker, Kubernetes, Gcp, Kafka, RabbitMQ, ElasticSearch, Agile
+Work experience
+Backend developer · Sea - Shopee
+2019-10 – Present
+Devops using GCP, kubernetes and Helm. Deploy and monitor services on cloud. Work with Jenkins, Ansible and
+various tools.
+Develop game backend using golang and apply lomicro to build large microservice system.
+Connecting various partner to shopee using Python
+• Django backend. Making sure the orders are delivered to users when they are complete and show proper report
+to partner.
+Manage team more than 10 peoples running Agile model, arrange sprint task and hold daily, planning meetings.
+Mentoring new members and interns to catch up with company standards.
+Building chat message system with…
+Backend developer · Sea - Airpay
+2015-09 – 2019-10
+Develop Python backend for Airpay Counter, manage transactions, selling products and connecting with partner.
+Deploying on server using docker and docker compose, scale up and down depending on resource usage.
+Maintaining Angular frontend and django templates.
+Intern Backend Developer · Vietnam Esport
+2015-03 – 2015-08
+Implement a web based recruitment system in PHP Laravel. Manage candidates CV and interview flows.
+Education
+• Bachelor's Degree — UNIVERSITY OF INFORMATION TECHNOLOGY, VIETNAM NATIONAL UNIVERSITY,
+HCMC (2017)
+Latest: Software Engineering — University of Information Technology, Vietnam National University, HCMC

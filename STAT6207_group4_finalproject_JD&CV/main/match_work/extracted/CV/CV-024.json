@@ -1,0 +1,55 @@
+{
+  "cv_ref": "CV-024",
+  "current_title": "Senior QA Automation Engineer",
+  "current_company": "LiSEC Automation LLC",
+  "country": "United Arab Emirates",
+  "languages": null,
+  "skills": [
+    "playwright",
+    "cypress",
+    "webdriverio",
+    "selenium",
+    "typescript",
+    "javascript",
+    "python",
+    "sql",
+    "api testing",
+    "ci/cd",
+    "devops",
+    "agile",
+    "scrum",
+    "ai in testing"
+  ],
+  "work_history": null,
+  "education": null,
+  "latest_degree": "Engineering Management — RMIT University",
+  "highest_degree": "master",
+  "domain": "software",
+  "years_experience": null,
+  "relevant_years": null,
+  "seniority": null,
+  "evidence": {
+    "cv_ref": null,
+    "current_title": "Senior QA Automation Engineer",
+    "current_company": "LiSEC Automation LLC · United Arab Emirates",
+    "country": "United Arab Emirates",
+    "skills": "Playwright, Cypress, WebdriverIO, Selenium, TypeScript, JavaScript, Python, SQL, API Testing, CI/CD, DevOps, Agile, Scrum, AI in Testing",
+    "work_history": [
+      "Senior QA Automation Engineer · LiSEC Automation LLC 2022-03 – Present Built the company's first UI (Cypress) and API (ReadyAPI) automation framework from scratch...",
+      "Software Test Engineer (Automation Focus) · WebReinvent Technologies Pvt. Ltd. 2021-07 – 2022-03 Built WebdriverIO regression suites...",
+      "Software Test Engineer · Credence Systems Pvt. Ltd. 2013-08 – 2015-09 Wrote and ran test plans..."
+    ],
+    "education": "Master's Degree — RMIT University (2015–2018)；Bachelor's Degree — Oriental Institute of Science & Technology (2009–2013)",
+    "latest_degree": "Latest: Engineering Management — RMIT University",
+    "highest_degree": "Master's Degree"
+  },
+  "_meta": {
+    "source": "dataset_from_blackboard\\CV_examples\\CV-024.txt",
+    "model": "qwen/qwen3.5-9b",
+    "extracted_at": "2026-11-22T07:36:23",
+    "evidence_rejected": [
+      "work_history",
+      "education"
+    ]
+  }
+}

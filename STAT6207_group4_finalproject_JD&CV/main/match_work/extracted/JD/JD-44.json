@@ -1,0 +1,66 @@
+{
+  "jd_id": 44,
+  "position": "Business Development Manager (SME Loans)",
+  "role_family": "Sales & BD",
+  "country": "Singapore",
+  "city": "Singapore",
+  "remote_allowed": null,
+  "contract_type": "full_time",
+  "languages": null,
+  "salary_min_raw": 3500.0,
+  "salary_max_raw": 5500.0,
+  "currency": "SGD",
+  "salary_frequency": "month",
+  "must_have_skills": [
+    "commercial banking",
+    "SME lending",
+    "relationship management",
+    "financial sales",
+    "business development",
+    "financial statements analysis",
+    "credit principles",
+    "Singapore financial regulatory framework"
+  ],
+  "nice_to_have_skills": [
+    "broker network",
+    "referral agents network",
+    "SME clients network"
+  ],
+  "min_years": 4,
+  "seniority": null,
+  "education_required": null,
+  "domain": null,
+  "notice_expectation": null,
+  "evidence": {
+    "position": "Position: Business Development Manager (SME Loans)",
+    "role_family": "Sales & BD",
+    "country": "Location: Singapore, Singapore",
+    "city": "Location: Singapore",
+    "contract_type": "Contract: full_time",
+    "salary_min_raw": "Salary: 3500.0-5500.0 SGD per month",
+    "salary_max_raw": "Salary: 3500.0-5500.0 SGD per month",
+    "currency": "SGD",
+    "salary_frequency": "per month",
+    "must_have_skills": [
+      "A minimum of 4 years of relevant experience in commercial banking, with direct exposure to SME lending or relationship management (RM) for SME-focused portfolios.",
+      "A demonstrable track record in financial sales or business development within the banking or finance industry, specifically targeting SMEs.",
+      "A strong ability to analyze SME financial statements and a deep understanding of business operations and fundamental credit principles.",
+      "A working knowledge of Singapore's financial regulatory framework and established lending practices."
+    ],
+    "nice_to_have_skills": [
+      "A pre-existing, active network of brokers, referral agents, and potential SME clients is a significant advantage."
+    ],
+    "min_years": "A minimum of 4 years of relevant experience",
+    "seniority": "mid",
+    "domain": "fintech"
+  },
+  "_meta": {
+    "source": "dataset_from_blackboard\\JD_examples\\JD-44.txt",
+    "model": "qwen/qwen3.5-9b",
+    "extracted_at": "2026-11-22T07:26:23",
+    "evidence_rejected": [
+      "seniority",
+      "domain"
+    ]
+  }
+}

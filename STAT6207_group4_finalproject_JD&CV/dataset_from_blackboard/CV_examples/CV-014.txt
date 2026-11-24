@@ -1,0 +1,40 @@
+Staff Firmware Engineer
+Infineon Technologies · India · Engineering
+Skills
+Embedded C, C/C++, Python, Assembly, FreeRTOS, Zephyr, RUST, AUTOSAR, ASPICE, MISRA-C, Polyspace,
+Trace32, UDE, gdb, Git, Jenkins, Make/CMake, Linux, Sparx Enterprise Architect, JIRA, Agile, Assembly (TriCore,
+x86)
+Work experience
+Staff Firmware Engineer · Infineon Technologies
+2023-10 – Present
+Developed AURIX TC4xx startup code (CRT0) for TriCore multi-core bring-up, including clock/PLL setup, memory
+initialization, stack/heap configuration, and interrupt vector tables.
+Developed low-level device drivers for AES, RADAR, RDMA, SPU, AUDIO, PSI5, SENT, UART, I2C leveraging
+register-level programming and hardware abstraction layers (HAL).
+Implemented security and cryptography algorithms such as AES128.
+Testing the feature and driver for the owned IPs on Virtualizer Platform, Simulation, Emulation and Silicon.
+Developed linker scripts across Tasking, HighTec, GCC, and GHS toolchains…
+SoC Design Engineer · Intel
+2021-04 – 2023-09
+Developed Assembly firmware for Automatic Voltage Scaling (AVS) on Intel Rialto Bridge GPU and migrated
+firmware features from PVC to Rialto.
+Designed stimulus testbenches for the Cluster Test Environment and Python test-suite generators to refine
+emulation-model validation.
+Developed low-level C/Assembly drivers and test suites for emulation-model validation and improved emulation
+accuracy.
+Expert Validation Engineer · Infineon Technologies
+2018-07 – 2021-04
+Validated firmware, reset, and clock behavior on Zebu/Veloce emulators and on silicon Automated clock validation
+using python to reduce efforts from 3 months to 3 days.
+Developed and validated CAN-FD in Bootstrap Loader. Further advanced it to create a methodology using Vector
+and Python.
+Applied machine learning to generate corner-case clock-ratio scenarios from existing datasets and used
+jitter-measurement algorithms to analyze multiplexed clocks.
+Research Associate · Accelo Automoty India
+2015-11 – 2017-01
+Integrated Bosch BME280 and HC-06 Bluetooth modules with ATmega328P Developed a responsive website
+using WordPress, Bootstrap, HTML5, and CSS.
+Education
+• Yeshwantrao chavan college of engineering (2017)
+• Associate's Degree — Shri Datta Meghe College of Engineering (2014)
+Latest: Electrical Engineering — Yeshwantrao Chavan College Of Engineering

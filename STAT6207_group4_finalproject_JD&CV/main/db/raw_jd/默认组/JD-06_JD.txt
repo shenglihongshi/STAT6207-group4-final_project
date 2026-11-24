@@ -1,0 +1,40 @@
+Position: Machine Learning Engineer
+Role family: Data & AI
+Contract: full_time
+Salary: 4200.0-6700.0 USD per month
+
+
+Job Title: Machine Learning Engineer
+
+Location: Remote, Full-Time
+
+Job Type: Full-time
+
+About the Opportunity
+
+Our client, a leading AI research company, is seeking an experienced Machine Learning Engineer to join their "Environments" team. This is a critical infrastructure role focused on building the "simulation environments" where their advanced AI coding agents learn to become proficient in real-world Machine Learning engineering.
+
+You will be responsible for building complex testing infrastructure on top of large-scale, third-party ML codebases. Your work will "grade" the AI agent's solutions on difficult tasks, such as implementing algorithms from research papers or debugging training frameworks. You will also build automations to accelerate the testing and task-creation process.
+
+This role requires an engineer who can dive into new, unfamiliar, and highly complex ML codebases and frameworks with exceptional speed.
+
+Example Responsibilities
+
+• Write an end-to-end test for a Reinforcement Learning (RL) framework to ensure that a small model's reward function is increasing as expected or to detect numerical instabilities.
+• Find research papers proposing algorithmic improvements for model training, implement them (in PyTorch or Jax), and then write an extensive test suite to evaluate whether an AI agent can successfully reimplement those same algorithms.
+• Build automation tooling to speed up the creation of new ML tasks and testing pipelines.
+
+Required Qualifications
+
+• Experience: Must have multiple years of deep, hands-on experience working with ML frameworks like PyTorch or Jax.
+• Track Record: A demonstrable track record of training large models on large datasets using large-scale, multi-GPU environments.
+• Key Attribute: A proven, exceptional ability to learn new technologies and complex codebases at a very fast pace.
+• Engineering Skills: Strong software engineering fundamentals, particularly in Python, and the ability to build robust, maintainable testing infrastructure.
+
+Interview Process
+
+The interview process is designed to be fast and decisive. It typically consists of 2-3 technical interviews, with a final decision and offer made within seven days in most cases.
+
+How to Apply
+
+Interested candidates are invited to submit their resume, detailing their experience in training large-scale models with PyTorch or Jax.

@@ -1,0 +1,79 @@
+{
+  "jd_id": 21,
+  "position": "Senior Embedded Engineer",
+  "role_family": "Engineering",
+  "country": "China",
+  "city": "Shenzhen",
+  "remote_allowed": false,
+  "contract_type": "full_time",
+  "languages": [
+    {
+      "lang": "Mandarin",
+      "level": "professional"
+    }
+  ],
+  "salary_min_raw": null,
+  "salary_max_raw": null,
+  "currency": null,
+  "salary_frequency": null,
+  "must_have_skills": [
+    "robotics",
+    "amr",
+    "industrial automation",
+    "linux",
+    "ros",
+    "c++",
+    "python",
+    "robot hardware",
+    "motor controllers",
+    "encoders",
+    "sensors",
+    "system integration",
+    "debugging",
+    "networking protocols",
+    "can",
+    "modbus",
+    "circuit schematics",
+    "pcb",
+    "firmware",
+    "hardware troubleshooting",
+    "test equipment"
+  ],
+  "nice_to_have_skills": [
+    "networking protocols",
+    "can",
+    "modbus"
+  ],
+  "min_years": 2,
+  "seniority": "senior",
+  "education_required": "bachelor",
+  "domain": null,
+  "notice_expectation": null,
+  "evidence": {
+    "position": "Position: Senior Embedded Engineer _Shenzhen",
+    "role_family": "Role family: Engineering",
+    "country": "Location: Shenzhen, China",
+    "city": "Location: Shenzhen, China",
+    "remote_allowed": "Based out of Hong Kong, you will work closely with our hardware partner in Shenzhen",
+    "contract_type": "Contract: full_time",
+    "languages": "Proficiency in Mandarin (spoken and written) to work effectively with local team",
+    "must_have_skills": [
+      "Bachelor's or Master's degree in Robotics, Mechatronics, Electrical/Electronics, Computer Engineering or a related field",
+      "2-5 years of experience in AMR, mobile robotics, or industrial automation",
+      "Strong understanding of robot hardware (motor controllers, encoders, sensors) and software (Linux, ROS, C++/Python)",
+      "Experience with robot system integration and hands-on debugging",
+      "Proficiency in reading and analyzing circuit schematics and electrical line diagrams.",
+      "Strong hardware troubleshooting skills for both system-level and PCB-level debugging."
+    ],
+    "nice_to_have_skills": "Familiarity with networking protocols, CAN, Modbus, etc., is a plus",
+    "min_years": "2-5 years of experience in AMR, mobile robotics, or industrial automation",
+    "seniority": "Senior Embedded Engineer",
+    "education_required": "Bachelor's or Master's degree in Robotics, Mechatronics, Electrical/Electronics, Computer Engineering or a related field"
+  },
+  "_meta": {
+    "source": "dataset_from_blackboard\\JD_examples\\JD-21.txt",
+    "model": "qwen/qwen3.5-9b",
+    "extracted_at": "2026-11-22T07:22:58",
+    "evidence_rejected": []
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "jd_id": 29,
+  "position": "Head of Finance",
+  "role_family": "Finance & Legal",
+  "country": null,
+  "city": null,
+  "remote_allowed": null,
+  "contract_type": "full_time",
+  "languages": null,
+  "salary_min_raw": 20000.0,
+  "salary_max_raw": 24000.0,
+  "currency": "MYR",
+  "salary_frequency": "month",
+  "must_have_skills": [
+    "accounting",
+    "auditing",
+    "finance"
+  ],
+  "nice_to_have_skills": [
+    "cpa",
+    "acca",
+    "cfa"
+  ],
+  "min_years": 15,
+  "seniority": "lead",
+  "education_required": "bachelor",
+  "domain": null,
+  "notice_expectation": null,
+  "evidence": {
+    "position": "Position: Head of Finance",
+    "role_family": "Role family: Finance & Legal",
+    "contract_type": "Contract: full_time",
+    "salary_min_raw": "Salary: 20000.0-24000.0 MYR per month",
+    "salary_max_raw": "Salary: 20000.0-24000.0 MYR per month",
+    "currency": "Salary: 20000.0-24000.0 MYR per month",
+    "salary_frequency": "Salary: 20000.0-24000.0 MYR per month",
+    "must_have_skills": "Experience:\n• At least 15 years of direct experience in an accounting, auditing, and finance role.",
+    "nice_to_have_skills": "Certified Public Accountant (CPA)/ACCA/CFA professional license & membership would be appreciated in this highly competitive field.",
+    "min_years": "At least 15 years",
+    "seniority": "Head of Finance",
+    "education_required": "Bachelor's degree/Master's in accounting, finance, business administration, math, economy or a related field."
+  },
+  "_meta": {
+    "source": "dataset_from_blackboard\\JD_examples\\JD-29.txt",
+    "model": "qwen/qwen3.5-9b",
+    "extracted_at": "2026-11-22T07:24:20",
+    "evidence_rejected": []
+  }
+}

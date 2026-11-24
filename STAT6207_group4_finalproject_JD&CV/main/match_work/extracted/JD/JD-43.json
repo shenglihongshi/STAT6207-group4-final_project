@@ -1,0 +1,70 @@
+{
+  "jd_id": 43,
+  "position": "Account Manager",
+  "role_family": "Sales & BD",
+  "country": "Malaysia",
+  "city": "Kuala Lumpur",
+  "remote_allowed": true,
+  "contract_type": "full_time",
+  "languages": null,
+  "salary_min_raw": 10000.0,
+  "salary_max_raw": 10000.0,
+  "currency": "MYR",
+  "salary_frequency": "month",
+  "must_have_skills": [
+    "aws",
+    "azure",
+    "gcp",
+    "cybersecurity",
+    "storage",
+    "virtualization",
+    "excel",
+    "powerpoint",
+    "teams"
+  ],
+  "nice_to_have_skills": [
+    "ai",
+    "iot",
+    "bank negara it regulations",
+    "government technology procurement frameworks",
+    "strategic alliances",
+    "channel relationships",
+    "vendor relationships"
+  ],
+  "min_years": 3,
+  "seniority": "mid",
+  "education_required": "diploma",
+  "domain": "software",
+  "notice_expectation": null,
+  "evidence": {
+    "position": "Position: Account Manager (Malaysia)",
+    "role_family": "Role family: Sales & BD",
+    "country": "Location: Kuala Lumpur, Malaysia",
+    "city": "Location: Kuala Lumpur, Malaysia",
+    "remote_allowed": "Remote: Yes",
+    "contract_type": "Contract: full_time",
+    "salary_min_raw": "Salary: 10000.0-10000.0 MYR per month",
+    "salary_max_raw": "Salary: 10000.0-10000.0 MYR per month",
+    "currency": "MYR",
+    "salary_frequency": "per month",
+    "must_have_skills": [
+      "Diploma or Degree in Information Technology, Engineering, Business, or a related field.",
+      "A minimum of 3 years of proven B2B sales experience in IT solutions, preferably from a Systems Integrator or technology vendor.",
+      "Strong technical understanding of enterprise IT, including Cloud platforms (AWS, Azure, GCP), networking, cybersecurity, storage, and virtualization.",
+      "Proficiency in business productivity tools (e.g., Excel, PowerPoint, Teams)."
+    ],
+    "nice_to_have_skills": [
+      "Familiarity with local regulatory frameworks (e.g., Malaysia's Bank Negara IT regulations) or government technology procurement frameworks.",
+      "Experience in managing strategic alliances or channel/vendor relationships."
+    ],
+    "min_years": "A minimum of 3 years",
+    "seniority": "A minimum of 3 years",
+    "education_required": "Diploma or Degree"
+  },
+  "_meta": {
+    "source": "dataset_from_blackboard\\JD_examples\\JD-43.txt",
+    "model": "qwen/qwen3.5-9b",
+    "extracted_at": "2026-11-22T07:26:14",
+    "evidence_rejected": []
+  }
+}

@@ -1,0 +1,38 @@
+Full-Stack Software Engineer
+NESLIT · Engineering
+Skills
+TypeScript, JavaScript, Python, SQL, React, Next.JS, Vue.js/Nuxt, Tailwind CSS, React Native, Node.js, Nestjs,
+REST API design, authentication, background processing, Webhooks, PostgreSQL, MySQL, MongoDB, Redis,
+Prisma, AWS, Gcp, Docker, Linux, self-hosted infra, Networking, OpenAI-compatible APIs, Gemini, Ollama, Open
+WebUI
+Work experience
+Full-Stack Software Engineer · Neslit
+2023-02 – Present
+End-to-end ownership: Designed and shipped production features spanning PostgreSQL schema design, NestJS
+APIs, and Next.js/React UIs, owning each feature from data model to deployed product.
+AI integrations: Integrated OpenAI and Stable Diffusion APIs into generation workflows, with async job processing
+(Node.js, Temporal, Server-Sent Events) and live status updates.
+Infrastructure & DevOps: Operated across Docker, AWS, GCP, GitHub Actions, and Linux server environments to
+deploy and run production services.
+Developer tooling: Built and maintained a reusable internal component/module library…
+Web3 Full-Stack Engineer · eLearningDAO
+2022-09 – 2023-07
+Built and open-sourced a decentralized e-learning platform (React.js, Node.js, PostgreSQL, Cardano), owning
+functionality across frontend, backend, and data layers.
+Designed REST APIs and backend services for content ownership, authorship, and on-chain asset registration
+workflows.
+Designed and maintained CI/CD pipelines and AWS deployments, automating builds and cloud delivery in an
+early-stage environment.
+Software Engineer · Freelance / UpWork
+2022-08 – Present
+Deliver full-stack applications and internal tooling independently for startups and clients - spanning APIs, AI
+integrations, automation, and Web3 services - from requirements through deployment and maintenance.
+Full-Stack Software Engineer · TECHCHAPS
+2021-01 – 2023-02
+Shipped multiple production applications across React, Node.js, APIs, databases, and third-party integrations,
+working directly across frontend, backend, infra, and product requirements.
+Optimized backend logic and DB access for 15% faster APIs; built deployment workflows supporting 20+
+releases/quarter and cut page load times by 12%.
+Education
+• Bachelor's Degree — PMAS University, Rawalpindi (2021)
+Latest: Computer Science — PMAS University, Rawalpindi

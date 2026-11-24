@@ -1,0 +1,114 @@
+{
+  "cv_ref": "CV-032",
+  "current_title": "Senior AI Engineer",
+  "current_company": "Votee AI",
+  "country": "Hong Kong",
+  "languages": null,
+  "skills": [
+    "python",
+    "c++",
+    "sql",
+    "javascript",
+    "fastapi",
+    "pytorch",
+    "tensorflow",
+    "transformers",
+    "llm post-training",
+    "vector retrieval",
+    "agent frameworks",
+    "speech and multimodal modeling",
+    "opencv",
+    "vllm",
+    "tensorrt",
+    "onnx",
+    "cuda",
+    "triton",
+    "docker",
+    "kubernetes",
+    "aws"
+  ],
+  "work_history": [
+    {
+      "title": "Senior AI Engineer",
+      "company": "Votee AI",
+      "start": "2025-09",
+      "end": "2026-10",
+      "is_current": true,
+      "date_precision": "month",
+      "description": "Built three production AI applications spanning meeting recording, templated summarization, and agent-driven document and data workflows; also built an enterprise LLM training platform for adapting models to company data. Built a production multi-agent orchestration platform serving about 100 users and an E2B-like sandbox runtime for isolated code and tool execution, failure containment, and end-to-end agent testing. Post-trained a 35B Mixture-of-Experts LLM through CPT, SFT, DPO, and GRPO using QLoRA on 8 × NVIDIA L20; improved HKCanto-Eval phonological reasoning from 27% to 84% without…"
+    },
+    {
+      "title": "AI Engineering Lead",
+      "company": "OmniChat",
+      "start": "2024-10",
+      "end": "2025-08",
+      "is_current": false,
+      "date_precision": "month",
+      "description": "Led four engineers and two product managers in defining and executing the AI product roadmap. Architected multi-agent systems combining vector retrieval, multimodal understanding, workflow automation, behavioral analytics, and sentiment analysis; deployed in client WhatsApp chatbots with an estimated thousands of monthly users. Reimplemented FlashAttention-2 in CUDA and Triton to evaluate self-hosted LLM inference; developed voice-agent and generative-media prototypes covering model integration, evaluation, and production delivery."
+    },
+    {
+      "title": "AI Engineer",
+      "company": "LifeHikes",
+      "start": "2020-02",
+      "end": "2024-01",
+      "is_current": false,
+      "date_precision": "month",
+      "description": "Trained speech, text, and video models in TensorFlow and PyTorch, automating all 12 targeted analysis tasks; built preprocessing pipelines to segment raw video into per-utterance text, voice, and video streams. Cut video and voice analysis latency from 20+ s to 1–3 s using ONNX exports and TensorRT GPU serving; moved smaller text classifiers to ONNX Runtime on CPU to free GPU capacity. Productionized HKUST research in voice modulation, multimodal emotion coherence, and engagement recognition, including methods covered by two granted US patents (US 11, 282, 297; US 11, 282, 508)."
+    },
+    {
+      "title": "Analyst Programmer, Machine Learning",
+      "company": "ICONTEK Technology",
+      "start": "2018-06",
+      "end": "2019-11",
+      "is_current": false,
+      "date_precision": "month",
+      "description": "Researched English and Chinese NLP and speech analysis using Seq2Seq and attention models; worked on machine translation with a Carnegie Mellon University professor."
+    },
+    {
+      "title": "Data Analyst",
+      "company": "Citrix",
+      "start": "2018-01",
+      "end": "2018-06",
+      "is_current": false,
+      "date_precision": "month",
+      "description": "Managed and analyzed marketing data; initiated a machine learning project for sales prediction and lead identification to inform marketing managers."
+    }
+  ],
+  "education": "Bachelor's Degree — The Hong Kong Polytechnic University (2017); Statistics and Computing — The Hong Kong Polytechnic University",
+  "latest_degree": "Statistics and Computing — The Hong Kong Polytechnic University",
+  "highest_degree": "bachelor",
+  "domain": null,
+  "years_experience": null,
+  "relevant_years": null,
+  "seniority": null,
+  "evidence": {
+    "cv_ref": null,
+    "current_title": "Senior AI Engineer",
+    "current_company": "Votee AI · Hong Kong · Data & AI",
+    "country": "Hong Kong",
+    "languages": null,
+    "skills": "Python, C++, SQL, JavaScript, FastAPI, PyTorch, TensorFlow, Transformers, LLM post-training, vector retrieval, agent frameworks, speech and multimodal modeling, OpenCV, vLLM, TensorRT, ONNX, CUDA, Triton, Docker, Kubernetes, AWS",
+    "work_history": [
+      "Senior AI Engineer · Votee AI\n2025-09 – 2026-10",
+      "AI Engineering Lead · OmniChat\n2024-10 – 2025-08",
+      "AI Engineer · LifeHikes\n2020-02 – 2024-01",
+      "Analyst Programmer, Machine Learning · ICONTEK Technology\n2018-06 – 2019-11",
+      "Data Analyst · Citrix\n2018-01 – 2018-06"
+    ],
+    "education": "Education\n• Bachelor's Degree — The Hong Kong Polytechnic University (2017)\nLatest: Statistics and Computing — The Hong Kong Polytechnic University",
+    "latest_degree": "Statistics and Computing — The Hong Kong Polytechnic University",
+    "highest_degree": "bachelor",
+    "domain": "software",
+    "years_experience": null,
+    "relevant_years": null,
+    "seniority": null
+  },
+  "_meta": {
+    "source": "dataset_from_blackboard\\CV_examples\\CV-032.txt",
+    "model": "qwen/qwen3.5-9b",
+    "extracted_at": "2026-11-22T07:38:48",
+    "evidence_rejected": [
+      "domain"
+    ]
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "jd_id": "P20",
+  "position": "Data Scientist (AI & ML)",
+  "role_family": "Data & AI",
+  "country": "Bahrain",
+  "city": null,
+  "remote_allowed": null,
+  "contract_type": "full_time",
+  "languages": null,
+  "salary_min_raw": null,
+  "salary_max_raw": null,
+  "currency": null,
+  "salary_frequency": null,
+  "must_have_skills": [
+    "python",
+    "r",
+    "tensorflow",
+    "pytorch",
+    "scikit-learn",
+    "aws",
+    "azure",
+    "gcp"
+  ],
+  "nice_to_have_skills": [
+    "aws certified machine learning",
+    "azure ai engineer",
+    "mlops",
+    "model monitoring frameworks"
+  ],
+  "min_years": 3,
+  "seniority": "senior",
+  "education_required": "master",
+  "domain": "data-ai",
+  "notice_expectation": null,
+  "evidence": {
+    "position": "Data Scientist (AI & ML)",
+    "role_family": "Design, build, and deploy robust AI/ML models to solve complex business challenges",
+    "country": "Location: Bahrain",
+    "contract_type": "Employment Type: Full-Time",
+    "min_years": "Minimum 3 years of experience",
+    "seniority": "Experience Level: Mid-Senior (Minimum 3 years)",
+    "education_required": "Master's or Ph.D. in Computer Science, AI, Machine Learning, Data Science, or a related field",
+    "domain": "Industry: Artificial Intelligence / Machine Learning / Cloud Technology",
+    "must_have_skills": [
+      "Proficient with Python or R, and machine learning libraries such as TensorFlow, PyTorch, or scikit-learn",
+      "Experience deploying models to cloud environments (AWS, GCP, Azure)"
+    ],
+    "nice_to_have_skills": [
+      "Cloud certifications (AWS Certified Machine Learning, Azure AI Engineer, etc.)",
+      "Familiarity with MLOps and model monitoring frameworks"
+    ]
+  },
+  "_meta": {
+    "source": "main\\matcher\\testset\\JD\\P20.txt",
+    "model": "qwen/qwen3.5-9b",
+    "extracted_at": "2026-11-22T15:03:05",
+    "evidence_rejected": [
+      "city(无evidence)"
+    ]
+  }
+}

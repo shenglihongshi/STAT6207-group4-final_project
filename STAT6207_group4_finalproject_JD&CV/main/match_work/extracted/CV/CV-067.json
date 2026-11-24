@@ -1,0 +1,104 @@
+{
+  "cv_ref": "CV-067",
+  "current_title": "Marketing Manager",
+  "current_company": "Chinese Road (HK) Ltd.",
+  "country": "Hong Kong",
+  "languages": null,
+  "skills": [
+    "ai saas",
+    "smart iot solutions",
+    "b2b management",
+    "business model innovation",
+    "key account management",
+    "channel & si ecosystem",
+    "technical sales",
+    "project management",
+    "green tech",
+    "hardware-as-a-service",
+    "rpa",
+    "iot hw-sw integration",
+    "predictive maintenance"
+  ],
+  "work_history": [
+    {
+      "title": "Marketing Manager (GTM Sprint)",
+      "company": "Chinese Road (HK) Ltd.",
+      "start": "2026-04",
+      "end": "2026-07",
+      "is_current": false,
+      "date_precision": "month",
+      "description": "Led a 3-month GTM sprint to localize AI platforms for primary/secondary schools; secured 5 pilot deployments and completed full knowledge transfer of pipelines and partner contacts to ensure seamless project handover. Embedded AI auto-grading into classroom workflows, leaving behind standardized operational playbooks for partners."
+    },
+    {
+      "title": "Business Manager (GTM & Scaling)",
+      "company": "Meta-Archit Software Technology (HK) Ltd.",
+      "start": "2025-01",
+      "end": "2025-12",
+      "is_current": false,
+      "date_precision": "month",
+      "description": "Drove Enterprise Digitalization: Integrated AI SaaS + IoT across Government, 3PL, Hotels, and F&B, bridging ERP/CRM with edge devices to unlock predictive maintenance and automation. Scaled Hybrid GTM: Built a Direct-SI dual-channel model with ROI tools and a Value-Selling Playbook, accelerating deal velocity by 30%. Locked High-Margin SaaS: Shifted clients to multi-year subscriptions (>85% renewal target); institutionalized SOPs and transitioned the business unit to operations for sustained scale."
+    },
+    {
+      "title": "Sales Manager (Commercial Sector Penetration)",
+      "company": "SecurePro Technology Security Ltd.",
+      "start": "2024-01",
+      "end": "2024-12",
+      "is_current": false,
+      "date_precision": "month",
+      "description": "Penetrated Four Key Commercial Verticals: Executed dual-track strategies (tenders + C-level engagement) to address specific pain points-cargo loss prevention (Logistics), footfall analytics (Retail), VIP access control (F&B), and guest safety (Hospitality)-securing 4 anchor clients. Optimized In-house Deployment: Streamlined coordination between sales and the internal technical team; established a tiered SLA framework and centralized Customer Success Center to improve on-site responsiveness significantly. Standardized Cross-Scenario SOPs: Conducted pre-project site surveys, producing…"
+    },
+    {
+      "title": "Sales Manager (New Product Launch)",
+      "company": "Qiair Technoscience Ltd.",
+      "start": "2021-01",
+      "end": "2023-12",
+      "is_current": false,
+      "date_precision": "month",
+      "description": "Delivered Integrated Health-Tech Solutions: Addressed post-pandemic demands for branded hotels, large-scale shopping malls, and corporate clients by bundling disinfection misting robots with proprietary sanitizing solutions and real-time IAQ monitoring systems, enabling stakeholders to secure official IAQ certification. Architected \"Hardware + Consumables + Compliance\" Model: Structured 2-year bundled contracts to lower adoption barriers, securing 50+ deployments across key accounts alongside recurring sanitizer supply and IAQ data services, establishing benchmark cases with steady post sale…"
+    },
+    {
+      "title": "Sales Manager (Model Innovation)",
+      "company": "FS Electronic Technology Co., Ltd.",
+      "start": "2020-01",
+      "end": "2021-12",
+      "is_current": false,
+      "date_precision": "month",
+      "description": "Led a pilot across multiple commercial sites achieving verified energy reduction. Drove R&D Iteration: Established a field-failure data reporting loop, compelling R&D to reduce hardware failure rates from 3.2% to 1.1%. Expanded Partnerships: Onboarded 2 ESCOs (Energy Service Companies) to bid on performance-based contracts jointly."
+    }
+  ],
+  "education": "Master's Degree — University of Wales",
+  "latest_degree": "Master's Degree — University of Wales",
+  "highest_degree": "master",
+  "domain": "software",
+  "years_experience": null,
+  "relevant_years": null,
+  "seniority": null,
+  "evidence": {
+    "cv_ref": null,
+    "current_title": "Marketing Manager (GTM Sprint)",
+    "current_company": "Chinese Road (HK) Ltd.",
+    "country": "Hong Kong",
+    "languages": null,
+    "skills": "AI SaaS, Smart IoT solutions, B2B management, Business Model Innovation, Key Account Management (KAM), Channel & SI Ecosystem, Technical Sales, Project Management, Green Tech, Hardware-as-a-Service, RPA, IoT HW-SW Integration, Predictive Maintenance",
+    "work_history": [
+      "Marketing Manager (GTM Sprint) · Chinese Road (HK) Ltd. 2026-04 – 2026-07",
+      "Business Manager (GTM & Scaling) · Meta-Archit Software Technology (HK) Ltd. 2025-01 – 2025-12",
+      "Sales Manager (Commercial Sector Penetration) · SecurePro Technology Security Ltd. 2024-01 – 2024-12",
+      "Sales Manager (New Product Launch) · Qiair Technoscience Ltd. 2021-01 – 2023-12",
+      "Sales Manager (Model Innovation) · FS Electronic Technology Co., Ltd. 2020-01 – 2021-12"
+    ],
+    "education": "Master's Degree — University of Wales",
+    "latest_degree": "Latest: University of Wales",
+    "highest_degree": "Master's Degree",
+    "domain": null,
+    "years_experience": null,
+    "relevant_years": null,
+    "seniority": null
+  },
+  "_meta": {
+    "source": "dataset_from_blackboard\\CV_examples\\CV-067.txt",
+    "model": "qwen/qwen3.5-9b",
+    "extracted_at": "2026-11-22T07:50:31",
+    "evidence_rejected": []
+  }
+}

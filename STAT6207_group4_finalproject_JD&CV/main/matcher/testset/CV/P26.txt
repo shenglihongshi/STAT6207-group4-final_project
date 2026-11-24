@@ -1,0 +1,46 @@
+Manager, Business Analytics (Retail)
+The Hong Kong Jockey Club · Hong Kong
+Hired for: Data Project Manager
+Skills
+Data Analytics, Retail experience, Project Management, Machine Learning, Customer Research, Sales
+Enablement, Python, SQL, MS Excel
+Work experience
+Manager, Business Analytics (Retail) · The Hong Kong Jockey Club
+2023-01 – Present
+Led a team of data analysts to design and operationalize data pipelines. Developed business forecasting and
+analytical models for performance review and opportunity identification. Collaborated with the Data Science CoE
+on predictive analytics and NLP use cases. Designed a KPI-driven performance management mechanism for 89
+branches. Rolled out performance monitoring, management reporting and CRM dashboards in Tableau. Supported
+retail transformation programs and managed network planning and budgeting.
+Manager, Analytics Excellence & Enablement · Cathay Pacific Airways
+2022-01 – 2023-01
+Developed the enterprise data catalog from scratch, including vendor engagement. Product owner for enterprise
+analytics tools: Power BI, Alteryx, Qlik and the enterprise data warehouse.
+Manager, Digital Sales · Cathay Pacific Airways
+2020-01 – 2022-01
+Product owner for internet and mobile booking engines. Launched a miles-plus-cash payment product, shifting
+large payment volumes to digital channels. Created commercial use cases for Salesforce Marketing Cloud with
+personalized, rule-based journeys. Doubled global digital sales performance.
+Assistant Manager, Customer Insights · Cathay Pacific Airways
+2019-01 – 2020-01
+SME of customer data; used Alteryx to build a single customer view. Market research and customer segmentation
+for marketing and sales. Project manager for a subsidiary airline brand cessation project.
+Assistant to GM Planning · Cathay Pacific Airways
+2018-01 – 2019-01
+Formulated the business case for an airline acquisition. Strategic consulting and commercial dashboards with SQL
+and Qlik. Built models for route planning automation and network-value examination.
+Assistant to SVP Americas · Cathay Pacific Airways
+2017-01 – 2018-01
+Managed new destination launch projects and coordinated an organizational redesign program.
+Group Staff Management Trainee · John Swire & Sons (HK)
+2016-01 – 2023-01
+Completed leadership training in influencing, communication, team management and negotiation.
+Assistant to GM Digital Transformation · Cathay Pacific Airways
+2016-01 – 2017-01
+Assisted in formulating a company-wide digital strategy. Delivered operational analytics use cases for airport and
+crew management.
+Education
+• Master's Degree, Data Science — INSEAD Business School
+• Master's Degree — City University of Hong Kong (2021), Distinction
+• Bachelor's Degree — The Chinese University of Hong Kong (2016), First-class Honours
+Latest: Data Science — INSEAD Business School

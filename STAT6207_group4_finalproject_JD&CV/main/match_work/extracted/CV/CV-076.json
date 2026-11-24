@@ -1,0 +1,56 @@
+{
+  "cv_ref": "CV-076",
+  "current_title": "Senior Analyst",
+  "current_company": "Goldman Sachs",
+  "country": null,
+  "languages": null,
+  "skills": [
+    "investment banking analysis",
+    "financial statement analysis",
+    "ratio analysis",
+    "advanced excel",
+    "company valuation",
+    "research",
+    "industry analysis",
+    "project management",
+    "data analysis optimization",
+    "financial modeling techniques",
+    "valuation documentation preparation"
+  ],
+  "work_history": null,
+  "education": "Master's Degree — University School of Management Studies, GGSIPU (2020–2022)；Bachelor's Degree — Kamala Nehru College, University of Delhi (2016–2019)",
+  "latest_degree": "Master of Business Administration — University School of Management Studies, GGSIPU",
+  "highest_degree": "master",
+  "domain": "fintech",
+  "years_experience": null,
+  "relevant_years": null,
+  "seniority": null,
+  "evidence": {
+    "cv_ref": null,
+    "current_title": "Senior Analyst",
+    "current_company": "Goldman Sachs · Finance & Legal",
+    "country": null,
+    "languages": null,
+    "skills": "Investment Banking Analysis, Financial Statement & Ratio Analysis, Advanced Excel, Company Valuation, Research & Industry Analysis, Project Management, Data analysis optimization, Financial modeling techniques, Valuation documentation preparation",
+    "work_history": [
+      "Senior Analyst · Goldman Sachs 2024-09 – Present Led preparation of underwriting memoranda...",
+      "Analyst - Debt Valuation Strategies · Wipro Ltd. 2023-09 – 2024-08 Built and maintained financial models...",
+      "Analyst · Evalueserve 2022-02 – 2023-08 Executed company valuations and transaction analyses...",
+      "Intern · Cairn Oil & Gas, Vedanta LTD. 2021-06 – 2021-07 Supported financial analysis...",
+      "Intern · Nestle India LTD. 2020-08 – 2020-09 Conducted financial due diligence...",
+      "Intern · Stock Holding Corporation of India Ltd 2018-06 – 2018-07 Gained exposure to equity trading..."
+    ],
+    "education": "• Master's Degree — University School of Management Studies, GGSIPU (2020–2022) • Bachelor's Degree — Kamala Nehru College, University of Delhi (2016–2019)",
+    "latest_degree": "Latest: Master of Business Administration — University School of Management Studies, GGSIPU",
+    "highest_degree": "Master's Degree",
+    "domain": "Goldman Sachs · Finance & Legal"
+  },
+  "_meta": {
+    "source": "dataset_from_blackboard\\CV_examples\\CV-076.txt",
+    "model": "qwen/qwen3.5-9b",
+    "extracted_at": "2026-11-22T07:53:48",
+    "evidence_rejected": [
+      "work_history"
+    ]
+  }
+}

@@ -1,0 +1,54 @@
+Position: Senior/Lead Data Engineer
+Role family: Data & AI
+Location: Hồ Chí Minh, Vietnam
+Contract: full_time
+Salary: 3000.0-4500.0 USD per month
+
+
+Senior/Lead Data Engineer (Hybrid | Sign-on Bonus)
+
+Location: Ho Chi Minh City or Hanoi, Vietnam
+Work Mode: Hybrid
+
+About the Role
+
+We are looking for a Senior/Lead Data Engineer to design, build, and optimize large-scale data systems that power critical business decisions. This role is 75% focused on data engineering (data pipelines, architectures, automation) and 25% supporting data science (ML workflows, advanced analytics).
+
+You'll work with technologies like Python, Airflow, Kubernetes, and AWS to deliver scalable and reliable data solutions.
+
+Key Responsibilities
+
+• Architect, develop, and maintain scalable data infrastructure (data lakes, pipelines, metadata repositories).
+• Collaborate with data scientists to support data modeling, ML workflows, and experimentation.
+• Build and optimize large-scale batch and real-time processing systems.
+• Automate workflows with Python, Apache Airflow, and AWS services.
+• Manage data storage and compute resources using AWS (S3, Glue, EC2, Lambda).
+• Implement strong testing and validation procedures to ensure accuracy and reliability.
+• Stay up to date with best practices and emerging technologies in data engineering and data science.
+
+Required Skills
+
+• Bachelor's degree in Software Engineering or related field.
+• Strong experience in Python (pandas, pyspark), Apache Airflow, and AWS services (Glue, S3, EC2, Lambda).
+• Hands-on with Kubernetes/Docker for containerized environments.
+• Experience with big data/columnar databases (Athena, Redshift, Hive/Hadoop, Vertica).
+• Familiarity with Git and CI/CD pipelines (Jenkins, CircleCI, AWS CodePipeline).
+• Proven ability to design and manage data architectures for large-scale operations.
+• Experience collaborating with data science teams for feature engineering and ML support.
+
+Nice-to-have
+
+• Experience with AWS Sagemaker or Databricks.
+• Knowledge of RDBMS (MySQL, PostgreSQL) and NoSQL (DynamoDB, Redis).
+• Familiarity with Kafka, RabbitMQ for event streaming.
+• Exposure to BI tools (Tableau, Looker, PowerBI).
+• Experience with monitoring/logging tools (ELK, Datadog).
+• Understanding of data privacy and security practices.
+
+What's Offered
+
+• Competitive salary + sign-on bonus (for candidates joining within 30 days).
+• 13th-month salary and performance bonus.
+• Premium health insurance.
+• Professional English training courses.
+• Generous annual leave policy.

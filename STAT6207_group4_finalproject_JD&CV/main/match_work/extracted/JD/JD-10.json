@@ -1,0 +1,75 @@
+{
+  "jd_id": 10,
+  "position": "Product Designer",
+  "role_family": "Design & Creative",
+  "country": "Hong Kong",
+  "city": "Hong Kong",
+  "remote_allowed": true,
+  "contract_type": "full_time",
+  "languages": [
+    {
+      "lang": "English",
+      "level": "fluent"
+    },
+    {
+      "lang": "Mandarin",
+      "level": "fluent"
+    }
+  ],
+  "salary_min_raw": 50000.0,
+  "salary_max_raw": 50000.0,
+  "currency": "HKD",
+  "salary_frequency": "month",
+  "must_have_skills": [
+    "figma",
+    "framer",
+    "sketch",
+    "react",
+    "uikit",
+    "swiftui"
+  ],
+  "nice_to_have_skills": [
+    "motion design",
+    "3d design",
+    "midjourney",
+    "stable diffusion"
+  ],
+  "min_years": 5,
+  "seniority": "senior",
+  "education_required": "bachelor",
+  "domain": "software",
+  "notice_expectation": null,
+  "evidence": {
+    "position": "Position: Product Designer",
+    "role_family": "Role family: Design & Creative",
+    "country": "Location: Hong Kong, Hong Kong",
+    "city": "Location: Hong Kong, Hong Kong",
+    "remote_allowed": "Remote: Yes",
+    "contract_type": "Contract: full_time",
+    "salary_min_raw": "Salary: 50000.0-50000.0 HKD per month",
+    "salary_max_raw": "Salary: 50000.0-50000.0 HKD per month",
+    "currency": "HKD",
+    "salary_frequency": "per month",
+    "languages": [
+      "Bilingual: English & Mandarin",
+      "Bilingual in English and Mandarin for global team collaboration"
+    ],
+    "must_have_skills": [
+      "Proficient in modern design tools (Figma, Framer, Sketch, etc.)",
+      "Familiar with interface design implementation (H5, React, UIKit, SwiftUI)"
+    ],
+    "nice_to_have_skills": [
+      "Motion/3D design experience",
+      "Experience with 1-2 AIGC tools (e.g., Midjourney, Stable Diffusion)"
+    ],
+    "min_years": "Bachelor's degree with 5+ years of UI/UX design experience",
+    "seniority": "Senior Product Designer",
+    "education_required": "Bachelor's degree"
+  },
+  "_meta": {
+    "source": "dataset_from_blackboard\\JD_examples\\JD-10.txt",
+    "model": "qwen/qwen3.5-9b",
+    "extracted_at": "2026-11-22T07:21:20",
+    "evidence_rejected": []
+  }
+}

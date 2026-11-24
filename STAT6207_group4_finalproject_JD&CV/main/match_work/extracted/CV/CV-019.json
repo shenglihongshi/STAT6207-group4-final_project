@@ -1,0 +1,141 @@
+{
+  "cv_ref": "CV-019",
+  "current_title": "Tech Lead",
+  "current_company": "Myridius/RCG Information Technology Philippines, Inc.",
+  "country": "Philippines",
+  "languages": null,
+  "skills": [
+    "java",
+    "spring boot",
+    "rest api",
+    "angular",
+    "javascript",
+    "html",
+    "css",
+    "cobol",
+    "salesforce",
+    "nodejs",
+    "maven",
+    "sql",
+    "junit",
+    "git",
+    "jenkins",
+    "jira",
+    "confluence",
+    "swing",
+    "jdbc",
+    "mysql",
+    "sqlite",
+    "jasper reports",
+    "vba"
+  ],
+  "work_history": [
+    {
+      "title": "Tech Lead",
+      "company": "Myridius/RCG Information Technology Philippines, Inc.",
+      "start": "2026-06",
+      "end": "present",
+      "is_current": true,
+      "date_precision": "month",
+      "description": "Developer in an agile team supporting Disney Cruise Line's Human Resources web application. Programming languages used were Java microservices, Angular, nodejs, maven, sql, AI-assisted coding were also used (Kiro, cursor, Claude). Tasks of used serializer for JSON standardization, optimizations, backfilling changes, reduced database fetches by optimizing on local storage/variables, and other ticket tasks. The application handles candidate on-boarding and existing employee administration using Swellsteps transitioning to Flowable."
+    },
+    {
+      "title": "Senior Java Developer",
+      "company": "VERTERE",
+      "start": "2025-07",
+      "end": "2025-12",
+      "is_current": false,
+      "date_precision": "month",
+      "description": "fixed bug in product catalog pagination traced to back button of browser and history changes in Javascript appended endpoint URL generated for re-direction in adobe analytics (rest controller)"
+    },
+    {
+      "title": "Tech Lead",
+      "company": "Ascendion",
+      "start": "2025-06",
+      "end": "2025-07",
+      "is_current": false,
+      "date_precision": "month",
+      "description": "fixed bug in product catalog pagination traced to back button of browser and history changes in Javascript"
+    },
+    {
+      "title": "Senior Java Developer",
+      "company": "STRATPOINT",
+      "start": "2025-05",
+      "end": "2025-06",
+      "is_current": false,
+      "date_precision": "month",
+      "description": null
+    },
+    {
+      "title": "Packaged App Development Senior Analyst",
+      "company": "Accenture",
+      "start": "2023-01",
+      "end": "2025-01",
+      "is_current": false,
+      "date_precision": "month",
+      "description": "Team member in a SAP Hybris development support team for clients (CNHi, Samsung), handling client requests implementing features, updates, bug fixed, modifications on the back-end and front-end of their e commerce sites. Programming languages used – back-end: Java (Spring/Spring Boot, REST API, rest controller), JUnit, front-end: JSP, HTML/CSS, Javascript. Tools: Git, Jenkins, Jira/Confluence, . Worked as a team member for an Adobe Analytics development support team for Standard Chartered, using Javascript, Angular and Java (Spring Boot/REST) . Some tasks done:\n• Hybris back-office…"
+    },
+    {
+      "title": "Application systems engineer",
+      "company": "Fujitsu/Weserv Systems Intl., Inc.",
+      "start": "2021-01",
+      "end": "2023-01",
+      "is_current": false,
+      "date_precision": "month",
+      "description": "Developed unit tests using Junit 4, Powermockito, Mockito, Whitebox, Reflection for test classes in Java.\nUnderwent training in Cobol and VBA . Also tasked as assistant lead/reviewer for four developers for JUnit testing in another project. Underwent training in salesforce administration and currently have passed the exam and is a certified Salesforce Administrator since October, 2023.\n• Developed Junit test classes in a team for two client projects, using above mentioned java framework, mocking variables to be passed as parameters, JUnit variable setting to change variable values, testing…"
+    },
+    {
+      "title": "Manager",
+      "company": "Uy Tit and Co., Inc.",
+      "start": "2008-01",
+      "end": "2021-01",
+      "is_current": false,
+      "date_precision": "month",
+      "description": "Helped in daily operations of a hardware and construction tools wholesale supplier and retail company in Manila.\nDeveloped custom business systems from the ground up (inventory system – Java, SQLite, accounting system - Java, MySQL, Jasper Reports, payroll system - Java, MySQL, Jasper Reports ). Helped in generating new sales, graphic design and daily operations.\n• Designed, developed and implemented business systems individually, an accounting, inventory, payroll, price cataloging system\n• Used Java swing as user interface, JDBC connecting to databases (MySQL, SQLite) and used Jasper Reports…"
+    },
+    {
+      "title": "IT Auditor",
+      "company": "Philippine Savings Bank",
+      "start": "2007-01",
+      "end": "2008-01",
+      "is_current": false,
+      "date_precision": "month",
+      "description": "Assigned to develop the online audit system of the audit department of the bank using VB .net and MS SQL Server."
+    }
+  ],
+  "education": "Bachelor's Degree — De La Salle University (2001–2005); High School diploma — Xavier High School (1997–2001)",
+  "latest_degree": "Business/Commerce, General — Asian Institute of Management",
+  "highest_degree": "bachelor",
+  "domain": "software",
+  "years_experience": null,
+  "relevant_years": null,
+  "seniority": null,
+  "evidence": {
+    "cv_ref": null,
+    "current_title": "Tech Lead",
+    "current_company": "Myridius/RCG Information Technology Philippines, Inc.",
+    "country": "Philippines",
+    "languages": null,
+    "skills": "Java, Spring Boot, REST API, Angular, JavaScript, HTML/CSS, COBOL, salesforce",
+    "work_history": [
+      "Tech Lead · Myridius/RCG Information Technology Philippines, Inc.\n2026-06 – Present\nDeveloper in an agile team supporting Disney Cruise Line's Human Resources web application.",
+      "Senior Java Developer · VERTERE\n2025-07 – 2025-12",
+      "Tech Lead · Ascendion\n2025-06 – 2025-07",
+      "Senior Java Developer · STRATPOINT\n2025-05 – 2025-06",
+      "Packaged App Development Senior Analyst · Accenture\n2023-01 – 2025-01",
+      "Application systems engineer · Fujitsu/Weserv Systems Intl., Inc.\n2021-01 – 2023-01",
+      "Manager · Uy Tit and Co., Inc.\n2008-01 – 2021-01",
+      "IT Auditor · Philippine Savings Bank\n2007-01 – 2008-01"
+    ],
+    "education": "• Asian Institute of Management (2017)\n• Bachelor's Degree — De La Salle University (2001–2005)\n• High School diploma — Xavier High School (1997–2001)",
+    "latest_degree": "Latest: Business/Commerce, General — Asian Institute of Management",
+    "highest_degree": null,
+    "domain": null
+  },
+  "_meta": {
+    "source": "dataset_from_blackboard\\CV_examples\\CV-019.txt",
+    "model": "qwen/qwen3.5-9b",
+    "extracted_at": "2026-11-22T07:34:34",
+    "evidence_rejected": []
+  }
+}

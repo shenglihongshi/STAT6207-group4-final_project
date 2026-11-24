@@ -1,0 +1,84 @@
+{
+  "cv_ref": "CV-060",
+  "current_title": "Insurance Agent",
+  "current_company": "Allianz",
+  "country": "Malaysia",
+  "languages": null,
+  "skills": [
+    "office 360",
+    "canva",
+    "java",
+    "html",
+    "linux",
+    "xcode"
+  ],
+  "work_history": [
+    {
+      "title": "Insurance Agent",
+      "company": "Allianz",
+      "start": "2023-08",
+      "end": "present",
+      "is_current": true,
+      "date_precision": "month",
+      "description": "Conducted comprehensive market analysis to identify growth opportunities.\nTrained and mentored new agents, fostering a high-performance team."
+    },
+    {
+      "title": "Account cum admin",
+      "company": "ROICHEF KITCHEN",
+      "start": "2022-08",
+      "end": "2025-04",
+      "is_current": false,
+      "date_precision": "month",
+      "description": "Cultivated strong client relationships, driving repeat business growth.\nDealing with checking the goods and ordering.\nDo a basic annual PnL report.\nTrained and developed staff, improving team performance and morale.\nCheck the turnover of the store, collect the money and deposit to bank.\nProcess the employee's salary.\nOpen basic Invoice and PO to Buyer."
+    },
+    {
+      "title": "Foodcourt Manager",
+      "company": "Food court operator (Malaysia)",
+      "start": "2019-03",
+      "end": "2022-07",
+      "is_current": false,
+      "date_precision": "month",
+      "description": "Trained and developed staff, improving team performance and morale.\nDealing with checking the goods and ordering.\nCheck the turnover of the store, collect the money and deposit to bank.\nProcess the employee's salary."
+    },
+    {
+      "title": "Cashier / Store Manager",
+      "company": "Richo Maketing Sdn.Bhd.",
+      "start": "2016-08",
+      "end": "2020-08",
+      "is_current": false,
+      "date_precision": "month",
+      "description": "Trained and developed staff, improving team performance and morale.\nDealing with checking the goods and ordering.\nCheck the turnover of the store, collect the money and deposit to bank.\nWe are the fruit supplier for Genting Highlands.Such as Casino and Hotel.\nWe also have supply fruit at KL Pasar Borong also sales to Seller"
+    }
+  ],
+  "education": "Bachelor's Degree — New Era University College (2019–2023)\n; Bachelor's Degree — University of Nottingham (2019–2023)",
+  "latest_degree": "IT — University of Nottingham",
+  "highest_degree": "bachelor",
+  "domain": "fintech",
+  "years_experience": null,
+  "relevant_years": null,
+  "seniority": null,
+  "evidence": {
+    "cv_ref": null,
+    "current_title": "Insurance Agent",
+    "current_company": "Allianz · Malaysia",
+    "country": "Malaysia",
+    "languages": null,
+    "skills": "Office 360, comunication, Canva, Java, HTML, Linux, Xcode, Problem Solving",
+    "work_history": [
+      "Insurance Agent · Allianz\n2023-08 – Present",
+      "Account cum admin · ROICHEF KITCHEN\n2022-08 – 2025-04",
+      "Foodcourt Manager · Food court operator (Malaysia)\n2019-03 – 2022-07",
+      "Cashier / Store Manager · Richo Maketing Sdn.Bhd.\n2016-08 – 2020-08"
+    ],
+    "education": "• Bachelor's Degree — New Era University College (2019–2023)\n• Bachelor's Degree — University of Nottingham (2019–2023)",
+    "latest_degree": "Latest: IT — University of Nottingham",
+    "highest_degree": null,
+    "domain": null
+  },
+  "_meta": {
+    "source": "dataset_from_blackboard\\CV_examples\\CV-060.txt",
+    "model": "qwen/qwen3.5-9b",
+    "extracted_at": "2026-11-22T07:48:05",
+    "evidence_rejected": []
+  }
+}

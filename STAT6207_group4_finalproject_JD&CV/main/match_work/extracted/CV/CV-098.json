@@ -1,0 +1,93 @@
+{
+  "cv_ref": "CV-098",
+  "current_title": "Founder & Head of Operations & Creative",
+  "current_company": "Home bakery business",
+  "country": "Malaysia",
+  "languages": null,
+  "skills": [
+    "data entry",
+    "data management",
+    "record keeping",
+    "order processing",
+    "documentation",
+    "quality checks",
+    "operations coordination",
+    "workflow management",
+    "sop development",
+    "inventory management",
+    "independent work",
+    "shopify",
+    "woocommerce",
+    "online order management",
+    "customer enquiries",
+    "backend platform management",
+    "excel",
+    "google sheets",
+    "canva",
+    "meta business suite",
+    "openai",
+    "ai-assisted workflows"
+  ],
+  "work_history": [
+    {
+      "title": "Founder & Head of Operations & Creative",
+      "company": "Home bakery business",
+      "start": "2024-01",
+      "end": "present",
+      "is_current": true,
+      "date_precision": "month",
+      "description": "Lead day-to-day business operations, overseeing order workflows, customer experience, production coordination, inventory and creative development. Manage customized cake design from customer brief and reference images through design confirmation and production. Develop and streamline SOPs for customer service and recurring operational processes. Built an AI-assisted order dashboard to organize and monitor customer orders and reduce manual record-keeping. Maintain business records using Excel, Google Sheets, Shopify and Bukku, including order and basic accounting information."
+    },
+    {
+      "title": "Marketing Executive",
+      "company": "GoodMorning Global",
+      "start": "2020-03",
+      "end": "2021-06",
+      "is_current": false,
+      "date_precision": "month",
+      "description": "Responded to customer enquiries across e-commerce platforms, Facebook and Instagram. Managed backend operations for e-commerce platforms, including WooCommerce. Updated and maintained online product information and platform content. Assisted with content creation and product photography. Supported day-to-day e-commerce operations and digital marketing activities."
+    },
+    {
+      "title": "Founder & Operations Lead",
+      "company": "Home bakery business",
+      "start": "2020-01",
+      "end": "2024-01",
+      "is_current": false,
+      "date_precision": "month",
+      "description": "Handled order processing, customer communication, production coordination, purchasing, inventory, delivery arrangements and administration. Maintained customer, order and inventory records using spreadsheets and digital tools. Created practical SOPs and workflows to organize recurring tasks and improve operational consistency. Managed e-commerce and social media activities alongside daily business operations. Resolved customer and order-related issues independently while managing multiple priorities with minimal supervision."
+    }
+  ],
+  "education": "INTI INTERNATIONAL COLLEGE SUBANG - Northwood University Program (2019)",
+  "latest_degree": "Business Marketing & Management — INTI INTERNATIONAL COLLEGE SUBANG - Northwood University Program",
+  "highest_degree": "bachelor",
+  "domain": null,
+  "years_experience": null,
+  "relevant_years": null,
+  "seniority": null,
+  "evidence": {
+    "cv_ref": null,
+    "current_title": "Founder & Head of Operations & Creative",
+    "current_company": "Home bakery business · Malaysia",
+    "country": "Malaysia",
+    "languages": null,
+    "skills": "Skills\nData Entry, Data Management, Record Keeping, Order Processing, Documentation, Quality Checks, Operations Coordination, Workflow Management, SOP Development, Inventory Management, Independent Work, Shopify, WooCommerce, Online Order Management, Customer Enquiries, Backend Platform Management, Excel, Google Sheets, Canva, Meta Business Suite, OpenAI, AI-assisted workflows",
+    "work_history": [
+      "Founder & Head of Operations & Creative · Home bakery business\n2024-01 – Present\nLead day-to-day business operations...",
+      "Marketing Executive · GoodMorning Global\n2020-03 – 2021-06\nResponded to customer enquiries...",
+      "Founder & Operations Lead · Home bakery business\n2020-01 – 2024-01\nHandled order processing..."
+    ],
+    "education": "Education\n• INTI INTERNATIONAL COLLEGE SUBANG - Northwood University Program (2019)\nLatest: Business Marketing & Management — INTI INTERNATIONAL COLLEGE SUBANG - Northwood University Program",
+    "latest_degree": "Latest: Business Marketing & Management — INTI INTERNATIONAL COLLEGE SUBANG - Northwood University Program",
+    "highest_degree": null,
+    "domain": null,
+    "years_experience": null,
+    "relevant_years": null,
+    "seniority": null
+  },
+  "_meta": {
+    "source": "dataset_from_blackboard\\CV_examples\\CV-098.txt",
+    "model": "qwen/qwen3.5-9b",
+    "extracted_at": "2026-11-22T08:03:28",
+    "evidence_rejected": []
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "cv_ref": "CV-027",
+  "current_title": "Software Engineer",
+  "current_company": "SureCost",
+  "country": "United States",
+  "languages": null,
+  "skills": [
+    "typescript",
+    "javascript",
+    "java",
+    "sql",
+    "html5",
+    "css3",
+    "sass",
+    "react",
+    "tailwind css",
+    "node.js",
+    "express.js",
+    "rest apis",
+    "postgresql",
+    "mssql",
+    "aws ec2",
+    "ecs",
+    "lambda",
+    "cloudwatch",
+    "terraform",
+    "docker",
+    "github actions",
+    "gitlab cicd",
+    "jest",
+    "eslint",
+    "prettier",
+    "biome",
+    "claude code",
+    "cursor",
+    "ollama",
+    "mcp"
+  ],
+  "work_history": [
+    {
+      "title": "Software Engineer",
+      "company": "SureCost",
+      "start": "2022-09",
+      "end": "2026-03",
+      "is_current": false,
+      "date_precision": "month",
+      "description": "SureCost is a pharmacy procurement SaaS company helping independent and enterprise pharmacies manage purchasing, pricing, and supplier relationships through a web-based platform. Full stack engineering here means working on features that pharmacy clients use daily to manage real purchasing decisions, where UI performance, data accuracy, and API reliability have a direct impact on their operations.\nBuilt a parallel React and TypeScript frontend to decouple business logic from a legacy JSP monolith, organizing the codebase into a modular component design system that made the platform…"
+    },
+    {
+      "title": "Registered Pharmacy Technician Customer Service",
+      "company": "Publix Supermarkets",
+      "start": "2011-12",
+      "end": "2022-09",
+      "is_current": false,
+      "date_precision": "month",
+      "description": "Executed high-accuracy prescription fulfillment and inventory workflows in a strictly regulated pharmaceutical environment, maintaining operational reliability and compliance across a high-volume retail pharmacy.\nDeveloped strong communication, attention to detail, and the ability to manage multiple competing priorities accurately under sustained pressure - transferable skills that carry directly into collaborative software engineering and client-facing product delivery."
+    }
+  ],
+  "education": "Bachelor's Degree — Eastern Florida State College; Computer Information Systems Technology — Eastern Florida State College",
+  "latest_degree": "Computer Information Systems Technology — Eastern Florida State College",
+  "highest_degree": "bachelor",
+  "domain": "fintech",
+  "years_experience": null,
+  "relevant_years": null,
+  "seniority": null,
+  "evidence": {
+    "cv_ref": null,
+    "current_title": "Software Engineer",
+    "current_company": "SureCost · United States · Engineering",
+    "country": "United States",
+    "languages": null,
+    "skills": "TypeScript, JavaScript ES6+, Java, SQL, HTML5, CSS3, SASS, React, Tailwind CSS, Node.js, Express.js, REST APIs, PostgreSQL, MSSQL, AWS EC2, Ecs, Lambda, CloudWatch, terraform, Docker, Github Actions, gitlab CI/CD, Jest, ESLint, Prettier, Biome, Claude Code, Cursor, Ollama, Mcp",
+    "work_history": [
+      "Software Engineer · SureCost\n2022-09 – 2026-03",
+      "Registered Pharmacy Technician Customer Service · Publix Supermarkets\n2011-12 – 2022-09"
+    ],
+    "education": "• Bachelor's Degree — Eastern Florida State College\nLatest: Computer Information Systems Technology — Eastern Florida State College",
+    "latest_degree": "Latest: Computer Information Systems Technology — Eastern Florida State College",
+    "highest_degree": "Bachelor's Degree",
+    "domain": "SureCost is a pharmacy procurement SaaS company"
+  },
+  "_meta": {
+    "source": "dataset_from_blackboard\\CV_examples\\CV-027.txt",
+    "model": "qwen/qwen3.5-9b",
+    "extracted_at": "2026-11-22T07:37:12",
+    "evidence_rejected": []
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "jd_id": "P22",
+  "position": "Business Development",
+  "role_family": "Sales & BD",
+  "country": null,
+  "city": null,
+  "remote_allowed": true,
+  "contract_type": "full_time",
+  "languages": null,
+  "salary_min_raw": null,
+  "salary_max_raw": null,
+  "currency": null,
+  "salary_frequency": null,
+  "must_have_skills": [
+    "business development",
+    "account management",
+    "employer of record",
+    "global hiring compliance",
+    "b2b sales",
+    "sales pipeline management"
+  ],
+  "nice_to_have_skills": [
+    "eor",
+    "global payroll",
+    "hr tech",
+    "us market experience",
+    "europe market experience"
+  ],
+  "min_years": 2,
+  "seniority": "mid",
+  "education_required": null,
+  "domain": null,
+  "notice_expectation": null,
+  "evidence": {
+    "position": "Business Development - US & EMEA",
+    "role_family": "responsible for driving revenue growth through new client acquisition and partnership building",
+    "remote_allowed": "Remote · Full-time",
+    "contract_type": "Full-time",
+    "min_years": "2–5 years of experience in Business Development or Account Management",
+    "seniority": "2–5 years",
+    "must_have_skills_1": "experience in Business Development or Account Management, ideally in EOR, global payroll, or HR tech.",
+    "must_have_skills_2": "Strong understanding of the Employer of Record model and global hiring compliance.",
+    "must_have_skills_3": "Proven track record of closing B2B deals and managing enterprise or startup clients.",
+    "nice_to_have_skills_1": "Experience working across the US or Europe market is a plus."
+  },
+  "_meta": {
+    "source": "main\\matcher\\testset\\JD\\P22.txt",
+    "model": "qwen/qwen3.5-9b",
+    "extracted_at": "2026-11-22T15:03:21",
+    "evidence_rejected": []
+  }
+}

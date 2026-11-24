@@ -1,0 +1,53 @@
+{
+  "jd_id": "P10",
+  "position": "Regional Lead Designer UI/UX",
+  "role_family": null,
+  "country": null,
+  "city": null,
+  "remote_allowed": null,
+  "contract_type": "full_time",
+  "languages": null,
+  "salary_min_raw": 10000,
+  "salary_max_raw": null,
+  "currency": "MYR",
+  "salary_frequency": "month",
+  "must_have_skills": [
+    "figma",
+    "adobe xd",
+    "html",
+    "css"
+  ],
+  "nice_to_have_skills": null,
+  "min_years": 5,
+  "seniority": "lead",
+  "education_required": "bachelor",
+  "domain": "software",
+  "notice_expectation": null,
+  "evidence": {
+    "position": "Regional Lead Designer UI/UX",
+    "role_family": "The incumbent is responsible for designing visually appealing and user-centric interfaces...",
+    "contract_type": "full time",
+    "salary_min_raw": "MYR 10,000 / month",
+    "currency": "MYR",
+    "salary_frequency": "month",
+    "must_have_skills": [
+      "Bachelor's degree in Graphic Design, Interaction Design, Human-Computer Interaction, or a related field.",
+      "Certification in UI/UX Design.",
+      "5+ years of UI/UX design experience in tech products, with a focus on web and mobile applications.",
+      "Advanced proficiency in UI/UX design tools (e.g., Figma, Adobe XD) for creating mockups, prototypes, and storyboards.",
+      "Understanding of front-end development concepts (e.g., HTML, CSS, responsive design)"
+    ],
+    "min_years": "5+ years",
+    "seniority": "Regional Lead Designer UI/UX",
+    "education_required": "Bachelor's degree in Graphic Design, Interaction Design, Human-Computer Interaction, or a related field.",
+    "domain": "tech products"
+  },
+  "_meta": {
+    "source": "main\\matcher\\testset\\JD\\P10.txt",
+    "model": "qwen/qwen3.5-9b",
+    "extracted_at": "2026-11-22T15:01:39",
+    "evidence_rejected": [
+      "role_family"
+    ]
+  }
+}

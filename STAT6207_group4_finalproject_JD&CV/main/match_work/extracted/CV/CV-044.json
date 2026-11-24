@@ -1,0 +1,97 @@
+{
+  "cv_ref": "CV-044",
+  "current_title": "Senior Machine Learning Engineer",
+  "current_company": "Lyra Health",
+  "country": "United States",
+  "languages": null,
+  "skills": [
+    "python",
+    "sql",
+    "java",
+    "scala",
+    "two-stage retrieval & ranking",
+    "learning-to-rank",
+    "dense retrieval",
+    "candidate generation",
+    "re-ranking",
+    "contextual bandits",
+    "implicit feedback modeling",
+    "cold-start handling",
+    "constrained ranking",
+    "llms",
+    "rag",
+    "semantic search",
+    "embedding models",
+    "fine-tuning",
+    "a/b testing & experimentation",
+    "counterfactual evaluation",
+    "pytorch",
+    "tensorflow",
+    "hugging face",
+    "xgboost",
+    "faiss",
+    "scikit-learn",
+    "aws",
+    "kubernetes",
+    "docker",
+    "spark"
+  ],
+  "work_history": [
+    {
+      "title": "Senior Machine Learning Engineer",
+      "company": "Lyra Health",
+      "start": "2025-08",
+      "end": "present",
+      "is_current": true,
+      "date_precision": "month",
+      "description": "Senior Machine Learning Engineer with 9+ years specializing in recommendation and ranking systems at scale, from real-time adaptive recommendations at edX, to LLM serving and RAG infrastructure at AWS Bedrock, to personalized care matching at Lyra Health. Expert in two-stage retrieval-and-ranking architectures, learning-to rank, contextual bandits, and constrained ranking under safety-critical requirements. Proven record of shipping ranking systems that move business metrics: conversion, engagement, and routing accuracy. Led ML for Natural-Language Care Search, a large-scale recommendation…"
+    },
+    {
+      "title": "Senior Machine Learning Engineer",
+      "company": "Amazon Web Services (AWS)",
+      "start": "2019-08",
+      "end": "2025-07",
+      "is_current": false,
+      "date_precision": "month",
+      "description": "Core engineer on Amazon Bedrock, AWS's managed foundation model service used by tens of thousands enterprise customers for inference on models from Anthropic, Meta, Amazon, and others. Led development of Knowledge Bases (RAG) retrieval and ranking components from design through GA launch - embedding-based retrieval, chunk re-ranking, and relevance scoring - in a service handling 50K+ requests/sec at peak. Designed the model inference optimization layer for high-throughput serving, reducing customer inference costs by ~35% and improving throughput 2.5× through continuous batching and…"
+    },
+    {
+      "title": "Data Scientist",
+      "company": "edX",
+      "start": "2016-07",
+      "end": "2019-08",
+      "is_current": false,
+      "date_precision": "month",
+      "description": "Designed a real-time adaptive recommender personalizing course and content suggestions from noisy learner signals (clicks, video watch patterns, quiz attempts, dropout indicators), improving recommendation CTR by 24% and course completion by 8%. Developed implicit-feedback denoising and session-based weighting pipelines to extract reliable preference signals from sparse, biased interaction data - the core challenge of production recsys. Deployed real-time exploration/exploitation, lifting new-course enrollment 15% while solving item cold start without hurting engagement. Built streaming…"
+    }
+  ],
+  "education": "Bachelor's Degree — Northeastern University (2012–2016)",
+  "latest_degree": "Computer Engineering — Northeastern University",
+  "highest_degree": "bachelor",
+  "domain": "data-ai",
+  "years_experience": null,
+  "relevant_years": null,
+  "seniority": null,
+  "evidence": {
+    "cv_ref": null,
+    "current_title": "Senior Machine Learning Engineer",
+    "current_company": "Lyra Health · United States",
+    "country": "United States",
+    "languages": null,
+    "skills": "Python, SQL, Java, Scala, Two-Stage Retrieval & Ranking, Learning-to-Rank, Dense Retrieval, Candidate Generation, Re-ranking, Contextual Bandits, Implicit Feedback Modeling, Cold-Start Handling, Constrained Ranking, LLMs, RAG, Semantic Search, Embedding Models, Fine-tuning, A/B Testing & Experimentation, Counterfactual Evaluation, PyTorch, TensorFlow, Hugging Face, Xgboost, FAISS, Scikit-Learn, AWS, Kubernetes, Docker, Spark",
+    "work_history": [
+      "Senior Machine Learning Engineer · Lyra Health\n2025-08 – Present",
+      "Senior Machine Learning Engineer · Amazon Web Services (AWS)\n2019-08 – 2025-07",
+      "Data Scientist · edX\n2016-07 – 2019-08"
+    ],
+    "education": "• Bachelor's Degree — Northeastern University (2012–2016)\nLatest: Computer Engineering — Northeastern University",
+    "latest_degree": "Latest: Computer Engineering — Northeastern University",
+    "highest_degree": "Bachelor's Degree"
+  },
+  "_meta": {
+    "source": "dataset_from_blackboard\\CV_examples\\CV-044.txt",
+    "model": "qwen/qwen3.5-9b",
+    "extracted_at": "2026-11-22T07:42:27",
+    "evidence_rejected": []
+  }
+}

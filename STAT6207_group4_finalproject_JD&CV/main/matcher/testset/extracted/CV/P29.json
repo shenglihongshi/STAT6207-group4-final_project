@@ -1,0 +1,76 @@
+{
+  "cv_ref": "P29",
+  "current_title": "Fund Accounting Supervisor",
+  "current_company": "Bank of New York",
+  "country": "United Kingdom",
+  "languages": null,
+  "skills": [
+    "financial reporting",
+    "fund accounting",
+    "financial analysis",
+    "excel",
+    "arcreporting",
+    "refinitiv eikon",
+    "python",
+    "vba"
+  ],
+  "work_history": [
+    {
+      "title": "Fund Accounting Supervisor",
+      "company": "Bank of New York",
+      "start": "2023-05",
+      "end": "present",
+      "is_current": true,
+      "date_precision": "month",
+      "description": "Supervised a team of fund accountants preparing financial statements and working papers for investment trust funds with NAV up to GBP 1bn, ensuring compliance with UK GAAP, IFRS and regulatory standards. Managed client and auditor queries on financial report preparation and classification to ensure timely delivery. Coordinated annual and interim financial statements, solvency statements and fund termination statements, ensuring precise asset valuation and transaction accounting with minimal audit adjustments. Drove automation of internal control and audit monitoring checklists for more accurate, efficient statement preparation."
+    },
+    {
+      "title": "Fund Accountant",
+      "company": "Bank of New York",
+      "start": "2021-10",
+      "end": "2023-04",
+      "is_current": false,
+      "date_precision": "month",
+      "description": "Prepared financial reports for OEIC and investment trust funds with NAV up to GBP 100m across varying reporting cycles (annual, interim and termination statements) to strict deadlines. Worked with clients, auditors and stakeholders on queries and publication of financial reports, ensuring regulatory compliance. Mentored and trained junior team members in financial reporting and fund accounting processes."
+    },
+    {
+      "title": "Placement Year",
+      "company": "FAVE ASIA",
+      "start": "2020-02",
+      "end": "2020-08",
+      "is_current": false,
+      "date_precision": "month",
+      "description": "Coordinated a government COVID-19 SME help fund (SGD 1.2B budget), working with financiers to assess borrowers' financial status for fair and timely distribution. Managed a bank's e-loan financing programme on a digital platform to improve SME loan accessibility during the pandemic. Worked with finance providers to refine business models and loan acceptance criteria, improving approval efficiency and mitigating risk."
+    }
+  ],
+  "education": "ACCA — Association of Chartered Certified Accountants (2024)；Bachelor's Degree — University of Surrey, Surrey Business School (2021)",
+  "latest_degree": "Association of Chartered Certified Accountants — Association of Chartered Certified Accountants",
+  "highest_degree": "bachelor",
+  "domain": "fintech",
+  "years_experience": null,
+  "relevant_years": null,
+  "seniority": null,
+  "evidence": {
+    "cv_ref": null,
+    "current_title": "Fund Accounting Supervisor (Financial Reporting)",
+    "current_company": "Bank of New York",
+    "country": "United Kingdom",
+    "languages": null,
+    "skills": "Skills\nFinancial Reporting, Fund Accounting, Financial Analysis, Excel, ArcReporting, Refinitiv EIKON, Python, Excel VBA",
+    "work_history": [
+      "Fund Accounting Supervisor (Financial Reporting) · Bank of New York\n2023-05 – Present",
+      "Fund Accountant (Financial Reporting) · Bank of New York\n2021-10 – 2023-04",
+      "Placement Year (6 months) · FAVE ASIA\n2020-02 – 2020-08"
+    ],
+    "education": "Education\n• ACCA — Association of Chartered Certified Accountants (2024)\n• Bachelor's Degree — University of Surrey, Surrey Business School (2021)",
+    "latest_degree": "Latest: Association of Chartered Certified Accountants",
+    "highest_degree": "Bachelor's Degree",
+    "domain": null
+  },
+  "_meta": {
+    "source": "main\\matcher\\testset\\CV\\P29.txt",
+    "model": "qwen/qwen3.5-9b",
+    "extracted_at": "2026-11-22T15:15:15",
+    "evidence_rejected": []
+  }
+}

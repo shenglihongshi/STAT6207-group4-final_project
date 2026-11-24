@@ -1,0 +1,70 @@
+Overall
+
+Are we allowed to use AI agents as part of our implementation, or are we only expected to use OpenCode like previous assignments?
+you are allowed to use any agents and models in your projects. But you have to product Python Code as your submission. You cannot simply provide a prompts or a skills.
+Do we need to submit the code as well, or only the report and the presentation?
+You will also need to submit your code and data (if available).
+is there a limit for the recorded presentation
+It will be the same: 10 minutes for the presentation video
+is every group member required to speak in the video
+It is not necessary for all members to speak, but all members have to be in the video.
+are narrated PowerPoint slides (voice-over on slides, without showing faces) acceptable, or do you expect a live-style recording?
+You will need to show your face and the PPT slide
+
+
+Topic 1
+
+Do you confirm that the 10 JD–hired-CV examples form the initial benchmark, with technical cases analysed separately?
+The 10 examples are appropriate as the benchmark. Two conditions: (a) the 10 positives must never enter training or autoencoder fitting; (b) error analysis is a required deliverable regardless of outcome. Keep the "unlabelled ≠ negative" framing.
+
+Q：我们在实现过程中是否允许使用 AI Agent，还是只能像之前的作业一样使用 OpenCode？
+
+A： 项目中允许使用任何 Agent 和模型，但最终提交的必须是 Python 代码，不能只提供提示词（prompts）或技能（skills）。
+
+Q：除了报告和展示之外，我们是否也需要提交代码？
+
+A： 还需要提交代码以及数据（如有）。
+
+Q：录制的展示视频有时长限制吗？
+
+A： 与之前相同，展示视频时长为 10 分钟。
+
+Q：视频中是否要求每位组员都发言？
+
+A： 不要求所有成员都发言，但所有成员都必须出镜。
+
+Q：纯配音幻灯片（仅在 PPT 上录音、不露脸）可以吗，还是需要类似直播/真人出镜的录制形式？
+
+A： 需要同时展示人脸（露镜）和 PPT 幻灯片。
+
+专题一（Topic 1）
+Q：您是否确认这 10 组“JD—已录用简历”样本构成初始基准测试集，并将技术类案例单独分析？
+
+A： 这 10 个样本适合作为基准测试集，但需满足两个条件：（a）这 10 个正样本绝不能进入训练或自编码器（autoencoder）拟合阶段；（b）无论结果如何，误差分析（error analysis）都是必交成果。同时请保持“未标注 ≠ 负样本（unlabelled ≠ negative）”的设定框架。
+
+
+
+
+
+=============
+
+
+这张幻灯片详细列出了期末项目（Final Project）的各项具体要求、截止日期以及排版规范。以下是核心内容的翻译与逐项说明：一、 期末项目报告（Final Project Report）截止日期（Deadline）：2026 年 12 月 12 日   篇幅要求（Page Limit）：最多 4 页 A4 纸（maximum 4 pages A4 size）。   排版模板（Template）：必须严格遵循标准的 IEEE 会议论文格式（如右侧预览图所示）。官方下载链接为：[https://www.ieee.org/conferences/publishing/templates.html](https://www.ieee.org/conferences/publishing/templates.html)   通常学校会推荐使用该链接中的 LaTeX 或 Word 模板来撰写双栏规范的学术报告。
+
+二、 期末展示（Presentation）展示日期（Date）：12 月 5 日   时间分配（Duration）：10 分钟演讲 + 5 分钟问答（Q&A）   每个小组需要在规定时间内向老师和同学们汇报项目动机、方法、实验结果与结论，并回答现场提问。
+
+
+============
+
+
+以下是各项评分细则的拆解与解读：
+一、 数据处理 —— 占比 15%（Data Processing）这部分考核你对项目数据的收集与清洗工作：
+·数据收集/标注：通过网络爬虫（Scrape）获取相关数据来支撑分析和算法，或者对数据进行人工/自动标注（Data labelling）。   
+·数据预处理：对数据进行适合后续分析的清洗和转换，例如数据编码（Encoding）、缺失值处理、特征归一化等。  
+ 二、 数据分析与算法 —— 占比 25%（Data Analytics & Algorithms）这部分考核你的业务洞察力与模型应用能力：
+·数据分析与核心观察：展示对数据的探索性分析（EDA），并提炼出有价值的关键观察结果（Key observations）。   
+·算法应用：应用合适的机器学习（Machine Learning）或深度学习（Deep Learning）算法，切实解决所选主题及相关业务需求。  
+ 三、 实验结果 —— 占比 25%（Experimental Results）这部分考核你的实验严谨性与结论深度：
+·基线对比与实验：在提供的数据上开展实验，并设置合适的基线模型（Baselines）进行横向对比。   
+·洞察与结论：能够从实验结果中提炼出有趣、有深度、有商业或技术价值的结论与见解（Insights）。  
+ (注：幻灯片中列出的这三项加起来是 65%，剩下的 35% 通常会分配给另外的维度，例如演示汇报表现 Presentation、报告结构与规范性等。)

@@ -1,0 +1,103 @@
+{
+  "cv_ref": "CV-005",
+  "current_title": "Fullstack Engineer",
+  "current_company": "3Commas",
+  "country": null,
+  "languages": null,
+  "skills": [
+    "react",
+    "nextjs",
+    "typescript",
+    "javascript",
+    "redux",
+    "zustand",
+    "mobx",
+    "react hook form",
+    "zod",
+    "styled-components",
+    "tailwind css",
+    "mui",
+    "figma",
+    "storybook",
+    "tanstack query",
+    "axios",
+    "rest api",
+    "json-rpc api",
+    "websocket",
+    "graphql",
+    "jest",
+    "react testing library",
+    "nodejs",
+    "express.js",
+    "nestjs",
+    "postgresql",
+    "mysql",
+    "mongodb",
+    "prisma",
+    "typeorm"
+  ],
+  "work_history": [
+    {
+      "title": "Fullstack Engineer",
+      "company": "3Commas",
+      "start": "2025-08",
+      "end": "present",
+      "is_current": true,
+      "date_precision": "month",
+      "description": "Developed a Next.js (React + TypeScript) app with focus on performance, SEO, and SSR/SSG. Led frontend performance optimization initiatives, increasing Lighthouse scores from 30 to 80 on mobile and from 50 to 80-85 on desktop while improving Core Web Vitals and SEO performance. Partnered with marketing stakeholders to deliver SEO-driven features, landing pages, and growth initiatives. Built AI-powered automation tools and workflows that streamlined content creation, localization, and operational processes. Developed AI-powered localization pipelines for Prismic CMS, reducing manual…"
+    },
+    {
+      "title": "Middle Fullstack Developer",
+      "company": "HIVEX",
+      "start": "2025-03",
+      "end": "2025-08",
+      "is_current": false,
+      "date_precision": "month",
+      "description": "Built full-stack features with React, TypeScript, Node.js and Java/Spring, owning implementation across frontend, backend APIs and integrations. Designed and delivered an end-to-end notification system, implementing backend notification processing and APIs alongside the React UI, unread state/count, filtering and read-status synchronization. Implemented real-time communication using WebSockets/STOMP, integrating backend events with the frontend and handling connection lifecycle and state synchronization. Worked with Kafka-based event-driven flows, consuming and processing domain events used…"
+    },
+    {
+      "title": "Frontend Developer (Part-time)",
+      "company": "Freelance",
+      "start": "2025-01",
+      "end": "2025-08",
+      "is_current": false,
+      "date_precision": "month",
+      "description": "Maintained and optimized a sushi delivery website; improved performance and UX. Developed new pages/features with React + TypeScript; ensured responsive design. Tested, debugged, and deployed updates in collaboration with the client."
+    },
+    {
+      "title": "Fullstack Developer",
+      "company": "CuboDrom",
+      "start": "2021-08",
+      "end": "2024-09",
+      "is_current": false,
+      "date_precision": "month",
+      "description": "Developed and maintained an e-commerce platform with React, Node.js, and Express.js. Built end-to-end GraphQL features with Node.js and React/Next.js, implementing queries, mutations, resolvers, database integration, and client-side cache synchronization. Built REST API endpoints and server-side business logic for e-commerce workflows. Implemented authentication and authorization with JWT for protected API routes and user sessions. Built WebSocket-based features and handled real-time communication between the Node.js backend and React frontend. Integrated backend APIs with the React frontend…"
+    }
+  ],
+  "education": "SH++ programming school (Ukraine) (2020–2021); Master's Degree — Flight Academy of the National Aviation University (2019–2020); Bachelor's Degree — Flight Academy of the National Aviation University (2015–2019)",
+  "latest_degree": "CS — SH++ programming school (Ukraine)",
+  "highest_degree": "master",
+  "domain": null,
+  "years_experience": null,
+  "relevant_years": null,
+  "seniority": null,
+  "evidence": {
+    "current_title": "Fullstack Engineer",
+    "current_company": "3Commas",
+    "skills": "React, Next.JS, TypeScript, JavaScript, Redux, Zustand, Mobx, React Hook Form, Zod, styled-components, Tailwind CSS, MUI, Figma, Storybook, TanStack Query, Axios, REST API, JSON-RPC API, Websocket, GraphQL, Jest, React testing library, Node.js, Express.js, Nestjs, PostgreSQL, MySQL, MongoDB, Prisma, TypeOrm",
+    "work_history": [
+      "Fullstack Engineer · 3Commas\n2025-08 – Present\nDeveloped a Next.js (React + TypeScript) app with focus on performance, SEO, and SSR/SSG.",
+      "Middle Fullstack Developer · HIVEX\n2025-03 – 2025-08\nBuilt full-stack features with React, TypeScript, Node.js and Java/Spring, owning implementation across frontend,",
+      "Frontend Developer (Part-time) · Freelance\n2025-01 – 2025-08\nMaintained and optimized a sushi delivery website; improved performance and UX.",
+      "Fullstack Developer · CuboDrom\n2021-08 – 2024-09\nDeveloped and maintained an e-commerce platform with React, Node.js, and Express.js."
+    ],
+    "education": "• SH++ programming school (Ukraine) (2020–2021)\n• Master's Degree — Flight Academy of the National Aviation University (2019–2020)\n• Bachelor's Degree — Flight Academy of the National Aviation University (2015–2019)",
+    "latest_degree": "Latest: CS — SH++ programming school (Ukraine)"
+  },
+  "_meta": {
+    "source": "dataset_from_blackboard\\CV_examples\\CV-005.txt",
+    "model": "qwen/qwen3.5-9b",
+    "extracted_at": "2026-11-22T07:28:49",
+    "evidence_rejected": []
+  }
+}

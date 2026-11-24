@@ -1,0 +1,64 @@
+{
+  "feature_names": [
+    "skill_must",
+    "skill_nice",
+    "years_fit",
+    "seniority_fit",
+    "location",
+    "language",
+    "domain",
+    "education",
+    "tfidf",
+    "skill_jaccard",
+    "semantic"
+  ],
+  "prior": [
+    0.26,
+    0.07,
+    0.15,
+    0.11,
+    0.03,
+    0.02,
+    0.09,
+    0.07,
+    0.05,
+    0.0,
+    0.15
+  ],
+  "learned_all44": [
+    1.1428,
+    0.2011,
+    0.1618,
+    0.7816,
+    0.4529,
+    0.0,
+    0.0,
+    0.2638,
+    0.6947,
+    0.2555,
+    0.8261
+  ],
+  "learned_strong21": [
+    1.5543,
+    0.3967,
+    0.2756,
+    1.024,
+    0.1822,
+    0.0,
+    0.3132,
+    0.4153,
+    0.7287,
+    0.316,
+    0.856
+  ],
+  "meta": {
+    "n_queries": 44,
+    "n_strong": 21,
+    "pool_size": 100,
+    "lambda": 0.05,
+    "train_mrr_all44": 0.2981,
+    "cv5_mrr_learned": 0.2516,
+    "cv5_mrr_prior": 0.2899,
+    "note": "训练标签来自 LLM 标注；测试集 P01-P30 未参与训练"
+  }
+}

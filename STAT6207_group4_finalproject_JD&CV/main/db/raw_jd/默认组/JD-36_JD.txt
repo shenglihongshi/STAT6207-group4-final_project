@@ -1,0 +1,26 @@
+Position: MarTech Specialist
+Role family: Marketing
+Location: HongKong, Hong Kong
+Contract: full_time
+Salary: 20000.0-30000.0 USD per month
+
+
+Job Responsibilities
+
+• Architect, build, and deploy custom AI-powered tools and products to support both internal and client-facing marketing technology (MarTech) initiatives, specifically for loan and credit card products.
+• Lead the integration of AI tools into existing corporate systems (such as CRM), client communication platforms, and task automation workflows to boost marketing efficiency.
+• Enhance MarTech solutions by incorporating a variety of external APIs and services, including web search, image generation, and first/third-party data sources.
+• Partner with business and operations units to transform conceptual ideas into scalable, production-ready AI features that promote digital innovation.
+• Create and maintain clear technical documentation to ensure the maintainability and future enhancement of all MarTech solutions.
+• Implement agentic AI technologies to build autonomous systems capable of making decisions and executing actions to optimize marketing strategies.
+• Research and deploy AI products like chatbots, virtual assistants, and predictive analytics tools to improve customer interactions and campaign effectiveness.
+
+Job Requirements
+
+• Possesses a Bachelor's degree or higher in Mathematics, Business, IT, Engineering, Computer Science, Artificial Intelligence, Data Science, or a related discipline.
+• Must have a proactive, results-oriented approach with a strong interest in emerging technologies and a commitment to continuous learning.
+• Requires strong business insight, a keen understanding of marketing dynamics, and proven project execution skills.
+• Needs excellent communication skills in both English and Cantonese, including the ability to explain complex technical concepts to non-technical partners.
+• A team-oriented collaborator who takes a high degree of ownership and accountability for their work.
+• Must be able to operate independently, delivering production-ready solutions with minimal oversight.
+• Requires the ability to navigate regulatory frameworks and ensure all solutions comply with internal and external policies.

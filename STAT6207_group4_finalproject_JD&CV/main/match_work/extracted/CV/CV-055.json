@@ -1,0 +1,147 @@
+{
+  "cv_ref": "CV-055",
+  "current_title": "Director of Business",
+  "current_company": "Whale AI",
+  "country": "Hong Kong",
+  "languages": null,
+  "skills": [
+    "sales",
+    "business development",
+    "customer-centric approach",
+    "storytelling",
+    "ai",
+    "fintech",
+    "regtech",
+    "cloud",
+    "conferencing",
+    "cyber-security",
+    "marketing",
+    "product promotion",
+    "team leadership",
+    "training",
+    "guidance",
+    "channel development",
+    "partnership development",
+    "consultative sales",
+    "solutions sales",
+    "security framework consultancy",
+    "iso27001",
+    "nist",
+    "gdpr",
+    "penetration testing",
+    "vulnerabilities scanning",
+    "webex",
+    "skype of business",
+    "webinar",
+    "account servicing",
+    "account management"
+  ],
+  "work_history": [
+    {
+      "title": "Director of Business (Contract Role)",
+      "company": "Whale AI",
+      "start": "2024-11",
+      "end": "2026-11",
+      "is_current": true,
+      "date_precision": "month",
+      "description": "Selling AI Cam Analysis, AI Voice, AI Document Management and Creation, AI Chatbot, Membership systems, AI Media and Video Creation. Focus in Hong Kong and Macau Market and explore to Asia. Target Customer group would be Luxury Brand, Retails, Car Industry, FSI. Purely is a Business Development Role."
+    },
+    {
+      "title": "Head of Sales Asia",
+      "company": "Non Banking Financial Institutions · Chekk Limited",
+      "start": "2023-02",
+      "end": "2024-01",
+      "is_current": false,
+      "date_precision": "month",
+      "description": "Selling Remote Client On Boarding, KYC, KYB, AML, Identity verification solutions. Focus in Hong Kong Market and explore to Asia. Target Customer group would be Bank, Financial Institution such as Insurance, Brokering firm, Asset management. Mainly is a Business Development Role."
+    },
+    {
+      "title": "Client Manger",
+      "company": "FSI · NTT Com Asia Limited",
+      "start": "2022-03",
+      "end": "2023-01",
+      "is_current": false,
+      "date_precision": "month",
+      "description": "Selling Data Center, Network solution such as MPLS, IP LC etc. Provide Cloud Consultancy Service from initial planning up to migration for AWS, AZURE and GCP. Selling SI Solution mainly Cisco and Paloalto. Selling Cyber Security Assessment such as Pentest, ISO, NI ST consultancy, Digital forensic etc. Develop Key FSI customers, such as HKEX, HKICL, HKMA, SFC, MPFA, Futu, Valuable Capital, BOCHK, BOCI etc."
+    },
+    {
+      "title": "Sales Manager",
+      "company": "FSI (Half IC and Half Team Leader Role) · abc Multiactive",
+      "start": "2020-01",
+      "end": "2022-03",
+      "is_current": false,
+      "date_precision": "month",
+      "description": "Selling Fintech and Regtech Solution such as Front Office, Back Office, Compliance Regulation system for Securities Company on AML and Trade Surveillance. Migrating AML system, Account Opening system, Name Screening and Facial Recognition system to Alibaba Cloud Business Development for the local development compliance product called FinReg from scratch. Developing new customers including Futu Securities, Orient Securities and Essence Securities. Built up to 12 new logos for FinReg from zero. Close HKD 7 million revenue a year with HKD 4 million margin. Partnership development with different…"
+    },
+    {
+      "title": "Sales Manager",
+      "company": "Hong Kong and Macau · Adura Cyber Security Group",
+      "start": "2019-01",
+      "end": "2019-12",
+      "is_current": false,
+      "date_precision": "month",
+      "description": "Business development for Hong Kong and Macau Enterprise on Cyber Security Service and Security Assessment such as penetration test, vulnerabilities scanning for FSI, Financial and banking clients. 100% self-starter on business development without any customer assignment. Develop close and new channel partnerships. Lead consultative and solutions sales presentation to security company. Provide security framework consultancy service to customers such as ISO27001, NIST, GDPR etc. 2 Generation Security Product: PaloAlto, Network Box, Fortinet, Tenable IO, Digital Shadow, RiskIQ. Signed 2 new logo for…"
+    },
+    {
+      "title": "Business Development Manager",
+      "company": "West UC",
+      "start": "2017-09",
+      "end": "2018-11",
+      "is_current": false,
+      "date_precision": "month",
+      "description": "Channel Sales. Exceeded Revenue Targets. Develop new FSI Customers and maintained existing clients. Selling conferencing software and service, such as Webex, Skype of business, Webinar. Account Servicing and management. Provided Product Training. Handled customer complaints. Leverage Relationship with internal Lead virtual team with a group of Product Manager, Customer Service around 13 people. Achieved 110% of yearly target. Customers: Over 6, 000+ Enterprises customers in Hong Kong within FSI (Huatai, DBS, OCBC) as well as Education sector (HKU, UST)."
+    },
+    {
+      "title": "Regional Sales Manager",
+      "company": "Hong Kong and Macau · A10 NETWORKS INC",
+      "start": "2014-12",
+      "end": "2016-06",
+      "is_current": false,
+      "date_precision": "month",
+      "description": "Top Sales within Greater China in Q4 2015 with achieved 135% target. Sold the first Software and Hardware TPS solution with Web Application Firewall, Anti-DDOS to protect multiple banking and financial transaction, trading, settlement platforms/clients including PPS, Standard Chartered Bank, CLSA, Bank of Shanghai, Bank of East Asia, American Express etc via PCCW Data Centers. Develop New Customers and channel partnership. Lead consultative and solutions sales presentation to senior executives. Arrange product on hand training for customers. Develop Macau Government, Casino and Utility Customers…"
+    },
+    {
+      "title": "Sales Manager",
+      "company": "FSI, Education and Enterprise · Dell SonicWALL",
+      "start": "2011-09",
+      "end": "2014-11",
+      "is_current": false,
+      "date_precision": "month",
+      "description": "Developed New Customers and channel partnerships for the specialist NG Firewall, WAF, SSLVPN Vendor. Exceed 200% of target in 2014 around USD 1.2 million. Top Salesperson within Greater China Region. Penetrated the first SuperMassive model for Public Utility. Made the Largest deal of the year in 2014 within the Greater China Team, for 4 SuperMassive. Lead 3 Inside Sales Customers: Cash Financial, CUHK, Bossini, Pizza Hut, Wharf Holdings, KMB."
+    }
+  ],
+  "education": "Bachelor's Degree — City University of Hong Kong (2005–2008); Marketing — City University of Hong Kong",
+  "latest_degree": "Marketing — City University of Hong Kong",
+  "highest_degree": "bachelor",
+  "domain": "software",
+  "years_experience": null,
+  "relevant_years": null,
+  "seniority": null,
+  "evidence": {
+    "cv_ref": null,
+    "current_title": "Director of Business (Contract Role)",
+    "current_company": "Whale AI",
+    "country": "Hong Kong",
+    "languages": null,
+    "skills": "Skills\nSales, Business Development, Customer-Centric Approach, Storytelling, AI, FinTech, Regtech, Cloud,\nConferencing, Cyber-security, Marketing, Product Promotion, Team Leadership, Training, Guidance, Channel\nDevelopment, Partnership Development, Consultative Sales, Solutions Sales, Security Framework Consultancy,\nIso27001, Nist, GDPR, Penetration Testing, Vulnerabilities Scanning, Webex, Skype of Business, Webinar,\nAccount Servicing, Account Management",
+    "work_history": [
+      "Director of Business (Contract Role) · Whale AI\n2024-11 – 2026-11",
+      "Head of Sales Asia, Non Banking Financial Institutions · Chekk Limited, Asia\n2023-02 – 2024-01",
+      "Client Manger, FSI · NTT Com Asia Limited\n2022-03 – 2023-01",
+      "Sales Manager, FSI (Half IC and Half Team Leader Role) · abc Multiactive\n2020-01 – 2022-03",
+      "Sales Manager, Hong Kong and Macau · Adura Cyber Security Group\n2019-01 – 2019-12",
+      "Business Development Manager · West UC\n2017-09 – 2018-11",
+      "Regional Sales Manager, Hong Kong and Macau · A10 NETWORKS INC\n2014-12 – 2016-06",
+      "Sales Manager, FSI, Education and Enterprise · Dell SonicWALL\n2011-09 – 2014-11"
+    ],
+    "education": "Education\n• Bachelor's Degree — City University of Hong Kong (2005–2008)\nLatest: Marketing — City University of Hong Kong",
+    "latest_degree": "Latest: Marketing — City University of Hong Kong",
+    "highest_degree": "Bachelor's Degree"
+  },
+  "_meta": {
+    "source": "dataset_from_blackboard\\CV_examples\\CV-055.txt",
+    "model": "qwen/qwen3.5-9b",
+    "extracted_at": "2026-11-22T07:46:13",
+    "evidence_rejected": []
+  }
+}

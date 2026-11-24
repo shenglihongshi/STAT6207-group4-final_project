@@ -1,0 +1,62 @@
+Technology and Product Specialist
+Projuris/Starian · Brazil · Engineering
+Skills
+Comunicação, AWS, Arquitetura de soluções
+Work experience
+Technology and Product Specialist · Projuris/Starian
+2023-01 – Present
+Building AI systems, products and high-performance teams. With my head in the clouds and my feet on the
+ground, I'm a product builder driven by creativity, data and purpose. I use my experience in technology, systems
+architecture and automation to turn ideas into real solutions that create value quickly. When an idea does not hold
+up, I would rather find out early and stop without wasting time, energy or investment. Today, one of the hardest
+problems I work on is how to scale engineering teams with AI without lowering the quality bar. I build harnesses,
+ways of working and closed validation…
+Controller · Justto
+2022-04 – 2023-01
+I worked for a few months in Justto's controllership during the final stages of the deal and the transition after it. It
+was a temporary role focused on keeping the company organized while the transaction was being completed. I
+already knew the product, the team and the company deeply, so I could connect the financial and operational work
+with what was really happening in the business.
+Co-Founder & CTO · Justto
+2021-10 – 2023-01
+I was co-founder and CTO of Justto. We built the product, the team and the operation from the beginning. My work
+was not only technology. I was involved in product, architecture, people, delivery, production and the decisions
+needed to make the company grow with scale. The platform transacted more than BRL 1 billion in legal
+agreements. We built a strong team, received important awards and the company was acquired by Starian. Before
+ChatGPT, we were already testing OpenAI models and using them directly in parts of the product.
+Senior Systems Architect · Muralis Tecnologia
+2021-10 – 2023-12
+I worked as a systems and solutions architect for Muralis and its clients. My role was to understand the problem,
+define a practical architecture, help the team make technical decisions and follow the solution until delivery. The
+work included enterprise systems, integrations, Java, Spring, web applications and databases. The exact stack
+changed according to each client and project.
+CTO · Justto
+2019-12 – 2021-10
+I led technology and product as Justto moved from its early stage into a company ready to scale. I was responsible
+for validating new products and features, turning business goals into practical technology choices and keeping
+architecture, cloud, software and delivery aligned. What I valued most was working closely with the team, sharing
+ideas, successes and failures, and building a strong, high-performance culture together.
+Co-Founder & System Architect · Justto
+2019-05 – 2019-12
+I joined Justto as a co-founder while the company and the product were still in the early stage. My role was very
+hands-on: I helped turn the business idea into a product that could operate in the real world. I worked on
+architecture, backend, frontend, integrations, databases and production. At the same time, I helped shape
+technical decisions, the first team and the operation that later needed to scale.
+System Architect · COMPSIS
+2014-10 – 2019-05
+I worked on mission-critical tolling systems covering the complete operation: lane, toll plaza, back office and
+management. The systems handled high transaction volumes, vehicle and tag data, communication protocols,
+financial reconciliation, accounting and ERP integrations. I worked close to both software and hardware, including
+real-time components with restricted execution windows, resilience and contingency requirements. I followed the
+engineering of these products from technical decisions to production operation.
+Software Development Analyst · COMPSIS
+2011-08 – 2014-10
+I worked as a software analyst and developer, mainly with Java and enterprise systems. I helped write product
+specifications, implement features, integrate systems and support the development team. This was the period
+when I built most of my base in mission-critical systems, tolling operations, communication protocols, databases
+and production support. I started with implementation and progressively took more responsibility for architecture
+and technical decisions.
+Education
+• Globalcode (2015–2016)
+• Veris Faculdade (2009–2012)
+Latest: Globalcode

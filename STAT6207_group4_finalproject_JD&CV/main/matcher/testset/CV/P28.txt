@@ -1,0 +1,41 @@
+Protocol Engineer (Rust, Go, Move)
+Stader Labs · Vietnam
+Hired for: Staff Engineer (Rust, based in SG)
+Skills
+Rust, Go, Objective-C, Swift, Blockchain, iOS Development
+Work experience
+Protocol Engineer (Rust, Go, Move) · Stader Labs
+2022-01 – Present
+Node operations: designed and managed node infrastructure handling multiple Ethereum execution and
+consensus clients, powering a liquid staking product with $500M+ TVL.
+Indexing infrastructure: designed and tuned an indexing system supporting 2M+ daily users and weekly token
+distributions to 1M+ users, using AWS Lambda and DynamoDB.
+Terra liquid staking protocol: contributed to design and operation, including Merkle-tree token airdrops and
+CosmWasm reward utilities, reaching a peak TVL of $1B.
+Multichain staking: designed and implemented liquid staking services on Aptos, Sui and Solana using Move and
+the Anchor framework.
+Protocol Engineer (Rust, Go) · TrionOne
+2021-04 – 2022-12
+Built a high-performance Rust proxy server (async/await, Tokio, Hyper) handling thousands of concurrent RPC
+requests with minimal latency.
+Optimized throughput with async I/O and a layered cache (Redis, Backblaze, Google Bigtable), achieving up to
+20x latency reduction for requests to Solana validators.
+Developed a block cache, Cloudflare Worker and Pyth network publisher, speeding up validator queries 10-20x.
+Backend Engineer (Rust | Go) · Zoop Health-care
+2020-04 – 2021-04
+Developed ~70% of the core stack of 20+ Golang microservices, reducing start-up time up to 90%.
+Improved database performance and loading speed by 80% through MongoDB query optimization.
+Senior Software Engineer (Go) · Carousell
+2018-09 – 2020-04
+Reduced microservice response time to ~20ms by caching and replicating data from other services.
+Designed and developed smart listing and smart field APIs for dynamic UI.
+Senior Software Developer · EastAgile
+2017-01 – 2018-09
+Reduced object allocation by ~70% by optimizing Observable patterns in a messaging iOS app.
+Software Developer · Mobile app startup
+2013-01 – 2017-01
+Launched a consumer iOS app on the App Store with a Parse backend, serving 1 million users and 100,000+
+downloads.
+Education
+• Hanoi University of Science and Technology (2011)
+Latest: Hanoi University of Science and Technology

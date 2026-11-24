@@ -1,0 +1,59 @@
+{
+  "jd_id": "P24",
+  "position": "Sales Development Representative (SDR)",
+  "role_family": "Sales & BD",
+  "country": "Philippines",
+  "city": null,
+  "remote_allowed": true,
+  "contract_type": "full_time",
+  "languages": [
+    {
+      "lang": "English",
+      "level": "fluent"
+    }
+  ],
+  "salary_min_raw": null,
+  "salary_max_raw": null,
+  "currency": null,
+  "salary_frequency": null,
+  "must_have_skills": [
+    "hubspot",
+    "salesforce",
+    "linkedin"
+  ],
+  "nice_to_have_skills": [
+    "saas",
+    "legal tech",
+    "b2b technology"
+  ],
+  "min_years": 1,
+  "seniority": "junior",
+  "education_required": null,
+  "domain": "software",
+  "notice_expectation": null,
+  "evidence": {
+    "position": "Sales Development Representative (SDR)",
+    "role_family": "This role focuses on prospecting, outbound outreach, and qualifying leads for the sales team.",
+    "country": "Location: Philippines",
+    "remote_allowed": "Location: Philippines (Remote)",
+    "contract_type": "Full-time",
+    "languages": "Strong American accent and excellent spoken English",
+    "must_have_skills": [
+      "1–3+ years of experience as an SDR, BDR, or inside sales role (US market exposure required)",
+      "Proven experience with outbound sales to US-based companies",
+      "Familiarity with CRM tools (e.g., HubSpot, Salesforce, or similar)"
+    ],
+    "nice_to_have_skills": "Experience in SaaS, legal tech, or B2B technology is a plus",
+    "min_years": "1–3+ years of experience",
+    "seniority": "1–3+ years of experience as an SDR, BDR, or inside sales role",
+    "domain": "The client is a US-based tech company providing secure QR code solutions for businesses."
+  },
+  "_meta": {
+    "source": "main\\matcher\\testset\\JD\\P24.txt",
+    "model": "qwen/qwen3.5-9b",
+    "extracted_at": "2026-11-22T15:03:37",
+    "evidence_rejected": [
+      "salary_frequency(无evidence)"
+    ]
+  }
+}

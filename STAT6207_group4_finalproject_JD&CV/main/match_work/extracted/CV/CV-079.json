@@ -1,0 +1,109 @@
+{
+  "cv_ref": "CV-079",
+  "current_title": "Finance Manager",
+  "current_company": "Hunlicar Financial Services Company Limited",
+  "country": "Hong Kong",
+  "languages": [
+    {
+      "lang": "Chinese",
+      "level": "unknown"
+    }
+  ],
+  "skills": [
+    "accounting",
+    "financial reporting",
+    "audit",
+    "tax",
+    "consolidated financial statements",
+    "management reporting",
+    "internal controls",
+    "due diligence",
+    "people management",
+    "flexsystem",
+    "myob",
+    "multiable",
+    "sap",
+    "microsoft office"
+  ],
+  "work_history": [
+    {
+      "title": "Finance Manager",
+      "company": "Hunlicar Financial Services Company Limited",
+      "start": "2024-10",
+      "end": "present",
+      "is_current": true,
+      "date_precision": "month",
+      "description": "Prepare management reports, financial analyses, cash flow forecasts and consolidated financial statements. Prepare interim and annual reports, including relevant disclosure notes. Review and oversee the financial accounts of the holding company and its subsidiaries. Liaise with external auditors and other professional advisers. Liaise with valuers for fair value measurement in financial reporting, as well as for acquisition and disposal of assets. Initiate and implement internal controls and policies to ensure compliance and accuracy of financial reporting. Manage tax filings and resolve…"
+    },
+    {
+      "title": "Senior Accountant",
+      "company": "PT Investment Corporation Limited",
+      "start": "2017-09",
+      "end": "2024-03",
+      "is_current": false,
+      "date_precision": "month",
+      "description": "Prepared management reports and consolidated financial statements. Prepared interim and annual reports. Managed the full set of accounts for the holding company and its Hong Kong subsidiaries, and reviewed reporting packages from PRC and overseas subsidiaries. Managed daily treasury operations, cash flow and banking transactions. Prepare cash flow forecasts and treasury reports. Liaised with external auditors and professional parties. Handled tax filings and resolved tax issues. Supervised one Accounting Officer, including work assignment and review of output."
+    },
+    {
+      "title": "Senior Accountant",
+      "company": "Zenith CPA Limited",
+      "start": "2014-12",
+      "end": "2017-09",
+      "is_current": false,
+      "date_precision": "month",
+      "description": "Conducted annual audits and interim reviews for listed companies. Performed statutory audits and provided tax advisory services for private companies. Assisted in ad-hoc assignments and special projects."
+    },
+    {
+      "title": "Accounting Officer",
+      "company": "Yu Fat Hong (Hong Kong) Limited (Sino Care Group)",
+      "start": "2012-12",
+      "end": "2014-09",
+      "is_current": false,
+      "date_precision": "month",
+      "description": "Managed the full set of accounts for the holding company and its subsidiaries. Controlled daily cash flow and petty cash. Prepared management reports. Liaised with auditors and handled payroll administration. Supported administrative and ad-hoc assignments."
+    },
+    {
+      "title": "Accounting Assistant",
+      "company": "Sino Care Enterprise Management Limited (Sino Care Group)",
+      "start": "2011-06",
+      "end": "2012-11",
+      "is_current": false,
+      "date_precision": "month",
+      "description": "Provided accounting support to elderly care homes. Maintained the full set of accounts for the holding company and its subsidiaries. Prepared management reports and liaised with auditors. Assisted with ad-hoc assignments."
+    }
+  ],
+  "education": "Bachelor's Degree — Hong Kong Metropolitan University (2009–2011)",
+  "latest_degree": "Accounting — Hong Kong Metropolitan University",
+  "highest_degree": "bachelor",
+  "domain": "fintech",
+  "years_experience": null,
+  "relevant_years": null,
+  "seniority": null,
+  "evidence": {
+    "cv_ref": null,
+    "current_title": "Finance Manager",
+    "current_company": "Hunlicar Financial Services Company Limited",
+    "country": "Hong Kong",
+    "languages": [
+      "Chinese word processing"
+    ],
+    "skills": "Accounting, financial reporting, Audit, Tax, consolidated financial statements, Management Reporting, Internal Controls, Due Diligence, People Management, FlexSystem, MYOB, Multiable, SAP, Microsoft Office, Chinese word processing",
+    "work_history": [
+      "Finance Manager · Hunlicar Financial Services Company Limited 2024-10 – Present",
+      "Senior Accountant · PT Investment Corporation Limited 2017-09 – 2024-03",
+      "Senior Accountant · Zenith CPA Limited 2014-12 – 2017-09",
+      "Accounting Officer · Yu Fat Hong (Hong Kong) Limited (Sino Care Group) 2012-12 – 2014-09",
+      "Accounting Assistant · Sino Care Enterprise Management Limited (Sino Care Group) 2011-06 – 2012-11"
+    ],
+    "education": "Bachelor's Degree — Hong Kong Metropolitan University (2009–2011)",
+    "latest_degree": "Latest: Accounting — Hong Kong Metropolitan University",
+    "highest_degree": "Bachelor's Degree",
+    "domain": null
+  },
+  "_meta": {
+    "source": "dataset_from_blackboard\\CV_examples\\CV-079.txt",
+    "model": "qwen/qwen3.5-9b",
+    "extracted_at": "2026-11-22T07:55:03",
+    "evidence_rejected": []
+  }
+}

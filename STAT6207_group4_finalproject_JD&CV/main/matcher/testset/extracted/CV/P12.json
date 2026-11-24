@@ -1,0 +1,101 @@
+{
+  "cv_ref": "P12",
+  "current_title": "Senior Software Engineer",
+  "current_company": "Nanovest",
+  "country": "Indonesia",
+  "languages": null,
+  "skills": [
+    "react",
+    "mysql",
+    "docker",
+    "ansible",
+    "css",
+    "php",
+    "zustand",
+    "terraform",
+    "google cloud platform",
+    "html",
+    "cicd",
+    "javascript",
+    "aws",
+    "redux",
+    "jenkins",
+    "express.js",
+    "typescript",
+    "postgresql",
+    "argocd",
+    "next.js",
+    "redis",
+    "kubernetes",
+    "tailwind"
+  ],
+  "work_history": [
+    {
+      "title": "Senior Software Engineer",
+      "company": "Nanovest",
+      "start": "2025-01",
+      "end": "2026-09",
+      "is_current": false,
+      "date_precision": "month",
+      "description": "Designed and implemented a multi-source USD price oracle that aggregates rates from three independent providers, filters anomalous values using z-score detection, and computes a weighted price, eliminating the single point of failure in USD rate sourcing.\nDeveloped a multi-currency wallet supporting HKD and CNH balances within the app.\nBuilt buy and sell functionality for HKD and CNH denominated stocks, expanding the trading offering beyond USD-based markets.\nDeveloped both frontend and backend for a premium web product, owning the full end-to-end implementation.\nDeveloped backend services for the Web3 platform and crypto-related products serving ~40,000 users. Built full-stack features integrating a Next.js frontend with Java Spring Boot services, PostgreSQL and Redis."
+    },
+    {
+      "title": "Senior Frontend Engineer",
+      "company": "Nanovest",
+      "start": "2022-08",
+      "end": "2024-12",
+      "is_current": false,
+      "date_precision": "month",
+      "description": "Established best-practice coding standards adopted across the admin panel and web application.\nDeveloped the admin panel, aligning frontend implementation with business requirements and high quality standards.\nMentored junior and mid-level frontend engineers on code quality and best practices.\nOptimized the CI pipeline, reducing build time from 19 minutes to 9 minutes (52.63% faster)."
+    },
+    {
+      "title": "Frontend Engineer",
+      "company": "PT Shopee International Indonesia",
+      "start": "2020-02",
+      "end": "2022-07",
+      "is_current": false,
+      "date_precision": "month",
+      "description": "Developed an in-app puzzle game from scratch, building both the admin panel and end-user application.\nMaintained legacy code and contributed to an in-app quest feature (admin panel and end-user components).\nCollaborated with the national meteorological agency to develop a disaster-alert push notification as a CSR initiative.\nBuilt reusable UI components and applied unit testing with Jest and Enzyme."
+    },
+    {
+      "title": "Web Developer",
+      "company": "PT Go Online Solusi",
+      "start": "2018-01",
+      "end": "2020-02",
+      "is_current": false,
+      "date_precision": "month",
+      "description": "Implemented new features and maintained a travel booking website using CodeIgniter 3, PHP, MySQL and jQuery.\nMaintained and enhanced an insurer's customer portal, adding SME health insurance, international travel insurance and voucher code functionality.\nUsed Pimcore CMS and the Symfony framework to deliver content management features.\nCollaborated with cross-functional teams using JIRA and Git across multiple client deliverables."
+    }
+  ],
+  "education": "Teknik Informatika — Universitas Multimedia Nusantara (2019)",
+  "latest_degree": "Teknik Informatika — Universitas Multimedia Nusantara",
+  "highest_degree": "bachelor",
+  "domain": "fintech",
+  "years_experience": null,
+  "relevant_years": null,
+  "seniority": null,
+  "evidence": {
+    "cv_ref": null,
+    "current_title": "Senior Software Engineer",
+    "current_company": "Nanovest",
+    "country": "Indonesia",
+    "languages": null,
+    "skills": "React, MySQL, Docker, Ansible, CSS, PHP, Zustand, terraform, Google Cloud Platform, HTML, CI/CD, JavaScript, AWS, Redux, Jenkins, Express.js, TypeScript, PostgreSQL, ArgoCD, Next.JS, Redis, Kubernetes, Tailwind",
+    "work_history": [
+      "Senior Software Engineer · Nanovest\n2025-01 – 2026-09",
+      "Senior Frontend Engineer · Nanovest\n2022-08 – 2024-12",
+      "Frontend Engineer · PT Shopee International Indonesia\n2020-02 – 2022-07",
+      "Web Developer · PT Go Online Solusi\n2018-01 – 2020-02"
+    ],
+    "education": "Teknik Informatika — Universitas Multimedia Nusantara (2019)",
+    "latest_degree": "Latest: Teknik Informatika — Universitas Multimedia Nusantara",
+    "highest_degree": null,
+    "domain": null
+  },
+  "_meta": {
+    "source": "main\\matcher\\testset\\CV\\P12.txt",
+    "model": "qwen/qwen3.5-9b",
+    "extracted_at": "2026-11-22T15:08:51",
+    "evidence_rejected": []
+  }
+}

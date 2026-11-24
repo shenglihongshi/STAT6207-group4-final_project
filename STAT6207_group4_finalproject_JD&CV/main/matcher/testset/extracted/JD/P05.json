@@ -1,0 +1,71 @@
+{
+  "jd_id": "P05",
+  "position": "Product Manager — WMS & Warehouse Integrations",
+  "role_family": "Engineering",
+  "country": null,
+  "city": null,
+  "remote_allowed": true,
+  "contract_type": "full_time",
+  "languages": [
+    {
+      "lang": "English",
+      "level": "professional"
+    },
+    {
+      "lang": "Chinese",
+      "level": "professional"
+    }
+  ],
+  "salary_min_raw": null,
+  "salary_max_raw": null,
+  "currency": null,
+  "salary_frequency": null,
+  "must_have_skills": [
+    "product management",
+    "logistics",
+    "fulfilment",
+    "warehouse",
+    "supply-chain",
+    "wms",
+    "oms",
+    "3pl",
+    "apis",
+    "webhooks",
+    "data sync",
+    "technical spec",
+    "engineering discussion"
+  ],
+  "nice_to_have_skills": [
+    "vendor management",
+    "warehouse ops",
+    "build-vs-buy evaluation",
+    "vendor rfp process",
+    "ai tools"
+  ],
+  "min_years": 3,
+  "seniority": "senior",
+  "education_required": null,
+  "domain": "logistics",
+  "notice_expectation": null,
+  "evidence": {
+    "position": "Product Manager — WMS & Warehouse Integrations",
+    "remote_allowed": "Remote · full time",
+    "languages_english": "Clear, structured written English documentation.",
+    "languages_chinese": "Written Chinese (strong plus: warehouse operations and the WMS development team communicate in Chinese).",
+    "must_have_skills_1": "3+ years product management on logistics, fulfilment, warehouse, or supply-chain software (WMS, OMS, 3PL platform, or adjacent).",
+    "must_have_skills_2": "Has shipped integration-heavy product: APIs, webhooks, vendor systems, data sync between platforms.",
+    "must_have_skills_3": "Technical fluency: can read a technical spec and hold their own in an engineering discussion about states, syncs, and edge cases.",
+    "nice_to_have_skills_1": "Direct WMS vendor-management experience, from the implementation side or the vendor side.",
+    "nice_to_have_skills_2": "Has run warehouse ops or worked physically close to a warehouse floor.",
+    "nice_to_have_skills_3": "Has run a build-vs-buy evaluation or vendor RFP process before.",
+    "nice_to_have_skills_4": "Uses AI tools as a working method (specs, QA planning, analysis), not just chat.",
+    "min_years": "3+ years",
+    "domain": "The client is an AI-powered fulfilment and logistics ecosystem built for fast-growing e-commerce brands."
+  },
+  "_meta": {
+    "source": "main\\matcher\\testset\\JD\\P05.txt",
+    "model": "qwen/qwen3.5-9b",
+    "extracted_at": "2026-11-22T15:00:55",
+    "evidence_rejected": []
+  }
+}

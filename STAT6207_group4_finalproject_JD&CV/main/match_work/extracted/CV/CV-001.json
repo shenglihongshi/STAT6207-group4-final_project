@@ -1,0 +1,81 @@
+{
+  "cv_ref": "CV-001",
+  "current_title": "Backend developer",
+  "current_company": "Sea - Shopee",
+  "country": "Vietnam",
+  "languages": null,
+  "skills": [
+    "python",
+    "golang",
+    "php",
+    "mysql",
+    "postgresql",
+    "docker",
+    "kubernetes",
+    "google cloud",
+    "kafka",
+    "rabbitmq",
+    "elasticsearch",
+    "django",
+    "ansible",
+    "jenkins",
+    "helm",
+    "agile"
+  ],
+  "work_history": [
+    {
+      "title": "Backend developer",
+      "company": "Sea - Shopee",
+      "start": "2019-10",
+      "end": "present",
+      "is_current": true,
+      "date_precision": "month",
+      "description": "Devops using GCP, kubernetes and Helm. Deploy and monitor services on cloud. Work with Jenkins, Ansible and various tools.\nDevelop game backend using golang and apply lomicro to build large microservice system.\nConnecting various partner to shopee using Python\n• Django backend. Making sure the orders are delivered to users when they are complete and show proper report to partner.\nManage team more than 10 peoples running Agile model, arrange sprint task and hold daily, planning meetings.\nMentoring new members and interns to catch up with company standards.\nBuilding chat message system with…"
+    },
+    {
+      "title": "Backend developer",
+      "company": "Sea - Airpay",
+      "start": "2015-09",
+      "end": "2019-10",
+      "is_current": false,
+      "date_precision": "month",
+      "description": "Develop Python backend for Airpay Counter, manage transactions, selling products and connecting with partner.\nDeploying on server using docker and docker compose, scale up and down depending on resource usage.\nMaintaining Angular frontend and django templates."
+    },
+    {
+      "title": "Intern Backend Developer",
+      "company": "Vietnam Esport",
+      "start": "2015-03",
+      "end": "2015-08",
+      "is_current": false,
+      "date_precision": "month",
+      "description": "Implement a web based recruitment system in PHP Laravel. Manage candidates CV and interview flows."
+    }
+  ],
+  "education": "Bachelor's Degree — UNIVERSITY OF INFORMATION TECHNOLOGY, VIETNAM NATIONAL UNIVERSITY, HCMC (2017)",
+  "latest_degree": "Software Engineering — University of Information Technology, Vietnam National University, HCMC",
+  "highest_degree": "bachelor",
+  "domain": "ecommerce",
+  "years_experience": null,
+  "relevant_years": null,
+  "seniority": null,
+  "evidence": {
+    "current_title": "Backend Developer\nSea - Shopee · Engineering",
+    "current_company": "Sea - Shopee · Engineering",
+    "country": "HCMC",
+    "skills": "Skills\nPython, Golang, PHP, MySQL, Postgres, Docker, Kubernetes, Gcp, Kafka, RabbitMQ, ElasticSearch, Agile",
+    "work_history": [
+      "Backend developer · Sea - Shopee\n2019-10 – Present",
+      "Backend developer · Sea - Airpay\n2015-09 – 2019-10",
+      "Intern Backend Developer · Vietnam Esport\n2015-03 – 2015-08"
+    ],
+    "education": "Education\n• Bachelor's Degree — UNIVERSITY OF INFORMATION TECHNOLOGY, VIETNAM NATIONAL UNIVERSITY,\nHCMC (2017)",
+    "latest_degree": "Latest: Software Engineering — University of Information Technology, Vietnam National University, HCMC",
+    "highest_degree": "Bachelor's Degree"
+  },
+  "_meta": {
+    "source": "dataset_from_blackboard\\CV_examples\\CV-001.txt",
+    "model": "qwen/qwen3.5-9b",
+    "extracted_at": "2026-11-22T07:27:21",
+    "evidence_rejected": []
+  }
+}

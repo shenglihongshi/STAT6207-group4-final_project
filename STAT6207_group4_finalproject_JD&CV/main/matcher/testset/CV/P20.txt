@@ -1,0 +1,30 @@
+AI Data Scientist
+Samsung R&D Institute Indonesia · Indonesia
+Hired for: Data Scientist
+Skills
+Python, Java, C++, PySpark, PyTorch, OpenCV, SQL, Scikit-Learn, R
+Work experience
+AI Data Scientist · Samsung R&D Institute Indonesia
+2024-02 – Present
+Built an ML model predicting dryer course behaviour from previous washer courses with >85% accuracy, recall,
+precision and F1 (SQL, PySpark, AWS EMR, SageMaker, Lambda, Aurora).
+Sped up an existing zig-zag path prediction algorithm for robot cleaners by up to 10x using C++ and optimization
+techniques.
+Designed A/B tests and dashboards for air conditioner and washer products (Python, Java, JavaScript).
+Integrated an internal LLM into the company's email monitoring system (Java, Spring Boot, Thymeleaf, HTML,
+CSS).
+Data Scientist · PT Berau Coal
+2021-08 – 2023-04
+Built an AI system achieving >90% accuracy in predicting fatigue incidents inside heavy vehicles.
+Developed an AI system reducing accident risk by at least 10% by detecting workers in critical areas and unsafe
+distances between heavy vehicles; recognised by the national energy ministry.
+Created statistical models and data visualizations for company data.
+Tools: Python, OpenCV, PyTorch, labelImg, SQL, R, Tableau, TensorFlow, Tesseract.
+Laboratory Assistant · Universitas Indonesia
+2020-09 – 2021-12
+Created modules and guidelines for students to learn R, Excel and Python.
+Created assignments and quizzes to assess learning.
+Education
+• Bachelor's Degree, Statistics — Universitas Indonesia (2022); GPA 3.52/4.00 (top 10%, cum laude); coursework
+in experimental design, probability and statistics, regression analysis
+Latest: Statistics — Universitas Indonesia

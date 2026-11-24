@@ -1,0 +1,74 @@
+{
+  "jd_id": "P17",
+  "position": "AI FS Engineer (LLM & Optimization Focus)",
+  "role_family": "Data & AI",
+  "country": null,
+  "city": null,
+  "remote_allowed": true,
+  "contract_type": "full_time",
+  "languages": [
+    {
+      "lang": "English",
+      "level": "fluent"
+    }
+  ],
+  "salary_min_raw": null,
+  "salary_max_raw": null,
+  "currency": null,
+  "salary_frequency": null,
+  "must_have_skills": [
+    "python",
+    "pytorch",
+    "tensorflow",
+    "llm",
+    "optimization",
+    "algorithms",
+    "data structures"
+  ],
+  "nice_to_have_skills": [
+    "prompt engineering",
+    "convex optimization",
+    "gradient-based methods",
+    "rest api",
+    "vector databases",
+    "embeddings",
+    "nlp",
+    "mlops"
+  ],
+  "min_years": null,
+  "seniority": "mid",
+  "education_required": null,
+  "domain": "software",
+  "notice_expectation": null,
+  "evidence": {
+    "position": "AI FS Engineer (LLM & Optimization Focus)",
+    "role_family": "developing, optimizing, and deploying solutions built around Large Language Models (LLMs)",
+    "remote_allowed": "Remote · Full-time",
+    "contract_type": "Type: Full-time",
+    "languages": "Strong proficiency in English (written and spoken)",
+    "must_have_skills": [
+      "Strong proficiency in English (written and spoken)",
+      "Solid background in mathematics, optimization, or a related field",
+      "Experience with or strong interest in Large Language Models (LLMs)",
+      "Proficiency in programming (preferably Python)",
+      "Good understanding of algorithms, data structures, and software engineering principles",
+      "Experience with machine learning frameworks (e.g., PyTorch, TensorFlow)"
+    ],
+    "nice_to_have_skills": [
+      "Experience with LLM fine-tuning, prompt engineering, or evaluation frameworks",
+      "Knowledge of optimization techniques (e.g., convex optimization, gradient-based methods)",
+      "Familiarity with APIs and deployment (e.g., REST, cloud platforms)",
+      "Experience with vector databases, embeddings, or retrieval systems",
+      "Background in NLP or applied machine learning"
+    ],
+    "seniority": "Solid background in mathematics, optimization, or a related field; Experience with machine learning frameworks"
+  },
+  "_meta": {
+    "source": "main\\matcher\\testset\\JD\\P17.txt",
+    "model": "qwen/qwen3.5-9b",
+    "extracted_at": "2026-11-22T15:02:43",
+    "evidence_rejected": [
+      "salary_frequency(无evidence)"
+    ]
+  }
+}

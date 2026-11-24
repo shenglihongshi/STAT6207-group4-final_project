@@ -1,0 +1,121 @@
+{
+  "cv_ref": "P28",
+  "current_title": "Protocol Engineer",
+  "current_company": "Stader Labs",
+  "country": "Vietnam",
+  "languages": null,
+  "skills": [
+    "rust",
+    "go",
+    "objective-c",
+    "swift",
+    "blockchain",
+    "ios development",
+    "ethereum",
+    "cosmos",
+    "aptos",
+    "sui",
+    "solana",
+    "move",
+    "anchor framework",
+    "aws lambda",
+    "dynamodb",
+    "redis",
+    "backblaze",
+    "google bigtable",
+    "tokio",
+    "hyper",
+    "mongodb",
+    "cloudflare worker",
+    "merkle tree"
+  ],
+  "work_history": [
+    {
+      "title": "Protocol Engineer",
+      "company": "Stader Labs",
+      "start": "2022-01",
+      "end": "present",
+      "is_current": true,
+      "date_precision": "month",
+      "description": "Node operations: designed and managed node infrastructure handling multiple Ethereum execution and consensus clients, powering a liquid staking product with $500M+ TVL. Indexing infrastructure: designed and tuned an indexing system supporting 2M+ daily users and weekly token distributions to 1M+ users, using AWS Lambda and DynamoDB. Terra liquid staking protocol: contributed to design and operation, including Merkle-tree token airdrops and CosmWasm reward utilities, reaching a peak TVL of $1B. Multichain staking: designed and implemented liquid staking services on Aptos, Sui and Solana using Move and the Anchor framework."
+    },
+    {
+      "title": "Protocol Engineer",
+      "company": "TrionOne",
+      "start": "2021-04",
+      "end": "2022-12",
+      "is_current": false,
+      "date_precision": "month",
+      "description": "Built a high-performance Rust proxy server (async/await, Tokio, Hyper) handling thousands of concurrent RPC requests with minimal latency. Optimized throughput with async I/O and a layered cache (Redis, Backblaze, Google Bigtable), achieving up to 20x latency reduction for requests to Solana validators. Developed a block cache, Cloudflare Worker and Pyth network publisher, speeding up validator queries 10-20x."
+    },
+    {
+      "title": "Backend Engineer",
+      "company": "Zoop Health-care",
+      "start": "2020-04",
+      "end": "2021-04",
+      "is_current": false,
+      "date_precision": "month",
+      "description": "Developed ~70% of the core stack of 20+ Golang microservices, reducing start-up time up to 90%. Improved database performance and loading speed by 80% through MongoDB query optimization."
+    },
+    {
+      "title": "Senior Software Engineer",
+      "company": "Carousell",
+      "start": "2018-09",
+      "end": "2020-04",
+      "is_current": false,
+      "date_precision": "month",
+      "description": "Reduced microservice response time to ~20ms by caching and replicating data from other services. Designed and developed smart listing and smart field APIs for dynamic UI."
+    },
+    {
+      "title": "Senior Software Developer",
+      "company": "EastAgile",
+      "start": "2017-01",
+      "end": "2018-09",
+      "is_current": false,
+      "date_precision": "month",
+      "description": "Reduced object allocation by ~70% by optimizing Observable patterns in a messaging iOS app."
+    },
+    {
+      "title": "Software Developer",
+      "company": "Mobile app startup",
+      "start": "2013-01",
+      "end": "2017-01",
+      "is_current": false,
+      "date_precision": "month",
+      "description": "Launched a consumer iOS app on the App Store with a Parse backend, serving 1 million users and 100,000+ downloads."
+    }
+  ],
+  "education": "Hanoi University of Science and Technology (2011)",
+  "latest_degree": "unknown — Hanoi University of Science and Technology",
+  "highest_degree": "bachelor",
+  "domain": "fintech",
+  "years_experience": null,
+  "relevant_years": null,
+  "seniority": null,
+  "evidence": {
+    "cv_ref": null,
+    "current_title": "Protocol Engineer (Rust, Go, Move)",
+    "current_company": "Stader Labs",
+    "country": "Vietnam",
+    "languages": null,
+    "skills": "Skills\nRust, Go, Objective-C, Swift, Blockchain, iOS Development",
+    "work_history": [
+      "Protocol Engineer (Rust, Go, Move) · Stader Labs\n2022-01 – Present",
+      "Protocol Engineer (Rust, Go) · TrionOne\n2021-04 – 2022-12",
+      "Backend Engineer (Rust | Go) · Zoop Health-care\n2020-04 – 2021-04",
+      "Senior Software Engineer (Go) · Carousell\n2018-09 – 2020-04",
+      "Senior Software Developer · EastAgile\n2017-01 – 2018-09",
+      "Software Developer · Mobile app startup\n2013-01 – 2017-01"
+    ],
+    "education": "Education\n• Hanoi University of Science and Technology (2011)\nLatest: Hanoi University of Science and Technology",
+    "latest_degree": "Hanoi University of Science and Technology (2011)",
+    "highest_degree": null,
+    "domain": null
+  },
+  "_meta": {
+    "source": "main\\matcher\\testset\\CV\\P28.txt",
+    "model": "qwen/qwen3.5-9b",
+    "extracted_at": "2026-11-22T15:14:58",
+    "evidence_rejected": []
+  }
+}

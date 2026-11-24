@@ -1,0 +1,53 @@
+Data Advisor - Analytics Engineer (Consultant)
+Forward Forever · Finland · Data & AI
+Skills
+Microsoft Fabric, Spark, dbt, KQL, Power BI, Azure, Gcp, AWS, Python, SQL, Data Engineering, Data Analytics,
+Data Science, Machine Learning, Data Visualization, Cloud Computing, DevOps, Security
+Work experience
+Data Advisor - Analytics Engineer (Consultant) · Forward Forever
+2025-04 – Present
+• Building a Microsoft Fabric data platform from scratch for an enterprise client - connecting SAP, Salesforce, and
+SQL Server via Data Factory and Dataflows Gen2 with CDC patterns, landing everything into a governed
+OneLake lakehouse
+• Set up a medallion architecture (Bronze → Silver → Gold) using Spark notebooks and Fabric SQL with data
+quality checks, schema contracts, and lineage tracking baked in at each layer, not bolted on after
+• Replaced nightly batch reports with real-time streaming pipelines using Spark Structured Streaming and Fabric
+Eventstream - records land in Eventhouse KQL…
+BI Developer / Analytics Engineer · Hiab
+2024-05 – 2025-04
+• Migrated a mess of ad hoc SQL scripts and spreadsheet extracts into a proper dbt project on Snowflake
+standardised models, automated tests, and documentation that actually matched what the data did
+• Set up Amazon MWAA to replace cron jobs that nobody fully understood - DAGs with retries, proper logging,
+and enough visibility that the team could tell at a glance what ran and what didn't
+• Built a predictive maintenance dashboard on real-time IoT data from factory equipment - the kind of thing where
+a maintenance engineer looks at it in the morning and decides what to check before something…
+Sustainability Data Analyst · Cargotec
+2022-11 – 2024-04
+• Built ELT pipelines on GCP using Cloud Composer and Dataflow to pull sustainability data from facilities across
+the world, turning what was a manual, multi-week reporting exercise into something that refreshed automatically
+• Replaced full-load nightly extracts with Debezium CDC pipelines - change events flowing continuously from
+source systems so the downstream dbt models were always working with fresh data
+• Wrote the dbt models that standardised CO2 calculations across Scope 1, 2, and 3 globally - same logic, same
+numbers, auditable - which mattered a lot when regulators and third-party…
+Supply Chain Data Analyst · Kalmar, Cargotec
+2022-05 – 2022-10
+• Built QlikSense dashboards that gave supply chain managers an up-to-date view of KPIs across product lines -
+they had been working off weekly Excel exports, so the reaction to live data was fairly dramatic
+• Did a root cause analysis on lead time delays using Python and BigQuery, traced the bottlenecks back to
+specific supplier tiers and logistics routes, and gave procurement something concrete to take into negotiations
+Market Analyst · Interconnection Consulting
+2021-09 – 2022-02
+• Produced market forecasts and competitive analysis reports for industrial clients across Europe, putting together
+the numbers and the narrative so the people making decisions had what they needed in one place
+• Built Tableau dashboards so clients could dig into the data themselves between reports, which cut down the
+stream of one-off data requests considerably
+Data Analyst · Statzon Oy
+2021-06 – 2022-02
+• Pulled together financial data from several different sources, wrote Python outlier detection to catch the kind of
+data issues that tend to slip through and show up in reports at the worst possible moment
+• Built Power BI dashboards for senior leadership - monthly and quarterly views that gave them a consistent
+baseline to work from instead of a different spreadsheet every time someone ran the numbers
+Education
+• Master's Degree — Oulu University of Applied Sciences (2023–2025)
+• Bachelor's Degree — Lapland University of Applied Sciences (2019–2022)
+Latest: Data Analytics & Project Management — Oulu University of Applied Sciences

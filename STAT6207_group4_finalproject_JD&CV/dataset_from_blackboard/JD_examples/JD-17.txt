@@ -1,0 +1,23 @@
+Position: IT Support Officer
+Role family: Engineering
+Location: Singapore, Singapore
+Contract: full_time
+Salary: 2500.0-3500.0 SGD per month
+
+
+Job Title: IT Support Engineer
+Location: Singapore
+Job Type: Full-time
+
+Job Requirements
+• Experience: A minimum of 2+ years of professional experience working in a Level 1 (L1) Support or Service Desk role, preferably within a mid-to-large enterprise environment.
+• M365 Administration: At least 1 year of hands-on experience in managing and administering Microsoft 365 (M365) environments (user management, licensing, basic troubleshooting).
+• Networking: A minimum of 2 years of technical exposure to setting up, configuring, and supporting network infrastructure and firewalls, specifically within an SME (Small-to-Medium Enterprise) context.
+• Technical Skills: Strong proficiency in troubleshooting hardware, software, and connectivity issues.
+• Soft Skills:
+  • Demonstrated ability to provide excellent customer service, with clear and professional communication skills.
+  • Strong problem-solving capabilities and a methodical approach to issue resolution.
+  • A self-driven work ethic with the ability to operate independently with minimal supervision, while also collaborating effectively as part of a wider technical team.
+
+How to Apply
+Interested candidates are invited to submit their resume, detailing their experience with M365 and network support.

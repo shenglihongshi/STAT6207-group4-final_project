@@ -1,0 +1,67 @@
+{
+  "jd_id": 34,
+  "position": "Brand Manager",
+  "role_family": "Marketing",
+  "country": "Malaysia",
+  "city": "Kuala Lumpur",
+  "remote_allowed": null,
+  "contract_type": "full_time",
+  "languages": [
+    {
+      "lang": "English",
+      "level": "fluent"
+    }
+  ],
+  "salary_min_raw": null,
+  "salary_max_raw": null,
+  "currency": null,
+  "salary_frequency": null,
+  "must_have_skills": [
+    "brand management",
+    "eCommerce",
+    "Lazada",
+    "Shopee",
+    "TikTok Shop",
+    "market analysis",
+    "team leadership",
+    "strategic planning",
+    "project management"
+  ],
+  "nice_to_have_skills": null,
+  "min_years": 5,
+  "seniority": "senior",
+  "education_required": "bachelor",
+  "domain": "ecommerce",
+  "notice_expectation": null,
+  "evidence": {
+    "position": "Position: Brand Manager",
+    "role_family": "Role family: Marketing",
+    "country": "Location: Kuala Lumpur, Malaysia",
+    "city": "Location: Kuala Lumpur, Malaysia",
+    "remote_allowed": "Hybrid / On-Site",
+    "contract_type": "Contract: full_time",
+    "languages": "Excellent verbal and written communication skills.",
+    "salary_min_raw": null,
+    "salary_max_raw": null,
+    "currency": null,
+    "salary_frequency": null,
+    "must_have_skills": [
+      "Bachelor's degree in Marketing, Business, Communications or a related field.",
+      "5-7 years of experience in brand management",
+      "direct eCommerce experience in Beauty, FMCG, or Consumer Healthcare",
+      "Minimum 3 years in a leadership or managerial role",
+      "Strong marketplace experience (Lazada, Shopee, TikTok, etc.)"
+    ],
+    "nice_to_have_skills": null,
+    "min_years": "5-7 years of experience",
+    "seniority": "Minimum 3 years in a leadership or managerial role",
+    "education_required": "Bachelor's degree in Marketing, Business, Communications or a related field.",
+    "domain": "Industry: Beauty / FMCG / Consumer Healthcare / eCommerce"
+  },
+  "_meta": {
+    "source": "dataset_from_blackboard\\JD_examples\\JD-34.txt",
+    "model": "qwen/qwen3.5-9b",
+    "extracted_at": "2026-11-22T07:25:00",
+    "evidence_rejected": []
+  }
+}

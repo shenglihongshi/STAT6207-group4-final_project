@@ -1,0 +1,63 @@
+{
+  "jd_id": 15,
+  "position": "Distributed Systems Engineer",
+  "role_family": "Engineering",
+  "country": "Singapore",
+  "city": "Singapore",
+  "remote_allowed": null,
+  "contract_type": "full_time",
+  "languages": null,
+  "salary_min_raw": null,
+  "salary_max_raw": null,
+  "currency": null,
+  "salary_frequency": null,
+  "must_have_skills": [
+    "go",
+    "rust",
+    "c++",
+    "python",
+    "kubernetes",
+    "grpc",
+    "kafka",
+    "s3",
+    "ray"
+  ],
+  "nice_to_have_skills": [
+    "gpu-based workloads",
+    "model training",
+    "edge compute orchestration",
+    "ros",
+    "mediasoup"
+  ],
+  "min_years": 7,
+  "seniority": null,
+  "education_required": null,
+  "domain": "other",
+  "notice_expectation": null,
+  "evidence": {
+    "position": "Position: Distributed System Engineer (SG)",
+    "role_family": "Role family: Engineering",
+    "country": "Location: Singapore, Singapore",
+    "city": "Location: Singapore",
+    "contract_type": "Contract: full_time",
+    "min_years": "7+ years of professional software engineering experience",
+    "seniority": "7+ years ... deep, proven expertise",
+    "must_have_skills": [
+      "High proficiency in Go, Rust, C++, or Python",
+      "Hands-on experience with cloud-native architectures and tools (e.g., Kubernetes, gRPC, Kafka, S3, Ray, or similar frameworks)"
+    ],
+    "nice_to_have_skills": [
+      "Strong Plus: Experience with GPU-based workloads, model training, or edge compute orchestration",
+      "Contributions to open-source infrastructure, AI frameworks, or robotics middleware (e.g., ROS, gRPC, Mediasoup)"
+    ],
+    "domain": "Our client is a pioneering company in the humanoid robotics space"
+  },
+  "_meta": {
+    "source": "dataset_from_blackboard\\JD_examples\\JD-15.txt",
+    "model": "qwen/qwen3.5-9b",
+    "extracted_at": "2026-11-22T07:22:03",
+    "evidence_rejected": [
+      "seniority"
+    ]
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "jd_id": "P12",
+  "position": "Full Stack Developer",
+  "role_family": "Engineering",
+  "country": "Singapore",
+  "city": null,
+  "remote_allowed": null,
+  "contract_type": "full_time",
+  "languages": [
+    {
+      "lang": "English",
+      "level": "fluent"
+    }
+  ],
+  "salary_min_raw": 4000,
+  "salary_max_raw": 6000,
+  "currency": "SGD",
+  "salary_frequency": null,
+  "must_have_skills": [
+    "full-stack",
+    "frontend",
+    "backend",
+    "database",
+    "api",
+    "schema-design",
+    "indexing",
+    "migrations",
+    "engineering-judgment",
+    "scale",
+    "performance"
+  ],
+  "nice_to_have_skills": [
+    "ai",
+    "typescript",
+    "react",
+    "express",
+    "postgres",
+    "redis",
+    "bullmq",
+    "react-native",
+    "ui-design",
+    "memory-management",
+    "context-windows",
+    "evals",
+    "rag",
+    "mobile-app-development"
+  ],
+  "min_years": null,
+  "seniority": "senior",
+  "education_required": null,
+  "domain": "software",
+  "notice_expectation": null,
+  "evidence": {
+    "position": "Full Stack Developer",
+    "role_family": "You own features end to end: database, API, web UI and mobile UI.",
+    "country": "Singapore, Singapore",
+    "contract_type": "Full-time",
+    "languages": "Fluent English, written and spoken.",
+    "salary_min_raw": "SGD 4,000 – 6,000",
+    "salary_max_raw": "SGD 4,000 – 6,000",
+    "currency": "SGD",
+    "salary_frequency": "month",
+    "must_have_skills": [
+      "Real full-stack experience. You have shipped frontend, backend and database work to production.",
+      "API and database fundamentals. Schema design, indexing, migrations, clean API contracts.",
+      "Strong engineering judgment. Simple, maintainable code.",
+      "Scale and performance. With over 200,000 users from over 130 countries and growing every week, you design queries, APIs and UIs that stay fast under real load, and you have done it on a product with real traffic."
+    ],
+    "nice_to_have_skills": [
+      "AI fluent. You run several coding agents in parallel and review their output critically.",
+      "Our stack: TypeScript, React, Express, Postgres, Redis + BullMQ, React Native.",
+      "Frontend with taste. Your UIs are well designed, not just functional.",
+      "Applied AI engineering. You know how to design for memory, context windows, evals and RAG.",
+      "You have shipped a mobile app to the App Store or Play Store."
+    ],
+    "seniority": "Real full-stack experience. You have shipped frontend, backend and database work to production."
+  },
+  "_meta": {
+    "source": "main\\matcher\\testset\\JD\\P12.txt",
+    "model": "qwen/qwen3.5-9b",
+    "extracted_at": "2026-11-22T15:02:01",
+    "evidence_rejected": [
+      "city(无evidence)",
+      "salary_frequency"
+    ]
+  }
+}

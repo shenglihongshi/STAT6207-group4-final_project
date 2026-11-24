@@ -1,0 +1,107 @@
+{
+  "cv_ref": "CV-093",
+  "current_title": "President & Head - Business & Strategy",
+  "current_company": "Marketing agency (India)",
+  "country": null,
+  "languages": null,
+  "skills": [
+    "business leadership",
+    "pl management",
+    "marketing strategy development",
+    "organizational change leadership",
+    "brand & marketing strategy",
+    "brand positioning",
+    "campaign plans",
+    "thought leadership",
+    "youth consumer marketing",
+    "digital growth performance marketing",
+    "customer journey funnels",
+    "martech & ai integration",
+    "marketplace channel strategy",
+    "intellectual property creation",
+    "integrated marketing campaigns",
+    "creative & content",
+    "influencer engagement",
+    "digital content storytelling",
+    "experience design",
+    "user interface/user experience optimization",
+    "design thinking",
+    "customer engagement frameworks",
+    "capability building",
+    "talent development",
+    "process optimization",
+    "operational excellence",
+    "tech & tools",
+    "basecamp",
+    "figma",
+    "looker studio"
+  ],
+  "work_history": [
+    {
+      "title": "President & Head - Business & Strategy",
+      "company": "Marketing agency (India)",
+      "start": "2021-01",
+      "end": "present",
+      "is_current": true,
+      "date_precision": "month",
+      "description": "Achieved 50% year-over-year growth and doubled client retention by implementing data-driven CRM strategies and consultative positioning focused on customer lifecycle management. Shifted revenue model to retainer-based, enabling predictable income streams and improved profitability through long-term client engagement. Led the creation of an AI-first MarTech stack (MidJourney, ChatGPT) that enhanced marketing analytics and personalization, reducing creative cycle times by 30% and boosting campaign ROI. Scaled team size 2X, creating specialist pods in growth marketing, e-commerce, and UI/UX…"
+    },
+    {
+      "title": "Business Head",
+      "company": "Ideas at Work",
+      "start": "2014-01",
+      "end": "2020-12",
+      "is_current": false,
+      "date_precision": "month",
+      "description": "Grew an integrated communications agency by leading brand transformation initiatives and developing digital IPs that enhanced client engagement and CRM effectiveness. Positioned LinkedIn as aspirational for youth by launching Power Profiles and MTV “Get A Job” campaigns, building a Facebook community of 1M+ followers in under a month (2014). Led Googles GOSF 2014 integrated marketing campaign, orchestrating media planning and partnerships across agencies and e-commerce platforms to establish Indias Cyber Monday, driving significant sales uplift. Supported Infosys EdgeVerve product launch with…"
+    },
+    {
+      "title": "Co-Founder",
+      "company": "Edtech startup",
+      "start": "2012-01",
+      "end": "2014-12",
+      "is_current": false,
+      "date_precision": "month",
+      "description": "Developed an edtech platform focused on BFSI employability, scaling organically to over 10, 000 users and gaining recognition through the IIM Ahmedabad iAccelerator, demonstrating capability in user acquisition and engagement strategies."
+    },
+    {
+      "title": "Product & Brand Marketing",
+      "company": "Edelweiss",
+      "start": "2005-01",
+      "end": "2012-12",
+      "is_current": false,
+      "date_precision": "month",
+      "description": "Drove complete B2B to B2C brand repositioning across 6 business verticals, aligning with organizational transformation; orchestrated IPO communication (oversubscribed 111x) and built Edelweiss, achieving 4M+ unique users (2009-2012). Led brand engagement initiatives in BFSI, including the Edelweiss T20 Challenge (pre-IPL cultural campaign), and established brand governance frameworks across multiple business lines."
+    }
+  ],
+  "education": "• IIM Calcutta (2014)\n• Bachelor's Degree — Mumbai University",
+  "latest_degree": "IIM Calcutta",
+  "highest_degree": "bachelor",
+  "domain": null,
+  "years_experience": null,
+  "relevant_years": null,
+  "seniority": null,
+  "evidence": {
+    "cv_ref": null,
+    "current_title": "President & Head - Business & Strategy",
+    "current_company": "Marketing agency (India)",
+    "country": null,
+    "languages": null,
+    "skills": "Business Leadership, P&L Management, Marketing Strategy Development, Organizational Change Leadership, Brand & Marketing Strategy, Brand Positioning, Campaign Plans, Thought Leadership, Youth Consumer Marketing, Digital Growth Performance Marketing, Customer Journey Funnels, MarTech & AI Integration, Marketplace Channel Strategy, Intellectual Property Creation, Integrated Marketing Campaigns, Creative & Content, Influencer Engagement, Digital Content Storytelling, Experience Design, User Interface/User Experience Optimization, Design Thinking, Customer Engagement Frameworks, Capability Building, Talent Development, Process Optimization, Operational Excellence, Tech & Tools, Basecamp, Figma, Looker Studio",
+    "work_history": [
+      "President & Head - Business & Strategy · Marketing agency (India)\n2021-01 – Present\nAchieved 50% year-over-year growth...",
+      "Business Head · Ideas at Work\n2014-01 – 2020-12\nGrew an integrated communications agency...",
+      "Co-Founder · Edtech startup\n2012-01 – 2014-12\nDeveloped an edtech platform...",
+      "Product & Brand Marketing · Edelweiss\n2005-01 – 2012-12\nDrove complete B2B to B2C brand repositioning..."
+    ],
+    "education": "• IIM Calcutta (2014)\n• Bachelor's Degree — Mumbai University",
+    "latest_degree": "Latest: IIM Calcutta",
+    "highest_degree": "Bachelor's Degree"
+  },
+  "_meta": {
+    "source": "dataset_from_blackboard\\CV_examples\\CV-093.txt",
+    "model": "qwen/qwen3.5-9b",
+    "extracted_at": "2026-11-22T08:01:21",
+    "evidence_rejected": []
+  }
+}

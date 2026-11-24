@@ -1,0 +1,50 @@
+Anonymised example · client and personal information removed · Second Talent
+Data Engineer
+Kuala Lumpur, Malaysia · full time
+Job Title: Data Engineer
+Job Type: Full-time, Permanent
+About the Opportunity
+Our client, a dynamic multinational company, is establishing a new global data engineering team to champion their
+diverse digital initiatives and large-scale data projects. This is a ground-floor opportunity to join a creative,
+motivated, and results-driven team in a role that offers a fantastic work-life balance.
+This position is crucial for building and scaling the company's data analytics capabilities. They are seeking a
+talented Data Engineer who is passionate about data and enjoys collaborating in a fun, high-impact environment.
+Key Benefits & Perks
+• Work-Life Balance: Hybrid work model (2 days work-from-home) and flexible shifts (e.g., 8:00-4:30, 9:00-5:30,
+10:00-6:30).
+• Compensation: Competitive salary, double pay, performance bonus, and overtime pay.
+• Leave: Generous 14-20 days of annual leave.
+• Health: Comprehensive medical, dental, and life insurance.
+• Work Week: Standard five-day work week.
+Core Responsibilities
+• Architect, implement, and maintain the company's core data platform and innovative data solutions.
+• Design, construct, and automate robust, modern data pipelines and real-time data streams.
+• Develop and manage data models and schemas to facilitate efficient data integration and analysis.
+• Proactively monitor, optimize, and troubleshoot ETL/ELT processes, identifying and implementing improvements
+to enhance performance and efficiency.
+• Collaborate closely with data analysts, data stewards, and business stakeholders to translate functional
+requirements into technical specifications.
+• Ensure high data quality and accuracy by performing rigorous data profiling, cleansing, and validation.
+• Evaluate the performance and suitability of new data tools and technologies against business requirements.
+• Contribute to related data initiatives, including data quality improvements and data education programs.
+Required Qualifications
+• Degree holder in Computer Science, Information Technology, or a relevant discipline.
+• A minimum of 3 years of dedicated experience in data engineering.
+• Expert-level proficiency in SQL is mandatory.
+• Hands-on experience with Azure Databricks or Azure Synapse.
+• Strong programming skills in a data-focused language (e.g., PySpark, Python, R, Java, Scala).
+• Proven experience designing and deploying data applications on cloud solutions, specifically Azure.
+• Excellent problem-solving skills and a strong data-driven mindset.
+• Self-motivated, with the ability to work independently and as part of a collaborative team.
+• Good communication skills in both written and spoken English.
+• Willingness to travel as needed.
+Preferred Qualifications (Advantages)
+• Professional certification, such as Azure Data Engineer Associate.
+• Knowledge of the wider Azure ecosystem (Azure Data Factory, Azure Data Lake, Azure Event Hub) or Power BI.
+• Experience in performance tuning and code optimization within Azure Databricks or Synapse.
+• Experience preparing data for data science and machine learning models.
+• Familiarity with DataOps principles.
+• Prior experience working as part of a distributed global team.
+How to Apply
+To apply for this exciting opportunity, please submit your detailed resume for review.
+Anonymised example · client and personal information removed · Second Talent

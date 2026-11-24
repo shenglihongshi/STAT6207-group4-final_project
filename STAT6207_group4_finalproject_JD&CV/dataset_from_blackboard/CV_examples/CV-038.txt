@@ -1,0 +1,36 @@
+AI Forward Deployed Engineer, Client Engineering
+IBM · Singapore · Data & AI
+Skills
+AI & Agentic Systems, IBM Watsonx, LangChain, RAG Architecture, AI Agent Design, Workflow Automation, AI
+Governance, LLM Evaluation & Observability, Security & Identity, OAuth 2.0, OIDC, User Delegation, Zero Trust
+Architecture, Cloud & Infrastructure, Kubernetes, Openshift, AWS, terraform, On-Premise GPU Clusters,
+Programming & Tools, Python, Golang, Java, Bash/Linux, Git, CI/CD pipelines
+Work experience
+AI Forward Deployed Engineer, Client Engineering · IBM
+2024-11 – Present
+Operate as a forward-deployed engineer embedded with enterprise banking and financial services customers
+across APAC, running technical discovery to uncover real operational workflows and translating ambiguous,
+loosely-defined problems into clear technical plans and production systems.
+Architected an enterprise agent governance platform for one of Asia’s largest banks, integrating APIs, security
+controls, and distributed system components for agent oversight, observability, and user delegation; partnered with
+the customer’s engineering, testing, and business teams to align on production…
+Platform Engineer - Data Platform (OLAP Engine) · Bytedance
+2023-05 – 2024-10
+Managed the deployment of a B2B cloud-native data warehouse product based on Clickhouse, a distributed
+system serving multiple internal teams; provided L3 oncall support to troubleshoot production reliability and
+performance issues in real time.
+Maintained critical dependencies such as ByteKV, a distributed transactional key-value store used for table
+schema definitions and parts metadata. Achieved a remarkable stability improvement by reducing ByteKV storage
+usage by 10 times and memory usage by 4 times.
+Contributed to the development of Kubernetes operators to manage various database engine…
+Site Reliability Engineer · Grab
+2021-07 – 2023-04
+Led Kubernetes migration project to deploy Elasticsearch on AWS EKS, managing 30+ production clusters across
+a distributed architecture. Designed and implemented the platform architecture for self-service deployments,
+achieving 2x search query performance improvement through pragmatic tradeoffs in sharding and query structure.
+Orchestrated major version upgrade for Grab’s MySQL fleet (300+ production databases), identifying critical
+system parameters and designing a reliable fallback strategy using AWS DMS. Maintained high uptime through
+proactive incident response and production performance…
+Education
+• UNIVERSITY OF MICHIGAN, ANN ARBOR (2017–2021)
+Latest: Computer Science — University of Michigan, Ann Arbor

@@ -1,0 +1,26 @@
+Team Lead / Senior Backend Engineer
+MobilityOne Sdn Bhd · Engineering
+Skills
+Java, Spring Boot, Microservices, OAuth2, keycloak, Temporal, MySQL, Docker, AliCloud, Linux
+Work experience
+Team Lead / Senior Backend Engineer · Mobilityone Sdn Bhd
+2022-01 – Present
+Architect and lead development of a microservices-based payment gateway handling 100, 000+ transactions daily.
+Designed secure transaction workflows including authorization, reconciliation, webhook processing, and settlement
+reporting.
+Integrated FPX, TNG Direct, Boost, GrabPay, and card processors with 3DS 2.0 authentication.
+Implemented role-based access control using Keycloak and OAuth2.
+Optimized high-concurrency transaction handling to maintain financial data integrity and resilience under load.
+Lead backend team, conduct code reviews, define architecture standards, and support…
+Software Engineer · Mobilityone Sdn Bhd
+2018-01 – 2022-01
+Developed and maintained multi-channel payment gateway integrations.
+Built REST APIs for merchant onboarding and transaction management.
+Improved transaction performance and resolved concurrency-related production issues.
+Implemented automated invoicing and billing workflows.
+Java Software Engineer · Pooya Co Inc
+2015-01 – 2018-01
+Optimized banking transaction processing systems.
+Resolved critical financial inconsistencies and synchronization issues.
+Improved transaction reliability and data consistency in production systems.
+Latest: Information Technology
