@@ -1,0 +1,97 @@
+{
+  "cv_ref": "CV-017",
+  "current_title": "Quality Assurance Engineer",
+  "current_company": "PT XLSMART Telecom Sejahtera Tbk",
+  "country": "Indonesia",
+  "languages": null,
+  "skills": [
+    "quality assurance",
+    "manual testing",
+    "functional testing",
+    "regression testing",
+    "api testing",
+    "mobile testing",
+    "performance testing",
+    "data testing",
+    "automation",
+    "playwright",
+    "selenium",
+    "katalon",
+    "appium",
+    "postman",
+    "jmeter",
+    "python",
+    "sql",
+    "bigquery",
+    "greenplum",
+    "allure"
+  ],
+  "work_history": [
+    {
+      "title": "Quality Assurance Engineer",
+      "company": "PT XLSMART TELECOM SEJAHTERA TBK",
+      "start": "2025-07",
+      "end": "present",
+      "is_current": true,
+      "date_precision": "month",
+      "description": "Perform functional, regression, sanity, integration, API, and end-to-end testing across enterprise web, mobile, backend, and database-driven telecommunications systems. Create test scenarios and test cases from business requirements, change requests, technical specifications, and operational flows; document defects with clear reproduction steps and supporting evidence. Validate Retail Outlet registration and lifecycle flows including creation, approval, updates, listing, migration, downstream synchronization, and post-migration sanity checks. Test event and ad-hoc sales flows covering outlet…"
+    },
+    {
+      "title": "tester project",
+      "company": "PT Smartfren Telecom Tbk",
+      "start": "2024-08",
+      "end": "2025-07",
+      "is_current": false,
+      "date_precision": "month",
+      "description": "Executed functional, regression, integration, sanity, and UAT testing for telecommunications applications, incentive platforms, retailer operations, and redemption features. Validated festive bonus and incentive calculations against campaign rules, including sell-through tiering, voucher categories, service plans, KPI achievement, derived KPIs, caps, reconciliation, publishing, and reporting. Investigated calculation and dataset discrepancies by comparing expected business formulas with application results and backend data using SQL, BigQuery, and Greenplum. Tested MFA/OTP flows across SMS…"
+    },
+    {
+      "title": "Software Quality Assurance",
+      "company": "KipasKipas",
+      "start": "2023-02",
+      "end": "2024-06",
+      "is_current": false,
+      "date_precision": "month",
+      "description": "Performed software quality assurance activities for product releases, including functional, regression, exploratory, and user-flow validation. Created and maintained test scenarios, documented defects with reproducible evidence, and collaborated with product and development teams during verification and retesting. Contributed to product quality across user experience, interface behavior, and core application functionality."
+    },
+    {
+      "title": "Web Developer",
+      "company": "PT. NOTO TEKNOLOGI INDONESIA",
+      "start": "2019-11",
+      "end": "2020-04",
+      "is_current": false,
+      "date_precision": "month",
+      "description": "Created and designed a web-based financial management system during an internship assignment. Worked with web development technologies and relational database tools including MySQL and phpMyAdmin."
+    }
+  ],
+  "education": "Bachelor's Degree — Universitas Jenderal Soedirman; Informatics / Computer Science — Universitas Jenderal Soedirman",
+  "latest_degree": "Informatics / Computer Science — Universitas Jenderal Soedirman",
+  "highest_degree": "bachelor",
+  "domain": "software",
+  "years_experience": null,
+  "relevant_years": null,
+  "seniority": null,
+  "evidence": {
+    "cv_ref": null,
+    "current_title": "Quality Assurance Engineer",
+    "current_company": "PT XLSMART Telecom Sejahtera Tbk · Indonesia · Engineering",
+    "country": "Indonesia",
+    "languages": null,
+    "skills": "Skills\nQuality Assurance, Manual Testing, Functional Testing, Regression Testing, API Testing, mobile testing,\nPerformance Testing, Data Testing, Automation, Playwright, Selenium, katalon, Appium, Postman, jMeter, Python,\nSQL, BigQuery, Greenplum, Allure",
+    "work_history": [
+      "Quality Assurance Engineer · PT XLSMART TELECOM SEJAHTERA TBK\n2025-07 – Present\nPerform functional, regression, sanity, integration, API, and end-to-end testing across enterprise web, mobile,\nbackend, and database-driven telecommunications systems.\nCreate test scenarios and test cases from business requirements, change requests, technical specifications, and\noperational flows; document defects with clear reproduction steps and supporting evidence.\nValidate Retail Outlet registration and lifecycle flows including creation, approval, updates, listing, migration,\ndownstream synchronization, and post-migration sanity checks.\nTest event and ad-hoc sales flows covering outlet…",
+      "tester project · PT Smartfren Telecom Tbk\n2024-08 – 2025-07\nExecuted functional, regression, integration, sanity, and UAT testing for telecommunications applications, incentive\nplatforms, retailer operations, and redemption features.\nValidated festive bonus and incentive calculations against campaign rules, including sell-through tiering, voucher\ncategories, service plans, KPI achievement, derived KPIs, caps, reconciliation, publishing, and reporting.\nInvestigated calculation and dataset discrepancies by comparing expected business formulas with application\nresults and backend data using SQL, BigQuery, and Greenplum.\nTested MFA/OTP flows across SMS…",
+      "Software Quality Assurance · KipasKipas\n2023-02 – 2024-06\nPerformed software quality assurance activities for product releases, including functional, regression, exploratory,\nand user-flow validation.\nCreated and maintained test scenarios, documented defects with reproducible evidence, and collaborated with\nproduct and development teams during verification and retesting.\nContributed to product quality across user experience, interface behavior, and core application functionality.",
+      "Web Developer · PT. NOTO TEKNOLOGI INDONESIA\n2019-11 – 2020-04\nCreated and designed a web-based financial management system during an internship assignment.\nWorked with web development technologies and relational database tools including MySQL and phpMyAdmin."
+    ],
+    "education": "Education\n• Bachelor's Degree — Universitas Jenderal Soedirman\nLatest: Informatics / Computer Science — Universitas Jenderal Soedirman",
+    "latest_degree": "Latest: Informatics / Computer Science — Universitas Jenderal Soedirman",
+    "highest_degree": "Bachelor's Degree"
+  },
+  "_meta": {
+    "source": "dataset_from_blackboard\\CV_examples\\CV-017.txt",
+    "model": "qwen/qwen3.5-9b",
+    "extracted_at": "2026-11-22T07:33:36",
+    "evidence_rejected": []
+  }
+}

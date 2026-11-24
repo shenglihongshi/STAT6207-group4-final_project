@@ -1,0 +1,65 @@
+{
+  "jd_id": 28,
+  "position": "Technical Lead",
+  "role_family": null,
+  "country": "Malaysia",
+  "city": "Shah Alam",
+  "remote_allowed": null,
+  "contract_type": "full_time",
+  "languages": [
+    {
+      "lang": "English",
+      "level": "professional"
+    }
+  ],
+  "salary_min_raw": 9000.0,
+  "salary_max_raw": 15000.0,
+  "currency": "MYR",
+  "salary_frequency": "month",
+  "must_have_skills": [
+    "react",
+    "golang",
+    "javascript",
+    "aws",
+    "postgresql",
+    "ci/cd",
+    "uml"
+  ],
+  "nice_to_have_skills": [
+    "property industry",
+    "crm",
+    "accounting"
+  ],
+  "min_years": 5,
+  "seniority": "lead",
+  "education_required": "bachelor",
+  "domain": "fintech",
+  "notice_expectation": null,
+  "evidence": {
+    "position": "Position: Tech Lead\nJob Title: Technical Lead",
+    "role_family": "Tech Lead... building and enhancing their custom, large-scale solutions",
+    "country": "Location: Shah Alam, Malaysia",
+    "city": "Shah Alam (In-person)",
+    "remote_allowed": null,
+    "contract_type": "Contract: full_time",
+    "languages": "Excellent communication (written and verbal English)",
+    "salary_min_raw": "Salary: 9000.0-15000.0 MYR per month\nRM 9,000.00 - RM 15,000.00 per month",
+    "salary_max_raw": "Salary: 9000.0-15000.0 MYR per month\nRM 9,000.00 - RM 15,000.00 per month",
+    "currency": "MYR",
+    "salary_frequency": "per month",
+    "must_have_skills": "Proficiency in React.\nStrong programming skills in Golang and/or JavaScript.\nWell-versed in AWS cloud services.\nExperience with RDBMS (specifically PostgreSQL is a strong plus).\nFamiliarity with CI/CD deployment processes.\nUnderstanding of design documentation standards (e.g., UML).",
+    "nice_to_have_skills": "Domain Knowledge (Bonus): Experience in the Property Industry, CRM, or Accounting domains is a significant advantage.",
+    "min_years": "A minimum of 5 years of experience in technical software development.",
+    "seniority": "Technical Lead\nminimum of 2 years of proven experience as a Technical Lead",
+    "education_required": "Degree in Computer Sciences, Software Engineering, or Information Technology.",
+    "domain": "leading Malaysian PropTech (Property Technology) enterprise platform, a FinTech-enabled company"
+  },
+  "_meta": {
+    "source": "dataset_from_blackboard\\JD_examples\\JD-28.txt",
+    "model": "qwen/qwen3.5-9b",
+    "extracted_at": "2026-11-22T07:24:12",
+    "evidence_rejected": [
+      "role_family"
+    ]
+  }
+}

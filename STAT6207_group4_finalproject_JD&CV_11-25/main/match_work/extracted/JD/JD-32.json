@@ -1,0 +1,51 @@
+{
+  "jd_id": 32,
+  "position": "Chief Technology Officer (CTO)",
+  "role_family": "Leadership",
+  "country": "Malaysia",
+  "city": "Kuala Lumpur",
+  "remote_allowed": null,
+  "contract_type": "full_time",
+  "languages": null,
+  "salary_min_raw": null,
+  "salary_max_raw": null,
+  "currency": null,
+  "salary_frequency": null,
+  "must_have_skills": [
+    "aws",
+    "gcp",
+    "azure",
+    "distributed architecture",
+    "cloud infrastructure",
+    "ci/cd",
+    "devops",
+    "ai",
+    "ml"
+  ],
+  "nice_to_have_skills": null,
+  "min_years": null,
+  "seniority": "lead",
+  "education_required": null,
+  "domain": "software",
+  "notice_expectation": null,
+  "evidence": {
+    "position": "Position: Chief Technology Officer (CTO)",
+    "role_family": "Role family: Leadership",
+    "country": "Location: Kuala Lumpur, Malaysia",
+    "city": "Location: Kuala Lumpur, Malaysia",
+    "contract_type": "Contract: full_time",
+    "seniority": "Chief Technology Officer (CTO)",
+    "domain": "We are a fast-growing tech company",
+    "must_have_skills": [
+      "Deep knowledge of backend systems, distributed architecture, and cloud infrastructure (AWS, GCP, or Azure).",
+      "Champion and implement AI strategies",
+      "Strong AI/ML experience"
+    ]
+  },
+  "_meta": {
+    "source": "dataset_from_blackboard\\JD_examples\\JD-32.txt",
+    "model": "qwen/qwen3.5-9b",
+    "extracted_at": "2026-11-22T07:24:43",
+    "evidence_rejected": []
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "jd_id": "P19",
+  "position": "Regional Lead, UI/UX",
+  "role_family": "Design & Creative",
+  "country": "Malaysia",
+  "city": null,
+  "remote_allowed": null,
+  "contract_type": "full_time",
+  "languages": null,
+  "salary_min_raw": 17000,
+  "salary_max_raw": 18000,
+  "currency": "MYR",
+  "salary_frequency": "month",
+  "must_have_skills": [
+    "figma",
+    "adobe xd",
+    "agile"
+  ],
+  "nice_to_have_skills": null,
+  "min_years": 6,
+  "seniority": "lead",
+  "education_required": null,
+  "domain": "software",
+  "notice_expectation": null,
+  "evidence": {
+    "position": "Regional Lead, UI/UX",
+    "role_family": "UI/UX design experience",
+    "country": "Subang Jaya, Malaysia",
+    "contract_type": "Full-time",
+    "salary_min_raw": "17,000",
+    "salary_max_raw": "18,000",
+    "currency": "MYR",
+    "salary_frequency": "month",
+    "must_have_skills": [
+      "6+ years of UI/UX design experience",
+      "Proficiency in design tools (e.g., Figma, Adobe XD)",
+      "Agile processes"
+    ],
+    "min_years": "6+ years",
+    "seniority": "at least 2 years in a leadership role",
+    "domain": "digital platforms",
+    "education_required": null
+  },
+  "_meta": {
+    "source": "main\\matcher\\testset\\JD\\P19.txt",
+    "model": "qwen/qwen3.5-9b",
+    "extracted_at": "2026-11-22T15:02:57",
+    "evidence_rejected": [
+      "city(无evidence)"
+    ]
+  }
+}

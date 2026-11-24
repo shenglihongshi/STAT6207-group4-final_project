@@ -1,0 +1,43 @@
+Position: Distributed System Engineer (SG)
+Role family: Engineering
+Location: Singapore, Singapore
+Contract: full_time
+
+
+Job Title: Distributed Systems Engineer
+
+Location: Singapore
+
+Job Type: Full-time
+
+About the Opportunity
+
+Our client is a pioneering company in the humanoid robotics space. They are seeking a highly experienced Distributed Systems Engineer to architect and scale the foundational infrastructure that will power fleets of robots operating globally.
+
+This is a career-defining role to work across the entire stack of robotics infrastructure, from low-latency streaming and cloud simulation to large-scale training and telemetry pipelines. You will work directly with the company's founders and technical leadership to design the core systems that enable hundreds of robots to learn, share data, and operate as a unified fleet.
+
+Key Responsibilities
+
+• Architect and scale distributed systems capable of handling petabytes of sensory, telemetry, and control data across both cloud and edge environments.
+• Design and build high-throughput data ingestion and streaming pipelines that connect the robot fleet to the cloud in real-time (handling video, LiDAR, joint states, and audio data).
+• Build the large-scale training and inference platforms for the multimodal foundation models that power robot autonomy and teleoperation.
+• Collaborate closely with ML and Robotics engineers to support hardware-in-the-loop (HIL) simulation, policy rollout, and continuous learning systems.
+• Develop the internal observability systems for fleet monitoring, ensuring reliability, and performance tuning at scale.
+• Lead critical infrastructure decisions, from distributed storage and consensus protocols to GPU orchestration and network reliability.
+
+Required Qualifications
+
+• 7+ years of professional software engineering experience, with deep, proven expertise in distributed systems, networking, or data infrastructure.
+• A demonstrable history of building and operating production-grade distributed systems that handle massive scale and mission-critical workloads.
+• High proficiency in Go, Rust, C++, or Python, with strong fundamentals in concurrency, networking, and systems performance.
+• Hands-on experience with cloud-native architectures and tools (e.g., Kubernetes, gRPC, Kafka, S3, Ray, or similar frameworks).
+• A strong, practical understanding of data consistency, replication, and fault tolerance in complex, heterogeneous environments.
+• An analytical mindset with a focus on building fast, measurable, and reliable systems.
+• Strong Plus: Experience with GPU-based workloads, model training, or edge compute orchestration.
+
+Preferred Qualifications (Bonus Points)
+
+• Experience building distributed training or large-scale simulation systems.
+• Familiarity with the unique demands of real-time robotics workloads, including streaming from physical sensors and actuators.
+• Prior work with telemetry, observability, or fleet-scale systems in a production environment.
+• Contributions to open-source infrastructure, AI frameworks, or robotics middleware (e.g., ROS, gRPC, Mediasoup).

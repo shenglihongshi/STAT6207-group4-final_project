@@ -1,0 +1,56 @@
+{
+  "jd_id": 13,
+  "position": "Design-Oriented QA / Test-Automation Engineer",
+  "role_family": "Engineering",
+  "country": "Indonesia",
+  "city": "Jakarta",
+  "remote_allowed": false,
+  "contract_type": "full_time",
+  "languages": null,
+  "salary_min_raw": 10000000.0,
+  "salary_max_raw": 14000000.0,
+  "currency": "IDR",
+  "salary_frequency": "month",
+  "must_have_skills": [
+    "visual-regression",
+    "responsive-ui",
+    "api-testing",
+    "javascript",
+    "accessibility-testing",
+    "ci-cd"
+  ],
+  "nice_to_have_skills": [
+    "performance-testing",
+    "istqb"
+  ],
+  "min_years": 3,
+  "seniority": "mid",
+  "education_required": null,
+  "domain": null,
+  "notice_expectation": null,
+  "evidence": {
+    "position": "Position: Design-Oriented QA / Test-Automation Engineer",
+    "role_family": "Role family: Engineering",
+    "country": "Location: Jakarta, Indonesia",
+    "city": "Jakarta",
+    "remote_allowed": "SCBD (hybrid)",
+    "contract_type": "Contract: full_time",
+    "salary_min_raw": "Salary: 10000000.0-14000000.0 IDR per month",
+    "salary_max_raw": "Salary: 10000000.0-14000000.0 IDR per month",
+    "currency": "IDR",
+    "salary_frequency": "per month",
+    "min_years": "3-5 years quality-assurance or test-automation experience",
+    "seniority": "3-5 years",
+    "must_have_skills": [
+      "Hands-on experience with visual-regression, responsive-UI, and API testing tools.",
+      "Proven knowledge of automated accessibility testing techniques."
+    ],
+    "nice_to_have_skills": "Bonus: Experience with performance-testing tools or recognised QA certifications (e.g., ISTQB)."
+  },
+  "_meta": {
+    "source": "dataset_from_blackboard\\JD_examples\\JD-13.txt",
+    "model": "qwen/qwen3.5-9b",
+    "extracted_at": "2026-11-22T07:21:44",
+    "evidence_rejected": []
+  }
+}

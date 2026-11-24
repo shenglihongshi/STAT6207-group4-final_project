@@ -1,0 +1,98 @@
+{
+  "cv_ref": "CV-065",
+  "current_title": "Specialist, Marketing (Digital Marketing)",
+  "current_company": "ZIPS Car Wash",
+  "country": null,
+  "languages": null,
+  "skills": [
+    "content creation",
+    "videography",
+    "data analytics",
+    "project management",
+    "b2c marketing",
+    "b2b marketing",
+    "kpi monitoring",
+    "campaigns",
+    "html coding",
+    "ai optimization",
+    "sound design",
+    "engineering",
+    "marketing analytics",
+    "growth analytics",
+    "journey building",
+    "intelligence reporting",
+    "creative concept development",
+    "brand consistency",
+    "multimedia content creation",
+    "stakeholder collaboration",
+    "deadline management",
+    "content workflow coordination",
+    "social video strategy",
+    "performance analytics",
+    "seo optimization",
+    "web design",
+    "copywriting",
+    "a/b testing",
+    "market research",
+    "consumer journey mapping",
+    "google ads",
+    "facebook ads"
+  ],
+  "work_history": [
+    {
+      "title": "Specialist, Marketing (Digital Marketing)",
+      "company": "ZIPS Car Wash",
+      "start": "2026-03",
+      "end": "2026-10",
+      "is_current": false,
+      "date_precision": "month",
+      "description": "Video: Served as lead videographer for the Family Leadership Conference, producing video content that helped the executive team introduce a major initiative across 150+ locations for the first time in company history. Assets: Captured original video content and developed visual assets to support brand messaging across ZIPS Car Wash, Rocket Express, and Jet Brite. Engagement: Collaborated across marketing initiatives and used campaign reporting to evaluate audience engagement and content performance. Campaigns: Contributed to digital campaigns that increased email subscriber rates by 50% and…"
+    },
+    {
+      "title": "Manager, Marketing (Digital Marketing)",
+      "company": "CareConnectStrategies",
+      "start": "2024-01",
+      "end": "2026-01",
+      "is_current": false,
+      "date_precision": "month",
+      "description": "Video Strategy: Supporting clients in the realm of business education and engagement by spearheading video editing projects to produce engaging content in the field of health and wellness. Strategized and delivered multimedia campaigns leveraging trends and analytics. Web: Designed responsive web pages, executed SEO optimization, and made custom coding to upgrade web presence and enhance user experience while driving organic traffic. Branding: Curated authentic blog content and campaigns, blending innovative copywriting with targeted messaging to resonate with diverse audiences. Developed…"
+    },
+    {
+      "title": "Manager, Digital Marketing Lead",
+      "company": "Jackson Family Wines",
+      "start": "2022-06",
+      "end": "2023-12",
+      "is_current": false,
+      "date_precision": "month",
+      "description": "Video Production: Increased video production in-house filming/production for department and reduced costs, revamped creative for multiple brands and utilized A/B testing strategy paid and organic. Doubled video reach for multiple brands. Digital Marketing: Managed $1 million in Google Ads, Facebook Ads and other digital marketing to drive product sales growth and event attendance for a $2.4 billion company. Performed market research and consumer journey mapping to inform digital marketing strategy. Drove 100% increase in event attendance YOY. Team Management:Managed local teams of 5-10 during…"
+    }
+  ],
+  "education": null,
+  "latest_degree": "Mass Communications — Stephen F. Austin University",
+  "highest_degree": "master",
+  "domain": null,
+  "years_experience": null,
+  "relevant_years": null,
+  "seniority": null,
+  "evidence": {
+    "current_title": "Specialist, Marketing (Digital Marketing)",
+    "current_company": "ZIPS Car Wash",
+    "skills": "Content Creation, Videography, Data Analytics, Project Management, B2C & B2B Marketing, KPI Monitoring, Campaigns, HTML Coding, AI optimization, Sound Design & Engineering, Marketing Analytics, Measuring KPI's, Growth Analytics, Optimizing, Journey Building, Intelligence Reporting, Creative Concept Development, Brand Consistency, Multimedia Content Creation, Stakeholder Collaboration, Project & Deadline Management, Content Workflow Coordination, Social Video Strategy, Performance Analytics",
+    "work_history": [
+      "Specialist, Marketing (Digital Marketing) · Zips Car Wash 2026-03 – 2026-10",
+      "Manager, Marketing (Digital Marketing) · CareConnectStrategies 2024-01 – 2026-01",
+      "Manager, Digital Marketing Lead · Jackson Family Wines 2022-06 – 2023-12"
+    ],
+    "education": "Master's Degree — Stephen F. Austin University (2021)；Bachelor's Degree — Louisiana Tech University (2020)",
+    "latest_degree": "Latest: Mass Communications — Stephen F. Austin University",
+    "highest_degree": "Master's Degree"
+  },
+  "_meta": {
+    "source": "dataset_from_blackboard\\CV_examples\\CV-065.txt",
+    "model": "qwen/qwen3.5-9b",
+    "extracted_at": "2026-11-22T07:49:58",
+    "evidence_rejected": [
+      "education"
+    ]
+  }
+}

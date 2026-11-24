@@ -1,0 +1,128 @@
+{
+  "cv_ref": "CV-048",
+  "current_title": "Lead UI/UX Designer",
+  "current_company": "Thumb Technologies",
+  "country": null,
+  "languages": null,
+  "skills": [
+    "user experience design",
+    "user interface design",
+    "visual design",
+    "product design",
+    "interaction design",
+    "wireframing",
+    "prototyping",
+    "design systems",
+    "user flows",
+    "information architecture",
+    "usability testing",
+    "a/b testing",
+    "ai product design",
+    "figma",
+    "figjam",
+    "sketching",
+    "webflow",
+    "adobe creative suite",
+    "trello",
+    "notion",
+    "github",
+    "mantine ui",
+    "tailwind css",
+    "hotjar",
+    "dovetail",
+    "figma make",
+    "custom gpt",
+    "ai research",
+    "ai product ui",
+    "ai prototyping",
+    "storybook"
+  ],
+  "work_history": [
+    {
+      "title": "Lead UI/UX Designer",
+      "company": "Thumb Technologies",
+      "start": "2022-01",
+      "end": "2024-11",
+      "is_current": false,
+      "date_precision": "month",
+      "description": "Conversational AI | Dashboard Design | Design Systems | Team Leadership Spearheaded UI design and delivery of AI-driven dashboards using Mantine UI and Tailwind CSS, improving frontend scalability and design consistency. Completed end-to-end design audits ensuring visual alignment, clean UI patterns, and accessibility across products. Mentored and managed 2 UI designers, building structured workflows via GitHub and Notion. Collaborated closely with developers to refine component libraries, reducing UI iteration cycles by ~25%."
+    },
+    {
+      "title": "Lead UI/UX Designer",
+      "company": "Mitron TV & Montage Pro",
+      "start": "2021-01",
+      "end": "2021-10",
+      "is_current": false,
+      "date_precision": "month",
+      "description": "Mobile App UI | Video Editing Platform | Design Leadership Designed polished iOS & Android interfaces for video-editing applications, collectively reaching 500K+ downloads. Created intuitive user journeys and simplified visual interactions, improving onboarding and retention. Led a multidisciplinary design team, ensuring consistent UI across product, design, and engineering. Conducted UI audits and visual workflow improvements to enhance feature adoption."
+    },
+    {
+      "title": "Director - Product Design",
+      "company": "INVIDEO",
+      "start": "2018-11",
+      "end": "2020-12",
+      "is_current": false,
+      "date_precision": "month",
+      "description": "Video Editing Platform | UI Direction | Team Mentorship Mentored 5 designers and coordinated closely with PMs & engineers for seamless UI integration. Led UI direction for InVideo Editor 1.0 & 2.0, introducing modern UI layouts, timeline components, and dark/light modes. Implemented a scalable design system supporting faster development and unified visual design across the platform. Improved landing page UI and web interface design, driving significant gains in user acquisition and engagement."
+    },
+    {
+      "title": "Lead UI/UX Designer",
+      "company": "Stylabs (Bootstrapped)",
+      "start": "2015-07",
+      "end": "2018-11",
+      "is_current": false,
+      "date_precision": "month",
+      "description": "E-Commerce UI| Branding | Fashion Technology Managed a 5-member design team and ensured high-quality UI handoffs and brand consistency. Oversaw visual content creation and collaborated with creative teams to maintain a cohesive brand identity. Led UI design and launch of StyFi across Android, iOS, and web with a strong emphasis on clean aesthetics and conversion-driven layouts. Set up scalable UI workflows reducing reliance on external agencies."
+    },
+    {
+      "title": "Senior UI/UX Designer",
+      "company": "The Glitch (WPP Group)",
+      "start": "2012-09",
+      "end": "2015-06",
+      "is_current": false,
+      "date_precision": "month",
+      "description": "Digital UI Design | Creative Design | Team Leadership Designed visually compelling interactive campaign UI and landing pages for clients like Google, Lakmé, and Yamaha. Improved social and digital visual engagement through high-quality branded UI assets. Led a cross-functional UI team ensuring timely delivery of campaign creatives aligned with strategy."
+    },
+    {
+      "title": "UI/UX Designer",
+      "company": "IFANOW",
+      "start": "2011-06",
+      "end": "2012-09",
+      "is_current": false,
+      "date_precision": "month",
+      "description": "Fintech | Mobile App UI | User Research Revamped IFANow mobile app UI for mutual fund tracking and advisor workflows. Created streamlined UI layouts for both iOS and Android, improving overall usability and visual structure. Delivered interactive UI prototypes and design system components, reducing development time by 20%. Contributed to product scaling with 100K+ downloads and onboarding of 1, 500+ advisors."
+    }
+  ],
+  "education": "Bachelor's Degree — University of Mumbai; Associate's Degree — École Intuit Lab",
+  "latest_degree": "Digital Design — École Intuit Lab",
+  "highest_degree": "bachelor",
+  "domain": null,
+  "years_experience": null,
+  "relevant_years": null,
+  "seniority": null,
+  "evidence": {
+    "cv_ref": null,
+    "current_title": "Lead UI/UX Designer · Thumb Technologies",
+    "current_company": "Thumb Technologies",
+    "country": null,
+    "languages": null,
+    "skills": "User Experience Design, User Interface Design, visual design, Product Design, Interaction Design, Wireframing, Prototyping, Design Systems, User Flows, Information Architecture, Usability Testing, A/B Testing, AI Product Design, Figma, FigJam, Sketching, webflow, Adobe Creative Suite, Trello, Notion, Github, Mantine UI, Tailwind CSS, hotjar, Dovetail, Figma Make, Custom GPT, AI Research, AI Product UI & AI Prototyping, Storybook",
+    "work_history": [
+      "Lead UI/UX Designer · Thumb Technologies 2022-01 – 2024-11",
+      "Lead UI/UX Designer · Mitron TV & Montage Pro 2021-01 – 2021-10",
+      "Director - Product Design · INVIDEO 2018-11 – 2020-12",
+      "Lead UI/UX Designer · Stylabs (Bootstrapped) 2015-07 – 2018-11",
+      "Senior UI/UX Designer · The Glitch (WPP Group) 2012-09 – 2015-06",
+      "UI/UX Designer · IFANOW 2011-06 – 2012-09"
+    ],
+    "education": "• Bachelor's Degree — University of Mumbai • Associate's Degree — École Intuit Lab Latest: Digital Design — École Intuit Lab",
+    "latest_degree": "Latest: Digital Design — École Intuit Lab",
+    "highest_degree": "Bachelor's Degree"
+  },
+  "_meta": {
+    "source": "dataset_from_blackboard\\CV_examples\\CV-048.txt",
+    "model": "qwen/qwen3.5-9b",
+    "extracted_at": "2026-11-22T07:44:02",
+    "evidence_rejected": []
+  }
+}

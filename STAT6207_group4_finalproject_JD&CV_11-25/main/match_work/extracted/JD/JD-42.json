@@ -1,0 +1,52 @@
+{
+  "jd_id": 42,
+  "position": "Travel Specialist",
+  "role_family": "Operations & HR",
+  "country": "Hong Kong",
+  "city": "Hong Kong",
+  "remote_allowed": null,
+  "contract_type": "full_time",
+  "languages": [
+    {
+      "lang": "English",
+      "level": "fluent"
+    }
+  ],
+  "salary_min_raw": null,
+  "salary_max_raw": null,
+  "currency": null,
+  "salary_frequency": null,
+  "must_have_skills": [
+    "g suite",
+    "excel",
+    "word"
+  ],
+  "nice_to_have_skills": [
+    "jira"
+  ],
+  "min_years": 3,
+  "seniority": "mid",
+  "education_required": null,
+  "domain": null,
+  "notice_expectation": null,
+  "evidence": {
+    "position": "Position: Travel Specialist",
+    "role_family": "Role family: Operations & HR",
+    "country": "Location: Hong Kong, Hong Kong",
+    "city": "Location: Hong Kong, Hong Kong",
+    "contract_type": "Contract: full_time",
+    "min_years": "3+ years of relevant experience",
+    "seniority": "3+ years",
+    "languages": "Fluency in English is required",
+    "must_have_skills": [
+      "Experienced with G Suite, Word and Excel"
+    ],
+    "nice_to_have_skills": "Previous work with Jira is an advantage"
+  },
+  "_meta": {
+    "source": "dataset_from_blackboard\\JD_examples\\JD-42.txt",
+    "model": "qwen/qwen3.5-9b",
+    "extracted_at": "2026-11-22T07:26:03",
+    "evidence_rejected": []
+  }
+}

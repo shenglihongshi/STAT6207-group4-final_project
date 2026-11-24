@@ -1,0 +1,66 @@
+{
+  "jd_id": "P30",
+  "position": "Senior Sales Executive / Associate Sales Manager",
+  "role_family": "Sales & BD",
+  "country": "Hong Kong",
+  "city": "Hong Kong",
+  "remote_allowed": null,
+  "contract_type": "full_time",
+  "languages": [
+    {
+      "lang": "Cantonese",
+      "level": "fluent"
+    },
+    {
+      "lang": "English",
+      "level": "fluent"
+    },
+    {
+      "lang": "Chinese",
+      "level": "fluent"
+    }
+  ],
+  "salary_min_raw": 36000,
+  "salary_max_raw": 40000,
+  "currency": "HKD",
+  "salary_frequency": "month",
+  "must_have_skills": null,
+  "nice_to_have_skills": [
+    "network in screening centres",
+    "medical facilities",
+    "hospitals",
+    "oncology fields"
+  ],
+  "min_years": 3,
+  "seniority": "senior",
+  "education_required": "bachelor",
+  "domain": null,
+  "notice_expectation": null,
+  "evidence": {
+    "position": "Senior Sales Executive / Associate Sales Manager",
+    "role_family": "We are looking for a Senior Sales Executive or Associate Sales Manager",
+    "country": "Hong Kong, Hong Kong",
+    "city": "Location: Hong Kong",
+    "contract_type": "Employment Type: Full-Time",
+    "languages": "Fluent in Cantonese, English, and Chinese (written and spoken)",
+    "salary_min_raw": "HKD 36,000 – 40,000 / month",
+    "salary_max_raw": "HKD 36,000 – 40,000 / month",
+    "currency": "HKD",
+    "salary_frequency": "/ month",
+    "must_have_skills": "Bachelor's degree in a Science-related field... 3-6 years of experience in a sales or account management role",
+    "nice_to_have_skills": "A network of contacts in screening centres, medical facilities, hospitals, or oncology fields is a strong advantage",
+    "min_years": "3-6 years",
+    "seniority": "Senior Sales Executive / Associate Sales Manager",
+    "education_required": "Bachelor's degree in a Science-related field",
+    "domain": "health biotech startup... transforming cancer care through advanced liquid biopsy technology"
+  },
+  "_meta": {
+    "source": "main\\matcher\\testset\\JD\\P30.txt",
+    "model": "qwen/qwen3.5-9b",
+    "extracted_at": "2026-11-22T15:04:26",
+    "evidence_rejected": [
+      "must_have_skills",
+      "domain"
+    ]
+  }
+}

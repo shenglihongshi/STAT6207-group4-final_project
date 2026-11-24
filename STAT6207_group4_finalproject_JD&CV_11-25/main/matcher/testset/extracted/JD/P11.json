@@ -1,0 +1,81 @@
+{
+  "jd_id": "P11",
+  "position": "Human Resources Manager",
+  "role_family": "Operations & HR",
+  "country": "Singapore",
+  "city": "Singapore",
+  "remote_allowed": false,
+  "contract_type": "full_time",
+  "languages": null,
+  "salary_min_raw": 600,
+  "salary_max_raw": 6500,
+  "currency": "SGD",
+  "salary_frequency": null,
+  "must_have_skills": [
+    "hr policy implementation",
+    "hris",
+    "employee records management",
+    "talent acquisition",
+    "workforce planning",
+    "job design",
+    "recruitment",
+    "interviewing",
+    "onboarding",
+    "employee relations",
+    "performance management",
+    "conflict resolution",
+    "feedback facilitation",
+    "performance review coordination",
+    "training design",
+    "training coordination",
+    "benefits administration",
+    "change management",
+    "stakeholder management",
+    "ms office"
+  ],
+  "nice_to_have_skills": [
+    "shrm certification",
+    "cipd certification"
+  ],
+  "min_years": null,
+  "seniority": "senior",
+  "education_required": "bachelor",
+  "domain": "other",
+  "notice_expectation": null,
+  "evidence": {
+    "position": "Human Resources Manager",
+    "role_family": "oversee end-to-end HR operations",
+    "country": "Singapore, Singapore",
+    "city": "Singapore, Singapore",
+    "remote_allowed": "This is a full-time, on-site Human Resources Manager role based in Singapore.",
+    "contract_type": "Full-time",
+    "salary_min_raw": "SGD 600",
+    "salary_max_raw": "6,500",
+    "currency": "SGD",
+    "salary_frequency": "per month (implied by range format and standard practice for this amount)",
+    "must_have_skills": [
+      "Human resources operations and administration skills, including HR policy implementation, HRIS usage, and employee records management.",
+      "Talent acquisition and workforce planning capabilities, covering job design, recruitment, interviewing, and onboarding practices.",
+      "Employee relations and performance management skills, such as conflict resolution, feedback facilitation, and performance review coordination.",
+      "Knowledge of Singapore employment laws, statutory requirements, and HR compliance standards.",
+      "Ability to design and coordinate training, development, and career progression programs that support organizational growth.",
+      "Strong communication, interpersonal, and stakeholder management skills",
+      "Proficiency in using productivity and collaboration tools (e.g., MS Office, HR software)",
+      "Bachelor's degree in Human Resources, Business Administration, or a related field"
+    ],
+    "nice_to_have_skills": [
+      "relevant HR certifications (e.g., SHRM, CIPD) are an advantage.",
+      "Prior experience in an HR Manager or senior HR generalist role, preferably within technical, engineering, or professional services sectors."
+    ],
+    "seniority": "Prior experience in an HR Manager or senior HR generalist role",
+    "education_required": "Bachelor's degree in Human Resources, Business Administration, or a related field"
+  },
+  "_meta": {
+    "source": "main\\matcher\\testset\\JD\\P11.txt",
+    "model": "qwen/qwen3.5-9b",
+    "extracted_at": "2026-11-22T15:01:50",
+    "evidence_rejected": [
+      "salary_frequency"
+    ]
+  }
+}

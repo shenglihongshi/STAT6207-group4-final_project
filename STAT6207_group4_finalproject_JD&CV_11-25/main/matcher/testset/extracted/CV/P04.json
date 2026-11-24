@@ -1,0 +1,98 @@
+{
+  "cv_ref": "P04",
+  "current_title": "Data Engineer",
+  "current_company": "BP",
+  "country": "Malaysia",
+  "languages": null,
+  "skills": [
+    "python",
+    "sql",
+    "airflow",
+    "apache kafka",
+    "spark structured streaming",
+    "azure databricks",
+    "delta lake",
+    "azure logic apps",
+    "github actions",
+    "azure devops",
+    "power bi",
+    "azure data factory",
+    "sql server",
+    "svelte",
+    "django rest api",
+    "docker",
+    "java",
+    "scala",
+    "javascript",
+    "c++",
+    "shell scripting",
+    "spring boot",
+    "spring framework",
+    "hibernate",
+    "web services",
+    "restful apis",
+    "hadoop",
+    "etl/elt processes",
+    "postgresql",
+    "mysql"
+  ],
+  "work_history": [
+    {
+      "title": "Data Engineer",
+      "company": "BP",
+      "start": "2022-03",
+      "end": "present",
+      "is_current": true,
+      "date_precision": "month",
+      "description": "• Architected scalable ingestion solutions for a plant integrity system using Python, SQL, and Airflow; ensured 99.9% data uptime via delta-based checkpointing and auto-replay mechanisms.\n• Designed and maintained real-time streaming pipelines using Apache Kafka, Spark Structured Streaming, and Airflow, delivering sub-5s data latency for critical asset monitoring and anomaly detection.\n• Implemented the Medallion Architecture (Bronze, Silver, Gold) in Azure Databricks with Delta Lake for refinery and sensor data.\n• Led cloud cost optimisation (Delta partitioning, Z-Ordering, autoscaling clusters), achieving a 25% reduction in compute/storage costs.\n• Automated workflows using Azure Logic Apps; CI/CD with GitHub Actions and Azure DevOps, reducing manual workload by 80%.\n• Architected …"
+    },
+    {
+      "title": "Data Engineer (contract)",
+      "company": "BASSnet",
+      "start": "2020-01",
+      "end": "2021-12",
+      "is_current": false,
+      "date_precision": "month",
+      "description": "• Developed modular ETL pipelines in Azure Data Factory integrating hybrid-source systems, improving data delivery timelines by 30%.\n• Designed Delta Lake-based transformations with schema evolution and audit trails for streaming and batch processes.\n• Refactored legacy ETL into reusable components, cutting processing time by up to 40%.\n• Built multi-layer data warehouse models (staging, curated, reporting) on SQL Server and Delta Lake.\n• Tuned SQL Server queries (indexing, partitioning, stored procedures) for a 20% query performance improvement."
+    },
+    {
+      "title": "Full Stack Software Engineer",
+      "company": "Sunway Construction Sdn Bhd",
+      "start": "2019-01",
+      "end": "2019-11",
+      "is_current": false,
+      "date_precision": "month",
+      "description": "• Developed full-stack customer support web applications using Svelte, Django REST API, and Docker for CI validation.\n• Contributed across frontend (JavaScript/Svelte) and backend (Python/Django) using GitHub-based workflows.\n• Supported DevOps containerisation and API testing using Postman and Docker for staging."
+    }
+  ],
+  "education": "Degree, Mechanical Engineering — University of Nottingham Malaysia Campus (2011 – 2016)",
+  "latest_degree": "Mechanical Engineering — University of Nottingham Malaysia Campus",
+  "highest_degree": "bachelor",
+  "domain": "fintech",
+  "years_experience": null,
+  "relevant_years": null,
+  "seniority": null,
+  "evidence": {
+    "cv_ref": null,
+    "current_title": "Hired for: Data Engineer",
+    "current_company": "BP · Malaysia",
+    "country": "Malaysia",
+    "languages": null,
+    "skills": "Skills\nPython, SQL, Airflow, Apache Kafka, Spark Structured Streaming, Azure Databricks, Delta Lake, Azure Logic Apps, GitHub Actions, Azure DevOps, Power BI, Azure Data Factory, SQL Server, Svelte, Django REST API,\nDocker, Java, Scala, JavaScript, C++, Shell Scripting, Spring Boot, Spring Framework, Hibernate, Web Services,\nRESTful APIs, Hadoop, ETL/ELT Processes, PostgreSQL, MySQL",
+    "work_history": [
+      "Data Engineer · BP\n2022-03 – Present",
+      "Data Engineer (contract) · BASSnet\n2020-01 – 2021-12",
+      "Full Stack Software Engineer · Sunway Construction Sdn Bhd\n2019-01 – 2019-11"
+    ],
+    "education": "Education\n• Degree, Mechanical Engineering — University of Nottingham Malaysia Campus (2011 – 2016)",
+    "latest_degree": "Latest: Mechanical Engineering — University of Nottingham Malaysia Campus",
+    "highest_degree": "Degree",
+    "domain": "BP"
+  },
+  "_meta": {
+    "source": "main\\matcher\\testset\\CV\\P04.txt",
+    "model": "qwen/qwen3.5-9b",
+    "extracted_at": "2026-11-22T15:06:04",
+    "evidence_rejected": []
+  }
+}

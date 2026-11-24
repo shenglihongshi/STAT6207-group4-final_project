@@ -1,0 +1,85 @@
+{
+  "cv_ref": "CV-028",
+  "current_title": "Software Engineer",
+  "current_company": "Amazon",
+  "country": "United States",
+  "languages": null,
+  "skills": [
+    "python",
+    "java",
+    "kotlin",
+    "typescript",
+    "javascript",
+    "c++",
+    "spring boot",
+    "flask",
+    "rest apis",
+    "microservices architecture",
+    "event-driven systems",
+    "service design",
+    "backend automation",
+    "react",
+    "ui development",
+    "web applications",
+    "pytorch",
+    "tensorflow",
+    "convolutional neural networks",
+    "natural language processing",
+    "transformer models",
+    "model explainability",
+    "shap values",
+    "feature analysis",
+    "anomaly detection",
+    "traffic prediction",
+    "mysql",
+    "mongodb",
+    "dynamodb",
+    "nosql database design"
+  ],
+  "work_history": [
+    {
+      "title": "Software Engineer",
+      "company": "Amazon",
+      "start": "2024-06",
+      "end": "2026-06",
+      "is_current": false,
+      "date_precision": "month",
+      "description": "Architected and deployed hazardous materials inventory compliance system integrating real-time regulatory threshold validation. Solution blocked non-compliant storage operations and unlocked approximately 100 million dollars in annual operational savings. Designed event-driven SNS/SQS/Lambda pipeline publishing real-time inventory placement constraints data. Completed final integration required to deprecate legacy planner service and enabled data science team to train new predictive model on inventory eligibility signals. Led infrastructure migration project transitioning high-traffic…"
+    },
+    {
+      "title": "Software Engineering Intern",
+      "company": "Amazon",
+      "start": "2023-05",
+      "end": "2023-08",
+      "is_current": false,
+      "date_precision": "month",
+      "description": "Developed explainability methods for prototype NLP transformer model improving debugging capabilities and increasing stakeholder trust in model outputs. Analyzed model behavior identifying critical failure modes. Conducted comprehensive feature importance analysis using SHAP values determining which model inputs drove predictions. Designed and implemented visualization tools enabling technical teams to identify root causes of model failures. Collaborated with machine learning team on model optimization iteratively improving model robustness and interpretability. Contributed to research on…"
+    }
+  ],
+  "education": "Bachelor's Degree — University of Connecticut, Storrs (2020–2024)",
+  "latest_degree": null,
+  "highest_degree": "bachelor",
+  "domain": "software",
+  "years_experience": null,
+  "relevant_years": null,
+  "seniority": null,
+  "evidence": {
+    "current_title": "Software Engineer",
+    "current_company": "Amazon",
+    "country": "United States",
+    "skills": "Python, Java, Kotlin, TypeScript, JavaScript, C++, Spring Boot, Flask, REST APIs, Microservices architecture,\nEvent-Driven Systems, Service Design, Backend Automation, React, UI Development, Web Applications, PyTorch,\nTensorFlow, Convolutional Neural Networks, Natural Language Processing, Transformer Models, Model\nExplainability, SHAP Values, Feature Analysis, Anomaly Detection, Traffic Prediction, MySQL, MongoDB,\nDynamoDB, NoSQL Database Design",
+    "work_history": [
+      "Software Engineer · Amazon, North Reading, Massachusetts\n2024-06 – 2026-06",
+      "Software Engineering Intern · Amazon, North Reading, Massachusetts\n2023-05 – 2023-08"
+    ],
+    "education": "• Bachelor's Degree — University of Connecticut, Storrs (2020–2024)\nLatest: Computer Science — University of Connecticut, Storrs"
+  },
+  "_meta": {
+    "source": "dataset_from_blackboard\\CV_examples\\CV-028.txt",
+    "model": "qwen/qwen3.5-9b",
+    "extracted_at": "2026-11-22T07:37:25",
+    "evidence_rejected": [
+      "latest_degree(无evidence)"
+    ]
+  }
+}

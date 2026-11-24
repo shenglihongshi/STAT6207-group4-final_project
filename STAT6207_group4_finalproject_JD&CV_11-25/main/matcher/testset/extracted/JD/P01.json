@@ -1,0 +1,72 @@
+{
+  "jd_id": "P01",
+  "position": "Regional Finance Controller",
+  "role_family": null,
+  "country": "Malaysia",
+  "city": "Kuala Lumpur",
+  "remote_allowed": null,
+  "contract_type": "full_time",
+  "languages": [
+    {
+      "lang": "English",
+      "level": "professional"
+    }
+  ],
+  "salary_min_raw": 25000,
+  "salary_max_raw": 25000,
+  "currency": "MYR",
+  "salary_frequency": "month",
+  "must_have_skills": [
+    "excel",
+    "powerpoint",
+    "ifr",
+    "internal controls",
+    "manufacturing costing",
+    "management reporting",
+    "budgeting",
+    "taxation"
+  ],
+  "nice_to_have_skills": null,
+  "min_years": 15,
+  "seniority": "lead",
+  "education_required": "bachelor",
+  "domain": "manufacturing",
+  "notice_expectation": null,
+  "evidence": {
+    "position": "Regional Finance Controller",
+    "role_family": "Finance & Legal",
+    "country": "Kuala Lumpur, Malaysia",
+    "city": "Kuala Lumpur",
+    "contract_type": "full time",
+    "salary_min_raw": "25,000",
+    "salary_max_raw": "25,000",
+    "currency": "MYR",
+    "salary_frequency": "month",
+    "languages": "Strong command of the English language",
+    "must_have_skills": [
+      "Minimum 15 years' experience in accounting in the manufacturing sector",
+      "Strong cost accounting knowledge",
+      "Strong command of the English language",
+      "High proficiency in Excel and PowerPoint",
+      "Bachelor's degree in Finance, Accounting, or related field",
+      "Accounting (IFRS)",
+      "Internal Controls",
+      "Manufacturing Costing",
+      "Management Reporting, Analysis, Budgeting",
+      "Governance",
+      "Taxation"
+    ],
+    "min_years": "Minimum 15 years' experience",
+    "seniority": "lead",
+    "education_required": "Bachelor's degree in Finance, Accounting, or related field",
+    "domain": "manufacturing sector"
+  },
+  "_meta": {
+    "source": "main\\matcher\\testset\\JD\\P01.txt",
+    "model": "qwen/qwen3.5-9b",
+    "extracted_at": "2026-11-22T15:00:19",
+    "evidence_rejected": [
+      "role_family"
+    ]
+  }
+}

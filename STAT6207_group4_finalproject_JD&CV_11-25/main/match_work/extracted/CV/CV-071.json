@@ -1,0 +1,78 @@
+{
+  "cv_ref": "CV-071",
+  "current_title": "Growth Marketing Manager",
+  "current_company": "Mindvalley",
+  "country": "Malaysia",
+  "languages": null,
+  "skills": [
+    "ai",
+    "marketing automation",
+    "funnel optimization",
+    "sales funnel optimization",
+    "online marketing",
+    "sql",
+    "bigquery",
+    "tableau",
+    "power bi",
+    "data analysis",
+    "machine learning",
+    "deep learning",
+    "generative ai"
+  ],
+  "work_history": [
+    {
+      "title": "Growth Marketing Manager",
+      "company": "Mindvalley",
+      "start": "2021-10",
+      "end": "present",
+      "is_current": true,
+      "date_precision": "month",
+      "description": "Growth Strategy & Forecasting: Steer $15M/year paid budget across Meta, Google, Bing to hit CAC, ROAS, and retention targets. AI & Automation for Growth: Use Claude Code, GPT, and automation stacks to simulate scenarios, automate reporting, and scale creative testing. Incentive & Pricing Levers: Run simulations on pricing, promos, and upsells to identify growth levers driving acquisition and revenue. Growth Experimentation: Own A/B tests end-to-end on creatives, funnels, and landing pages, from hypothesis to data-backed decision. Funnel & CRO Growth: Optimize acquisition funnels and landing…"
+    },
+    {
+      "title": "Senior Business Process Analyst",
+      "company": "Accenture",
+      "start": "2018-04",
+      "end": "2021-09",
+      "is_current": false,
+      "date_precision": "month",
+      "description": null
+    },
+    {
+      "title": "Senior Digital Marketing Executive",
+      "company": "Kohinoor",
+      "start": "2016-03",
+      "end": "2018-03",
+      "is_current": false,
+      "date_precision": "month",
+      "description": null
+    }
+  ],
+  "education": "Bachelor's Degree — Bharati Vidyapeeth (2011–2015)",
+  "latest_degree": "Bachelor's degree — Bharati Vidyapeeth",
+  "highest_degree": "bachelor",
+  "domain": "marketing",
+  "years_experience": null,
+  "relevant_years": null,
+  "seniority": null,
+  "evidence": {
+    "current_title": "Growth Marketing Manager · Mindvalley\n2021-10 – Present",
+    "current_company": "Mindvalley",
+    "country": "Malaysia",
+    "skills": "Skills\nAI, Marketing Automation, Funnel Optimization, Sales Funnel Optimization, Online Marketing, SQL, BigQuery,\nTableau, Power BI, Data Analysis, Machine Learning, Deep Learning, Generative AI",
+    "work_history": [
+      "Growth Marketing Manager · Mindvalley\n2021-10 – Present",
+      "Senior Business Process Analyst · Accenture\n2018-04 – 2021-09",
+      "Senior Digital Marketing Executive · Kohinoor\n2016-03 – 2018-03"
+    ],
+    "education": "Education\n• Bachelor's Degree — Bharati Vidyapeeth (2011–2015)\nLatest: Bachelor's degree — Bharati Vidyapeeth",
+    "latest_degree": "Latest: Bachelor's degree — Bharati Vidyapeeth",
+    "highest_degree": "Bachelor's Degree"
+  },
+  "_meta": {
+    "source": "dataset_from_blackboard\\CV_examples\\CV-071.txt",
+    "model": "qwen/qwen3.5-9b",
+    "extracted_at": "2026-11-22T07:51:58",
+    "evidence_rejected": []
+  }
+}

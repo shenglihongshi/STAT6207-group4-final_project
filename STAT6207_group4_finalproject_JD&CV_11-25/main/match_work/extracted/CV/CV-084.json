@@ -1,0 +1,104 @@
+{
+  "cv_ref": "CV-084",
+  "current_title": "Audience Operations Specialist",
+  "current_company": "Confidential Advertising Technology Company",
+  "country": null,
+  "languages": null,
+  "skills": [
+    "executive support",
+    "calendar management",
+    "inbox management",
+    "project coordination",
+    "crm administration",
+    "lead research",
+    "outreach",
+    "email campaigns",
+    "client onboarding",
+    "follow up",
+    "process documentation",
+    "healthcare administration",
+    "ehr record audits",
+    "ai video production",
+    "saas product storytelling",
+    "motion graphics",
+    "content strategy"
+  ],
+  "work_history": [
+    {
+      "title": "Audience Operations Specialist",
+      "company": "Confidential Advertising Technology Company",
+      "start": "2025-10",
+      "end": "present",
+      "is_current": true,
+      "date_precision": "month",
+      "description": "Coordinate audience operations for multiple client accounts, keeping campaign requests, delivery timelines, and stakeholder updates organized. Check data quality, maintain accurate delivery records, and resolve operational issues with internal teams and advertising partners."
+    },
+    {
+      "title": "Executive Assistant and Operations Coordinator",
+      "company": "Paz Solar Solutions",
+      "start": "2024-01",
+      "end": "present",
+      "is_current": true,
+      "date_precision": "month",
+      "description": "Built and cleaned an Indiana business prospect directory of 222 entries, then tailored outreach for local companies and potential EV charging partners. Managed email outreach and follow ups through Monday CRM, including contact research, mail merge preparation, meeting requests, and response tracking. Developed the company capabilities statement for use on its website and supported updates to email signature and business materials. Coordinated discussions with EV charging providers, including AmpUp and AMPECO, and tracked meeting arrangements and next steps with company leadership."
+    },
+    {
+      "title": "Virtual Assistant and EHR Specialist",
+      "company": "Bay Area Counseling and Consulting",
+      "start": "2024-02",
+      "end": "present",
+      "is_current": true,
+      "date_precision": "month",
+      "description": "Maintain provider and patient trackers and review screening documentation for completeness and accuracy to support recurring compliance audits. Coordinate appointments and EHR records in TheraNest while handling confidential client information and updates for leadership."
+    },
+    {
+      "title": "Executive Assistant",
+      "company": "Lion Athletics",
+      "start": "2024-02",
+      "end": "2026-08",
+      "is_current": false,
+      "date_precision": "month",
+      "description": "Ran client scheduling and membership administration, kept Monday CRM records current, and coordinated communications across coaches and clients. Sent payment reminders and reengagement follow ups, supported event planning, and resolved day to day scheduling and customer inquiries."
+    },
+    {
+      "title": "Airbnb Customer Support",
+      "company": "Airnite Stays",
+      "start": "2023-11",
+      "end": "2025-10",
+      "is_current": false,
+      "date_precision": "month",
+      "description": "Managed guest communication and reservation changes across Toronto and Niagara Falls properties, from prearrival inquiries through check out. Coordinated housekeeping and maintenance requests, updated availability, and resolved guest issues promptly to keep stays running smoothly."
+    }
+  ],
+  "education": "Bachelor's Degree — Benson Idahosa University; Latest: Human Physiology — Benson Idahosa University",
+  "latest_degree": "Human Physiology — Benson Idahosa University",
+  "highest_degree": "bachelor",
+  "domain": null,
+  "years_experience": null,
+  "relevant_years": null,
+  "seniority": null,
+  "evidence": {
+    "cv_ref": null,
+    "current_title": "Audience Operations Specialist",
+    "current_company": "Confidential Advertising Technology Company",
+    "country": null,
+    "languages": null,
+    "skills": "Skills\nExecutive support, Calendar and inbox management, Project coordination, CRM administration, Lead research and outreach, Email campaigns, Client onboarding and follow up, Process documentation, Healthcare administration, EHR record audits, AI video production, SaaS product storytelling, Motion graphics, Content strategy",
+    "work_history": [
+      "Audience Operations Specialist · Confidential Advertising Technology Company\n2025-10 – Present\nCoordinate audience operations for multiple client accounts, keeping campaign requests, delivery timelines, and stakeholder updates organized.\nCheck data quality, maintain accurate delivery records, and resolve operational issues with internal teams and advertising partners.",
+      "Virtual Assistant and EHR Specialist · Bay Area Counseling and Consulting\n2024-02 – Present\nMaintain provider and patient trackers and review screening documentation for completeness and accuracy to support recurring compliance audits.\nCoordinate appointments and EHR records in TheraNest while handling confidential client information and updates for leadership.",
+      "Executive Assistant · Lion Athletics\n2024-02 – 2026-08\nRan client scheduling and membership administration, kept Monday CRM records current, and coordinated communications across coaches and clients.\nSent payment reminders and reengagement follow ups, supported event planning, and resolved day to day scheduling and customer inquiries.",
+      "Executive Assistant and Operations Coordinator · Paz Solar Solutions\n2024-01 – Present\nBuilt and cleaned an Indiana business prospect directory of 222 entries, then tailored outreach for local companies and potential EV charging partners.\nManaged email outreach and follow ups through Monday CRM, including contact research, mail merge preparation, meeting requests, and response tracking.\nDeveloped the company capabilities statement for use on its website and supported updates to email signature and business materials.\nCoordinated discussions with EV charging providers, including AmpUp and AMPECO, and tracked meeting arrangements and next steps with company leadership.\nSupported…",
+      "Airbnb Customer Support · Airnite Stays\n2023-11 – 2025-10\nManaged guest communication and reservation changes across Toronto and Niagara Falls properties, from prearrival inquiries through check out.\nCoordinated housekeeping and maintenance requests, updated availability, and resolved guest issues promptly to keep stays running smoothly."
+    ],
+    "education": "Education\n• Bachelor's Degree — Benson Idahosa University\nLatest: Human Physiology — Benson Idahosa University",
+    "latest_degree": "Latest: Human Physiology — Benson Idahosa University",
+    "highest_degree": "Bachelor's Degree"
+  },
+  "_meta": {
+    "source": "dataset_from_blackboard\\CV_examples\\CV-084.txt",
+    "model": "qwen/qwen3.5-9b",
+    "extracted_at": "2026-11-22T07:57:27",
+    "evidence_rejected": []
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "jd_id": 40,
+  "position": "Omni Channel eCommerce Operations Manager",
+  "role_family": "Operations & HR",
+  "country": "Singapore",
+  "city": "Singapore",
+  "remote_allowed": null,
+  "contract_type": "full_time",
+  "languages": null,
+  "salary_min_raw": null,
+  "salary_max_raw": null,
+  "currency": null,
+  "salary_frequency": null,
+  "must_have_skills": [
+    "wms",
+    "oms",
+    "shopify",
+    "shopee",
+    "lazada"
+  ],
+  "nice_to_have_skills": null,
+  "min_years": 3,
+  "seniority": "senior",
+  "education_required": "diploma",
+  "domain": "ecommerce",
+  "notice_expectation": null,
+  "evidence": {
+    "position": "Position: Omni Channel eCommerce Operations Manager",
+    "role_family": "Role family: Operations & HR",
+    "country": "Location: Singapore, Singapore",
+    "city": "Location: Singapore, Singapore",
+    "contract_type": "Contract: full_time",
+    "must_have_skills_1": "Strong working knowledge of WMS, OMS, and eCommerce platforms (Shopify, Shopee, Lazada, etc.)",
+    "must_have_skills_2": "Diploma/Degree in Logistics, Supply Chain, or Business",
+    "min_years": "3-5+ years of warehouse operations experience",
+    "seniority": "Lead and support the onboarding of new clients; Manage warehouse team leads, supervisors, and floor staff",
+    "education_required": "Diploma/Degree in Logistics, Supply Chain, or Business",
+    "domain": "We are seeking a hands-on and client-oriented eCommerce Operations Manager to lead our warehouse and fulfillment operations"
+  },
+  "_meta": {
+    "source": "dataset_from_blackboard\\JD_examples\\JD-40.txt",
+    "model": "qwen/qwen3.5-9b",
+    "extracted_at": "2026-11-22T07:25:51",
+    "evidence_rejected": []
+  }
+}

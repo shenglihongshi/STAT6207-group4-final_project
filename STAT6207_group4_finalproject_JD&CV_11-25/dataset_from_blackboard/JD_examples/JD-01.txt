@@ -1,0 +1,48 @@
+Position: AI Engineer
+Role family: Data & AI
+Location: Manila, Philippines
+Remote: Yes
+Contract: full_time
+Salary: 1000.0-1800.0 USD per month
+
+
+We are seeking a passionate and hands-on AI Engineer to join our growing Data & AI team. In this role, you will design, develop, and deploy next-generation LLM-powered chatbot, search, and automation solutions for enterprise use cases.
+
+You will work with Google Cloud Vertex AI, Document AI, Dialogflow CX, LangChain, LangGraph, and vector databases to build intelligent conversational interfaces, RAG (Retrieval-Augmented Generation) systems, and AI-driven knowledge applications.
+
+This is a highly technical and client-facing position, ideal for someone who enjoys solving real-world problems using cutting-edge AI tools, frameworks, and Google Cloud technologies.
+
+Key Responsibilities
+
+• Design, develop, and optimize AI chatbots using LLMs (e.g., Gemini, LLaMA, Claude, etc.)
+• Build semantic and enterprise search systems powered by RAG pipelines and vector databases
+• Orchestrate LLM workflows using LangChain and LangGraph
+• Develop backend services and APIs using FastAPI for AI-powered applications
+• Build interactive AI dashboards and demos using Streamlit for rapid prototyping and client presentations
+• Implement prompt engineering, model tuning, and evaluation for various business domains
+• Integrate and deploy solutions leveraging Google Cloud Vertex AI, Document AI, Dialogflow CX, BigQuery, and Cloud Functions
+• Fine-tune foundation models and implement domain-specific customizations where needed
+• Contribute to best practices, documentation, CI/CD pipelines, and code reviews
+• Collaborate closely with Data Engineers and Solution Architects to deliver scalable AI systems
+
+Essential Skills & Experience
+
+• 3+ years of experience as an AI/ML Engineer or Software Engineer in AI-focused project
+• Strong understanding of LLMs, transformers, and conversational AI architectures
+• Proven experience with LangChain, LangGraph, or similar LLM orchestration frameworks
+• Hands-on experience with FastAPI (or Flask) for backend service development
+• Experience with Streamlit for building interactive AI demos or internal tooling
+• Familiarity with Prompt Engineering, RAG pipelines, and LLM evaluation methodologies
+• Proficient in vector search, embeddings, and similarity-based retrieval (e.g., FAISS, Weaviate, Pinecone, Milvus)
+• Working knowledge of Dialogflow CX, Vertex AI, and Document AI
+• Strong foundation in software engineering: Git, CI/CD, REST APIs, testing
+
+Bonus Skills (Nice to Have)
+
+• Experience with data engineering tools (ETL, Airflow, dbt, BigQuery, or Snowflake)
+• Experience integrating external data sources, web crawlers, or knowledge bases
+• Familiarity with data lake/warehouse architecture and data pipeline design
+• Cloud infrastructure knowledge: GCP, AWS, or Azure
+• Experience fine-tuning open-source LLMs (LLaMA, Mistral, Falcon, etc.)
+• Understanding of LLM safety, reliability, and cost-performance optimization
+• Exposure to frontend frameworks (React, Next.js) for chatbot UI integration

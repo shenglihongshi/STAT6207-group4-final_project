@@ -1,0 +1,116 @@
+{
+  "cv_ref": "CV-089",
+  "current_title": "Administration Supervisor (HR & Operations)",
+  "current_company": "ICONS International School",
+  "country": "Malaysia",
+  "languages": null,
+  "skills": [
+    "hr operations",
+    "administration",
+    "training",
+    "event coordination",
+    "payroll coordination",
+    "verification",
+    "procurement coordination",
+    "leave administration",
+    "compliance",
+    "personnel management",
+    "talent acquisition",
+    "hiring support",
+    "labor laws",
+    "hr laws",
+    "regulations",
+    "employee lifecycle management",
+    "ms office suite",
+    "excel",
+    "hris",
+    "employee data management",
+    "hr systems",
+    "payroll systems",
+    "sop development",
+    "process improvement",
+    "google workspace",
+    "vendor coordination",
+    "administrative coordination",
+    "employee relations support"
+  ],
+  "work_history": [
+    {
+      "title": "Administration Supervisor (HR & Operations)",
+      "company": "ICONS International School",
+      "start": "2025-11",
+      "end": "present",
+      "is_current": true,
+      "date_precision": "month",
+      "description": "Managed daily HR operations and maintained personnel records for over 60 employees, ensuring compliance support with internal HR policies. Coordinated payroll verification, leave administration, attendance tracking, and HR documentation to facilitate accurate HR processes. Supported recruitment activities by coordinating expatriate hiring and preparing onboarding processes for new employees. Documented employee relations matters, including warning letters, disciplinary records, and monitored Performance Improvement Plans (PIPs). Implemented standard operating procedures, coordinated vendor…"
+    },
+    {
+      "title": "Executive, Human Capital",
+      "company": "SATS Ltd",
+      "start": "2024-04",
+      "end": "2025-10",
+      "is_current": false,
+      "date_precision": "month",
+      "description": "Supported daily HR operations and administrative functions for over 200 employees in a fast-paced corporate environment. Prepared payroll data, assisted with employee claims, and coordinated benefits administration and travel arrangements. Maintained accurate HRIS records and employee documentation, ensuring compliance with audit requirements. Coordinated employee engagement initiatives and internal communication activities to enhance the workplace experience."
+    },
+    {
+      "title": "Project Coordinator",
+      "company": "SNP UNIVERSAL SDN BHD",
+      "start": "2023-08",
+      "end": "2024-03",
+      "is_current": false,
+      "date_precision": "month",
+      "description": "Coordinated training programs and event logistics to ensure seamless execution of corporate activities. Managed vendor sourcing and procurement coordination for training sessions and company events. Supported stakeholder communication and daily operational coordination to enhance event management efficiency."
+    },
+    {
+      "title": "Event Coordinator (Intern)",
+      "company": "APLUS ULTIMATE MARKETING & CONSULTANCY",
+      "start": "2023-04",
+      "end": "2023-07",
+      "is_current": false,
+      "date_precision": "month",
+      "description": "Coordinated event logistics and administrative support for workshops and marketing activities, ensuring efficient execution and alignment with branding initiatives."
+    },
+    {
+      "title": "PR & COMMUNICATION EXECUTIVE",
+      "company": "NP Asia",
+      "start": "2021-12",
+      "end": "2023-03",
+      "is_current": false,
+      "date_precision": "month",
+      "description": "Executed communication strategies to enhance stakeholder engagement through effective PR campaigns and media coordination. Coordinated events and developed marketing materials to ensure seamless execution and promote company visibility."
+    }
+  ],
+  "education": "Bachelor's Degree — UOW KDU MALAYSIA (2022)；City University",
+  "latest_degree": "PR & Digital — UOW KDU Malaysia",
+  "highest_degree": "bachelor",
+  "domain": "education",
+  "years_experience": null,
+  "relevant_years": null,
+  "seniority": null,
+  "evidence": {
+    "cv_ref": null,
+    "current_title": "Administration Supervisor (HR & Operations)",
+    "current_company": "ICONS International School",
+    "country": "Malaysia",
+    "languages": null,
+    "skills": "Skills\nHR Operations & Administration, Training & Event Coordination, Payroll Coordination & Verification, Procurement Coordination, Leave Administration & Compliance, Personnel Management, Talent Acquisition & Hiring Support,\nLabor and HR Laws and Regulations, Employee Lifecycle Management, MS Office Suite, Employee Relations Support, Excel, HRIS & Employee Data Management, HR & Payroll Systems, SOP Development & Process Improvement, Google Workspace, Vendor & Administrative Coordination",
+    "work_history": [
+      "Administration Supervisor (HR & Operations) · ICONS international school\n2025-11 – Present",
+      "Executive, Human Capital · SATS Ltd\n2024-04 – 2025-10",
+      "Project Coordinator · SNP UNIVERSAL SDN BHD\n2023-08 – 2024-03",
+      "Event Coordinator (Intern) · APLUS ULTIMATE MARKETING & CONSULTANCY\n2023-04 – 2023-07",
+      "PR & COMMUNICATION EXECUTIVE · NP Asia\n2021-12 – 2023-03"
+    ],
+    "education": "Education\n• Bachelor's Degree — UOW KDU MALAYSIA (2022)\n• City University",
+    "latest_degree": "Latest: PR & Digital — UOW KDU Malaysia",
+    "highest_degree": null,
+    "domain": null
+  },
+  "_meta": {
+    "source": "dataset_from_blackboard\\CV_examples\\CV-089.txt",
+    "model": "qwen/qwen3.5-9b",
+    "extracted_at": "2026-11-22T07:59:51",
+    "evidence_rejected": []
+  }
+}

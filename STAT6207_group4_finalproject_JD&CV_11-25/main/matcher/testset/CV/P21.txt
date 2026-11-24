@@ -1,0 +1,41 @@
+Site Reliability Engineer
+ExxonMobil
+Hired for: DevOps Engineer
+Skills
+Ansible, Powershell, Linux, AWS, terraform, Github Actions, CI/CD, Agile, ITIL, Fast Learner, Various
+Programming Language Skills, Knowledge in IT Foundation Infrastructure, Poised under pressure
+Work experience
+Site Reliability Engineer · ExxonMobil
+2023-03 – Present
+• Automated VMware vCenter operations and security enforcement with Ansible playbooks; implemented logging
+and monitoring for encrypted VMs via the vRealize Log Insight API.
+• Migrated Windows host configuration management from Puppet to native GPO, maintaining server hardening.
+• Replaced SCOM with Datadog for Windows hosts; automated Datadog agent setup (PowerShell + Ansible) and
+tag enforcement via GPO.
+• Automated Linux admin processes; integrated Linux access provisioning with ServiceNow, OpenLDAP and
+Django APIs; managed Puppet codebase.
+• Provisioned AWS FSx NetApp with Terraform and GitHub Actions; built SSM Documents for EC2
+post-provisioning standards; designed CI/CD pipelines. ITIL and Agile.
+Web Developer · EasyStore Commerce
+2021-10 – 2022-09
+• Full-stack maintenance of in-house platform: merchant store website (Laravel), merchant admin panel (VueJS),
+app integrations (Laravel), API (Ruby on Rails), cron jobs.
+• Improved the API with integration testing, third-party marketing integrations and serverless computing.
+• Built reusable libraries; documented changes (Notion, Postman); code reviews and guiding junior developers;
+Scrum; CI/CD (GitHub + Buddy); TDD.
+• Also Redis, Docker, Linux, AWS Lambda, SQS, push notifications, JIRA.
+Software Engineer · Kusimi E-Solution
+2019-10 – 2021-09
+• System design, development, testing, implementation, documentation and support; debugging and
+enhancement.
+• Trained and supervised outlet computer operators.
+• Deployed web apps to Windows and Linux servers; maintained physical and cloud servers.
+• Projects: POS system (PHP), inventory system (Laravel, C# .NET). Also IIS, MySQL, Git, NGINX, AWS, Docker,
+Bitbucket.
+Web Developer Intern · Tripfez Travel
+2018-09 – 2019-03
+• Web development and maintenance; built a responsive company website in React.
+• Helped enhance the backend API (CakePHP); CI/CD (GitHub + Jenkins); Linux, Docker, Vagrant.
+Education
+• Bachelor's Degree — International Islamic University of Malaysia (2019)
+Latest: International Islamic University of Malaysia

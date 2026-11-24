@@ -1,0 +1,39 @@
+Business Data Engineer
+Danone · Indonesia · Data & AI
+Skills
+Data Engineering, RDBMS, Geographic Information System (GIS), Cloud Services, API Development, Data
+Management, Big Data, Data Science, Web Scraping, Data Mart, Data Warehousing, Data Lake, Data Analysis,
+Natural Language Processing (NLP), NoSQL, Web Development, Python, Ms. SQL Server, Talend, Hive, MySQL,
+Scikit-Learn, MongoDB, Cloudera, PostgreSQL, TensorFlow, HBASE, Hadoop, PostGIS, PyTorch
+Work experience
+Business Data Engineer · Danone
+2020-10 – Present
+Role also as Data Architect Setup data lake layer in Azure Data Lake Service Gen 2 Setup enterprise data
+warehouse in Snowflake Setup Lakehouse architecture Arrange data curation and staging schedules Setup cloud
+data platform using Microsoft Azure Role as Big Data Engineer / Hadoop Developer
+Big Data Engineer · IBM
+2019-10 – 2020-10
+Hands on Hadoop extract, transform and load (ETL) jobs Spark on Hadoop with pyspark, HBASE, Apache Kafka
+and Cloudera HDP Support tender preparation Client requirement gathering Database and table schema building
+Senior Data Engineer · PAYFAZZ
+2019-03 – 2019-10
+Hands on Hadoop extract, transform and load (ETL) jobs Python, AWS, Google Pub/Sub, AWS Hadoop Service
+EMR, AWS Glue, AWS Athena, PostGIS, PostgreSQL and Airflow Hands on Marketing data warehousing Support
+spatial analysis for more than 450, 000 agent outlets using PostGIS
+Senior Data Engineer · XQ Informatics
+2016-11 – 2019-02
+Client services ranging from banking, FMCG, transportation, healthcare, utilities and government Hands on
+Hadoop and conventional extract, transform and load (ETL) jobs Build company socio-demographic data
+warehouse with collecting spatial data of area boundaries, road networks, point of interests, national censuses, etc.
+Collecting online data from websites and social media with web scraping Python, MySQL, PostgreSQL, Ms. SQL
+Server, MapR, Cloudera, NoSQL, MongoDB, HBASE, natural language processing (NLP), ArcGIS, QGIS
+GIS Specialist and Data Engineering Lead · Mediatrac Sistem Komunikasi (Dattabot)
+2012-06 – 2016-11
+Hands on extract, transform and load (ETL) jobs Hands on company data collection with online scraping and offline
+collection Build company socio-demographic data warehouse with collecting spatial data of area boundaries, road
+networks, point of interests, national censuses, etc.
+Python, MySQL, PostgreSQL, ArcGIS, QGIS
+Education
+• Master's Degree — Universitas Gadjah Mada (2016–2019)
+• Bachelor's Degree — Universitas Indonesia (2007–2012)
+Latest: Master of Management, Faculty of Economic and Business — Universitas Gadjah Mada

@@ -1,0 +1,117 @@
+{
+  "cv_ref": "CV-015",
+  "current_title": "Staff Software Engineer / Technical Lead",
+  "current_company": "Ivanti",
+  "country": "India",
+  "languages": null,
+  "skills": [
+    "java",
+    "j2ee",
+    "spring boot",
+    "hibernate",
+    "restful apis",
+    "microservices",
+    "spring security",
+    "oauth2",
+    "core java",
+    "java ee",
+    "aws",
+    "docker",
+    "kubernetes",
+    "jenkins",
+    "git",
+    "github actions",
+    "devops practices",
+    "ci/cd",
+    "kafka",
+    "postgresql",
+    "mysql",
+    "oracle",
+    "sql development",
+    "hbase",
+    "apache phoenix",
+    "hadoop",
+    "spark",
+    "elasticsearch",
+    "agile",
+    "scrum framework"
+  ],
+  "work_history": [
+    {
+      "title": "Staff Software Engineer / Technical Lead",
+      "company": "Ivanti",
+      "start": "2021-06",
+      "end": "present",
+      "is_current": true,
+      "date_precision": "month",
+      "description": "Technical Leadership & Agile Delivery: Leading a high-performing squad of 5 developers in a fast-paced Agile environment, driving end-to-end delivery of high-quality backend features and complex cloud solutions. Cloud-Native Platform Engineering: Architectural owner for backend features of Polaris, a Unified Endpoint Management cloud product, utilizing Java, Spring Boot, Docker, and Kubernetes for resilient device management. Performance Optimization: Redesigned and optimized the Aphid core engine for fetching/caching metadata, successfully introducing support for enterprise VPP calls and…"
+    },
+    {
+      "title": "Staff Software Engineer (Technical Lead Track)",
+      "company": "Zyme Solutions (E2open)",
+      "start": "2015-10",
+      "end": "2021-06",
+      "is_current": false,
+      "date_precision": "month",
+      "description": "Event-Driven Architecture: Architected and designed production-grade Kafka-based event queues, scaling stream processing system throughput, event handling capability, and overall transaction reliability. Platform Feature Engineering: Developed core capabilities for the enterprise TruePay transaction platform (including Partial Payments, Exchange Currency, and Deal Stacking mechanisms) leveraging Java, Python, Go, Hadoop, and Spark frameworks. Big Data Optimization: Revolutionized big-scale data pipelines using HBase and Apache Spark, drastically optimizing computing times for intricate…"
+    },
+    {
+      "title": "Technical Lead",
+      "company": "Ondot Systems",
+      "start": "2011-10",
+      "end": "2015-09",
+      "is_current": false,
+      "date_precision": "month",
+      "description": "Fintech Architecture Delivery: Spearheaded the core development of Fi-Core and Management Console modules for a flagship fintech platform adopted by 30+ top-tier US financial institutions, using Java, Spring, Hibernate, and RESTful APIs. Client Onboarding Modernization: Revamped Management Console to 2.x specification, introducing innovative FI Onboarding architectures and custom Single Sign-On (SSO) OAuth2 Connectors to simplify financial client integrations. End-to-End Solutions: Directed full-lifecycle engineering for secure payment modules (including Card Replace and Fraud Watch systems)…"
+    },
+    {
+      "title": "Senior Software Engineer",
+      "company": "Zycus Infotech",
+      "start": "2009-06",
+      "end": "2011-09",
+      "is_current": false,
+      "date_precision": "month",
+      "description": "Built eProc procurement systems and custom high-speed Cache Components using Java, Spring AOP, and Hibernate."
+    },
+    {
+      "title": "Software Developer",
+      "company": "Nucsoft Ltd",
+      "start": "2008-07",
+      "end": "2009-05",
+      "is_current": false,
+      "date_precision": "month",
+      "description": "Enhanced online transaction engines using enterprise J2EE, MySQL, and Apache Tomcat configurations."
+    }
+  ],
+  "education": "Master's Degree — K J Somaiya Institute of Management Studies and Research; Bachelor's Degree — University of Mumbai",
+  "latest_degree": "Computer Applications — K J Somaiya Institute of Management Studies and Research",
+  "highest_degree": "master",
+  "domain": "software",
+  "years_experience": null,
+  "relevant_years": null,
+  "seniority": null,
+  "evidence": {
+    "cv_ref": null,
+    "current_title": "Staff Software Engineer / Technical Lead",
+    "current_company": "Ivanti · India · Engineering",
+    "country": "India",
+    "languages": null,
+    "skills": "Java, J2EE, Spring Boot, Hibernate, RESTful APIs, Microservices, Spring Security, OAuth2, Core Java, Java EE, AWS, Docker, Kubernetes, Jenkins, Git, Github Actions, DevOps Practices, CI/CD, Kafka, PostgreSQL, MySQL, Oracle, SQL Development, HBase, Apache Phoenix, Hadoop, Spark, ElasticSearch, Agile, Scrum framework",
+    "work_history": [
+      "Staff Software Engineer / Technical Lead · Ivanti 2021-06 – Present",
+      "Staff Software Engineer (Technical Lead Track) · Zyme Solutions (E2open) 2015-10 – 2021-06",
+      "Technical Lead · Ondot Systems 2011-10 – 2015-09",
+      "Senior Software Engineer · Zycus Infotech 2009-06 – 2011-09",
+      "Software Developer · Nucsoft Ltd 2008-07 – 2009-05"
+    ],
+    "education": "Education • Master's Degree — K J Somaiya Institute of Management Studies and Research • Bachelor's Degree — University of Mumbai",
+    "latest_degree": "Latest: Computer Applications — K J Somaiya Institute of Management Studies and Research",
+    "highest_degree": "Master's Degree"
+  },
+  "_meta": {
+    "source": "dataset_from_blackboard\\CV_examples\\CV-015.txt",
+    "model": "qwen/qwen3.5-9b",
+    "extracted_at": "2026-11-22T07:32:42",
+    "evidence_rejected": []
+  }
+}

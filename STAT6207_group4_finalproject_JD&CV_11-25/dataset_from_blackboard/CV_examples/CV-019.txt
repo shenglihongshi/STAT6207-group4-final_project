@@ -1,0 +1,57 @@
+Tech Lead
+Myridius/RCG Information Technology Philippines, Inc. · Philippines · Engineering
+Skills
+Java, Spring Boot, REST API, Angular, JavaScript, HTML/CSS, COBOL, salesforce
+Work experience
+Tech Lead · Myridius/RCG Information Technology Philippines, Inc.
+2026-06 – Present
+Developer in an agile team supporting Disney Cruise Line’s Human Resources web application. Programming
+languages used were Java microservices, Angular, nodejs, maven, sql, AI-assisted coding were also used (Kiro,
+cursor, Claude). Tasks of used serializer for JSON standardization, optimizations, backfilling changes, reduced
+database fetches by optimizing on local storage/variables, and other ticket tasks. The application handles
+candidate on-boarding and existing employee administration using Swellsteps transitioning to Flowable.
+Senior Java Developer · VERTERE
+2025-07 – 2025-12
+fixed bug in product catalog pagination traced to back button of browser and history changes in Javascript
+appended endpoint URL generated for re-direction in adobe analytics (rest controller)
+Tech Lead · Ascendion
+2025-06 – 2025-07
+fixed bug in product catalog pagination traced to back button of browser and history changes in Javascript
+Senior Java Developer · STRATPOINT
+2025-05 – 2025-06
+Packaged App Development Senior Analyst · Accenture
+2023-01 – 2025-01
+Team member in a SAP Hybris development support team for clients (CNHi, Samsung), handling client requests
+implementing features, updates, bug fixed, modifications on the back-end and front-end of their e commerce sites.
+Programming languages used – back-end: Java (Spring/Spring Boot, REST API, rest controller), JUnit, front-end:
+JSP, HTML/CSS, Javascript. Tools: Git, Jenkins, Jira/Confluence, . Worked as a team member for an Adobe
+Analytics development support team for Standard Chartered, using Javascript, Angular and Java (Spring
+Boot/REST) . Some tasks done:
+• Hybris back-office…
+Application systems engineer · Fujitsu/Weserv Systems Intl., Inc.
+2021-01 – 2023-01
+Developed unit tests using Junit 4, Powermockito, Mockito, Whitebox, Reflection for test classes in Java.
+Underwent training in Cobol and VBA . Also tasked as assistant lead/reviewer for four developers for JUnit testing
+in another project. Underwent training in salesforce administration and currently have passed the exam and is a
+certified Salesforce Administrator since October, 2023.
+• Developed Junit test classes in a team for two client projects, using above mentioned java framework, mocking
+variables to be passed as parameters, JUnit variable setting to change variable values, testing…
+Manager · Uy Tit and Co., Inc.
+2008-01 – 2021-01
+Helped in daily operations of a hardware and construction tools wholesale supplier and retail company in Manila.
+Developed custom business systems from the ground up (inventory system – Java, SQLite, accounting system -
+Java, MySQL, Jasper Reports, payroll system - Java, MySQL, Jasper Reports ). Helped in generating new sales,
+graphic design and daily operations.
+• Designed, developed and implemented business systems individually, an accounting, inventory, payroll, price
+cataloging system
+• Used Java swing as user interface, JDBC connecting to databases (MySQL, SQLite) and used Jasper
+Reports…
+IT Auditor · Philippine Savings Bank
+2007-01 – 2008-01
+Assigned to develop the online audit system of the audit department of the bank using VB .net and MS SQL
+Server.
+Education
+• Asian Institute of Management (2017)
+• Bachelor's Degree — De La Salle University (2001–2005)
+• High School diploma — Xavier High School (1997–2001)
+Latest: Business/Commerce, General — Asian Institute of Management

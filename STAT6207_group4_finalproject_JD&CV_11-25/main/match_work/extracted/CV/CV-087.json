@@ -1,0 +1,128 @@
+{
+  "cv_ref": "CV-087",
+  "current_title": "Project Management Lead / Standards & Procedures Officer",
+  "current_company": "Emirates Airline",
+  "country": "United Arab Emirates",
+  "languages": null,
+  "skills": [
+    "power bi",
+    "tableau",
+    "sql",
+    "python",
+    "data pipeline automation",
+    "kpi tracking",
+    "performance visibility",
+    "predictive modeling",
+    "forecasting",
+    "agile",
+    "safe",
+    "scrum",
+    "backlog ownership",
+    "nps",
+    "ncd",
+    "project management",
+    "product delivery",
+    "pmo governance",
+    "baseline standards",
+    "scope definition",
+    "lifecycle management",
+    "customer success",
+    "service design",
+    "compliance",
+    "gcaa",
+    "icao",
+    "dgca",
+    "faa",
+    "financial services",
+    "finops reporting"
+  ],
+  "work_history": [
+    {
+      "title": "Project Management Lead / Standards & Procedures Officer",
+      "company": "Emirates Airline",
+      "start": "2023-07",
+      "end": "2025-07",
+      "is_current": false,
+      "date_precision": "month",
+      "description": "Designed executive Power BI dashboards, KPI tracking metrics, and schedule status reports for steering committees to provide actionable risk visibility. Led end-to-end product lifecycle management and project delivery for enterprise billing, invoicing workflows, and pricing engines across commercial operations, fulfilling Product Owner roles and driving adoption. Evaluated dynamic pricing strategies and tiered subscription structures, utilizing revenue variance modeling to boost operational efficiency and platform adoption. Managed platform-level dependencies across ERP systems, taxation…"
+    },
+    {
+      "title": "Associate Data Scientist",
+      "company": "Innodatatics",
+      "start": "2021-01",
+      "end": "2022-01",
+      "is_current": false,
+      "date_precision": "month",
+      "description": "Architected automated reporting pipelines and interactive Power BI dashboards for senior stakeholders, translating market intelligence into actionable insights for portfolio growth. Automated weekly and monthly financial reporting and invoice data reconciliation pipelines using SQL, Python, and product analytics, reducing reconciliation lead time by 30% while maintaining 100% data accuracy. Applied exploratory data analysis (EDA) and SQL queries to drive data-driven decision making, validating product hypotheses, uncovering behavior trends, and shaping feature prioritization. Collaborated…"
+    },
+    {
+      "title": "Senior Flight Attendant / Leadership Trainer",
+      "company": "Emirates Airline",
+      "start": "2015-01",
+      "end": "2023-01",
+      "is_current": false,
+      "date_precision": "month",
+      "description": "Contributed to service design improvement initiatives and operational change programs, bridging frontline user insights with leadership decision-making. Delivered frontline leadership and customer-centric service across 70+ global routes, mentoring diverse multinational teams representing 120+ nationalities."
+    },
+    {
+      "title": "Crew Controller / Support Scheduling Officer",
+      "company": "Air India",
+      "start": "2012-01",
+      "end": "2015-01",
+      "is_current": false,
+      "date_precision": "month",
+      "description": "Operated and optimized wide-body crew scheduling systems (ARMS / CMSS) for Boeing 787 and 777 fleet operations in a highly regulated environment. Enforced strict Flight Duty Time Limitations (FDTL) and fatigue rules, developing SOPs that reduced operational exceptions across systems."
+    },
+    {
+      "title": "Senior Cabin Crew",
+      "company": "Go Airlines",
+      "start": "2010-01",
+      "end": "2012-01",
+      "is_current": false,
+      "date_precision": "month",
+      "description": "Developed operational SOPs and workflow improvements that reduced operational exceptions with a strong customer/regulatory focus across internal systems. Operated and optimized crew scheduling systems in a highly regulated environment, ensuring strict compliance adherence and capturing frontline usability feedback. Managed in-flight commercial sales operations and inventory reporting to maximize ancillary revenues. Maintained cabin safety, security compliance, and exceptional passenger care during domestic flight operations."
+    },
+    {
+      "title": "Front Office Associate",
+      "company": "TAJ Fisherman's Cove Resort & Spa",
+      "start": "2009-01",
+      "end": "2010-01",
+      "is_current": false,
+      "date_precision": "month",
+      "description": "Handled guest account reconciliation, folio billing, payment processing, and property management systems (Fidelio/Opera). Delivered premium front-desk guest services, managing guest check-ins, reservations, and customer support. Contributed to service design improvement initiatives and operational change programs, bridging frontline user insights with leadership decision-making."
+    }
+  ],
+  "education": "Master's Degree — Coventry University (UK) / Emirates Aviation University (UAE) (2016–2020); Master's Degree — Madurai Kamaraj University, India (2014–2016); Bachelor's Degree — Monad University, UP, India (2010–2013); Kerala State Board, India (2007–2008); Associate's Degree — Frankfinn Institute of Air Hostess Training, India (2007–2008)",
+  "latest_degree": "Aerospace Engineering — Coventry University (UK) / Emirates Aviation University (UAE)",
+  "highest_degree": "master",
+  "domain": "fintech",
+  "years_experience": null,
+  "relevant_years": null,
+  "seniority": null,
+  "evidence": {
+    "cv_ref": null,
+    "current_title": "Project Management Lead / Standards & Procedures Officer",
+    "current_company": "Emirates Airline, Dubai, UAE",
+    "country": "Dubai, UAE",
+    "languages": null,
+    "skills": "Power BI, Tableau, SQL, Python, Data Pipeline Automation, KPI Tracking, Performance Visibility, Predictive Modeling, Forecasting, Agile, SAFe, Scrum, Backlog Ownership, nps, NCD, Project Management, Product Delivery, PMO Governance, Baseline Standards, Scope Definition, Lifecycle Management, Customer Success, Service Design, Compliance, GCAA, ICAO, DGCA, Faa, Financial Services, FinOps Reporting",
+    "work_history": [
+      "Project Management Lead / Standards & Procedures Officer · Emirates Airline, Dubai, UAE 2023-07 – 2025-07",
+      "Associate Data Scientist | Product Analytics & Insights · Innodatatics, NJ, USA (Remote) 2021-01 – 2022-01",
+      "Senior Flight Attendant / Leadership Trainer · Emirates Airline, Dubai, UAE 2015-01 – 2023-01",
+      "Crew Controller / Support Scheduling Officer - Boeing 787 / 777 Fleet · Air India, New Delhi, India 2012-01 – 2015-01",
+      "Senior Cabin Crew · Go Airlines, India 2010-01 – 2012-01",
+      "Front Office Associate · TAJ Fisherman's Cove Resort & Spa, Chennai, India 2009-01 – 2010-01"
+    ],
+    "education": "Master's Degree — Coventry University (UK) / Emirates Aviation University (UAE) (2016–2020); Master's Degree — Madurai Kamaraj University, India (2014–2016); Bachelor's Degree — Monad University, UP, India (2010–2013); Kerala State Board, India (2007–2008); Associate's Degree — Frankfinn Institute of Air Hostess Training, India (2007–2008)",
+    "latest_degree": "Latest: Aerospace Engineering — Coventry University (UK) / Emirates Aviation University (UAE)",
+    "highest_degree": "Master's Degree",
+    "domain": "Financial Services"
+  },
+  "_meta": {
+    "source": "dataset_from_blackboard\\CV_examples\\CV-087.txt",
+    "model": "qwen/qwen3.5-9b",
+    "extracted_at": "2026-11-22T07:59:02",
+    "evidence_rejected": []
+  }
+}

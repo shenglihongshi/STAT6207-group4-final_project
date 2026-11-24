@@ -1,0 +1,63 @@
+{
+  "jd_id": "P08",
+  "position": "FIELD SERVICE ENGINEER (FSE)",
+  "role_family": "Engineering",
+  "country": "Singapore",
+  "city": "Singapore",
+  "remote_allowed": null,
+  "contract_type": "full_time",
+  "languages": [
+    {
+      "lang": "English",
+      "level": "professional"
+    }
+  ],
+  "salary_min_raw": 5000,
+  "salary_max_raw": 6000,
+  "currency": "SGD",
+  "salary_frequency": "month",
+  "must_have_skills": [
+    "semiconductor wafer fab process",
+    "electrical engineering",
+    "mechanical engineering",
+    "chemical engineering"
+  ],
+  "nice_to_have_skills": [
+    "vacuum systems",
+    "robotics",
+    "pneumatic",
+    "applied materials",
+    "tokyo electron limited"
+  ],
+  "min_years": 2,
+  "seniority": null,
+  "education_required": "diploma",
+  "domain": "manufacturing",
+  "notice_expectation": null,
+  "evidence": {
+    "position": "JOB DESCRIPTION\nJob Title: FIELD SERVICE ENGINEER (FSE)",
+    "role_family": "installation, maintenance, troubleshooting & upgrading of semiconductor process tools",
+    "country": "Singapore, Singapore",
+    "city": "Singapore, Singapore",
+    "contract_type": "full time",
+    "languages": "Good communication skills, spoken & written.",
+    "salary_min_raw": "SGD 5,000 – 6,000 / month",
+    "salary_max_raw": "SGD 5,000 – 6,000 / month",
+    "currency": "SGD",
+    "salary_frequency": "month",
+    "must_have_skills": "Knowledge of semiconductor wafer fab process\n• Diploma or degree in either Electrical & Electronic/Mechanical/Chemical engineering",
+    "nice_to_have_skills": "Major plus if candidate has knowledge of vacuum systems, robotics, pneumatic, etc.\n2-5 years experience working in semiconductor wafer fab environment is preferred.",
+    "min_years": "2-5 years experience",
+    "seniority": "mid",
+    "education_required": "Diploma or degree",
+    "domain": "semiconductor wafer fabrication industry"
+  },
+  "_meta": {
+    "source": "main\\matcher\\testset\\JD\\P08.txt",
+    "model": "qwen/qwen3.5-9b",
+    "extracted_at": "2026-11-22T15:01:20",
+    "evidence_rejected": [
+      "seniority"
+    ]
+  }
+}

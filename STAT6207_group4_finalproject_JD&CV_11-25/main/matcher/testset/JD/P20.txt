@@ -1,0 +1,50 @@
+Anonymised example · client and personal information removed · Second Talent
+Data Scientist
+Dubai, United Arab Emirates · Full-time
+Data Scientist (AI & ML)
+Location: Bahrain
+Employment Type: Full-Time
+Industry: Artificial Intelligence / Machine Learning / Cloud Technology
+Experience Level: Mid-Senior (Minimum 3 years)
+About the Role
+We're looking for a passionate and experienced Data Scientist with a strong background in AI/ML, cloud platforms,
+and continuous deployment practices. In this role, you'll help design and deliver cutting-edge machine learning
+solutions for real-world applications in a fast-moving, high-impact environment.
+You'll join a collaborative and innovation-driven team working on meaningful problems with global reach. If you're
+ready to turn data into intelligent action, lead impactful projects, and shape the future of AI, this is your opportunity.
+Key Responsibilities
+AI & Machine Learning Development
+• Design, build, and deploy robust AI/ML models to solve complex business challenges
+• Work closely with cross-functional teams to integrate models into production systems
+• Continuously evaluate and refine models to optimize performance and reliability
+Data Engineering & Analysis
+• Clean, analyze, and transform raw data into usable training and validation sets
+• Design data pipelines and identify new data sources to enhance model effectiveness
+• Drive experimentation and hypothesis testing with statistical rigor
+Cloud & DevOps Integration
+• Deploy AI/ML models on cloud platforms (e.g., AWS, Azure, GCP)
+• Optimize performance for scalability and real-time applications
+• Implement CI/CD pipelines to streamline development and deployment workflows
+Technical Leadership & Collaboration
+• Conduct code reviews and mentor junior engineers
+• Document system designs, code, and technical decisions for knowledge sharing
+• Work in agile sprints and communicate progress with stakeholders
+Qualifications
+• Master's or Ph.D. in Computer Science, AI, Machine Learning, Data Science, or a related field
+• Minimum 3 years of experience in building and deploying AI/ML models
+• Proficient with Python or R, and machine learning libraries such as TensorFlow, PyTorch, or scikit-learn
+• Experience deploying models to cloud environments (AWS, GCP, Azure)
+• Solid understanding of algorithms, model evaluation, and statistical principles
+• Strong analytical thinking, problem-solving, and attention to detail
+• Excellent communication and teamwork skills
+Preferred / Nice to Have
+• Cloud certifications (AWS Certified Machine Learning, Azure AI Engineer, etc.)
+• Experience in startup or high-growth tech environments
+• Prior involvement in client-facing roles or solution design for external stakeholders
+• Familiarity with MLOps and model monitoring frameworks
+What We Offer
+• A fast-paced, startup-inspired environment with a strong tech vision
+• Opportunities to work on high-impact AI/ML projects across diverse industries
+• A collaborative, multicultural team that values growth and innovation
+• Flexible work culture, ownership of your projects, and visibility across the business
+Anonymised example · client and personal information removed · Second Talent

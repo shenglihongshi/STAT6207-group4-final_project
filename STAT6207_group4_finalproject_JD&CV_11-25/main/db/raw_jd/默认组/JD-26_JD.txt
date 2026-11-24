@@ -1,0 +1,42 @@
+Position: Solution Architect (ID)
+Role family: Engineering
+Location: Jakarta, Indonesia
+Contract: full_time
+Salary: 40000000.0-50000000.0 IDR per month
+
+
+About the Role
+
+As a Solution Architect, you will be a key driver in shaping enterprise cloud strategies and delivering end-to-end solutions that solve complex business challenges. You will work closely with C-suite stakeholders as a trusted advisor, transforming business requirements into scalable, secure, and impactful cloud architectures. This role combines technical leadership, consultative engagement, and strategic solution selling to help clients accelerate their digital transformation journey.
+
+Key Responsibilities
+
+Strategic Cloud Solution Selling
+• Identify and analyze customer needs, converting them into compelling cloud business cases.
+• Translate client business challenges into innovative cloud solutions using best-of-breed technologies.
+• Articulate the value of cloud services in areas such as agility, scalability, cost efficiency, and innovation to C-level executives (CIOs, CTOs, CFOs).
+• Develop and execute account strategies to expand cloud adoption and accelerate transformation across key enterprise clients.
+• Lead pre-sales engagements, including presentations, solution demos, proposal development, and cloud architecture workshops.
+
+Cloud Architecture & Design
+• Design secure, scalable, and resilient cloud architectures tailored to client requirements across AWS, Google Cloud, Azure, and hybrid environments.
+• Develop end-to-end cloud adoption roadmaps, covering workload migration, modernization, compliance, security, and operational excellence.
+• Conduct architecture assessments to identify gaps, risks, performance issues, and recommend remediation strategies.
+• Participate in RFP/RFI processes, solution proposals, and technical documentation.
+• Provide insights on competitive differentiators across cloud platforms and influence technology decisions.
+
+Partnerships & Collaboration
+• Build strong relationships with cloud service providers and technology partners to co-create integrated solutions.
+• Collaborate with internal teams including sales, engineering, delivery, and product to ensure solution success and customer satisfaction.
+• Engage both business and technical stakeholders to drive alignment, adoption, and long-term value from cloud investments.
+
+What You Need to Bring
+
+• 5+ years of experience in pre-sales, cloud solution architecture, or technical consulting.
+• Proven track record in cloud transformation, solution selling, and managing enterprise accounts.
+• Strong expertise in cloud platforms such as AWS, Azure, or Google Cloud, including infrastructure, networking, security, Kubernetes, and containerization.
+• Experience in designing solutions for DevOps, AI/ML, hybrid/multi-cloud, data migration, or cloud modernization.
+• Excellent communication and stakeholder engagement skills, able to influence C-level decision-makers and non-technical audiences.
+• Cloud certifications (AWS Solution Architect, Google Professional Cloud Architect, Azure Architect, etc.) are preferred.
+• Experience working with clients across Southeast Asia is an advantage.
+• Familiarity with software development or DevSecOps practices is a plus.

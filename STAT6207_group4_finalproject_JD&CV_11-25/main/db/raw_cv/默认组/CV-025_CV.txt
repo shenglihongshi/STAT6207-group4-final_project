@@ -1,0 +1,38 @@
+Site Reliability Engineer
+Garanti BBVA (via VBT Software) · United Arab Emirates · Engineering
+Skills
+Java, .NET, Microservices, Kubernetes
+Work experience
+Site Reliability Engineer · Garanti BBVA (via VBT Software)
+2026-03 – Present
+Strengthen the reliability, scalability, and production performance of business-critical banking systems while
+applying a software engineering approach to operational challenges.
+Automate infrastructure and deployment workflows, reducing manual intervention and improving release
+consistency and operational efficiency.
+Monitor the health and performance of 100+ microservices, enabling earlier risk detection, supporting high
+availability, and reducing incident response time by 25%.
+Senior Backend Developer · Akbank (via Veripark)
+2024-07 – 2026-03
+Designed scalable API architecture and high-performance services with Java and Spring Boot, applying API
+Gateway, OAuth2/JWT, rate limiting, and system design principles while migrating 15+ microservices from REST
+to gRPC and reducing latency by 35%.
+Modernized legacy applications by migrating them from .NET Framework to .NET 8.0/Core and strengthened
+release quality through unit testing, integration testing, xUnit, and Postman.
+Managed production application lifecycles with OpenShift, Kubernetes, and Docker, using Kafka and MQ-based
+logging and error analysis to improve operational…
+Senior Software Engineer · DORUK AUTOMATION
+2021-01 – 2024-07
+Delivered MES/MOM software that optimized manufacturing workflows and operational efficiency across Industry
+4.0 environments.
+Built and integrated real-time data collection, analysis, and visualization capabilities across 20+ production lines,
+connecting machines, sensors, and enterprise systems.
+Streamlined collaboration and delivery through Azure DevOps Server, automated build and deployment pipelines,
+and structured application lifecycle management.
+Analyst Software Developer · Monovi
+2020-07 – 2021-01
+Implemented track-and-trace systems and provided 24/7 software support for JTI, managing the full incident
+lifecycle from reporting to resolution in accordance with SLAs.
+Education
+• Master's Degree — Yasar University (2023)
+• Bachelor's Degree — Yasar University (2020–2023)
+Latest: Computer Engineering — Yasar University

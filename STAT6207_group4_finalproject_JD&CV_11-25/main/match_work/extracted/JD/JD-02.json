@@ -1,0 +1,65 @@
+{
+  "jd_id": 2,
+  "position": "AI Research Scientist",
+  "role_family": "Data & AI",
+  "country": "Singapore",
+  "city": "Singapore",
+  "remote_allowed": null,
+  "contract_type": "full_time",
+  "languages": null,
+  "salary_min_raw": 9000.0,
+  "salary_max_raw": 15000.0,
+  "currency": "SGD",
+  "salary_frequency": "month",
+  "must_have_skills": [
+    "pytorch",
+    "python",
+    "distributed training",
+    "ddp",
+    "nccl",
+    "weights & biases",
+    "tensorboard"
+  ],
+  "nice_to_have_skills": [
+    "c++",
+    "transformer models",
+    "diffusion models",
+    "torchscript",
+    "onnx",
+    "slurm"
+  ],
+  "min_years": null,
+  "seniority": "senior",
+  "education_required": null,
+  "domain": null,
+  "notice_expectation": null,
+  "evidence": {
+    "position": "Job Title: AI Research Scientist",
+    "role_family": "Role family: Data & AI",
+    "country": "Location: Singapore",
+    "city": "Location: Singapore",
+    "contract_type": "Job Type: Full-time",
+    "salary_min_raw": "Salary: 9000.0-15000.0 SGD per month",
+    "salary_max_raw": "Salary: 9000.0-15000.0 SGD per month",
+    "currency": "Salary: 9000.0-15000.0 SGD per month",
+    "salary_frequency": "Salary: 9000.0-15000.0 SGD per month",
+    "must_have_skills": [
+      "Deep, hands-on expertise in modern training codebases, especially PyTorch (or equivalents).",
+      "Strong engineering and software development skills in Python.",
+      "Familiarity with job launchers, logging tools (e.g., Weights & Biases, TensorBoard), and checkpointing systems."
+    ],
+    "nice_to_have_skills": [
+      "(Performance-critical C++ is a plus).",
+      "Experience with Transformer models, diffusion models, or other large-scale vision/NLP tasks.",
+      "Knowledge of model optimization for inference (e.g., TorchScript, ONNX).",
+      "Familiarity with cluster environments: batch schedulers (SLURM) and GPU resource management."
+    ],
+    "seniority": "Proven, real-world experience training large-scale deep learning models"
+  },
+  "_meta": {
+    "source": "dataset_from_blackboard\\JD_examples\\JD-02.txt",
+    "model": "qwen/qwen3.5-9b",
+    "extracted_at": "2026-11-22T20:20:21",
+    "evidence_rejected": []
+  }
+}

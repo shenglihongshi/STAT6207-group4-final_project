@@ -1,0 +1,80 @@
+{
+  "jd_id": "P26",
+  "position": "Data Project Manager",
+  "role_family": "Data & AI",
+  "country": "Hong Kong",
+  "city": null,
+  "remote_allowed": null,
+  "contract_type": "contract",
+  "languages": null,
+  "salary_min_raw": 45000,
+  "salary_max_raw": 60000,
+  "currency": "HKD",
+  "salary_frequency": "month",
+  "must_have_skills": [
+    "data architecture",
+    "analytics",
+    "tableau",
+    "power bi",
+    "looker",
+    "jira",
+    "confluence",
+    "project management"
+  ],
+  "nice_to_have_skills": [
+    "pmp",
+    "agile",
+    "blockchain",
+    "iot",
+    "artificial intelligence",
+    "machine learning",
+    "data streaming",
+    "kafka"
+  ],
+  "min_years": 5,
+  "seniority": "senior",
+  "education_required": "bachelor",
+  "domain": "other",
+  "notice_expectation": null,
+  "evidence": {
+    "position": "Data Project Manager",
+    "role_family": "lead and oversee the planning, execution, and delivery of our Enterprise data strategy",
+    "country": "Hong Kong, Hong Kong",
+    "contract_type": "Temporary",
+    "salary_min_raw": "HKD 45,000",
+    "salary_max_raw": "60,000",
+    "currency": "HKD",
+    "salary_frequency": "/ month",
+    "min_years": "5+ years of experience in data programme management",
+    "seniority": "5+ years",
+    "education_required": "Bachelor's degree (or higher)",
+    "domain": "retail or a related industry",
+    "must_have_skills": [
+      "data architecture",
+      "analytics concepts",
+      "Tableau",
+      "Power BI",
+      "Looker",
+      "Jira",
+      "Confluence",
+      "project management skills"
+    ],
+    "nice_to_have_skills": [
+      "PMP",
+      "Agile",
+      "blockchain",
+      "Internet of Things (IoT)",
+      "Artificial Intelligence (AI)",
+      "Machine Learning",
+      "Data Streaming (Kafka)"
+    ]
+  },
+  "_meta": {
+    "source": "main\\matcher\\testset\\JD\\P26.txt",
+    "model": "qwen/qwen3.5-9b",
+    "extracted_at": "2026-11-22T15:03:52",
+    "evidence_rejected": [
+      "city(无evidence)"
+    ]
+  }
+}

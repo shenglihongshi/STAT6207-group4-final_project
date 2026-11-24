@@ -1,0 +1,31 @@
+Tech Lead
+JaGaApp / Red Ideas Holdings Berhad · Malaysia
+Hired for: Tech Lead
+Skills
+Flutter, React.js, Kotlin, Swift, TensorFlow, Mobile Development, Web Development, Machine Learning, Cloud &
+Database, LabVIEW, Android Studio, Xcode, Firebase, BigQuery, Next.js
+Work experience
+Tech Lead · JaGaApp / Red Ideas Holdings Berhad
+2018-06 – Present
+Led technical leadership, recruitment, and mentorship, delivering two projects (a cloud-based patrolling system
+and a community platform 2.0) within tight deadlines.
+Directed rapid development of the community platform 2.0, a full-suite community platform, delivered in three
+months.
+Managed the platform technology stack: resident app (Flutter), guard app (Android Kotlin), and admin panel
+(ReactJS).
+Oversaw the cloud-based patrolling system featuring a resident app (Android Kotlin, iOS Swift) and a guard app
+(Android Kotlin).
+Senior Technical Program Manager · Commercial Info-Centre Sdn Bhd
+2017-02 – 2018-06
+Developed mobile applications for Android and iOS platforms.
+Drove execution of projects and managed project builds.
+Led milestone reviews to ensure project progression.
+Software Engineer · Sharp Electronics Malaysia
+2015-02 – 2016-09
+Android platform developer focusing on Android OS-based TVs.
+Test Development Engineer · Panasonic
+2013-01 – 2015-01
+Developed automation software using LabVIEW to enhance production output.
+Education
+• Bachelor's Degree, Electrical and Electronic Engineering — Universiti Tunku Abdul Rahman (UTAR) (2013)
+Latest: Electrical and Electronic Engineering — Universiti Tunku Abdul Rahman (UTAR)

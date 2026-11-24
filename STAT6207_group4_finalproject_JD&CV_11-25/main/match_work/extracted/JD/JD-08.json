@@ -1,0 +1,51 @@
+{
+  "jd_id": 8,
+  "position": "AI Artist/Video Editor",
+  "role_family": "Design & Creative",
+  "country": null,
+  "city": null,
+  "remote_allowed": true,
+  "contract_type": "full_time",
+  "languages": null,
+  "salary_min_raw": 10000.0,
+  "salary_max_raw": 15000.0,
+  "currency": "HKD",
+  "salary_frequency": "month",
+  "must_have_skills": [
+    "after effects",
+    "midjourney",
+    "kling",
+    "freepik",
+    "seedance",
+    "seedream"
+  ],
+  "nice_to_have_skills": null,
+  "min_years": 2,
+  "seniority": "junior",
+  "education_required": null,
+  "domain": "marketing",
+  "notice_expectation": null,
+  "evidence": {
+    "position": "Position: AI Artist/Video Editor",
+    "role_family": "Design & Creative",
+    "remote_allowed": "Remote: Yes",
+    "contract_type": "Contract: full_time",
+    "salary_min_raw": "Salary: 10000.0-15000.0 HKD per month",
+    "salary_max_raw": "Salary: 10000.0-15000.0 HKD per month",
+    "currency": "HKD",
+    "salary_frequency": "per month",
+    "must_have_skills": [
+      "High proficiency in video editing software (e.g., After effects)",
+      "Hands-on experience with AI tools (e.g., Midjourney, Kling, Freepik, Seedance, Seedream)"
+    ],
+    "min_years": "2+ years of professional experience",
+    "seniority": "(Junior candidates with exceptionally strong portfolios may be considered.)",
+    "domain": "modern creative agency specializing in content for social media"
+  },
+  "_meta": {
+    "source": "dataset_from_blackboard\\JD_examples\\JD-08.txt",
+    "model": "qwen/qwen3.5-9b",
+    "extracted_at": "2026-11-22T07:21:03",
+    "evidence_rejected": []
+  }
+}

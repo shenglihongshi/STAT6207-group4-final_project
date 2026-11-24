@@ -1,0 +1,45 @@
+Anonymised example · client and personal information removed · Second Talent
+AI FS Engineer (LLM & Optimization Focus)
+Remote · Full-time
+AI Engineer (LLM & Optimization Focus)
+Team: AI / Machine Learning
+Type: Full-time
+About the Role
+We are looking for a talented AI Engineer to join our growing AI team. This role focuses on developing, optimizing,
+and deploying solutions built around Large Language Models (LLMs). You'll work at the intersection of
+mathematics, optimization, and practical engineering to build intelligent systems that solve real-world problems.
+Key Responsibilities
+• Design, develop, and deploy AI solutions leveraging Large Language Models (LLMs)
+• Apply mathematical and optimization techniques to improve model performance and efficiency
+• Build scalable pipelines for training, fine-tuning, and evaluating models
+• Write clean, efficient, and maintainable code for production systems
+• Experiment with prompt engineering, model tuning, and evaluation strategies
+• Collaborate with cross-functional teams
+• Stay up-to-date with the latest advancements in AI and LLMs
+Required Qualifications
+• Strong proficiency in English (written and spoken)
+• Solid background in mathematics, optimization, or a related field
+• Experience with or strong interest in Large Language Models (LLMs)
+• Proficiency in programming (preferably Python)
+• Good understanding of algorithms, data structures, and software engineering principles
+• Experience with machine learning frameworks (e.g., PyTorch, TensorFlow)
+Preferred Qualifications
+• Experience with LLM fine-tuning, prompt engineering, or evaluation frameworks
+• Knowledge of optimization techniques (e.g., convex optimization, gradient-based methods)
+• Familiarity with APIs and deployment (e.g., REST, cloud platforms)
+• Experience with vector databases, embeddings, or retrieval systems
+• Background in NLP or applied machine learning
+What We're Looking For
+• Strong problem-solving mindset with a mathematical approach
+• Curiosity and willingness to explore new AI technologies
+• Ability to work independently and as part of a team
+• Practical, hands-on builder who enjoys turning ideas into working systems
+Nice to Have (Bonus)
+• Experience with production AI systems
+• Open-source contributions or personal AI projects
+• Familiarity with MLOps practices
+Why Join Us
+• Work on cutting-edge AI technologies
+• Be part of a fast-moving, innovative team
+• Opportunity to shape real-world AI applications
+Anonymised example · client and personal information removed · Second Talent

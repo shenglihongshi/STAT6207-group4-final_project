@@ -1,0 +1,113 @@
+{
+  "cv_ref": "CV-013",
+  "current_title": "Sr. Software Development Engineer - 2",
+  "current_company": "GoComet India Pvt Ltd",
+  "country": "India",
+  "languages": null,
+  "skills": [
+    "node.js",
+    "ruby on rails",
+    "typescript",
+    "distributed systems",
+    "microservices",
+    "apache kafka",
+    "aws",
+    "react",
+    "next.js",
+    "redux",
+    "angularjs",
+    "tailwind css",
+    "graphql",
+    "typeorm",
+    "jest",
+    "express.js",
+    "nestjs",
+    "c++",
+    "python",
+    "sql",
+    "postgresql",
+    "mongodb"
+  ],
+  "work_history": [
+    {
+      "title": "Sr. Software Development Engineer - 2",
+      "company": "GoComet India Pvt Ltd",
+      "start": "2025-02",
+      "end": "2026-06",
+      "is_current": true,
+      "date_precision": "month",
+      "description": "Designed and maintained multi-tenant SaaS architecture supporting enterprise customers through configurable workflows, tenant-specific customizations, and access controls. Drove microservices architecture improvements across Node.js and Ruby on Rails services, improving modularity and scalability. Designed and implemented Kafka-based asynchronous workflows to process long-running operations reliably without blocking API requests. Built enterprise integrations using REST APIs, gRPC, and Kafka for customers including Mahindra, Agratas, and Vita Coco."
+    },
+    {
+      "title": "Software Development Engineer - 2",
+      "company": "House of Vaaree",
+      "start": "2024-10",
+      "end": "2024-12",
+      "is_current": false,
+      "date_precision": "month",
+      "description": "Developed full-stack solutions using Ruby on Rails and React.js, contributing to key internal tools that enhanced operational efficiency. Built the MRP Label Generator, reducing vendor processing time from 3 days to 10 minutes by enabling customers to generate labels. Resolved critical production issues like order sync with marketplaces and data inconsistencies, resulting in improved order reporting consistency and stakeholder satisfaction. Designed and implemented an in-house Return and Exchange Flow, replacing the costly third-party solution, saving the company significant monthly costs."
+    },
+    {
+      "title": "Software Development Engineer",
+      "company": "NEETPrep GoodEd Technologies",
+      "start": "2023-03",
+      "end": "2024-08",
+      "is_current": false,
+      "date_precision": "month",
+      "description": "Built complex React and Next.js interfaces, dashboards, onboarding workflows, and learning experiences used by thousands of students daily. Established the Next.js codebase and integrated AWS (EC2, ECS, S3, Lambda) for scalable, low-latency infrastructure as the first developer. Developed key features like NCERT annotation, Performance Snapshot, revamped question pages (Main Product), Video Library, and several other core learning features, leading to a 30% increase in user engagement."
+    },
+    {
+      "title": "Founding Engineer and Product Owner",
+      "company": "Upstepping.co",
+      "start": "2022-01",
+      "end": "2022-11",
+      "is_current": false,
+      "date_precision": "month",
+      "description": "Built and launched the entire web platform from scratch using Next.js, owning architecture, development, and deployment. Utilized AWS services (EC2, Route 53, S3) to deploy and manage scalable infrastructure, ensuring high availability and reliable web performance. Partnered with 13+ major companies, including Reiman Solutions, Teleperformance, Genpact, and Vcosmos, from Bengaluru, Jaipur, and Delhi. Enrolled 300+ students on the platform, successfully placed 50+ candidates across partner companies, and provided Recruitment Process Outsourcing (RPO) services to multiple organizations."
+    },
+    {
+      "title": "Frontend Engineer",
+      "company": "Learn4O",
+      "start": "2022-01",
+      "end": "2022-11",
+      "is_current": false,
+      "date_precision": "month",
+      "description": "Redesigned the entire website frontend, implementing a more interactive and engaging user interface. Developed key features like an EMI calculator for student loans and a resume builder to enhance the platform's functionality. Led the development of the entire admin dashboard from scratch in Next.js used by teaching assistants (TAs) and the sales team to manage students and streamline internal operations. Developed backend APIs and server-side logic using Sails.js while building frontend experiences with Next.js. Deployed applications on AWS and utilized Jenkins for continuous."
+    }
+  ],
+  "education": "Bachelor's Degree — LNM Institute of Information Technology (2018–2022)",
+  "latest_degree": "Computer Science and Engineering — LNM Institute of Information Technology",
+  "highest_degree": "bachelor",
+  "domain": "software",
+  "years_experience": null,
+  "relevant_years": null,
+  "seniority": null,
+  "evidence": {
+    "cv_ref": null,
+    "current_title": "Sr. Software Development Engineer - 2",
+    "current_company": "GoComet India Pvt Ltd",
+    "country": "India",
+    "languages": null,
+    "skills": "Node.js, Ruby on Rails, TypeScript, Distributed Systems, Microservices, Apache Kafka, AWS, React, Next.JS, Redux, AngularJS, Tailwind CSS, GraphQL, TypeOrm, Jest, Express.js, Nestjs, C++, Python, SQL, PostgreSQL, MongoDB",
+    "work_history": [
+      "Sr. Software Development Engineer - 2 · GoComet India Pvt Ltd\n2025-02 – 2026-06",
+      "Software Development Engineer - 2 · House of Vaaree\n2024-10 – 2024-12",
+      "Software Development Engineer · NEETPrep GoodEd Technologies\n2023-03 – 2024-08",
+      "Founding Engineer and Product Owner · Upstepping.co\n2022-01 – 2022-11",
+      "Frontend Engineer · Learn4O\n2022-01 – 2022-11"
+    ],
+    "education": "• Bachelor's Degree — LNM Institute of Information Technology (2018–2022)\nLatest: Computer Science and Engineering — LNM Institute of Information Technology",
+    "latest_degree": "Computer Science and Engineering — LNM Institute of Information Technology",
+    "highest_degree": "bachelor",
+    "domain": "software",
+    "years_experience": null,
+    "relevant_years": null,
+    "seniority": null
+  },
+  "_meta": {
+    "source": "dataset_from_blackboard\\CV_examples\\CV-013.txt",
+    "model": "qwen/qwen3.5-9b",
+    "extracted_at": "2026-11-22T07:32:01",
+    "evidence_rejected": []
+  }
+}

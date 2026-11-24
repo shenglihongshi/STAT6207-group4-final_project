@@ -1,0 +1,57 @@
+{
+  "jd_id": 11,
+  "position": "Senior Creative Designer",
+  "role_family": "Design & Creative",
+  "country": "Malaysia",
+  "city": "Selangor",
+  "remote_allowed": null,
+  "contract_type": "full_time",
+  "languages": null,
+  "salary_min_raw": 3000.0,
+  "salary_max_raw": 7000.0,
+  "currency": "MYR",
+  "salary_frequency": "month",
+  "must_have_skills": [
+    "adobe photoshop",
+    "adobe illustrator",
+    "adobe indesign"
+  ],
+  "nice_to_have_skills": [
+    "video editing",
+    "animation",
+    "cms tools"
+  ],
+  "min_years": 1,
+  "seniority": "senior",
+  "education_required": "diploma",
+  "domain": null,
+  "notice_expectation": null,
+  "evidence": {
+    "position": "Position: Senior Creative Designer",
+    "role_family": "Role family: Design & Creative",
+    "country": "Location: Selangor, Malaysia",
+    "city": "Selangor",
+    "contract_type": "Contract: full_time",
+    "salary_min_raw": "Salary: 3000.0-7000.0 MYR per month",
+    "salary_max_raw": "Salary: 3000.0-7000.0 MYR per month",
+    "currency": "MYR",
+    "salary_frequency": "per month",
+    "min_years": "Minimum 1 year of experience",
+    "seniority": "Senior Creative Designer",
+    "education_required": "A Diploma, Degree, or equivalent certification in Art, Design, Creative Multimedia, or related fields.",
+    "must_have_skills": [
+      "Proficiency in Adobe Creative Suite (Photoshop, Illustrator, InDesign)",
+      "Adobe Creative Suite (Photoshop, Illustrator, InDesign)"
+    ],
+    "nice_to_have_skills": [
+      "video editing and animation skills are a bonus",
+      "Familiarity with template-based CMS tools is advantageous"
+    ]
+  },
+  "_meta": {
+    "source": "dataset_from_blackboard\\JD_examples\\JD-11.txt",
+    "model": "qwen/qwen3.5-9b",
+    "extracted_at": "2026-11-22T07:21:28",
+    "evidence_rejected": []
+  }
+}

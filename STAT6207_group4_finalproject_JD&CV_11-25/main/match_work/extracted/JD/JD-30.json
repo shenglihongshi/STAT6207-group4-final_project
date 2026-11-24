@@ -1,0 +1,52 @@
+{
+  "jd_id": 30,
+  "position": "Research Compliance Associate",
+  "role_family": "Finance & Legal",
+  "country": "Hong Kong",
+  "city": "Hong Kong",
+  "remote_allowed": null,
+  "contract_type": "full_time",
+  "languages": [
+    {
+      "lang": "English",
+      "level": "fluent"
+    }
+  ],
+  "salary_min_raw": 300000.0,
+  "salary_max_raw": 360000.0,
+  "currency": "HKD",
+  "salary_frequency": "year",
+  "must_have_skills": null,
+  "nice_to_have_skills": [
+    "additional language"
+  ],
+  "min_years": 0,
+  "seniority": "junior",
+  "education_required": "bachelor",
+  "domain": "other",
+  "notice_expectation": "Immediate / July / September 2025",
+  "evidence": {
+    "position": "Position: Legal & Compliance, Research Compliance Associate",
+    "role_family": "Role family: Finance & Legal",
+    "country": "Location: Hong Kong, Hong Kong",
+    "city": "Location: Hong Kong, Hong Kong",
+    "contract_type": "Contract: full_time",
+    "salary_min_raw": "Salary: 300000.0-360000.0 HKD per year",
+    "salary_max_raw": "Salary: 300000.0-360000.0 HKD per year",
+    "currency": "HKD",
+    "salary_frequency": "per year",
+    "min_years": "0-1 Year Experience",
+    "seniority": "Recent Graduate / 0-1 Year Experience",
+    "education_required": "Bachelor's degree in any field",
+    "domain": null,
+    "notice_expectation": "Start Date: Immediate / July / September 2025",
+    "languages": "Fluent in written and spoken English; additional language skills are a plus",
+    "nice_to_have_skills": "additional language skills are a plus"
+  },
+  "_meta": {
+    "source": "dataset_from_blackboard\\JD_examples\\JD-30.txt",
+    "model": "qwen/qwen3.5-9b",
+    "extracted_at": "2026-11-22T07:24:28",
+    "evidence_rejected": []
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "jd_id": "P04",
+  "position": "Data Engineer",
+  "role_family": null,
+  "country": "Malaysia",
+  "city": null,
+  "remote_allowed": null,
+  "contract_type": "full_time",
+  "languages": [
+    {
+      "lang": "English",
+      "level": "professional"
+    }
+  ],
+  "salary_min_raw": null,
+  "salary_max_raw": null,
+  "currency": null,
+  "salary_frequency": null,
+  "must_have_skills": [
+    "sql",
+    "azure databricks",
+    "azure synapse",
+    "pyspark",
+    "python"
+  ],
+  "nice_to_have_skills": [
+    "azure data factory",
+    "azure data lake",
+    "azure event hub",
+    "power bi",
+    "dataops"
+  ],
+  "min_years": 3,
+  "seniority": null,
+  "education_required": "bachelor",
+  "domain": null,
+  "notice_expectation": null,
+  "evidence": {
+    "position": "Data Engineer",
+    "role_family": "Design, construct, and automate robust, modern data pipelines...",
+    "country": "Kuala Lumpur, Malaysia",
+    "contract_type": "Job Type: Full-time, Permanent",
+    "languages": "Good communication skills in both written and spoken English.",
+    "salary_min_raw": null,
+    "salary_max_raw": null,
+    "currency": null,
+    "salary_frequency": null,
+    "must_have_skills": [
+      "Degree holder in Computer Science...",
+      "minimum of 3 years of dedicated experience",
+      "Expert-level proficiency in SQL is mandatory.",
+      "Hands-on experience with Azure Databricks or Azure Synapse.",
+      "Strong programming skills in a data-focused language (e.g., PySpark, Python...)"
+    ],
+    "nice_to_have_skills": [
+      "Knowledge of the wider Azure ecosystem (Azure Data Factory, Azure Data Lake, Azure Event Hub) or Power BI.",
+      "Familiarity with DataOps principles."
+    ],
+    "min_years": "A minimum of 3 years",
+    "seniority": "mid",
+    "education_required": "Degree holder in Computer Science, Information Technology, or a relevant discipline.",
+    "domain": "dynamic multinational company... digital initiatives...",
+    "notice_expectation": null
+  },
+  "_meta": {
+    "source": "main\\matcher\\testset\\JD\\P04.txt",
+    "model": "qwen/qwen3.5-9b",
+    "extracted_at": "2026-11-22T15:00:45",
+    "evidence_rejected": [
+      "role_family",
+      "city(无evidence)",
+      "seniority",
+      "domain"
+    ]
+  }
+}

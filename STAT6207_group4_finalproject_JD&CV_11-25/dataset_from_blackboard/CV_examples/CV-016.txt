@@ -1,0 +1,74 @@
+Mobile Developer Lead
+Niibu Inc. · Indonesia · Engineering
+Skills
+Cloud Firestore, JIRA, Team Leadership, clean architecture, CI/CD, Firebase, Azure, Unit Testing, Test Driven
+Development, Kotlin Programming, Swift Programming, C++ Programming, Agile Methodologies, Performance
+Optimization, Flutter, MVVM, BLoC/Cubit, Scrum, Github Actions, Selenium, Swift Playgrounds, UIKit, SwiftUI,
+VIPER architecture
+Work experience
+Mobile Developer Lead · Niibu Inc.
+2026-02 – Present
+Lead mobile development initiatives for customer, creator, and service-provider applications featuring AI agent
+integrations.
+Lead development of a customer application that uses an AI agent to support user interactions and services.
+Lead development of a creator application that enables content creators to generate content through an integrated
+AI agent.
+Lead development of a service-provider application featuring AI-assisted workflows and a delivery tracking system.
+Build conversational chatbot experiences with multiple chat-bubble formats to support customer bookings and…
+Senior Mobile Engineer (Flutter) · Wolkk.
+2022-10 – Present
+Develop scalable Flutter applications using BLoC/Cubit, Clean Architecture, reusable components, and clean-code
+practices.
+Design and maintain a standardized Flutter project template with optimized initialization logic and project structure,
+improving consistency and development efficiency across projects.
+Implement GitHub Actions CI/CD pipelines that improve deployment efficiency by 40% and support more reliable
+software releases.
+Optimize application performance and reduce load times by 30%, improving the overall user experience.
+Implement Flutter platform and method channels to integrate…
+Flutter developer · Volantis Technology
+2021-10 – 2022-10
+Contributed to the development of the CUiT mobile application using Flutter, working closely with the engineering
+team to implement UI/UX improvements and application features.
+Integrated Firebase Authentication, Cloud Firestore, Firebase Crashlytics, Firebase App Distribution, and Firebase
+Dynamic Links to improve reliability and cross-platform functionality.
+Developed custom Flutter method channels to integrate a third-party camera AI library written in Kotlin and Swift.
+Improved the Buzzco application using Flutter packages, MVVM architecture, and Cubit state management to
+deliver a more…
+iOS Developer · Apple Developer Academy | UC
+2021-02 – 2021-12
+Developed an interactive educational COVID-19 game using Swift Playgrounds, receiving recognition through the
+WWDC 2021 Swift Student Challenge.
+Built iOS applications using Swift, UIKit, and SwiftUI while applying MVVM and VIPER architecture patterns.
+Designed real-time heart-rate monitoring functionality for an emergency safety application on iOS and watchOS.
+Collaborated with a multidisciplinary team to design and develop iOS applications featuring intuitive interfaces and
+innovative functionality.
+Mobile Developer Lead · PT ZENIORA EDUKASI TEKNOLOGI
+2020-12 – 2022-02
+Led development of the Zeniora education application using Flutter, MVVM architecture, and Provider state
+management.
+Guided the mobile development team in optimizing the application, contributing to a top-10 ranking in the Play
+Store education category and a 4.9/5.0 rating from more than 1,800 reviews.
+Introduced Scrum and Agile practices to improve team collaboration, productivity, and delivery consistency.
+Integrated the Midtrans payment gateway through a WebView-based implementation.
+Built CI/CD pipelines to automate application building, testing, and deployment, accelerating release…
+Quality Assurance Internship · PT Sofco Graha
+2019-07 – 2019-08
+Developed automated Selenium test scripts for a human resources web application, supporting efficient defect
+detection and software quality assurance.
+Assistant Lecturer · Sekolah Tinggi Teknologi Angkatan Laut (STTAL)
+2018-01 – 2018-01
+Created an introductory C++ programming module.
+Delivered practical C++ programming instruction.
+Mentored students in foundational programming concepts.
+Laboratory Research Assistant · B201 Telematics Laboratory
+2017-01 – 2020-01
+Led a multidisciplinary team in designing and developing multimedia applications for telematics research and data
+visualization.
+Supported research into multimedia technologies and contributed to the development of experimental applications.
+Mentored students in Flutter development and guided them through the creation of mobile application projects.
+Developed a laboratory practicum program for students in the Electrical Technology Faculty.
+Supervised laboratory assistants and coordinated laboratory testing activities and daily operations.
+Supported interactive C++ programming workshops for…
+Education
+• Bachelor's Degree — Institut Teknologi Sepuluh Nopember (ITS) (2016–2020)
+Latest: Teknik Komputer — Institut Teknologi Sepuluh Nopember (ITS)

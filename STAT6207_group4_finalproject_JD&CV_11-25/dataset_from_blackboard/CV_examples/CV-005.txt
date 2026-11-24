@@ -1,0 +1,45 @@
+Fullstack Engineer
+3Commas · Engineering
+Skills
+React, Next.JS, TypeScript, JavaScript, Redux, Zustand, Mobx, React Hook Form, Zod, styled-components,
+Tailwind CSS, MUI, Figma, Storybook, TanStack Query, Axios, REST API, JSON-RPC API, Websocket, GraphQL,
+Jest, React testing library, Node.js, Express.js, Nestjs, PostgreSQL, MySQL, MongoDB, Prisma, TypeOrm
+Work experience
+Fullstack Engineer · 3Commas
+2025-08 – Present
+Developed a Next.js (React + TypeScript) app with focus on performance, SEO, and SSR/SSG.
+Led frontend performance optimization initiatives, increasing Lighthouse scores from 30 to 80 on mobile and from
+50 to 80-85 on desktop while improving Core Web Vitals and SEO performance.
+Partnered with marketing stakeholders to deliver SEO-driven features, landing pages, and growth initiatives.
+Built AI-powered automation tools and workflows that streamlined content creation, localization, and operational
+processes.
+Developed AI-powered localization pipelines for Prismic CMS, reducing manual…
+Middle Fullstack Developer · HIVEX
+2025-03 – 2025-08
+Built full-stack features with React, TypeScript, Node.js and Java/Spring, owning implementation across frontend,
+backend APIs and integrations.
+Designed and delivered an end-to-end notification system, implementing backend notification processing and APIs
+alongside the React UI, unread state/count, filtering and read-status synchronization.
+Implemented real-time communication using WebSockets/STOMP, integrating backend events with the frontend
+and handling connection lifecycle and state synchronization.
+Worked with Kafka-based event-driven flows, consuming and processing domain events used…
+Frontend Developer (Part-time) · Freelance
+2025-01 – 2025-08
+Maintained and optimized a sushi delivery website; improved performance and UX.
+Developed new pages/features with React + TypeScript; ensured responsive design.
+Tested, debugged, and deployed updates in collaboration with the client.
+Fullstack Developer · CuboDrom
+2021-08 – 2024-09
+Developed and maintained an e-commerce platform with React, Node.js, and Express.js.
+Built end-to-end GraphQL features with Node.js and React/Next.js, implementing queries, mutations, resolvers,
+database integration, and client-side cache synchronization.
+Built REST API endpoints and server-side business logic for e-commerce workflows.
+Implemented authentication and authorization with JWT for protected API routes and user sessions.
+Built WebSocket-based features and handled real-time communication between the Node.js backend and React
+frontend.
+Integrated backend APIs with the React frontend…
+Education
+• SH++ programming school (Ukraine) (2020–2021)
+• Master's Degree — Flight Academy of the National Aviation University (2019–2020)
+• Bachelor's Degree — Flight Academy of the National Aviation University (2015–2019)
+Latest: CS — SH++ programming school (Ukraine)

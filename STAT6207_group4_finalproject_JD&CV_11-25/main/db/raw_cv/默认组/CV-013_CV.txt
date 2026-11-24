@@ -1,0 +1,68 @@
+Sr. Software Development Engineer - 2
+GoComet India Pvt Ltd · India · Engineering
+Skills
+Node.js, Ruby on Rails, TypeScript, Distributed Systems, Microservices, Apache Kafka, AWS, React, Next.JS,
+Redux, AngularJS, Tailwind CSS, GraphQL, TypeOrm, Jest, Express.js, Nestjs, C++, Python, SQL, PostgreSQL,
+MongoDB
+Work experience
+Sr. Software Development Engineer - 2 · GoComet India Pvt Ltd
+2025-02 – 2026-06
+Designed and maintained multi-tenant SaaS architecture supporting enterprise customers through configurable
+workflows, tenant-specific
+customizations, and access controls.
+Drove microservices architecture improvements across Node.js and Ruby on Rails services, improving modularity
+and scalability.
+Designed and implemented Kafka-based asynchronous workflows to process long-running operations reliably
+without blocking API
+requests.
+Built enterprise integrations using REST APIs, gRPC, and Kafka for customers including Mahindra, Agratas, and
+Vita Coco.
+Owned end-to-end delivery across…
+Software Development Engineer - 2 · House of Vaaree
+2024-10 – 2024-12
+Developed full-stack solutions using Ruby on Rails and React.js, contributing to key internal tools that enhanced
+operational efficiency.
+Built the MRP Label Generator, reducing vendor processing time from 3 days to 10 minutes by enabling customers
+to generate labels
+Resolved critical production issues like order sync with marketplaces and data inconsistencies, resulting in
+improved order reporting
+consistency and stakeholder satisfaction.
+Designed and implemented an in-house Return and Exchange Flow, replacing the costly third-party solution,
+saving the company significant
+monthly costs and…
+Software Development Engineer · NEETPrep GoodEd Technologies
+2023-03 – 2024-08
+Built complex React and Next.js interfaces, dashboards, onboarding workflows, and learning experiences used by
+thousands of students daily.
+Established the Next.js codebase and integrated AWS (EC2, ECS, S3, Lambda) for scalable, low-latency
+infrastructure as the first developer
+Developed key features like NCERT annotation, Performance Snapshot, revamped question pages (Main
+Product), Video Library, and
+several other core learning features, leading to a 30% increase in user engagement
+Led the redesign of the entire platform's frontend, resulting in a 40% improvement in user…
+Founding Engineer and Product Owner · Upstepping.co
+2022-01 – 2022-11
+Built and launched the entire web platform from scratch using Next.js, owning architecture, development, and
+deployment.
+Utilized AWS services (EC2, Route 53, S3) to deploy and manage scalable infrastructure, ensuring high availability
+and reliable web
+performance.
+Partnered with 13+ major companies, including Reiman Solutions, Teleperformance, Genpact, and Vcosmos, from
+Bengaluru, Jaipur, and
+Delhi
+Enrolled 300+ students on the platform, successfully placed 50+ candidates across partner companies, and
+provided Recruitment Process
+Outsourcing (RPO) services to multiple organizations.
+Frontend Engineer · Learn4O
+2022-01 – 2022-11
+Redesigned the entire website frontend, implementing a more interactive and engaging user interface
+Developed key features like an EMI calculator for student loans and a resume builder to enhance the platform's
+functionality
+Led the development of the entire admin dashboard from scratch in Next.js used by teaching assistants (TAs) and
+the sales team to manage
+students and streamline internal operations
+Developed backend APIs and server-side logic using Sails.js while building frontend experiences with Next.js.
+Deployed applications on AWS and utilized Jenkins for continuous…
+Education
+• Bachelor's Degree — LNM Institute of Information Technology (2018–2022)
+Latest: Computer Science and Engineering — LNM Institute of Information Technology

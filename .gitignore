@@ -1,0 +1,22 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.pyo
+
+# ---- 运行时产物：网页上传的临时文件 ----
+*/main/matcher/uploads/
+
+# ---- 本地 AI 助手工作区（不属于项目内容）----
+.workbuddy/
+
+# ---- 原始压缩包（内容已解压到目录里，不必重复占体积）----
+zips*/
+*.rar
+
+# ---- Windows / Office 临时文件 ----
+~$*
+Thumbs.db
+desktop.ini
+
+# ---- 报告生成时的中间产物 ----
+*.docx.tmp

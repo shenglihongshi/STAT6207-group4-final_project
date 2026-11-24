@@ -1,0 +1,37 @@
+Senior Product Manager, Marketplace Order Conversion
+Shopee, Sea Group
+Hired for: Product Manager
+Skills
+Figma, Confluence, Notion, JIRA, Product UIUX, Data Analytics, Scrum and Agile Methodologies, Tech Debt
+Prioritisation, Cross-functional Management, A/B Testing, SQL (Basic), AI/ML Feature Development, API
+Integrations, Data Schema Mapping, Release Planning
+Work experience
+Senior Product Manager, Marketplace Order Conversion · Shopee, Sea Group
+2024-05 – Present
+Regional team shaping buyer-flow features with Search, Logistics and Marketing leaders to drive orders across all
+markets. Regional IC for the Product Detail Page (PDP), owning strategy and delivery.
+Standardised PDP infrastructure across 9+ markets, reducing tech debt across country forks.
+Led an expat expansion project (payments and AI/ML-powered translation across 30+ teams) - +1.83% orders,
++2.19% GMV.
+PDP optimisation via UI/UX revamps (delivery visibility, pricing clarity, trust, financial products) - +2.81% orders.
+Launched fashion size guide/styling modules (+0.40% orders), out-of-stock recovery A/B tests (+0.81% orders),
+and LLM review summaries (+0.33% orders).
+Senior Product Manager, Growth · MoneyHero Group
+2022-03 – 2024-05
+Led product growth from pre- to post-IPO, owning the product lifecycle from strategy to execution.
+Established a growth experiment backlog and quarterly prioritisation of conversion initiatives; built low-code
+templates/CMS enabling SEO experiments (60%+ faster turnaround). Mentored junior PMs and analysts.
+Promoted to Senior PM, expanding from a local portfolio to a regional role.
+Rebuilt travel insurance journeys (CR 27% to 45%); delivered a car insurance price comparison tool via provider
+APIs (CR 16% to 24%); launched renewal and EV flows (~18% revenue uplift); introduced user account
+dashboards (-21% CS tickets, +47% application CR in beta).
+Product Manager · Community app startup (early-stage)
+2019-09 – 2022-02
+First hire in a privacy-first NFT community app, building 0 to 1 with the founders. Co-owned roadmap, go-to-market
+and product-market fit; delivered 3 MVPs and pivoted to include audio rooms post-COVID.
+Built onboarding, referrals, discovery and user-generated content features; scalable onboarding for non-crypto
+natives; privacy mechanics (screenshot blocking, opt-in connections); engagement-quality-based referral logic.
+Education
+• Bachelor's Degree, Psychology — University of Melbourne, Australia (2018)
+• Associate's Degree — Temasek Design School, Singapore (2014)
+Latest: Psychology — University of Melbourne, Australia

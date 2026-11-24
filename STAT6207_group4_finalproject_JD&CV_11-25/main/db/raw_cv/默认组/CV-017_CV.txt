@@ -1,0 +1,39 @@
+Quality Assurance Engineer
+PT XLSMART Telecom Sejahtera Tbk · Indonesia · Engineering
+Skills
+Quality Assurance, Manual Testing, Functional Testing, Regression Testing, API Testing, mobile testing,
+Performance Testing, Data Testing, Automation, Playwright, Selenium, katalon, Appium, Postman, jMeter, Python,
+SQL, BigQuery, Greenplum, Allure
+Work experience
+Quality Assurance Engineer · PT XLSMART TELECOM SEJAHTERA TBK
+2025-07 – Present
+Perform functional, regression, sanity, integration, API, and end-to-end testing across enterprise web, mobile,
+backend, and database-driven telecommunications systems.
+Create test scenarios and test cases from business requirements, change requests, technical specifications, and
+operational flows; document defects with clear reproduction steps and supporting evidence.
+Validate Retail Outlet registration and lifecycle flows including creation, approval, updates, listing, migration,
+downstream synchronization, and post-migration sanity checks.
+Test event and ad-hoc sales flows covering outlet…
+tester project · PT Smartfren Telecom Tbk
+2024-08 – 2025-07
+Executed functional, regression, integration, sanity, and UAT testing for telecommunications applications, incentive
+platforms, retailer operations, and redemption features.
+Validated festive bonus and incentive calculations against campaign rules, including sell-through tiering, voucher
+categories, service plans, KPI achievement, derived KPIs, caps, reconciliation, publishing, and reporting.
+Investigated calculation and dataset discrepancies by comparing expected business formulas with application
+results and backend data using SQL, BigQuery, and Greenplum.
+Tested MFA/OTP flows across SMS…
+Software Quality Assurance · KipasKipas
+2023-02 – 2024-06
+Performed software quality assurance activities for product releases, including functional, regression, exploratory,
+and user-flow validation.
+Created and maintained test scenarios, documented defects with reproducible evidence, and collaborated with
+product and development teams during verification and retesting.
+Contributed to product quality across user experience, interface behavior, and core application functionality.
+Web Developer · PT. NOTO TEKNOLOGI INDONESIA
+2019-11 – 2020-04
+Created and designed a web-based financial management system during an internship assignment.
+Worked with web development technologies and relational database tools including MySQL and phpMyAdmin.
+Education
+• Bachelor's Degree — Universitas Jenderal Soedirman
+Latest: Informatics / Computer Science — Universitas Jenderal Soedirman

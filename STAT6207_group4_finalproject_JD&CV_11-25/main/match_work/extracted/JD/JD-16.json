@@ -1,0 +1,78 @@
+{
+  "jd_id": 16,
+  "position": "Fullstack Engineer",
+  "role_family": "Engineering",
+  "country": "Vietnam",
+  "city": "Ho Chi Minh City / Da Nang / Hanoi",
+  "remote_allowed": true,
+  "contract_type": "full_time",
+  "languages": [
+    {
+      "lang": "English",
+      "level": "professional"
+    }
+  ],
+  "salary_min_raw": 2000.0,
+  "salary_max_raw": 3000.0,
+  "currency": "USD",
+  "salary_frequency": "month",
+  "must_have_skills": [
+    "nodejs",
+    "reactjs",
+    "mysql",
+    "postgresql",
+    "sql server",
+    "agile",
+    "scrum",
+    "xp",
+    "tdd",
+    "refactoring",
+    "ci"
+  ],
+  "nice_to_have_skills": [
+    "aws lambda",
+    "gcp cloud functions",
+    "nosql",
+    "terraform",
+    "ansible",
+    "cloudformation",
+    "vuejs",
+    "angular",
+    "svelte",
+    "nestjs",
+    "redux"
+  ],
+  "min_years": 4,
+  "seniority": "senior",
+  "education_required": null,
+  "domain": null,
+  "notice_expectation": null,
+  "evidence": {
+    "position": "Position: Fullstack Engineer",
+    "role_family": "Role family: Engineering",
+    "country": "Location: Ho Chi Minh, Vietnam",
+    "city": "Location: Ho Chi Minh City / Da Nang / Hanoi",
+    "remote_allowed": "Hybrid (3 remote days per week)",
+    "contract_type": "Contract: full_time",
+    "salary_min_raw": "Salary: 2000.0-3000.0 USD per month",
+    "salary_max_raw": "Salary: 2000.0-3000.0 USD per month",
+    "currency": "Salary: 2000.0-3000.0 USD per month",
+    "salary_frequency": "Salary: 2000.0-3000.0 USD per month",
+    "languages": "Good communication skills in English (written & spoken)",
+    "must_have_skills": [
+      "Must Have:\n• 4+ years of hands-on experience with NodeJS.\n• 2+ years of experience with ReactJS or similar (VueJS, Angular, Svelte).\n• Strong knowledge of relational databases (MySQL, PostgreSQL, SQL Server).\n• Familiar with Agile, Scrum, and XP methodologies (TDD, Refactoring, CI).",
+      "Good communication skills in English (written & spoken)"
+    ],
+    "nice_to_have_skills": [
+      "Nice to Have:\n• Experience with serverless architectures (AWS Lambda, GCP Cloud Functions).\n• Understanding of security, performance, and scalability best practices.\n• Familiarity with NoSQL, Message Queues, or IaC tools (Terraform, Ansible, CloudFormation)."
+    ],
+    "min_years": "4+ years of hands-on experience with NodeJS",
+    "seniority": "4+ years of hands-on experience with NodeJS"
+  },
+  "_meta": {
+    "source": "dataset_from_blackboard\\JD_examples\\JD-16.txt",
+    "model": "qwen/qwen3.5-9b",
+    "extracted_at": "2026-11-22T20:20:47",
+    "evidence_rejected": []
+  }
+}

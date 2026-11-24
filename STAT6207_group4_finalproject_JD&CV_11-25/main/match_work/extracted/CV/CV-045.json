@@ -1,0 +1,117 @@
+{
+  "cv_ref": "CV-045",
+  "current_title": "Data Engineer Lead",
+  "current_company": "CBTW",
+  "country": "Vietnam",
+  "languages": null,
+  "skills": [
+    "microsoft fabric",
+    "lakehouse",
+    "warehousing",
+    "onelake",
+    "power bi",
+    "azure sql",
+    "data warehouse architecture",
+    "analytical data modeling",
+    "azure data factory",
+    "talend",
+    "ssis",
+    "full and incremental loading",
+    "notebooks",
+    "dataflows gen2",
+    "cloud data platforms",
+    "data modeling",
+    "etl/elt",
+    "orchestration",
+    "python",
+    "pyspark",
+    "sql",
+    "pentaho",
+    "mysql",
+    "snowflake",
+    "azure synapse",
+    "stitch"
+  ],
+  "work_history": [
+    {
+      "title": "Data Engineer Lead",
+      "company": "CBTW",
+      "start": "2024-01",
+      "end": "present",
+      "is_current": true,
+      "date_precision": "month",
+      "description": "Designed and delivered Phase 1 of the APAC Microsoft Fabric data warehouse for HR, Commercial, and Production data, owning warehouse architecture and capacity planning. Designed warehouse integration to limit downstream changes across approximately 50 existing Power BI reports, preserving the data structures expected by reporting teams. Built metadata-driven Fabric orchestration using control tables, job dependencies, Dataflows Gen2, notebooks, and SQL scripts for full and incremental data loads. Developed Python/PySpark notebooks for Cloud REST API ingestion, including pagination…"
+    },
+    {
+      "title": "CRM Data Analytics Manager",
+      "company": "FrieslandCampina Vietnam",
+      "start": "2021-01",
+      "end": "2023-01",
+      "is_current": false,
+      "date_precision": "month",
+      "description": "Built a centralized consumer data foundation integrating Salesforce CRM and e-CRM sources for Friso Mum Club, a loyalty program that reached 70, 000 members within six months. Led consumer data governance across the integrated CRM data foundation, supporting consistent datasets for consumer segmentation, loyalty analysis, and personalized engagement. Created consumer segments using Recency, Frequency, and Monetary analysis of integrated CRM data, preparing customer groupings for CRM and loyalty analytics."
+    },
+    {
+      "title": "Data Analytics Lead",
+      "company": "Central Retail in Vietnam",
+      "start": "2020-01",
+      "end": "2021-01",
+      "is_current": false,
+      "date_precision": "month",
+      "description": "Defined the target architecture and source integration approach for a Snowflake-based group data warehouse covering food and non food retail business units. Developed architecture and phased technical implementation plans for supply-chain analytics using Azure Synapse Analytics. Evaluated Stitch Data for marketing data ingestion and defined integration requirements for the marketing data platform initiative. Led technical vendor assessments and evaluated proofs of concept to support platform selection, integration design, and implementation planning."
+    },
+    {
+      "title": "Business Intelligence Manager",
+      "company": "Pizza 4P's",
+      "start": "2019-01",
+      "end": "2020-01",
+      "is_current": false,
+      "date_precision": "month",
+      "description": "Designed and built a cloud BI platform from scratch using Azure SQL, Azure Data Factory, and Power BI for centralized analytical processing, owning requirements gathering, data architecture, ETL, and reporting delivery for five stakeholder groups: Restaurant Management, Marketing, Supply Chain, Finance and Accounting, and the Board of Directors. Developed Azure Data Factory pipelines for structured and semi-structured data ingestion, transformation, and loading. Developed analytical modeling and reporting layers using Power BI for restaurant operations, supply chain, finance and…"
+    },
+    {
+      "title": "Database Developer & Administrator",
+      "company": "NashTech",
+      "start": "2015-01",
+      "end": "2018-01",
+      "is_current": false,
+      "date_precision": "month",
+      "description": "Developed ETL and data-processing solutions using Pentaho, SSIS and SQL Server for HR datasets covering compensation and benefits, resourcing and training. Provided MySQL database administration for an Australian financial services CRM platform, working with application developers to support database reliability and application data requirements."
+    }
+  ],
+  "education": "Management Information System — University of Economics and Law (2010–2014)",
+  "latest_degree": "Management Information System — University of Economics and Law",
+  "highest_degree": null,
+  "domain": null,
+  "years_experience": null,
+  "relevant_years": null,
+  "seniority": null,
+  "evidence": {
+    "cv_ref": null,
+    "current_title": "Data Engineer Lead",
+    "current_company": "CBTW",
+    "country": "Vietnam",
+    "languages": null,
+    "skills": "Microsoft Fabric, Lakehouse, Warehousing, OneLake, Power BI, Azure SQL, Data warehouse architecture, Analytical data modeling, Azure Data Factory, Talend, SSIS, Full and Incremental loading, Notebooks and Dataflows Gen2, Cloud Data Platforms, Data Modeling, ETL/ELT and Orchestration, Python, PySpark, SQL, Pentaho, MySQL, Snowflake, Azure Synapse, Stitch",
+    "work_history": [
+      "DATA ENGINEER LEAD · CBTW 2024-01 – Present • Designed and delivered Phase 1 of the APAC Microsoft Fabric data warehouse for HR, Commercial, and Production data, owning warehouse architecture and capacity planning. • Designed warehouse integration to limit downstream changes across approximately 50 existing Power BI reports, preserving the data structures expected by reporting teams. • Built metadata-driven Fabric orchestration using control tables, job dependencies, Dataflows Gen2, notebooks, and SQL scripts for full and incremental data loads. • Developed Python/PySpark notebooks for Cloud REST API ingestion, including pagination…",
+      "CRM Data Analytics Manager · FrieslandCampina Vietnam 2021-01 – 2023-01 • Built a centralized consumer data foundation integrating Salesforce CRM and e-CRM sources for Friso Mum Club, a loyalty program that reached 70, 000 members within six months. • Led consumer data governance across the integrated CRM data foundation, supporting consistent datasets for consumer segmentation, loyalty analysis, and personalized engagement. • Created consumer segments using Recency, Frequency, and Monetary analysis of integrated CRM data, preparing customer groupings for CRM and loyalty analytics.",
+      "Data Analytics Lead · Central Retail in Vietnam 2020-01 – 2021-01 • Defined the target architecture and source integration approach for a Snowflake-based group data warehouse covering food and non food retail business units. • Developed architecture and phased technical implementation plans for supply-chain analytics using Azure Synapse Analytics. • Evaluated Stitch Data for marketing data ingestion and defined integration requirements for the marketing data platform initiative. • Led technical vendor assessments and evaluated proofs of concept to support platform selection, integration design, and implementation planning.",
+      "Business Intelligence Manager · Pizza 4P's 2019-01 – 2020-01 • Designed and built a cloud BI platform from scratch using Azure SQL, Azure Data Factory, and Power BI for centralized analytical processing, owning requirements gathering, data architecture, ETL, and reporting delivery for five stakeholder groups: Restaurant Management, Marketing, Supply Chain, Finance and Accounting, and the Board of Directors. • Developed Azure Data Factory pipelines for structured and semi-structured data ingestion, transformation, and loading. • Developed analytical modeling and reporting layers using Power BI for restaurant operations, supply chain, finance and…",
+      "Database Developer & Administrator · NashTech 2015-01 – 2018-01 • Developed ETL and data-processing solutions using Pentaho, SSIS and SQL Server for HR datasets covering compensation and benefits, resourcing and training. • Provided MySQL database administration for an Australian financial services CRM platform, working with application developers to support database reliability and application data requirements."
+    ],
+    "education": "• University of Economics and Law (2010–2014) Latest: Management Information System — University of Economics and Law",
+    "latest_degree": "Management Information System — University of Economics and Law",
+    "highest_degree": "bachelor",
+    "domain": "software"
+  },
+  "_meta": {
+    "source": "dataset_from_blackboard\\CV_examples\\CV-045.txt",
+    "model": "qwen/qwen3.5-9b",
+    "extracted_at": "2026-11-22T07:42:56",
+    "evidence_rejected": [
+      "highest_degree",
+      "domain"
+    ]
+  }
+}

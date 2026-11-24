@@ -1,0 +1,89 @@
+{
+  "cv_ref": "CV-056",
+  "current_title": "Account Manager",
+  "current_company": "Goldmine Advertising",
+  "country": "India",
+  "languages": null,
+  "skills": [
+    "excel",
+    "powerpoint",
+    "canva",
+    "photoshop",
+    "meta ads manager",
+    "google analytics",
+    "client relationship management",
+    "brand partnership",
+    "integrated marketing strategy",
+    "campaign coordination",
+    "budget monitoring",
+    "timeline management",
+    "cross-functional team leadership",
+    "performance metrics tracking",
+    "stakeholder presentation"
+  ],
+  "work_history": [
+    {
+      "title": "Account Manager",
+      "company": "Goldmine Advertising",
+      "start": "2025-10",
+      "end": "present",
+      "is_current": true,
+      "date_precision": "month",
+      "description": "Lead integrated marketing campaigns aligned with brand objectives, coordinating across creative, production, and client teams to drive brand growth and market presence. Manage project delivery timelines, budgets, and resource allocation while providing strategic recommendations to optimize brand performance and client satisfaction.\n\n• Directed integrated campaigns for key FMCG and consumer healthcare clients, ensuring alignment with brand growth strategies and communication goals\n• Managed end-to-end client servicing including briefing, coordination with creative and production teams"
+    },
+    {
+      "title": "Assistant Account Manager",
+      "company": "Quotient Communication",
+      "start": "2023-12",
+      "end": "2025-10",
+      "is_current": false,
+      "date_precision": "month",
+      "description": "Supported multi-channel campaign execution and brand strategy development, collaborating with creative and production teams to deliver marketing assets that strengthen brand positioning. Conducted market and consumer research to inform campaign planning and contributed to new business development through strategic presentations.\n\n• Coordinated execution of multi-channel campaigns across traditional and digital platforms to support brand visibility and consumer engagement\n• Contributed to new business growth by assisting in the preparation of integrated marketing strategies and pitch"
+    },
+    {
+      "title": "Senior Account Executive",
+      "company": "Oddinary Marketing",
+      "start": "2023-01",
+      "end": "2023-12",
+      "is_current": false,
+      "date_precision": "month",
+      "description": "Served as liaison between clients and internal teams to ensure brand consistency and timely delivery of marketing projects. Supported brand strategy formulation and client presentations to enhance brand positioning and campaign impact.\n\n• Acted as primary client contact to coordinate campaign execution ensuring alignment with brand guidelines and timely delivery\n• Maintained brand consistency and content accuracy across all project deliverables to uphold brand integrity\n• Assisted in developing brand strategies and preparing creative presentations to support client decision-making"
+    },
+    {
+      "title": "Account Executive",
+      "company": "LS Digital",
+      "start": "2021-07",
+      "end": "2022-12",
+      "is_current": false,
+      "date_precision": "month",
+      "description": "Supported digital marketing campaigns including content planning, social media coordination, and reporting. Handled client communication, requirement gathering, and project tracking activities.\n\n• Supported digital marketing campaigns including content planning, social media coordination, and performance reporting.\n• Managed client communication and internal project tracking\n• Assisted teams in executing digital deliverables within defined timelines"
+    }
+  ],
+  "education": "Bachelor's Degree — NAEMD Academy (2021–2022)\nSathaye college (2012)",
+  "latest_degree": "Media & Advertising — Welingkar Institute of Management",
+  "highest_degree": "bachelor",
+  "domain": "marketing",
+  "years_experience": null,
+  "relevant_years": null,
+  "seniority": null,
+  "evidence": {
+    "current_title": "Account Manager\nGoldmine Advertising · India · Sales & BD",
+    "current_company": "Goldmine Advertising · India · Sales & BD",
+    "country": "India",
+    "skills": "Skills\nAdvanced MS Excel for data analysis, Presentation development with PowerPoint, Visual content creation using Canva, Graphic design support with Adobe Photoshop, Social media advertising management via Meta Ads Manager, Web traffic and campaign analytics using Google Analytics, Client Relationship Management & Brand Partnership, Integrated Marketing Strategy Development (ATL/BTL/Digital), Campaign Coordination & Execution Oversight, Budget Monitoring & Timeline Management, Cross-Functional Team Leadership & Collaboration, Performance Metrics Tracking & Reporting, Stakeholder Presentation & Communication",
+    "work_history": [
+      "Account Manager · Goldmine Advertising\n2025-10 – Present",
+      "Assistant Account Manager · Quotient Communication\n2023-12 – 2025-10",
+      "Senior Account Executive · Oddinary Marketing\n2023-01 – 2023-12",
+      "Account Executive · LS Digital\n2021-07 – 2022-12"
+    ],
+    "education": "Education\n• Welingkar Institute of Management (2024)\n• Bachelor's Degree — NAEMD Academy (2021–2022)\n• Sathaye college (2012)",
+    "latest_degree": "Latest: Media & Advertising — Welingkar Institute of Management"
+  },
+  "_meta": {
+    "source": "dataset_from_blackboard\\CV_examples\\CV-056.txt",
+    "model": "qwen/qwen3.5-9b",
+    "extracted_at": "2026-11-22T07:46:32",
+    "evidence_rejected": []
+  }
+}

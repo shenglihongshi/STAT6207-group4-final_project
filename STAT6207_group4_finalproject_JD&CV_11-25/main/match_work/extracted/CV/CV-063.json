@@ -1,0 +1,112 @@
+{
+  "cv_ref": "CV-063",
+  "current_title": "Solution Sales Engineer",
+  "current_company": "Huawei",
+  "country": "Malaysia",
+  "languages": null,
+  "skills": [
+    "software design",
+    "java",
+    "presentations",
+    "web development",
+    "3d modeling",
+    "machine learning",
+    "supervised learning",
+    "unsupervised learning",
+    "cyber-security",
+    "data visualization",
+    "user-centered development",
+    "full-stack development",
+    "problem-solving",
+    "ai",
+    "blockchain",
+    "react",
+    "nextjs",
+    "solana",
+    "web3js",
+    "helius api",
+    "openai"
+  ],
+  "work_history": [
+    {
+      "title": "Solution Sales Engineer",
+      "company": "Huawei",
+      "start": "2025-10",
+      "end": "present",
+      "is_current": true,
+      "date_precision": "month",
+      "description": "Design enterprise solutions through High-Level Designs (HLD) tailored to customer requirements. Collaborate with sales teams to provide technical consultation and solution recommendations. Prepare BOQ/BOM and State of Compliance (SOC) documentation for customer proposals. Deliver product demonstrations, technical workshops, and partner enablement sessions. Support enterprise projects and customers across Australia, Saudi Arabia, Kuwait, China, and Papua New Guinea."
+    },
+    {
+      "title": "Program Facilitator",
+      "company": "Kiddypedia",
+      "start": "2025-08",
+      "end": "2025-08",
+      "is_current": false,
+      "date_precision": "month",
+      "description": "Assisted in the management of a children's event for participants aged 4–10 by overseeing registration, validating tickets, and guiding walk-in families through the sign-up process. Acted as the first point of contact for parents, explaining the event's activities and objectives to maintain their interest and ensure a smooth experience. Engaged with children during interactive play sessions and supported them throughout the closing workshop, helping to create an enjoyable and enriching atmosphere. Worked closely with the event team to ensure operations ran smoothly from registration to…"
+    },
+    {
+      "title": "Solana Breakpoint Hackathon Participant",
+      "company": "COLOSSEUM",
+      "start": "2025-03",
+      "end": "2025-05",
+      "is_current": false,
+      "date_precision": "month",
+      "description": "Participated in the Solana Breakpoint Hackathon powered by Colosseum. Developed Lens, a wallet analytics platform that leverages AI to address retention issues in the Solana ecosystem. Handled ideation, full-stack development (React, Next.js, Solana Web3.js, Helius API), AI integration with OpenAI, and final submission."
+    },
+    {
+      "title": "Software Engineer Intern",
+      "company": "Deng Kai Sdn Bhd",
+      "start": "2024-07",
+      "end": "2024-11",
+      "is_current": false,
+      "date_precision": "month",
+      "description": "Contributed to cross-functional projects involving software development, embedded systems, and digital design. Gained hands-on experience in troubleshooting Bluetooth hardware, 3D modeling, website development, and visual content creation. Collaborated closely with engineers and designers to support internal tools and demo materials. Key Projects & Contributions: 3D Demo Board Development: Designed and documented over 20 3D models of interactive and handheld demo boards using FreeCAD, including accurate dimensions and visuals for presentation. Website Revamp: Updated and enhanced the company…"
+    },
+    {
+      "title": "Sales Associate",
+      "company": "Branded Hub",
+      "start": "2024-07",
+      "end": "2024-07",
+      "is_current": false,
+      "date_precision": "month",
+      "description": "Manage daily retail operations including opening, closing, setup, and maintaining store cleanliness. Assist customers by providing product recommendations and personalized service to enhance their shopping experience. Monitor inventory levels, restock shelves, and coordinate product reorders with suppliers. Maintain visual merchandising standards to ensure an organized and appealing store layout. Handle in-store sales, manage transactions, and contribute to meeting sales targets. Skills Gained: Customer service, sales, inventory management, retail operations, communication, multitasking."
+    }
+  ],
+  "education": "Bachelor's Degree — Asia Pacific University of Technology and Innovation (APU / APIIT) (2022–2025); High School diploma — Asia Pacific University of Technology and Innovation (APU / APIIT) (2021–2022)",
+  "latest_degree": "Bachelor of Science — Asia Pacific University of Technology and Innovation (APU / APIIT)",
+  "highest_degree": "bachelor",
+  "domain": "software",
+  "years_experience": null,
+  "relevant_years": null,
+  "seniority": null,
+  "evidence": {
+    "cv_ref": null,
+    "current_title": "Solution Sales Engineer",
+    "current_company": "Huawei",
+    "country": "Malaysia",
+    "languages": null,
+    "skills": "Software Design, Java, Presentations, Web Development, 3D Modeling, Machine Learning, Supervised Learning, Unsupervised Learning, Cyber-security, Data Visualization, User-Centered Development, Full-stack Development, Problem-Solving, AI, Blockchain, React, Next.JS, Solana, Web3.JS, Helius API, OpenAI",
+    "work_history": [
+      "Solution Sales Engineer · Huawei\n2025-10 – Present",
+      "Program Facilitator · Kiddypedia\n2025-08 – 2025-08",
+      "Solana Breakpoint Hackathon Participant · COLOSSEUM\n2025-03 – 2025-05",
+      "Software Engineer Intern · Deng Kai Sdn Bhd\n2024-07 – 2024-11",
+      "Sales Associate · Branded Hub\n2024-07 – 2024-07"
+    ],
+    "education": "• Bachelor's Degree — Asia Pacific University of Technology and Innovation (APU / APIIT) (2022–2025)\n• High School diploma — Asia Pacific University of Technology and Innovation (APU / APIIT) (2021–2022)",
+    "latest_degree": "Latest: Bachelor of Science — Asia Pacific University of Technology and Innovation (APU / APIIT)",
+    "highest_degree": "Bachelor's Degree",
+    "domain": null,
+    "years_experience": null,
+    "relevant_years": null,
+    "seniority": null
+  },
+  "_meta": {
+    "source": "dataset_from_blackboard\\CV_examples\\CV-063.txt",
+    "model": "qwen/qwen3.5-9b",
+    "extracted_at": "2026-11-22T07:49:14",
+    "evidence_rejected": []
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "jd_id": 6,
+  "position": "Machine Learning Engineer",
+  "role_family": "Data & AI",
+  "country": null,
+  "city": null,
+  "remote_allowed": true,
+  "contract_type": "full_time",
+  "languages": null,
+  "salary_min_raw": 4200.0,
+  "salary_max_raw": 6700.0,
+  "currency": "USD",
+  "salary_frequency": "month",
+  "must_have_skills": [
+    "pytorch",
+    "jax",
+    "python"
+  ],
+  "nice_to_have_skills": null,
+  "min_years": null,
+  "seniority": "senior",
+  "education_required": null,
+  "domain": "data-ai",
+  "notice_expectation": null,
+  "evidence": {
+    "position": "Position: Machine Learning Engineer\nJob Title: Machine Learning Engineer",
+    "role_family": "Role family: Data & AI",
+    "contract_type": "Contract: full_time\nJob Type: Full-time",
+    "salary_min_raw": "Salary: 4200.0-6700.0 USD per month",
+    "salary_max_raw": "Salary: 4200.0-6700.0 USD per month",
+    "currency": "Salary: 4200.0-6700.0 USD per month",
+    "salary_frequency": "Salary: 4200.0-6700.0 USD per month",
+    "remote_allowed": "Location: Remote, Full-Time",
+    "must_have_skills": [
+      "Experience: Must have multiple years of deep, hands-on experience working with ML frameworks like PyTorch or Jax.\nTrack Record: A demonstrable track record of training large models on large datasets using large-scale, multi-GPU environments.\nEngineering Skills: Strong software engineering fundamentals, particularly in Python"
+    ],
+    "seniority": "Must have multiple years of deep, hands-on experience",
+    "domain": "Our client, a leading AI research company"
+  },
+  "_meta": {
+    "source": "dataset_from_blackboard\\JD_examples\\JD-06.txt",
+    "model": "qwen/qwen3.5-9b",
+    "extracted_at": "2026-11-22T07:20:43",
+    "evidence_rejected": []
+  }
+}

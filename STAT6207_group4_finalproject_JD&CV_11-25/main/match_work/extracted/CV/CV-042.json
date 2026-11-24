@@ -1,0 +1,98 @@
+{
+  "cv_ref": "CV-042",
+  "current_title": "Senior Data Scientist",
+  "current_company": "Uber",
+  "country": "United States",
+  "languages": null,
+  "skills": [
+    "machine learning",
+    "pytorch",
+    "jax",
+    "scikit-learn",
+    "xgboost",
+    "lightgbm",
+    "reinforcement learning",
+    "policy optimization",
+    "simulation environments",
+    "supply demand simulation",
+    "dynamic pricing",
+    "testing infrastructure",
+    "end-to-end testing",
+    "llm evaluation",
+    "a/b testing",
+    "drift detection",
+    "python",
+    "pyspark",
+    "sql",
+    "hive",
+    "presto",
+    "automation",
+    "airflow",
+    "cicd",
+    "model monitoring",
+    "pipeline orchestration",
+    "gpu training",
+    "multi-gpu fine-tuning",
+    "vllm",
+    "awq quantization"
+  ],
+  "work_history": [
+    {
+      "title": "Senior Data Scientist",
+      "company": "Uber",
+      "start": "2021-05",
+      "end": "present",
+      "is_current": true,
+      "date_precision": "month",
+      "description": "Led end-to-end development of a production LLM-powered agent system - problem framing, modeling, evaluation design, and launch - implementing algorithmic improvements from recent papers in PyTorch and JAX and building extensive test suites to verify solution correctness. Built complex testing infrastructure on top of large-scale third-party ML codebases, writing end-to-end tests to verify reward function behavior and detect numerical instabilities before release. Designed an evaluation harness used as a release gate: curated golden question set, LLM-judge scoring calibrated against human…"
+    },
+    {
+      "title": "Senior Data Scientist",
+      "company": "The Home Depot",
+      "start": "2018-07",
+      "end": "2021-05",
+      "is_current": false,
+      "date_precision": "month",
+      "description": "Built SKU- and store-level demand forecasts across a large catalog and national store network (XGBoost/LightGBM, hierarchical time series), modeling seasonality, weather, promotions, and Pro-vs-DIY demand; improved accuracy over the incumbent baseline, feeding replenishment, safety-stock, and allocation decisions. Developed price-elasticity and markdown-optimization models with Merchandising to balance margin against sell-through, validated through geo-based and A/B tests. Built an embedding-based hybrid recommender powering ”Frequently Bought Together“ and project-completion recommendations…"
+    },
+    {
+      "title": "Data Scientist",
+      "company": "Nike",
+      "start": "2013-04",
+      "end": "2018-07",
+      "is_current": false,
+      "date_precision": "month",
+      "description": "Built regional demand forecasts (ARIMA/SARIMA, gradient boosting) with promotion, seasonality, and launch effects; delivered prediction intervals enabling planners to trade off stockout risk against excess inventory. Developed RFM segmentation and customer lifetime value models used by Marketing for loyalty targeting, measured against holdout groups. Built a hybrid recommender in PySpark for Nike addressing new-product cold-start; A/B tested model variants and placement to select the production configuration. Automated Spark/SQL ingestion, retraining, and reporting pipelines in Python…"
+    }
+  ],
+  "education": "Bachelor's Degree — University of Southern California (2007–2011); Computer Science — University of Southern California",
+  "latest_degree": "Computer Science — University of Southern California",
+  "highest_degree": "bachelor",
+  "domain": "software",
+  "years_experience": null,
+  "relevant_years": null,
+  "seniority": null,
+  "evidence": {
+    "cv_ref": null,
+    "current_title": "Senior Data Scientist",
+    "current_company": "Uber · United States",
+    "country": "United States",
+    "languages": null,
+    "skills": "Skills\nMachine Learning, PyTorch, JAX, Scikit-Learn, Xgboost, LightGBM, Reinforcement Learning, Policy Optimization,\nSimulation Environments, Supply Demand Simulation, Dynamic Pricing, Testing Infrastructure, End-to-End\nTesting, LLM Evaluation, A/B Testing, Drift Detection, Python, PySpark, SQL, Hive, Presto, Automation, Airflow,\nCI/CD, Model Monitoring, Pipeline Orchestration, GPU Training, Multi-GPU Fine-Tuning, vLLM, AWQ Quantization",
+    "work_history": [
+      "Senior Data Scientist · Uber\n2021-05 – Present\nLed end-to-end development of a production LLM-powered agent system - problem framing, modeling, evaluation\ndesign, and launch - implementing algorithmic improvements from recent papers in PyTorch and JAX and building\nextensive test suites to verify solution correctness.\nBuilt complex testing infrastructure on top of large-scale third-party ML codebases, writing end-to-end tests to\nverify reward function behavior and detect numerical instabilities before release.\nDesigned an evaluation harness used as a release gate: curated golden question set, LLM-judge scoring\ncalibrated against human…",
+      "Senior Data Scientist · The Home Depot\n2018-07 – 2021-05\nBuilt SKU- and store-level demand forecasts across a large catalog and national store network\n(XGBoost/LightGBM, hierarchical time series), modeling seasonality, weather, promotions, and Pro-vs-DIY\ndemand; improved accuracy over the incumbent baseline, feeding replenishment, safety-stock, and allocation\ndecisions.\nDeveloped price-elasticity and markdown-optimization models with Merchandising to balance margin against\nsell-through, validated through geo-based and A/B tests.\nBuilt an embedding-based hybrid recommender powering \"Frequently Bought Together\" and project-completion\nrecommendations…",
+      "Data Scientist · Nike\n2013-04 – 2018-07\nBuilt regional demand forecasts (ARIMA/SARIMA, gradient boosting) with promotion, seasonality, and launch\neffects; delivered prediction intervals enabling planners to trade off stockout risk against excess inventory.\nDeveloped RFM segmentation and customer lifetime value models used by Marketing for loyalty targeting,\nmeasured against holdout groups.\nBuilt a hybrid recommender in PySpark for Nike addressing new-product cold-start; A/B tested model variants and\nplacement to select the production configuration.\nAutomated Spark/SQL ingestion, retraining, and reporting pipelines in Python…"
+    ],
+    "education": "Education\n• Bachelor's Degree — University of Southern California (2007–2011)\nLatest: Computer Science — University of Southern California",
+    "latest_degree": "Latest: Computer Science — University of Southern California",
+    "highest_degree": "Bachelor's Degree",
+    "domain": "Uber · United States · Data & AI"
+  },
+  "_meta": {
+    "source": "dataset_from_blackboard\\CV_examples\\CV-042.txt",
+    "model": "qwen/qwen3.5-9b",
+    "extracted_at": "2026-11-22T07:41:54",
+    "evidence_rejected": []
+  }
+}

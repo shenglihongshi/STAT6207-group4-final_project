@@ -1,0 +1,70 @@
+{
+  "jd_id": 3,
+  "position": "Business Intelligence Analyst",
+  "role_family": "Data & AI",
+  "country": "Indonesia",
+  "city": "Jakarta",
+  "remote_allowed": null,
+  "contract_type": "full_time",
+  "languages": null,
+  "salary_min_raw": 1000.0,
+  "salary_max_raw": 3000.0,
+  "currency": "USD",
+  "salary_frequency": "month",
+  "must_have_skills": [
+    "sql",
+    "bigquery",
+    "tableau",
+    "microstrategy",
+    "dimensional modeling",
+    "data quality",
+    "governance"
+  ],
+  "nice_to_have_skills": [
+    "python",
+    "r",
+    "dbt",
+    "dataform",
+    "fivetran",
+    "git",
+    "ci",
+    "statistics",
+    "ab testing"
+  ],
+  "min_years": 2,
+  "seniority": "mid",
+  "education_required": null,
+  "domain": "retail",
+  "notice_expectation": null,
+  "evidence": {
+    "position": "Position: Business Intelligence Analyst (ID)",
+    "role_family": "Role family: Data & AI",
+    "country": "Location: Jakarta, Indonesia",
+    "city": "Jakarta, Indonesia",
+    "contract_type": "Contract: full_time",
+    "salary_min_raw": "Salary: 1000.0-3000.0 USD per month",
+    "salary_max_raw": "Salary: 1000.0-3000.0 USD per month",
+    "currency": "Salary: 1000.0-3000.0 USD per month",
+    "salary_frequency": "Salary: 1000.0-3000.0 USD per month",
+    "min_years": "Experience: 2+ years in BI, analytics, or data roles",
+    "seniority": "Experience: 2+ years in BI, analytics, or data roles",
+    "domain": "preferably in a retail or data-rich environment",
+    "must_have_skills": [
+      "Advanced SQL skills; hands-on experience with BigQuery or a similar cloud data warehouse (Snowflake/Redshift).",
+      "Proven experience building BI dashboards in Tableau, MicroStrategy, or other modern BI tools.",
+      "Solid understanding of dimensional modeling (star/snowflake), metric definitions, and performance tuning.",
+      "Knowledge of data quality processes, governance frameworks, and access management."
+    ],
+    "nice_to_have_skills": [
+      "Python/R for analysis, automation, or data validation.",
+      "Familiarity with dbt/Dataform, Fivetran (or similar ELT tools), and Git/CI for BI content version control.",
+      "Basic statistics and experimentation design (A/B testing)."
+    ]
+  },
+  "_meta": {
+    "source": "dataset_from_blackboard\\JD_examples\\JD-03.txt",
+    "model": "qwen/qwen3.5-9b",
+    "extracted_at": "2026-11-22T07:20:18",
+    "evidence_rejected": []
+  }
+}

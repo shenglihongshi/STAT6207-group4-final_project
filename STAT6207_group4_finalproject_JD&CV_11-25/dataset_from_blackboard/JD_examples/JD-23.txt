@@ -1,0 +1,75 @@
+Position: Senior Java Developer
+Role family: Engineering
+Location: Dubai, United Arab Emirates
+Contract: full_time
+
+
+Senior Software Engineer (Java/Python)
+
+Location: Bahrain
+
+Job Type: Full-Time
+
+Experience Required: Minimum 5 years
+
+About Us
+
+We're not your typical software company; we're a startup-born tech force on a mission to put Bahrain on the global innovation map. Our ambitions are bold, our pace is fast, and we're building a team of visionaries to bring cutting-edge software to life.
+
+We're now looking for a Senior Software Engineer who's equally passionate about coding excellence, cloud technology, and leading high-impact digital projects.
+
+What You'll Do
+
+Technical Leadership
+• Lead and mentor a team of engineers, fostering collaboration and continuous improvement.
+• Define technical strategies and drive architectural decisions across projects.
+• Guide code quality through reviews, best practices, and hands-on development.
+
+Software Development
+• Design and build high-quality, scalable solutions using Java or Python.
+• Collaborate with product managers, designers, and QA to deliver end-to-end features.
+• Translate business requirements into technical implementations with speed and precision.
+
+Project & Process Management
+• Oversee full software development lifecycle, from planning to deployment.
+• Coordinate with stakeholders to define scope, timelines, and deliverables.
+• Implement CI/CD pipelines for reliable and efficient software delivery.
+
+Cloud & Infrastructure
+• Architect and integrate cloud-native services using AWS, Azure, or GCP.
+• Build secure, resilient, and scalable infrastructure solutions.
+
+Continuous Improvement
+• Identify bottlenecks and proactively implement solutions.
+• Keep up with the latest trends and technologies; bring fresh ideas to the table.
+• Champion process improvements to boost productivity across the team.
+
+Documentation & Communication
+• Create clear and concise technical documentation.
+• Communicate effectively with both technical and non-technical stakeholders.
+
+What We're Looking For
+
+• Bachelor's or Master's degree in Computer Science, Software Engineering, or a related field.
+• Minimum 5 years of hands-on software development experience with Java or Python.
+• Strong foundation in software architecture, design patterns, and best practices.
+• Cloud experience with AWS, Azure, or GCP.
+• Proficient in CI/CD pipelines and DevOps tools.
+• Strong communication and leadership skills in team and client settings.
+• Proven ability to deliver high-quality software on time and within budget.
+• Experience working in Agile environments with fast-moving teams.
+
+Nice to Have
+
+• Cloud certifications (AWS, GCP, or Azure).
+• Background in startup culture or fast-paced product teams.
+• Experience in client-facing roles or solution consulting.
+• Exposure to low-latency systems or high-performance code optimization.
+
+Why Join Us?
+
+• Be part of a bold, fast-growing company shaping the future of tech in the region.
+• Work with cutting-edge technologies in a collaborative, innovation-driven team.
+• Enjoy a flat, open culture that values your ideas, passion, and growth.
+
+Ready to build, lead, and grow with us? Apply now and let's make tech history, together.

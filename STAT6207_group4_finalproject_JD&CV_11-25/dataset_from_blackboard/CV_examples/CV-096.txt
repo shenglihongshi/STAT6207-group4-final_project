@@ -1,0 +1,69 @@
+Founder and Author
+Independent · Indonesia · Leadership/Other
+Skills
+Go, google cloud, Kubernetes, Gitlab CI, MySQL, Redis, ElasticSearch, Datadog, Grafana, Java EE, JSF,
+Hibernate, MyBatis, Spring, JBPM, Jasper Reports
+Work experience
+Founder and Author · Independent
+2026-07 – Present
+• Runs an independent engineering writing and speaking practice on payments, fraud and platform-system
+design.
+Software Engineering Lead (acting Engineering Manager) · PT Amartha Financial Group
+2025-01 – Present
+People and team leadership
+• Lead the Payment Platform team of 7 engineers (Jan 2026 to present), after leading 4 senior/SSE and 6
+junior-mid engineers as Engineering Lead for Payments (Mar 2025 to Jan 2026). Acting as Engineering
+Manager since H1 2026:
+sprint rituals, delivery, 1:1s, and career coaching.
+• Moved the team from hero execution to distributed ownership: delegated Flip onboarding, the payment
+dashboard, adapters, and receipt to senior engineers while keeping architectural accountability. Two engineers
+shipped multi service features without escalation.
+• Manage a direct report…
+Principal Software Engineer · PT Amartha Financial Group
+2024-10 – 2025-01
+• Fixed unclear payment lifecycle and workflow decisions that slowed teams, started the in-house fraud detection
+system, and defined internal ownership and integration boundaries for reconciliation, before moving into the
+Payments lead role.
+Staff Software Engineer · PT Fliptech Lentera Inspirasi Pertiwi (FLIP)
+2022-04 – 2024-10
+• Led a multi-team, multi-year re-architecture of Flip's payment core (workflow state machine, event-driven
+architecture, advanced routing, multi-provider adapters), setting direction for the move from monolith to
+microservices.
+• Owned the technical design and MVP delivery of Flip's fraud service (account takeover, KYC abuse, transaction
+abuse, promo and referral abuse) with Product and Risk, running in production.
+• Tech lead for Recon. Recon 2.0, a multi-year one-team initiative, cut integration time with the payment
+experience team 3x. Splitting assignment topics per bank cut…
+Senior Software Engineer · PT Bank Aladin Syariah
+2021-02 – 2022-04
+• Built the foundational backend architecture for Aladin's digital banking platform: hexagonal layering, context
+propagation, OpenTelemetry, logging, and service scaffolding.
+• Designed first-party authentication (JWT, key-exchange handshake), customer-data encryption, PIN and login
+challenge flows, and OAuth authorization for third-party linkage.
+• Built the Alfamart kiosk top-up and withdrawal integration with token-based validation and SMS and email
+notification.
+• Worked with an external pentester to close major vulnerabilities across platform banking APIs before launch.
+Tech: Go, Google…
+Lead Software Engineer · PT Menara Inovasi Realti (SpaceStock)
+2020-07 – 2021-02
+• Managed a team of 8 engineers on the supply-side platform: verified agents and branches, listing management,
+and RBAC.
+• Led adoption of a GraphQL federation layer in Go to standardize client and backend communication across
+squads.
+Tech: Go, GraphQL, AWS ECS, NSQ, MongoDB, Redis, Elasticsearch, Prometheus, Grafana, CircleCI
+Software Engineer to Senior Software Engineer · PT Nusantara Elang Sejahtera (TIX ID, part of Dana
+and Emtek)
+2018-08 – 2020-06
+• Built the loyalTIX loyalty engine and the gift-redemption integration with Dana Voucher.
+• Doubled cinema-partner ticket issuing throughput with message queuing and caching, and grew CGV ticketing
+market share by 30% through a new integration.
+• Rebuilt search and filter on Elasticsearch, cutting schedule navigation latency 3x.
+Tech: Go, GraphQL, AWS, RabbitMQ, PostgreSQL, Redis, Elasticsearch, Prometheus, Grafana
+Senior Software Engineer · PT Tokopedia
+2017-02 – 2018-08
+• Shipped the "Peluang Pesanan" MVP, reducing order cancellations by 30%.
+• Rebuilt the full-stack Cart application, lifting checkout conversion by 20%, and added cart-abandonment
+analytics and recommendations.
+Tech: Go, AWS, NSQ, Nginx, PostgreSQL, Redis, Elasticsearch, Datadog, Prometheus, Grafana
+Education
+• Bachelor's Degree — Budi Luhur University (2018)
+Latest: Computer Science — Budi Luhur University

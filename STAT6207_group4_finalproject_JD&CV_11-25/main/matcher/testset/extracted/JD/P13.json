@@ -1,0 +1,58 @@
+{
+  "jd_id": "P13",
+  "position": "Partner Marketing Specialist",
+  "role_family": "Marketing",
+  "country": "Malaysia",
+  "city": "Kuala Lumpur",
+  "remote_allowed": null,
+  "contract_type": "full_time",
+  "languages": null,
+  "salary_min_raw": null,
+  "salary_max_raw": null,
+  "currency": null,
+  "salary_frequency": null,
+  "must_have_skills": null,
+  "nice_to_have_skills": null,
+  "min_years": 5,
+  "seniority": null,
+  "education_required": null,
+  "domain": null,
+  "notice_expectation": null,
+  "evidence": {
+    "position": "Partner Marketing Specialist",
+    "role_family": "Marketing",
+    "country": "Malaysia",
+    "city": "Kuala Lumpur",
+    "contract_type": "Full-time, Permanent",
+    "remote_allowed": null,
+    "salary_min_raw": null,
+    "salary_max_raw": null,
+    "currency": null,
+    "salary_frequency": null,
+    "must_have_skills": [
+      "partner marketing",
+      "channel sales",
+      "sales enablement",
+      "go-to-market strategy",
+      "marketing development fund management",
+      "data analytics",
+      "commercial negotiation"
+    ],
+    "nice_to_have_skills": null,
+    "min_years": "5+ years",
+    "seniority": "senior",
+    "education_required": null,
+    "domain": "software",
+    "notice_expectation": null
+  },
+  "_meta": {
+    "source": "main\\matcher\\testset\\JD\\P13.txt",
+    "model": "qwen/qwen3.5-9b",
+    "extracted_at": "2026-11-22T15:02:08",
+    "evidence_rejected": [
+      "must_have_skills",
+      "seniority",
+      "domain"
+    ]
+  }
+}

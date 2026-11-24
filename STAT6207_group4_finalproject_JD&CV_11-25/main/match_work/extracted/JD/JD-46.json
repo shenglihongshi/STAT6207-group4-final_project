@@ -1,0 +1,73 @@
+{
+  "jd_id": 46,
+  "position": "North America Sales Director",
+  "role_family": "Sales & BD",
+  "country": null,
+  "city": null,
+  "remote_allowed": true,
+  "contract_type": "full_time",
+  "languages": [
+    {
+      "lang": "English",
+      "level": "native"
+    }
+  ],
+  "salary_min_raw": 10000.0,
+  "salary_max_raw": null,
+  "currency": "USD",
+  "salary_frequency": "month",
+  "must_have_skills": [
+    "b2b sales",
+    "sales management",
+    "strategic planning",
+    "team leadership",
+    "negotiations",
+    "risk management"
+  ],
+  "nice_to_have_skills": [
+    "camera industry experience",
+    "vision solutions experience",
+    "aiot experience",
+    "smart hardware industry experience"
+  ],
+  "min_years": 3,
+  "seniority": null,
+  "education_required": null,
+  "domain": "other",
+  "notice_expectation": null,
+  "evidence": {
+    "position": "Position: North America Sales Director",
+    "role_family": "Role family: Sales & BD",
+    "remote_allowed": "Remote: Yes",
+    "contract_type": "Contract: full_time",
+    "salary_min_raw": "Salary: 10000.0-14000.0 USD per month",
+    "currency": "USD",
+    "salary_frequency": "per month",
+    "languages": "Native-level proficiency in English for business communication",
+    "min_years": "5-10 years of B2B international sales experience, with at least 3 years of sales management experience",
+    "seniority": "Lead the development of key accounts... Proven experience leading a team...",
+    "must_have_skills": [
+      "Develop sales strategies",
+      "Build the North American sales team",
+      "Lead the development of key accounts",
+      "Collaborate with R&D, Product, and Supply Chain departments",
+      "Monitor North American market policies",
+      "5-10 years of B2B international sales experience",
+      "at least 3 years of sales management experience",
+      "Proven experience leading a team",
+      "Strong capabilities in strategic planning, team leadership, high-level negotiations, cross-departmental collaboration, and risk management"
+    ],
+    "nice_to_have_skills": [
+      "experience in the camera, vision solutions, AIoT, or smart hardware industries is preferred"
+    ]
+  },
+  "_meta": {
+    "source": "dataset_from_blackboard\\JD_examples\\JD-46.txt",
+    "model": "qwen/qwen3.5-9b",
+    "extracted_at": "2026-11-22T07:26:36",
+    "evidence_rejected": [
+      "salary_max_raw(无evidence)",
+      "seniority"
+    ]
+  }
+}

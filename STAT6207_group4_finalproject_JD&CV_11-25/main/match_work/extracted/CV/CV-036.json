@@ -1,0 +1,93 @@
+{
+  "cv_ref": "CV-036",
+  "current_title": "Senior Data Engineer",
+  "current_company": "Tech Mahindra",
+  "country": "Indonesia",
+  "languages": null,
+  "skills": [
+    "postgresql",
+    "oracle db",
+    "databricks",
+    "attunity replicate",
+    "microsoft azure data factory",
+    "google cloud platform",
+    "datastage",
+    "informatica",
+    "sap businessobjects",
+    "pl/sql",
+    "python",
+    "bash scripting",
+    "php",
+    "jquery",
+    "data analysis",
+    "data migration",
+    "database management",
+    "troubleshooting"
+  ],
+  "work_history": [
+    {
+      "title": "Senior Data Engineer",
+      "company": "Tech Mahindra",
+      "start": "2022-08",
+      "end": "present",
+      "is_current": true,
+      "date_precision": "month",
+      "description": "Data Migration o Scheduled and managed data ingestion pipelines that pulled data from Cloud Storage and on-prem database into BigQuery for centralized warehousing.\no Developed custom Airflow operators and sensors in Python to handle dynamic dependencies, retries, alerting, and SLA monitoring.\nNear Real Time o Designed and implemented a near real-time data aggregation and revenue calculation solution, enabling business users to track revenue on an hourly basis.\no Automated the revenue calculation process and summarized the data for delivery via SMS, with detailed revenue graphs sent via email…"
+    },
+    {
+      "title": "Senior Database Developer",
+      "company": "AIA Singapore",
+      "start": "2021-06",
+      "end": "2022-08",
+      "is_current": false,
+      "date_precision": "month",
+      "description": "Claim System Project (ClaimEZ) o Designed and developed data flows, integrating them with the operational data store for the new claims system.\no Created and managed ETL processes (including jobs and stored procedures) to build a datamart based on user requirements.\no Designed and optimized functions to enable the API to efficiently retrieve data for the claims application system.\nBusiness As Usual o Led the migration of the enterprise data warehouse from PostgreSQL to a big data environment on Microsoft Databricks, ensuring seamless data integration and system compatibility.\no Developed…"
+    },
+    {
+      "title": "Database Developer",
+      "company": "AIA Singapore",
+      "start": "2020-02",
+      "end": "2021-06",
+      "is_current": false,
+      "date_precision": "month",
+      "description": "On-prem to Cloud Migration o Performed a database migration (Tables, Stored Procedures, Functions, etc.) of operational data store from Oracle to PostgreSQL o Contribute to migrate the Operational Jobs (ETL & CDC) from Informatica to Azure Data Factory pipelines and Qlik Replicate for Change Data Capture (CDC).\nBusiness As Usual o Developed a stored procedures for operational data loading and designed functions to enable the API to retrieve data from the operational data store.\no Managed to monitor each production jobs for end-to-end flow in Database from Informatica to Oracle o Implemented…"
+    },
+    {
+      "title": "Associate Software Engineer",
+      "company": "Tech Mahindra",
+      "start": "2018-09",
+      "end": "2020-02",
+      "is_current": false,
+      "date_precision": "month",
+      "description": "BIMA+ Logs and Revenue o Contribute to Develop and Maintained ETL (Datastage) process built from data models based on business needs for BIMA+ (Hutchison 3 Mobile Application) logs and revenue calculation report.\no Create and design SAP Business Object Report to represent and visualize the data based on client requirement to provide daily, weekly and monthly report.\nBusiness As Usual o Successfully developed a web-based automatic dashboard containing the data loading status, issues and report delivery status.\no Debug and resolve (Monitoring) issues by analyzing the data loading process."
+    }
+  ],
+  "education": "Computer Science — Telkom University (2018)",
+  "latest_degree": null,
+  "highest_degree": "bachelor",
+  "domain": "software",
+  "years_experience": null,
+  "relevant_years": null,
+  "seniority": null,
+  "evidence": {
+    "current_title": "Senior Data Engineer",
+    "current_company": "Tech Mahindra · Indonesia",
+    "country": "Indonesia",
+    "skills": "PostgreSQL, Oracle DB, Databricks, Attunity Replicate, Microsoft Azure Data Factory, Google Cloud Platform (GCP), Datastage (IBM), Informatica, SAP BusinessObjects, PL/SQL, Python, Bash Scripting, PHP (Laravel), jQuery, Data Analysis, data migration, database management, Troubleshooting, data-driven solutions",
+    "work_history": [
+      "Senior Data Engineer · Tech Mahindra\n2022-08 – Present",
+      "Senior Database Developer · AIA Singapore\n2021-06 – 2022-08",
+      "Database Developer · AIA Singapore\n2020-02 – 2021-06",
+      "Associate Software Engineer · Tech Mahindra\n2018-09 – 2020-02"
+    ],
+    "education": "Telkom University (2018)\nLatest: Computer Science — Telkom University"
+  },
+  "_meta": {
+    "source": "dataset_from_blackboard\\CV_examples\\CV-036.txt",
+    "model": "qwen/qwen3.5-9b",
+    "extracted_at": "2026-11-22T07:39:56",
+    "evidence_rejected": [
+      "latest_degree(无evidence)"
+    ]
+  }
+}

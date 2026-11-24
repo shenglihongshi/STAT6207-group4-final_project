@@ -1,0 +1,90 @@
+{
+  "cv_ref": "CV-052",
+  "current_title": "Product Partner / UI/UX Design",
+  "current_company": "China · Design & Creative",
+  "country": null,
+  "languages": null,
+  "skills": [
+    "product design",
+    "ui/ux",
+    "interaction",
+    "hci",
+    "ai product",
+    "hardware × software",
+    "global growth",
+    "ua",
+    "gtm",
+    "community",
+    "figma",
+    "claude ai",
+    "unity",
+    "google ads",
+    "meta ads",
+    "python",
+    "html/css",
+    "javascript"
+  ],
+  "work_history": [
+    {
+      "title": "Product Partner / UI/UX Design",
+      "company": "China · Design & Creative",
+      "start": "2025-11",
+      "end": "present",
+      "is_current": true,
+      "date_precision": "month",
+      "description": null
+    },
+    {
+      "title": "Product Manager",
+      "company": "Zhihuo Huzhi (Shanghai) Co., Ltd.",
+      "start": "2025-11",
+      "end": "present",
+      "is_current": true,
+      "date_precision": "month",
+      "description": "Leading AI product globalization and China-US product collaboration across AI education, HCI design and AI companion toy design services."
+    },
+    {
+      "title": "Part-time Product Manager & Marketing",
+      "company": "Shanghai Yijian Information Technology Co., Ltd.",
+      "start": "2025-09",
+      "end": "present",
+      "is_current": true,
+      "date_precision": "month",
+      "description": "Grew overseas social channels (TikTok / Twitter / YouTube), expanding product exposure and user acquisition."
+    },
+    {
+      "title": "Incubator Investment Advisor & Project Lead",
+      "company": "Shanghai Lingang ECNU Advanced Technology Institute",
+      "start": "2024-01",
+      "end": "2026-02",
+      "is_current": false,
+      "date_precision": "month",
+      "description": "Led the \"Huachuang Future\" venture investment salon, helping professors commercialize frontier technologies; incubated 20+ startups across AI, edtech and smart hardware."
+    }
+  ],
+  "education": "Master's Degree — Peking University (PKU) (2020–2024); Bachelor's Degree — Beihang University (BUAA) (2014–2019)",
+  "latest_degree": "Digital Art & Human-Computer Interaction Design — Peking University (PKU)",
+  "highest_degree": "master",
+  "domain": null,
+  "years_experience": null,
+  "relevant_years": null,
+  "seniority": null,
+  "evidence": {
+    "current_title": "Product Partner / UI/UX Design",
+    "current_company": "China · Design & Creative",
+    "skills": "Skills\nProduct Design, UI/UX, Interaction, Hci, AI Product, Hardware × Software, Global Growth, UA, GTM, Community,\nFigma, Claude AI, Unity, Google ads, Meta Ads, Python, HTML/CSS, JavaScript",
+    "work_history": [
+      "Product Manager · Zhihuo Huzhi (Shanghai) Co., Ltd.\n2025-11 – Present\nLeading AI product globalization and China-US product collaboration across AI education, HCI design and AI\ncompanion toy design services.",
+      "Part-time Product Manager & Marketing · Shanghai Yijian Information Technology Co., Ltd.\n2025-09 – Present\nGrew overseas social channels (TikTok / Twitter / YouTube), expanding product exposure and user acquisition.",
+      "Incubator Investment Advisor & Project Lead · Shanghai Lingang ECNU Advanced Technology Institute\n2024-01 – 2026-02\nLed the \"Huachuang Future\" venture investment salon, helping professors commercialize frontier technologies;\nincubated 20+ startups across AI, edtech and smart hardware."
+    ],
+    "education": "Education\n• Master's Degree — Peking University (PKU) (2020–2024)\n• Bachelor's Degree — Beihang University (BUAA) (2014–2019)",
+    "latest_degree": "Latest: Digital Art & Human-Computer Interaction Design — Peking University (PKU)"
+  },
+  "_meta": {
+    "source": "dataset_from_blackboard\\CV_examples\\CV-052.txt",
+    "model": "qwen/qwen3.5-9b",
+    "extracted_at": "2026-11-22T07:45:07",
+    "evidence_rejected": []
+  }
+}

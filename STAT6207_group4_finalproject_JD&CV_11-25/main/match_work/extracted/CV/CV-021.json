@@ -1,0 +1,129 @@
+{
+  "cv_ref": "CV-021",
+  "current_title": "AI Software Engineer",
+  "current_company": "NCS Pte. Ltd.",
+  "country": "Singapore",
+  "languages": null,
+  "skills": [
+    "c#",
+    ".net",
+    "asp.net",
+    "python",
+    "sql",
+    "aws dynamodb",
+    "prompt engineering",
+    "tool calling",
+    "multi-agent orchestration",
+    "human review",
+    "uat",
+    "test scripting",
+    "owasp zap",
+    "static analysis",
+    "dynamic analysis",
+    "requirements elicitation",
+    "workflow mapping",
+    "vendor coordination",
+    "user training",
+    "excel",
+    "sharepoint",
+    "typescript",
+    "nodejs",
+    "nextjs",
+    "react",
+    "postgresql",
+    "prisma",
+    "docker",
+    "github actions",
+    "vitest",
+    "playwright"
+  ],
+  "work_history": [
+    {
+      "title": "AI Software Engineer",
+      "company": "NCS Pte. Ltd.",
+      "start": "2022-01",
+      "end": "present",
+      "is_current": true,
+      "date_precision": "month",
+      "description": "Selected contributions across NCS assignments Jan 2022 - Mar 2026 Application engineering & software delivery • Delivered feature enhancements and defect fixes for an internal enterprise application, supporting ongoing maintenance and day-to-day use. • Authored test scripts and conducted user acceptance testing (UAT) to check application changes against user needs before release. • Deployed application releases to UAT and production servers; resolved user-reported issues, answered queries and provided post-release application support."
+    },
+    {
+      "title": "Software Engineer",
+      "company": "NCS Pte. Ltd.",
+      "start": "2026-04",
+      "end": "present",
+      "is_current": true,
+      "date_precision": "month",
+      "description": "API integration & internal HR operations • Worked on an…"
+    },
+    {
+      "title": "Research assistant",
+      "company": "Singapore Management University",
+      "start": "2021-12",
+      "end": "2021-12",
+      "is_current": false,
+      "date_precision": "month",
+      "description": "Evaluated 88 IS216 projects using OWASP ZAP, commercial DAST tools and static analysis; findings supported peer-reviewed research on security in web programming education."
+    },
+    {
+      "title": "Maritime Tech Solutions Intern",
+      "company": "Alpha Ori Technologies",
+      "start": "2020-05",
+      "end": "2020-07",
+      "is_current": false,
+      "date_precision": "month",
+      "description": "Automated conversion of 150M+ rows containing 3B+ data points into AWS DynamoDB using C#/.NET, JSON and ETL workflows. Built API proof-of-concepts for 3 vendors and implemented data sorting and voyage analysis to evaluate technical fit and operational trends."
+    },
+    {
+      "title": "IT Intern",
+      "company": "OSM Thome",
+      "start": "2018-05",
+      "end": "2018-10",
+      "is_current": false,
+      "date_precision": "month",
+      "description": "Built an analytics portal presenting 15 decision data points, a ship-agency workflow supporting 160+ emails/hour, and API enrichments covering 230+ vessels."
+    },
+    {
+      "title": "Intern",
+      "company": "Rightspot",
+      "start": "2016-07",
+      "end": "2016-10",
+      "is_current": false,
+      "date_precision": "month",
+      "description": "Resolved 20+ bugs in 2 weeks; built applicant-status and job-listing dashboards covering 250 applicants and 500+ companies."
+    }
+  ],
+  "education": "Bachelor's Degree — Singapore Management University (2017–2022)；Associate's Degree — Nanyang Polytechnic (2014–2017)",
+  "latest_degree": "Information Systems (Cyber Security) — Singapore Management University",
+  "highest_degree": "bachelor",
+  "domain": "software",
+  "years_experience": null,
+  "relevant_years": null,
+  "seniority": null,
+  "evidence": {
+    "cv_ref": null,
+    "current_title": "AI Software Engineer · NCS Pte. Ltd.",
+    "current_company": "NCS Pte. Ltd.",
+    "country": "Singapore",
+    "languages": null,
+    "skills": "C#.NET, ASP.NET, Python, SQL, API integration, ETL, AWS DynamoDB, Prompt engineering, Tool calling, Multi-agent orchestration, Human review, Uat, Test scripting, UAT/production deployments, Application Support, OWASP ZAP, Static and dynamic analysis, Requirements elicitation, Workflow mapping, Vendor coordination, User training, Excel, SharePoint, TypeScript/Node.js, Next.js/React, PostgreSQL/Prisma, Docker, Github Actions, Vitest, Playwright",
+    "work_history": [
+      "Software Engineer · NCS Pte. Ltd.\n2026-04 – Present",
+      "AI Software Engineer · NCS Pte. Ltd.\n2022-01 – Present",
+      "Research assistant · Singapore Management University\n2021-12 – 2021-12",
+      "Maritime Tech Solutions Intern · Alpha Ori Technologies\n2020-05 – 2020-07",
+      "IT Intern · OSM Thome\n2018-05 – 2018-10",
+      "Intern · Rightspot\n2016-07 – 2016-10"
+    ],
+    "education": "• Bachelor's Degree — Singapore Management University (2017–2022)\n• Associate's Degree — Nanyang Polytechnic (2014–2017)",
+    "latest_degree": "Latest: Information Systems (Cyber Security) — Singapore Management University",
+    "highest_degree": null,
+    "domain": null
+  },
+  "_meta": {
+    "source": "dataset_from_blackboard\\CV_examples\\CV-021.txt",
+    "model": "qwen/qwen3.5-9b",
+    "extracted_at": "2026-11-22T07:35:15",
+    "evidence_rejected": []
+  }
+}

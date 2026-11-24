@@ -1,0 +1,95 @@
+{
+  "cv_ref": "CV-094",
+  "current_title": "Principal Product Manager",
+  "current_company": "Varadise Limited",
+  "country": "Hong Kong",
+  "languages": null,
+  "skills": [
+    "digital",
+    "ai",
+    "b2b saas",
+    "paa s",
+    "product strategy",
+    "digital twin",
+    "iot",
+    "api-first ecosystems",
+    "agile",
+    "waterfall delivery",
+    "building engineering",
+    "me p design",
+    "construction supervision",
+    "testing",
+    "commissioning",
+    "retro-commissioning",
+    "chiller plant",
+    "district cooling",
+    "healthcare",
+    "sustainability",
+    "energy analytics",
+    "carbon analytics",
+    "esg reporting",
+    "governance",
+    "multi-stakeholder coordination",
+    "contractor management",
+    "statutory compliance"
+  ],
+  "work_history": [
+    {
+      "title": "Principal Product Manager",
+      "company": "Varadise Limited",
+      "start": "2021-09",
+      "end": "present",
+      "is_current": true,
+      "date_precision": "month",
+      "description": "Platform leadership: Own the full product lifecycle of B2B SaaS ERP / OEM platforms - discovery, pricing, delivery, UAT, training and rollout; transformation lifted scalability 800% on budget with healthy margins. Digital twin: Product lead for a district-scale digital twin: multi-project data framework integrating 70+ IoT devices and a CDE with 70 GB of 3D assets as the central project management platform. Smart facilities: Product manager for an Integrated FM Control Tower for a Class-A office & retail building (20+ IT systems): unified connectors with energy / carbon / ESG analytics."
+    },
+    {
+      "title": "Senior Engineer, Building Services",
+      "company": "WSP (Asia) Limited",
+      "start": "2019-08",
+      "end": "2021-06",
+      "is_current": false,
+      "date_precision": "month",
+      "description": "Led retro-commissioning studies across three multi-building government portfolios (markets, swimming pools): IoT field instrumentation, HVAC / electrical / plumbing data analysis and improvement recommendations. Engineered a 60, 000 RT district cooling bid (mega chiller plant + seawater pump house) and a 12, 000 TR chiller replacement energy assessment at a major convention centre. Discipline leader on a multi-phase acute hospital redevelopment (A&A, decanting, main block): building services, medical gas, compressed air, town gas and underground utilities."
+    },
+    {
+      "title": "Project / Building Services Engineer",
+      "company": "Hong Kong Disneyland · Takasago Thermal Engineering",
+      "start": "2014-01",
+      "end": "2019-01",
+      "is_current": false,
+      "date_precision": "month",
+      "description": "Delivered building-services engineering across commercial, residential and entertainment developments an 80, 000 sq.m. Class-A office (BEAM Plus Platinum / LEED), a 165, 000 sq.m. mixed-use residential precinct and a 465, 000 sq.m. resort complex. Scope spanned conceptual design, feasibility and compliance studies, detailed design, construction supervision and testing & commissioning."
+    }
+  ],
+  "education": "Associate's Degree — MTR Academy (2018); The Chinese University of Hong Kong (2010–2014); The Hong Kong Polytechnic University (2019); Metro Education (2022)",
+  "latest_degree": "BIM Management — Metro Education",
+  "highest_degree": "bachelor",
+  "domain": "software",
+  "years_experience": null,
+  "relevant_years": null,
+  "seniority": null,
+  "evidence": {
+    "cv_ref": null,
+    "current_title": "Principal Product Manager",
+    "current_company": "Varadise Limited · Hong Kong",
+    "country": "Hong Kong",
+    "languages": null,
+    "skills": "Skills\nDigital & AI delivery, B2B SaaS / PaaS product strategy, Digital twin platforms, IoT data frameworks, AI computer vision, API-first ecosystems, Agile & waterfall delivery, Building engineering, MEP design & construction supervision, Testing & commissioning, Retro-commissioning (RCx), Chiller plant & district cooling, Healthcare & mission-critical facilities, Sustainability, Energy & carbon analytics, ESG reporting, Governance, Multi-stakeholder coordination, Contractor management, Statutory compliance",
+    "work_history": [
+      "Principal Product Manager · Varadise Limited\n2021-09 – Present",
+      "Senior Engineer, Building Services · WSP (Asia) Limited\n2019-08 – 2021-06",
+      "Project / Building Services Engineer · Hong Kong Disneyland · Takasago Thermal Engineering\n2014-01 – 2019-01"
+    ],
+    "education": "Education\n• Metro Education (2022)\n• The Hong Kong Polytechnic University (2019)\n• Associate's Degree — MTR Academy (2018)\n• The Chinese University of Hong Kong (2010–2014)",
+    "latest_degree": "Latest: BIM Management — Metro Education",
+    "highest_degree": null,
+    "domain": null
+  },
+  "_meta": {
+    "source": "dataset_from_blackboard\\CV_examples\\CV-094.txt",
+    "model": "qwen/qwen3.5-9b",
+    "extracted_at": "2026-11-22T08:01:41",
+    "evidence_rejected": []
+  }
+}

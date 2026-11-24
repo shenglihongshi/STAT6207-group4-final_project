@@ -1,0 +1,75 @@
+{
+  "jd_id": "P07",
+  "position": "APAC Marketing Manager",
+  "role_family": "Marketing",
+  "country": "Hong Kong",
+  "city": "Hong Kong",
+  "remote_allowed": null,
+  "contract_type": "full_time",
+  "languages": [
+    {
+      "lang": "English",
+      "level": "fluent"
+    },
+    {
+      "lang": "Cantonese",
+      "level": "fluent"
+    }
+  ],
+  "salary_min_raw": null,
+  "salary_max_raw": null,
+  "currency": null,
+  "salary_frequency": null,
+  "must_have_skills": [
+    "field marketing",
+    "pr",
+    "content development",
+    "ecosystem engagement",
+    "integrated campaign execution",
+    "product positioning",
+    "messaging",
+    "go-to-market strategies"
+  ],
+  "nice_to_have_skills": [
+    "ai",
+    "saas",
+    "cloud",
+    "technology industries"
+  ],
+  "min_years": 10,
+  "seniority": "senior",
+  "education_required": null,
+  "domain": "software",
+  "notice_expectation": null,
+  "evidence": {
+    "position": "Hiring: APAC Marketing Manager (Hong Kong)",
+    "role_family": "Marketing Manager",
+    "country": "Hong Kong",
+    "city": "Hong Kong",
+    "contract_type": "full time",
+    "languages": "Fluent in English, Cantonese",
+    "salary_min_raw": null,
+    "salary_max_raw": null,
+    "currency": null,
+    "salary_frequency": null,
+    "must_have_skills": [
+      "10+ years of experience across marketing, communications, or related functions within B2B technology environments",
+      "Strong expertise in field marketing, PR, content development, ecosystem engagement, and integrated campaign execution",
+      "Solid understanding of product positioning, messaging, and enterprise go-to-market strategies"
+    ],
+    "nice_to_have_skills": [
+      "Prior exposure to AI, SaaS, cloud, or broader technology industries is highly preferred"
+    ],
+    "min_years": "10+ years",
+    "seniority": "10+ years of experience",
+    "education_required": null,
+    "domain": "B2B technology environments",
+    "notice_expectation": null
+  },
+  "_meta": {
+    "source": "main\\matcher\\testset\\JD\\P07.txt",
+    "model": "qwen/qwen3.5-9b",
+    "extracted_at": "2026-11-22T15:01:12",
+    "evidence_rejected": []
+  }
+}

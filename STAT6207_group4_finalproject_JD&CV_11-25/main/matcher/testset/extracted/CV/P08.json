@@ -1,0 +1,102 @@
+{
+  "cv_ref": "P08",
+  "current_title": "Field Service Engineer",
+  "current_company": "Tokyo Electron Singapore Pte Ltd",
+  "country": "Singapore",
+  "languages": null,
+  "skills": [
+    "preventive maintenance",
+    "corrective maintenance",
+    "equipment troubleshooting",
+    "reliability",
+    "semiconductor process",
+    "tool performance",
+    "root cause analysis",
+    "continuous improvement",
+    "cross-functional collaboration",
+    "leadership",
+    "team supervision",
+    "engineering documentation",
+    "reporting",
+    "safety",
+    "quality management",
+    "compliance management",
+    "problem-solving",
+    "communication"
+  ],
+  "work_history": [
+    {
+      "title": "Field Service Engineer",
+      "company": "Tokyo Electron Singapore Pte Ltd",
+      "start": "2024-06",
+      "end": "present",
+      "is_current": true,
+      "date_precision": "month",
+      "description": "Provide on-site installation, troubleshooting, and repair of complex semiconductor equipment. Perform preventive maintenance, modifications, and improvement programs to ensure tool performance. Serve as key liaison with customers, addressing technical and administrative issues efficiently. Coordinate logistics and monitor product performance, providing regular reports and feedback."
+    },
+    {
+      "title": "Equipment Engineer",
+      "company": "STMicroelectronics",
+      "start": "2022-05",
+      "end": "2024-06",
+      "is_current": false,
+      "date_precision": "month",
+      "description": "Led preventive maintenance planning and execution for Diffusion Module tools. Supervised and trained shift preventive maintenance technicians. Collaborated across departments to drive fab quality, service efficiency, and cost performance. Managed budgets, audits, and external supplier engagements for tool optimisation."
+    },
+    {
+      "title": "Technical Specialist",
+      "company": "Micron Semiconductors",
+      "start": "2016-05",
+      "end": "2022-05",
+      "is_current": false,
+      "date_precision": "month",
+      "description": "Performed tool maintenance, installation, and testing across assigned semiconductor toolsets. Troubleshot mechanical, electrical, and process issues using systematic problem-solving. Improved tool uptime and process stability through SPC monitoring and proactive maintenance. Prepared daily reports and maintained accurate maintenance documentation."
+    },
+    {
+      "title": "Engineering Specialist",
+      "company": "Seagate Technology International Pte Ltd",
+      "start": "2014-04",
+      "end": "2016-04",
+      "is_current": false,
+      "date_precision": "month",
+      "description": "Conducted preventive and corrective maintenance for sputter equipment. Reduced equipment downtime through effective troubleshooting and repair planning. Mentored junior technicians."
+    },
+    {
+      "title": "Trainer",
+      "company": "Singapore Armed Forces",
+      "start": "2013-07",
+      "end": "2014-03",
+      "is_current": false,
+      "date_precision": "month",
+      "description": "Planned and conducted training sessions for junior trainers. Ensured training safety and operational readiness."
+    }
+  ],
+  "education": "Associate's Degree, Electrical/Electronic Engineering — Temasek Polytechnic (2017)；Associate's Degree — Republic Polytechnic (2012)",
+  "latest_degree": "Electrical/Electronic Engineering — Temasek Polytechnic",
+  "highest_degree": "diploma",
+  "domain": "semiconductor",
+  "years_experience": null,
+  "relevant_years": null,
+  "seniority": null,
+  "evidence": {
+    "current_title": "Field Service Engineer",
+    "current_company": "Tokyo Electron Singapore Pte Ltd · Singapore",
+    "country": "Singapore",
+    "skills": "Skills\nPreventive & Corrective Maintenance, Equipment Troubleshooting & Reliability, Semiconductor Process & Tool Performance, Root Cause Analysis & Continuous Improvement, Cross-functional Collaboration, Leadership & Team Supervision, Engineering Documentation & Reporting, Safety, Quality & Compliance Management, Problem-Solving, Communication",
+    "work_history": [
+      "Field Service Engineer · Tokyo Electron Singapore Pte Ltd\n2024-06 – Present",
+      "Equipment Engineer · STMicroelectronics\n2022-05 – 2024-06",
+      "Technical Specialist · Micron Semiconductors\n2016-05 – 2022-05",
+      "Engineering Specialist · Seagate Technology International Pte Ltd\n2014-04 – 2016-04",
+      "Trainer · Singapore Armed Forces\n2013-07 – 2014-03"
+    ],
+    "education": "Education\n• Associate's Degree, Electrical/Electronic Engineering — Temasek Polytechnic (2017)\n• Associate's Degree — Republic Polytechnic (2012)",
+    "latest_degree": "Latest: Electrical/Electronic Engineering — Temasek Polytechnic"
+  },
+  "_meta": {
+    "source": "main\\matcher\\testset\\CV\\P08.txt",
+    "model": "qwen/qwen3.5-9b",
+    "extracted_at": "2026-11-22T15:07:23",
+    "evidence_rejected": []
+  }
+}

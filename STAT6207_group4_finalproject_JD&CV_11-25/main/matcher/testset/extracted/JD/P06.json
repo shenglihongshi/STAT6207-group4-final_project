@@ -1,0 +1,62 @@
+{
+  "jd_id": "P06",
+  "position": "Deployment Strategist",
+  "role_family": "Engineering",
+  "country": "Singapore",
+  "city": "Singapore",
+  "remote_allowed": null,
+  "contract_type": "full_time",
+  "languages": null,
+  "salary_min_raw": 9000,
+  "salary_max_raw": 20000,
+  "currency": "SGD",
+  "salary_frequency": null,
+  "must_have_skills": [
+    "apis",
+    "data flows",
+    "system integrations",
+    "project management"
+  ],
+  "nice_to_have_skills": [
+    "engineering background",
+    "management consulting",
+    "strategy consulting",
+    "technical consulting",
+    "startup environment"
+  ],
+  "min_years": null,
+  "seniority": "mid",
+  "education_required": "bachelor",
+  "domain": "software",
+  "notice_expectation": null,
+  "evidence": {
+    "position": "Deployment Strategist",
+    "role_family": "As a Deployment Strategist at the client, you'll own the successful delivery of AI solutions for enterprise customers",
+    "country": "Singapore, Singapore",
+    "city": "Singapore, Singapore",
+    "contract_type": "full time",
+    "salary_min_raw": "SGD 9,000",
+    "salary_max_raw": "20,000",
+    "currency": "SGD",
+    "salary_frequency": "month",
+    "must_have_skills": [
+      "Comfort working with technical concepts such as APIs, data flows, and system integrations",
+      "Ability to manage multiple stakeholders",
+      "Strong communication skills, project management, organization"
+    ],
+    "nice_to_have_skills": [
+      "Nice to Have\n• Engineering background or prior hands-on technical experience\n• Background in management consulting, strategy consulting, or technical consulting",
+      "Experience working in a high-growth or early-stage startup environment"
+    ],
+    "education_required": "Bachelor's degree in Computer Science or a related technical field or equivalent experience",
+    "domain": "As a Deployment Strategist at the client, you'll own the successful delivery of AI solutions for enterprise customers"
+  },
+  "_meta": {
+    "source": "main\\matcher\\testset\\JD\\P06.txt",
+    "model": "qwen/qwen3.5-9b",
+    "extracted_at": "2026-11-22T15:01:03",
+    "evidence_rejected": [
+      "salary_frequency"
+    ]
+  }
+}
